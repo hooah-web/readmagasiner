@@ -1,0 +1,86 @@
+{
+ "flipp": {
+  "navn": "Flipp",
+  "url": "https://flipp.dk/",
+  "checked_at": "2026-10-25T16:44:51+00:00",
+  "prices": {
+   "ordinary": {
+    "pris": 99,
+    "valuta": "DKK",
+    "etikett": "ordinær"
+   },
+   "reduced": {
+    "pris": 39,
+    "valuta": "DKK",
+    "etikett": "for bladabonnenter"
+   }
+  },
+  "status": "ok",
+  "method": "html-regex"
+ },
+ "pling": {
+  "navn": "Pling",
+  "url": "https://pling.dk/",
+  "checked_at": "2026-10-25T16:44:51+00:00",
+  "prices": {
+   "ordinary": {
+    "pris": 99,
+    "valuta": "DKK",
+    "etikett": "efter første måned"
+   },
+   "intro": {
+    "pris": 0,
+    "valuta": "DKK",
+    "etikett": "første måned"
+   }
+  },
+  "status": "ok",
+  "method": "html-regex"
+ },
+ "wype": {
+  "navn": "Wype",
+  "url": "https://wype.dk/",
+  "checked_at": "2026-10-25T16:44:51+00:00",
+  "prices": {
+   "ordinary": {
+    "pris": 99,
+    "valuta": "DKK",
+    "etikett": "ordinær"
+   },
+   "campaign": {
+    "pris": 69,
+    "valuta": "DKK",
+    "etikett": "særpris"
+   }
+  },
+  "status": "ok",
+  "method": "html-regex"
+ },
+ "readly": {
+  "navn": "Readly",
+  "url": "https://readly.com/da-dk/",
+  "checked_at": "2026-10-25T07:40:00+00:00",
+  "prices": {
+   "ordinary": {
+    "pris": 14.99,
+    "valuta": "EUR",
+    "etikett": "ordinær pris pr. måned",
+    "pris_dkk": 112.05,
+    "kurs": 7.4748,
+    "kurs_dato": "2026-10-23"
+   },
+   "offer": {
+    "pris": 8.99,
+    "valuta": "EUR",
+    "etikett": "40 % rabat i 3 måneder",
+    "pris_dkk": 67.2,
+    "kurs": 7.4748,
+    "kurs_dato": "2026-10-23"
+   }
+  },
+  "status": "manuel",
+  "method": "manuel-verifikation",
+  "source": "readly.com/da-dk — oprettelsesflow, land: Danmark (screenshot fra Anders)",
+  "note": "Verificeret manuelt — geo-blokeret fra vores server"
+ }
+}

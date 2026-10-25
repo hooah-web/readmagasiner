@@ -1,0 +1,43 @@
+---
+import Base from "../../layouts/Base.astro";
+import { magasiner, priser, TJENESTER, prisTekst, billigste } from "../../lib/site";
+---
+
+<Base title="Tjenester — sammenlign digitale magasintjenester | readmagasiner.dk"
+      description="Readly, Flipp, Pling og Wype: priser, udvalg og hvad de koster. Priser tjekkes løbende.">
+  <div class="wrap" style="padding-top:26px">
+    <p class="small"><a href="/">Forside</a> › <span>Tjenester</span></p>
+  </div>
+  <div class="wrap">
+    <div class="layout">
+      <div class="main">
+        <div class="ad ad-mobile">300 × 250</div>
+        <div style="padding:18px 0 6px">
+          <h1 style="font-size:clamp(28px,4vw,42px)">Tjenesterne</h1>
+          <p class="lead" style="color:var(--ink-soft);max-width:62ch;margin-top:12px">
+            Fire tjenester deler det danske marked. De ligner hinanden i pris, men ikke i udvalg.
+          </p>
+        </div>
+        <div class="grid svc" style="padding:14px 0 30px">
+          {TJENESTER.map((t) => {
+            const p = priser[t.key];
+            const billig = p ? billigste(p.prices) : undefined;
+            const antal = magasiner.filter((m) => m.digitalt.includes(t.navn)).length;
+            return (
+              <div class="card">
+                <h3>{t.navn}</h3>
+                <p class="small" style="margin:6px 0 12px">{t.note}</p>
+                <div style="font-size:23px;font-weight:750">{prisTekst(billig)}</div>
+                <p class="small" style="margin:8px 0 0">{antal} blade i vores katalog</p>
+                <p class="meta" style="margin:8px 0 14px">{p?.checked_at ? "Pris tjekket " + p.checked_at.slice(0,10) : "Ikke tjekket"}</p>
+                <a class="btn ghost" href={"/tjenester/" + t.key + "/"} style="display:inline-block;padding:9px 16px;font-size:14px">Se tjenesten</a>
+              </div>
+            );
+          })}
+        </div>
+        <div class="ad ad-billboard">930 × 180</div>
+      </div>
+      <aside class="rail"><div class="sticky-rail"><div class="ad ad-rail">300 × 600</div></div></aside>
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,136 @@
+---
+import Base from "../layouts/Base.astro";
+import { magasiner, priser, TJENESTER, prisTekst, billigste, harTjeneste } from "../lib/site";
+
+export function getStaticPaths() {
+  return magasiner.map((m) => ({ params: { slug: m.slug }, props: { m } }));
+}
+
+const { m } = Astro.props;
+const relevante = magasiner.filter((x) => x.slug !== m.slug && x.type === m.type).slice(0, 6);
+const harNogen = m.digitalt.length > 0;
+const tjekket = Object.values(priser)
+  .map((p) => p.checked_at)
+  .filter(Boolean)
+  .sort()
+  .pop();
+---
+
+<Base
+  title={`${m.navn} — digitalt eller i postkassen | readmagasiner.dk`}
+  description={`${m.navn}${m.forlag ? ` fra ${m.forlag}` : ""}: se hvilke tjenester der har bladet digitalt, og hvad abonnementet koster. Priser tjekket af os.`}
+>
+  <div class="wrap" style="padding-top:26px">
+    <p class="small">
+      <a href="/">Forside</a> › <a href="/magasiner/">Blade</a> › <span>{m.navn}</span>
+    </p>
+  </div>
+
+  <div class="wrap">
+    <div class="layout">
+      <div class="main">
+
+        <div class="ad ad-mobile">300 × 250</div>
+
+        <article style="padding:18px 0 30px">
+          <h1 style="font-size:clamp(28px,4vw,44px)">{m.navn}</h1>
+          <p class="small" style="margin:10px 0 0">
+            {m.type === "ugeblad" ? "Ugeblad" : "Magasin"}
+            {m.forlag ? ` · ${m.forlag}` : ""}
+            {m.maalgruppe ? ` · ${m.maalgruppe}` : ""}
+            {m.land !== "DK" ? ` · ${m.land}` : ""}
+          </p>
+
+          <h2 style="margin-top:32px">Læs {m.navn} digitalt</h2>
+          {harNogen ? (
+            <>
+              <p class="small" style="margin:8px 0 16px">
+                Bladet findes hos {m.digitalt.length} af de {TJENESTER.length} tjenester vi sammenligner.
+              </p>
+              <table>
+                <thead>
+                  <tr><th>Tjeneste</th><th>Har bladet</th><th>Pris</th><th></th></tr>
+                </thead>
+                <tbody>
+                  {TJENESTER.map((t) => {
+                    const p = priser[t.key];
+                    const billig = p ? billigste(p.prices) : undefined;
+                    const har = harTjeneste(m, t.navn);
+                    return (
+                      <tr>
+                        <td><strong>{t.navn}</strong></td>
+                        <td>{har ? <span class="tag">Ja</span> : <span class="tag no">Nej</span>}</td>
+                        <td class="num">{prisTekst(billig)}</td>
+                        <td>
+                          <a href={t.url} rel="nofollow sponsored noopener" target="_blank" class="small">
+                            Til {t.navn} →
+                          </a>
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+              {tjekket && (
+                <p class="meta" style="margin-top:10px">
+                  Udvalg og priser tjekket {tjekket.slice(0, 10)} · udvalg kan ændre sig uden varsel
+                </p>
+              )}
+            </>
+          ) : (
+            <div class="card" style="margin-top:14px">
+              <p style="margin:0">
+                <strong>{m.navn} findes ikke hos de tjenester, vi sammenligner.</strong>
+              </p>
+              <p class="small" style="margin:8px 0 0">
+                Det betyder ikke, at bladet er lukket — kun at det ikke er med i Readly, Flipp, Pling eller Wype.
+                Vi viser det alligevel, fordi et "nej" er et svar.
+              </p>
+            </div>
+          )}
+
+          <h2 style="margin-top:42px">Få {m.navn} i postkassen</h2>
+          <div class="card" style="margin-top:14px;border-style:dashed">
+            <p style="margin:0"><strong>Printabonnementer er ikke på plads endnu.</strong></p>
+            <p class="small" style="margin:8px 0 0">
+              Vi har ikke indgået aftaler med forlagene, og derfor viser vi ingen priser her.
+              Så snart aftalerne er der, kan vi tjekke papirabonnementer lige så systematisk som de digitale —
+              med udgivelsesfrekvens, pris pr. nummer og besparelse mod løssalg.
+              Indtil da: ingen tal, ingen gæt.
+            </p>
+          </div>
+
+          <h2 style="margin-top:42px">Om bladet</h2>
+          <p style="margin-top:10px">{m.beskrivelse || "Vi har endnu ikke en beskrivelse af bladet."}</p>
+          <p class="meta" style="margin-top:10px">
+            Beskrivelsen er AI-skrevet og bygger på kildematerialet fra det tidligere readmagasiner.dk.
+            <a href="/om/">Sådan arbejder vi</a>.
+          </p>
+        </article>
+
+        {relevante.length > 0 && (
+          <section style="padding-bottom:20px">
+            <h2 style="font-size:22px">Andre {m.type === "ugeblad" ? "ugeblade" : "magasiner"}</h2>
+            <div class="grid mag" style="margin-top:14px">
+              {relevante.map((r) => (
+                <a class="card" href={`/${r.slug}/`} style="text-decoration:none;color:inherit">
+                  <h3 style="font-size:15.5px">{r.navn}</h3>
+                  <p class="small" style="margin:5px 0 0">
+                    {r.digitalt.length ? r.digitalt.join(" · ") : "Ikke digitalt"}
+                  </p>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+
+      </div>
+
+      <aside class="rail">
+        <div class="sticky-rail">
+          <div class="ad ad-rail">300 × 600</div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</Base>

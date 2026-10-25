@@ -1,0 +1,60 @@
+---
+import Base from "../../layouts/Base.astro";
+import { magasiner, priser, TJENESTER, prisTekst } from "../../lib/site";
+
+export function getStaticPaths() {
+  return TJENESTER.map((t) => ({ params: { key: t.key }, props: { t } }));
+}
+const { t } = Astro.props;
+const p = priser[t.key];
+const blade = magasiner.filter((m) => m.digitalt.includes(t.navn));
+const priser_liste = p ? Object.entries(p.prices) : [];
+---
+
+<Base title={t.navn + " — pris, udvalg og hvad den koster | readmagasiner.dk"}
+      description={t.navn + ": se priser, prøveperiode og hvilke blade tjenesten har. Prisen tjekkes løbende af os."}>
+  <div class="wrap" style="padding-top:26px">
+    <p class="small"><a href="/">Forside</a> › <a href="/tjenester/">Tjenester</a> › <span>{t.navn}</span></p>
+  </div>
+  <div class="wrap">
+    <div class="layout">
+      <div class="main">
+        <div class="ad ad-mobile">300 × 250</div>
+        <article style="padding:18px 0 30px">
+          <h1 style="font-size:clamp(28px,4vw,42px)">{t.navn}</h1>
+          <p class="lead" style="color:var(--ink-soft);max-width:60ch;margin-top:12px">{t.note}</p>
+
+          <h2 style="margin-top:30px">Priser</h2>
+          <table style="margin-top:14px">
+            <thead><tr><th>Type</th><th>Pris</th></tr></thead>
+            <tbody>
+              {priser_liste.map(([k, v]) => (
+                <tr><td>{v.etikett ?? k}</td><td class="num">{prisTekst(v)}</td></tr>
+              ))}
+            </tbody>
+          </table>
+          <p class="meta" style="margin-top:10px">
+            {p?.checked_at ? "Tjekket " + p.checked_at.slice(0,10) : "Ikke tjekket endnu"}
+            {" · "}kilde: <a href={t.url} rel="nofollow noopener" target="_blank">{t.url.replace("https://","")}</a>
+          </p>
+
+          <h2 style="margin-top:38px">Blade hos {t.navn} ({blade.length})</h2>
+          <div style="margin-top:14px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden">
+            {blade.slice(0, 60).map((m, i) => (
+              <a href={"/" + m.slug + "/"} style={i ? "display:block;padding:10px 16px;border-top:1px solid var(--line);text-decoration:none;color:inherit" : "display:block;padding:10px 16px;text-decoration:none;color:inherit"}>
+                <strong>{m.navn}</strong> <span class="small">{m.forlag ? "· " + m.forlag : ""}</span>
+              </a>
+            ))}
+          </div>
+          {blade.length > 60 && <p class="small" style="margin-top:8px">Viser de første 60 af {blade.length}.</p>}
+
+          <p style="margin-top:28px">
+            <a class="btn" href={t.url} rel="nofollow sponsored noopener" target="_blank">Til {t.navn} →</a>
+          </p>
+          <p class="meta">Linket er et reklamelink. Vi får ikke betaling for det endnu — aftaler er ikke indgået.</p>
+        </article>
+      </div>
+      <aside class="rail"><div class="sticky-rail"><div class="ad ad-rail">300 × 600</div></div></aside>
+    </div>
+  </div>
+</Base>

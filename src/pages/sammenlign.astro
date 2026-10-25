@@ -1,0 +1,44 @@
+---
+import Base from "../layouts/Base.astro";
+import { magasiner, priser, TJENESTER, prisTekst, billigste } from "../lib/site";
+---
+
+<Base title="Sammenlign Readly, Flipp, Pling og Wype | readmagasiner.dk"
+      description="Pris, udvalg og prøveperiode side om side. Se hvilken tjeneste der har flest af de blade, du læser.">
+  <div class="wrap" style="padding-top:26px">
+    <p class="small"><a href="/">Forside</a> › <span>Sammenlign</span></p>
+  </div>
+  <div class="wrap">
+    <div class="layout">
+      <div class="main">
+        <div class="ad ad-mobile">300 × 250</div>
+        <div style="padding:18px 0 10px">
+          <h1 style="font-size:clamp(28px,4vw,42px)">Sammenlign tjenester</h1>
+          <p class="lead" style="color:var(--ink-soft);max-width:60ch;margin-top:12px">
+            Samme tal som på tjenesternes egne sider — tjekket af os, med dato.
+          </p>
+        </div>
+        <table style="margin:10px 0 30px">
+          <thead><tr><th>Tjeneste</th><th>Pris</th><th>Blade i katalog</th><th>Prøveperiode</th></tr></thead>
+          <tbody>
+            {TJENESTER.map((t) => {
+              const p = priser[t.key];
+              const billig = p ? billigste(p.prices) : undefined;
+              const intro = p?.prices?.intro ?? p?.prices?.offer;
+              return (
+                <tr>
+                  <td><a href={"/tjenester/" + t.key + "/"}><strong>{t.navn}</strong></a></td>
+                  <td class="num">{prisTekst(billig)}</td>
+                  <td class="num">{magasiner.filter((m) => m.digitalt.includes(t.navn)).length}</td>
+                  <td>{intro ? prisTekst(intro) : <span class="small">ikke oplyst</span>}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+        <div class="ad ad-billboard">930 × 180</div>
+      </div>
+      <aside class="rail"><div class="sticky-rail"><div class="ad ad-rail">300 × 600</div></div></aside>
+    </div>
+  </div>
+</Base>

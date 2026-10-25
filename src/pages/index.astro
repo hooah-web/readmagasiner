@@ -1,0 +1,97 @@
+---
+import Base from "../layouts/Base.astro";
+import { magasiner, priser, TJENESTER, prisTekst, billigste } from "../lib/site";
+
+const populære = [
+  "Billed-Bladet", "Hjemmet", "Se og Hør", "ALT for damerne",
+  "Hendes Verden", "Bo Bedre", "Euroman", "Illustreret Videnskab",
+].map((n) => magasiner.find((m) => m.navn.toLowerCase() === n.toLowerCase()))
+ .filter(Boolean) as typeof magasiner;
+
+const antalTitler = magasiner.length;
+const medDigital = magasiner.filter((m) => m.digitalt.length).length;
+---
+
+<Base
+  title="readmagasiner.dk — find dit blad digitalt eller i postkassen"
+  description="Sammenlign Readly, Flipp, Pling og Wype. Se hvilke blade de har, hvad de koster, og hvornår prisen sidst er tjekket."
+>
+  <div class="wrap hero">
+    <h1>Hvilket blad vil du læse?</h1>
+    <p class="lead">
+      Vi har {antalTitler} blade i kataloget — {medDigital} af dem kan læses digitalt hos en af tjenesterne.
+      Søg på et blad, og se hvem der har det, og hvad det koster.
+    </p>
+    <form class="search" action="/soeg/" method="get" role="search">
+      <input type="search" name="q" placeholder="Fx Euroman, Billed-Bladet, Bo Bedre…" aria-label="Søg på et blad" />
+      <button class="btn" type="submit">Søg</button>
+    </form>
+  </div>
+
+  <div class="wrap">
+    <div class="layout">
+      <div class="main">
+
+        <div class="ad ad-mobile">300 × 250</div>
+
+        <section style="padding:34px 0 8px">
+          <h2>De fire tjenester</h2>
+          <p class="small" style="margin:8px 0 18px">
+            Priser hentet fra tjenesternes egne sider. Readly opkræver i euro — vi viser begge dele.
+          </p>
+          <div class="grid svc">
+            {TJENESTER.map((t) => {
+              const p = priser[t.key];
+              const billig = p ? billigste(p.prices) : undefined;
+              return (
+                <div class="card">
+                  <h3>{t.navn}</h3>
+                  <p class="small" style="margin:6px 0 12px">{t.note}</p>
+                  <div style="font-size:24px;font-weight:750;font-variant-numeric:tabular-nums">
+                    {prisTekst(billig)}
+                  </div>
+                  <p class="meta" style="margin:6px 0 14px">
+                    {p?.checked_at ? `Tjekket ${p.checked_at.slice(0, 10)}` : "Ikke tjekket endnu"}
+                  </p>
+                  <a class="btn ghost" href={`/tjenester/${t.key}/`} style="display:inline-block;padding:9px 16px;font-size:14px">
+                    Se udvalg og priser
+                  </a>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+
+        <div class="ad ad-billboard">930 × 180</div>
+
+        <section style="padding:8px 0 20px">
+          <h2>Populære blade</h2>
+          <div class="grid mag" style="margin-top:16px">
+            {populære.map((m) => (
+              <a class="card" href={`/${m.slug}/`} style="text-decoration:none;color:inherit">
+                <h3 style="font-size:16.5px">{m.navn}</h3>
+                <p class="small" style="margin:6px 0 0">
+                  {m.type === "ugeblad" ? "Ugeblad" : "Magasin"}
+                  {m.forlag ? ` · ${m.forlag}` : ""}
+                </p>
+                <p style="margin:10px 0 0">
+                  {m.digitalt.length
+                    ? m.digitalt.map((t) => <span class="tag" style="margin-right:5px">{t}</span>)
+                    : <span class="tag no">Ikke digitalt</span>}
+                </p>
+              </a>
+            ))}
+          </div>
+          <p style="margin-top:18px"><a href="/magasiner/">Se hele kataloget →</a></p>
+        </section>
+
+      </div>
+
+      <aside class="rail">
+        <div class="sticky-rail">
+          <div class="ad ad-rail">300 × 600</div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,77 @@
+---
+import Base from "../../layouts/Base.astro";
+import { magasiner, TJENESTER } from "../../lib/site";
+
+const mag = magasiner.filter((m) => m.type === "magasin");
+const uge = magasiner.filter((m) => m.type === "ugeblad");
+const udenDigital = magasiner.filter((m) => !m.digitalt.length);
+
+const grupper = [
+  { titel: "Ugeblade", liste: uge },
+  { titel: "Magasiner", liste: mag },
+];
+---
+
+<Base
+  title="Alle blade — digital tilgængelighed og priser | readmagasiner.dk"
+  description={`Katalog over ${magasiner.length} danske og nordiske blade. Se hvilke der kan læses digitalt hos Readly, Flipp, Pling og Wype.`}
+>
+  <div class="wrap" style="padding-top:26px">
+    <p class="small"><a href="/">Forside</a> › <span>Alle blade</span></p>
+  </div>
+
+  <div class="wrap">
+    <div class="layout">
+      <div class="main">
+        <div class="ad ad-mobile">300 × 250</div>
+
+        <div style="padding:18px 0 8px">
+          <h1 style="font-size:clamp(28px,4vw,42px)">Alle blade</h1>
+          <p class="lead" style="color:var(--ink-soft);max-width:62ch;margin-top:12px">
+            {magasiner.length} blade — {magasiner.length - udenDigital.length} kan læses digitalt hos mindst én tjeneste.
+            {udenDigital.length} findes kun på papir.
+          </p>
+          <p style="margin-top:16px">
+            {TJENESTER.map((t) => {
+              const n = magasiner.filter((m) => m.digitalt.includes(t.navn)).length;
+              return <span class="pill" style="margin:0 6px 6px 0">{t.navn}: {n} blade</span>;
+            })}
+          </p>
+        </div>
+
+        {grupper.map((g) => (
+          <section style="padding:26px 0 6px">
+            <h2 style="font-size:22px">{g.titel} <span class="small" style="font-weight:400">({g.liste.length})</span></h2>
+            <div style="margin-top:14px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden">
+              {g.liste.map((m, i) => (
+                <a
+                  href={`/${m.slug}/`}
+                  style={`display:flex;gap:14px;align-items:baseline;padding:11px 16px;text-decoration:none;color:inherit;${i ? "border-top:1px solid var(--line);" : ""}`}
+                >
+                  <span style="flex:1;font-weight:600">{m.navn}</span>
+                  <span class="small" style="min-width:130px;text-align:right">
+                    {m.forlag ?? "forlag ukendt"}
+                  </span>
+                  <span style="min-width:170px;text-align:right">
+                    {m.digitalt.length
+                      ? m.digitalt.map((t) => <span class="tag" style="margin-left:4px">{t}</span>)
+                      : <span class="tag no">Kun papir</span>}
+                  </span>
+                </a>
+              ))}
+            </div>
+          </section>
+        ))}
+
+        <p class="meta" style="padding:18px 0 0">
+          Kataloget er AI-genereret ud fra det tidligere readmagasiner.dk og udvides løbende.
+          Mangler et blad, eller er en tjeneste forkert? <a href="/om/">Sådan retter vi</a>.
+        </p>
+      </div>
+
+      <aside class="rail">
+        <div class="sticky-rail"><div class="ad ad-rail">300 × 600</div></div>
+      </aside>
+    </div>
+  </div>
+</Base>
