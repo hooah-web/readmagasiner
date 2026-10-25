@@ -33,7 +33,10 @@ const tjekket = Object.values(priser)
         <div class="ad ad-mobile">300 × 250</div>
 
         <article style="padding:18px 0 30px">
-          <h1 style="font-size:clamp(28px,4vw,44px)">{m.navn}</h1>
+          <h1 style="font-size:clamp(28px,4vw,44px)">
+            {m.navn}
+            {m.lukket && <span class="tag no" style="vertical-align:middle;margin-left:10px;font-size:13px">Nedlagt</span>}
+          </h1>
           <p class="small" style="margin:10px 0 0">
             {m.type === "ugeblad" ? "Ugeblad" : "Magasin"}
             {m.forlag ? ` · ${m.forlag}` : ""}
@@ -59,7 +62,13 @@ const tjekket = Object.values(priser)
                     return (
                       <tr>
                         <td><strong>{t.navn}</strong></td>
-                        <td>{har ? <span class="tag">Ja</span> : <span class="tag no">Nej</span>}</td>
+                        <td>
+                          {har
+                            ? <span class="tag">Ja</span>
+                            : m.ikke_digitalt
+                              ? <span class="tag no">Nej</span>
+                              : <span class="pill">Ikke oplyst</span>}
+                        </td>
                         <td class="num">{prisTekst(billig)}</td>
                         <td>
                           <a href={t.url} rel="nofollow sponsored noopener" target="_blank" class="small">
@@ -71,6 +80,11 @@ const tjekket = Object.values(priser)
                   })}
                 </tbody>
               </table>
+              <p class="meta" style="margin-top:10px">
+                Udvalget er overtaget fra det tidligere readmagasiner.dk og er ikke fuldt verificeret endnu.
+                Derfor viser vi "Ikke oplyst" frem for "Nej", når vi ikke ved det. Vi verificerer mod
+                tjenesternes egne kataloger.
+              </p>
               {tjekket && (
                 <p class="meta" style="margin-top:10px">
                   Udvalg og priser tjekket {tjekket.slice(0, 10)} · udvalg kan ændre sig uden varsel

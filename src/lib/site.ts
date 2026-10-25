@@ -10,6 +10,7 @@ export type Magasin = {
   land: string;
   digitalt: string[];
   ikke_digitalt: boolean;
+  lukket: boolean;
   beskrivelse: string;
   kilde: string;
   sidst_tjekket: string | null;
