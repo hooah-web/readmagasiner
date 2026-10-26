@@ -1,7 +1,8 @@
 # STATUS — readmagasiner.dk
 
 Sidst opdateret: 26. oktober 2026. Læs denne fil først, hvis du starter en ny session.
-Historik og beslutninger ligger i [`docs/DAGBOG.md`](docs/DAGBOG.md).
+Historik ligger i [`docs/DAGBOG.md`](docs/DAGBOG.md), og beslutninger med begrundelse i
+[`docs/BESLUTNINGER.md`](docs/BESLUTNINGER.md).
 
 ## Hvad sitet er
 

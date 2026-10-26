@@ -6,6 +6,24 @@ Tal skal være talt op, ikke husket.
 
 ---
 
+## 26. oktober 2026 — beslutningerne skrevet ned
+
+**Hvad der skete**
+- Gennemgang af hele samtaletråden (127 beskeder fra Anders) for at finde beslutninger der
+  kun fandtes i dialogen. De er nu skrevet ned i `docs/BESLUTNINGER.md` — 13 beslutninger
+  med dato og begrundelse.
+- `USER.md` og `MEMORY.md` er skrevet direkte på disken, fordi memory-værktøjet fejler.
+
+**Beslutninger**
+- Beslutninger der træffes i dialog skal skrives i `docs/BESLUTNINGER.md` samme dag.
+  Ellers findes de ikke i næste session.
+- De tre dokumenter har hver sin rolle: STATUS.md = tilstand nu, BESLUTNINGER.md = hvorfor,
+  DAGBOG.md = hvad der skete hvornår.
+
+**Mangler stadig**
+- Wypes udvalg, beskrivelser til de 21 nye sider, redesign af /tjenester/, /soeg/ og /om/.
+
+---
 ## 26. oktober 2026 — udvalget bliver sandhed
 
 **Hvad der skete**
