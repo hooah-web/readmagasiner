@@ -14,6 +14,12 @@ listen = "Nej". Wype undtaget indtil vi har en fuld liste fra dem.
 tallene passede ikke (Readly stod med 71).
 *Ligger i:* `data/kilder/*.json`, `scripts/build_udvalg.py`.
 
+**Wypes liste er også sandhed — 13 titler.**
+`wype.dk/online-magasiner` viser 13 danske titler. Dermed har alle fire tjenester en
+komplet liste, og "Ikke oplyst" er afskaffet som svar.
+*Hvorfor:* Anders udpegede siden som sandheden. Før stod Wype som "ukendt" overalt, fordi vi
+kun havde delvise data.
+
 **Ekstra Bladet er med som side, selvom det er en avis.**
 *Hvorfor:* Den står på Plings liste, og et "nej" er et dårligere svar end en side.
 *Ligger i:* `data/magasiner.json` (slug `magasin-ekstra-bladet`).

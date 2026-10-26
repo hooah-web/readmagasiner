@@ -37,13 +37,15 @@ Udvalget bygges ikke på arv eller gæt. Tre lister er defineret som sandhed og 
 readly.json   21 titler   (Readlys danske grid)
 pling.json    57 titler   (syv kategorisider på pling.dk)
 flipp.json    93 titler   (flipp.dk/magasiner, 36 DK · 30 SE · 27 NO)
+wype.json     13 titler   (wype.dk/online-magasiner)
 ```
 
 `scripts/build_udvalg.py` gør listerne til data:
 
 - titel på listen → `bekraeftet`
 - titel uden for listen → `nej`
-- Wype → `ukendt` (vi har ingen fuld liste fra dem endnu)
+
+Alle fire tjenester har nu en liste, så "Ikke oplyst" findes ikke længere i udvalgstabellerne.
 
 Den skriver `data/magasiner.json`, `data/availability.json`, `data/udvalg_taelling.json`
 og opdaterer `data/tjenester.json` med totaler. Kør den efter enhver ændring i kilderne.
@@ -66,20 +68,18 @@ Trackinglink er Adtractions, mærket "Annonce", `rel="nofollow sponsored"`.
 ## Kendte mangler
 
 ```
-90 blade uden omslag         (af 188)
+88 blade uden omslag         (af 188)
 95 blade uden forlag
 41 blade uden beskrivelse    (de 21 nye sider har ingen tekst endnu)
-Wype                         ingen fuld udvalgsliste hentet
 /tjenester/, /soeg/, /om/    ikke bygget om til det nye designsystem
 ```
 
 ## Næste skridt, i prioriteret rækkefølge
 
-1. Hent Wypes udvalg som liste, så fjerde tjeneste også kan sige "Nej".
-2. Skriv beskrivelser til de 21 nye sider — de er tomme nu, og tynde sider er et problem.
-3. Byg `/tjenester/`, `/soeg/` og `/om/` om, så designsystemet dækker hele sitet.
-4. Mål Core Web Vitals på mobil, før vi taler om at merge til `main`.
-5. Først derefter: custom domain og DNS (kræver godkendelse).
+1. Skriv beskrivelser til de 21 nye sider — de er tomme nu, og tynde sider er et problem.
+2. Byg `/tjenester/`, `/soeg/` og `/om/` om, så designsystemet dækker hele sitet.
+3. Mål Core Web Vitals på mobil, før vi taler om at merge til `main`.
+4. Først derefter: custom domain og DNS (kræver godkendelse).
 
 ## Skærmbilleder
 

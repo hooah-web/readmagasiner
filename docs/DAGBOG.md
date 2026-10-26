@@ -6,6 +6,28 @@ Tal skal være talt op, ikke husket.
 
 ---
 
+## 26. oktober 2026 — Wypes udvalg hentet
+
+**Hvad der skete**
+- Hentet Wypes udvalg fra `wype.dk/online-magasiner`: 13 danske titler, alle matchet kataloget.
+- Wype er nu fjerde sandhedsliste. `build_udvalg.py` kører fire kilder, og "Ikke oplyst"
+  findes ikke længere i udvalgstabellerne.
+- To manglende omslag hentet fra Wypes CDN (I FORM, Woman). 100 af 188 blade har nu omslag.
+
+**Beslutninger**
+- Alle fire tjenester har komplette lister. "Nej" betyder nu undtagelsesfrit "står ikke på
+  tjenestens liste", og det er dokumenteret med dato.
+
+**Mangler stadig**
+- 41 sider uden beskrivelse, 95 uden forlag.
+- `/tjenester/`, `/soeg/` og `/om/` er ikke bygget om til designsystemet.
+
+**Fejl undervejs**
+- Min deploy-polling matchede "en nyere deploy end den forrige" i stedet for commit-hashen,
+  så jeg verificerede en gammel preview og konkluderede forkert i et par minutter.
+  Poll nu på commit-hash.
+
+---
 ## 26. oktober 2026 — beslutningerne skrevet ned
 
 **Hvad der skete**
