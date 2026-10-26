@@ -6,7 +6,33 @@
   "udenlandske_oplyst": null,
   "udenlandske_kilde": null,
   "danske_kilde": "Readlys danske udgivelsesoversigt",
-  "bemaerkning": "Readly oplyser ikke et samlet antal udenlandske titler på deres danske sider. Vi viser derfor ingen tal."
+  "bemaerkning": "Readly oplyser ikke et samlet antal udenlandske titler på deres danske sider. Vi viser derfor ingen tal.",
+  "pris_fakta": [
+   {
+    "q": "Hvordan fungerer prøveperioden?",
+    "a": "Ved opstart kan du bruge en gratis prøveperiode. Når den udløber, fortsætter abonnementet automatisk som månedligt abonnement.",
+    "kilde": "https://readly.zendesk.com/hc/en-001/articles/4410019367313-Monthly-renewal",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Hvornår betaler jeg?",
+    "a": "Betalingen sker altid forud og trækkes automatisk hver måned.",
+    "kilde": "https://readly.zendesk.com/hc/en-001/articles/360012747860-How-do-I-pay",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Hvilke betalingsmetoder?",
+    "a": "Kreditkort (VISA/MasterCard) og PayPal. Køber du i appen via Apple, Google Play eller Amazon, skal abonnementet opsiges samme sted.",
+    "kilde": "https://readly.zendesk.com/hc/en-001/articles/360012747860-How-do-I-pay",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Hvordan opsiger jeg?",
+    "a": "Log ind på readly.com, vælg Abonnementer → Administrer abonnement og følg vejledningen. Du får en bekræftelse på mail.",
+    "kilde": "https://readly.zendesk.com/hc/en-001/articles/4409419638929-Cancellation",
+    "hentet": "2026-10-26"
+   }
+  ]
  },
  "flipp": {
   "navn": "Flipp",
@@ -15,7 +41,33 @@
   "udenlandske_oplyst": null,
   "udenlandske_kilde": null,
   "danske_kilde": "flipp.dk/magasiner/<blad>",
-  "bemaerkning": "Flipp er dansk og oplyser ikke et antal udenlandske titler."
+  "bemaerkning": "Flipp er dansk og oplyser ikke et antal udenlandske titler.",
+  "pris_fakta": [
+   {
+    "q": "Hvad koster Flipp?",
+    "a": "99 kr. pr. måned, opkrævet forud. Ingen binding — du kan opsige under Min Konto og bliver ikke opkrævet næste måned.",
+    "kilde": "https://www.flipp.dk/faq/",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "3 måneder for 1",
+    "a": "Du betaler 99 kr. ved start og får 3 måneders adgang. Derefter overgår abonnementet til standardprisen 99 kr. pr. måned.",
+    "kilde": "https://www.flipp.dk/faq/",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "12 måneder for 9",
+    "a": "Du betaler 891 kr. ved start og får 12 måneders adgang — svarende til 9 måneders pris. Derefter 99 kr. pr. måned.",
+    "kilde": "https://www.flipp.dk/faq/",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Er du i forvejen abonnent hos Egmont?",
+    "a": "Printabonnenter på Egmonts magasiner, ugeblade eller børneblade betaler 39 kr. pr. måned for Flipp.",
+    "kilde": "https://www.flipp.dk/faq/",
+    "hentet": "2026-10-26"
+   }
+  ]
  },
  "pling": {
   "navn": "Pling",
@@ -24,7 +76,39 @@
   "udenlandske_oplyst": 22,
   "udenlandske_kilde": "pling.dk/partner-forside/internationale-brands/",
   "danske_kilde": "pling.dk/partner-forside/danske-brands/",
-  "bemaerkning": "Pling viser 22 internationale brands på deres partner-sider. Det er ikke nødvendigvis hele det udenlandske udvalg."
+  "bemaerkning": "Pling viser 22 internationale brands på deres partner-sider. Det er ikke nødvendigvis hele det udenlandske udvalg.",
+  "pris_fakta": [
+   {
+    "q": "Hvad koster Pling Komplet?",
+    "a": "Første måned er gratis. Derefter 99 kr. pr. måned, som trækkes automatisk.",
+    "kilde": "https://pling.dk/ofte-stillede-sporgsmal/",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Hvornår skal jeg opsige?",
+    "a": "Du skal opsige senest fem dage inden næste betaling, ellers fornyes abonnementet automatisk. Det er en kortere frist end hos de andre tjenester.",
+    "kilde": "https://pling.dk/ofte-stillede-sporgsmal/",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Hvad er Pling Kombi?",
+    "a": "Er du printabonnent på et af Allers magasiner eller ugeblade, koster Pling 49 kr. pr. måned — halv pris — så længe printabonnementet er aktivt. Opsiger du print, går Pling til 99 kr.",
+    "kilde": "https://pling.dk/ofte-stillede-sporgsmal/",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Hvad er Pling Favorit?",
+    "a": "Som printabonnent hos Aller får du gratis digital adgang til den udgave, du abonnerer på.",
+    "kilde": "https://pling.dk/ofte-stillede-sporgsmal/",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Kan jeg dele abonnementet?",
+    "a": "Ja, op til fem andre brugere.",
+    "kilde": "https://pling.dk/ofte-stillede-sporgsmal/",
+    "hentet": "2026-10-26"
+   }
+  ]
  },
  "wype": {
   "navn": "Wype",
@@ -33,6 +117,26 @@
   "udenlandske_oplyst": null,
   "udenlandske_kilde": null,
   "danske_kilde": "wype.dk/online-magasiner/",
-  "bemaerkning": "Wype oplyser \"mere end 500 udgivelser\" i alt, men fordeler ikke tallet på danske og udenlandske."
+  "bemaerkning": "Wype oplyser \"mere end 500 udgivelser\" i alt, men fordeler ikke tallet på danske og udenlandske.",
+  "pris_fakta": [
+   {
+    "q": "Hvad koster Wype?",
+    "a": "Gratis den første måned, derefter 99 kr. pr. måned for fuld adgang til alle magasiner.",
+    "kilde": "https://wype.dk/spoergsmaal-svar/",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Jeg abonnerer allerede på et af magasinerne",
+    "a": "Print- og digitale abonnenter på et af deres magasiner har gratis adgang til den nyeste udgave og tidligere udgaver af netop det magasin.",
+    "kilde": "https://wype.dk/spoergsmaal-svar/",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Hvad hvis jeg vil have adgang til resten?",
+    "a": "Abonnenter kan købe adgang til alle de øvrige e-magasiner for 59 kr. pr. måned.",
+    "kilde": "https://wype.dk/spoergsmaal-svar/",
+    "hentet": "2026-10-26"
+   }
+  ]
  }
 }

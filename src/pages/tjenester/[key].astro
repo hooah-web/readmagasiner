@@ -39,6 +39,27 @@ const priser_liste = p ? Object.entries(p.prices) : [];
             {" · "}kilde: <a href={t.url} rel="nofollow noopener" target="_blank">{t.url.replace("https://","")}</a>
           </p>
 
+          {info.pris_fakta && info.pris_fakta.length > 0 && (
+            <>
+              <h2 style="margin-top:38px">Priser og betingelser</h2>
+              <p class="small" style="margin:8px 0 16px">
+                Hentet fra {t.navn}s egen FAQ. Det er de ting, der afgør, hvad du reelt betaler —
+                og hvornår du kan komme ud igen.
+              </p>
+              <div class="grid" style="grid-template-columns:1fr;gap:12px">
+                {info.pris_fakta.map((f) => (
+                  <div class="card">
+                    <h3 style="font-size:15.5px;margin:0 0 6px">{f.q}</h3>
+                    <p style="margin:0">{f.a}</p>
+                    <p class="meta" style="margin:8px 0 0">
+                      Kilde: <a href={f.kilde} rel="nofollow noopener" target="_blank">{t.navn}s FAQ</a> · hentet {f.hentet}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </>
+          )}
+
           <h2 style="margin-top:38px">Danske udgivelser hos {t.navn} ({danske.length})</h2>
           <p class="small" style="margin:8px 0 0">
             Vi koncentrerer os om de danske udgivelser. Tjenesten har også udenlandske titler
