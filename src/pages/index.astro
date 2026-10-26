@@ -12,101 +12,178 @@ const populære = [
 const danske = magasiner.filter((m) => m.land === "DK");
 const antalTitler = danske.length;
 const medDigital = danske.filter((m) => m.digitalt.length).length;
+
+/* Faldefarve til blade uden omslag — samme blad får altid samme farve. */
+const farver = ["#123B3A", "#202C36", "#153C60", "#5B3A2E", "#4A3B52", "#2F4858", "#6B4A3A", "#33452F"];
+const faldeFarve = (s: string) => {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 9973;
+  return farver[h % farver.length];
+};
+const seks = populære.slice(0, 6);
 ---
 
 <Base
   title="readmagasiner.dk — find dit blad digitalt eller i postkassen"
-  description="Sammenlign Readly, Flipp, Pling og Wype. Se hvilke blade de har, hvad de koster, og hvornår prisen sidst er tjekket."
+  description="Sammenlign Readly, Flipp, Pling og Wype. Se hvilke danske blade de har, hvad de koster, og hvornår prisen sidst er tjekket."
 >
-  <div class="wrap hero">
-    <h1>Hvilket blad vil du læse?</h1>
-    <p class="lead">
-      Vi har {antalTitler} danske blade i kataloget — {medDigital} af dem kan læses digitalt hos en af tjenesterne.
-      Søg på et blad, og se hvem der har det, og hvad det koster.
-    </p>
-    <form class="search" action="/soeg/" method="get" role="search">
-      <input type="search" name="q" data-autosuggest placeholder="Fx Euroman, Billed-Bladet, Bo Bedre…" aria-label="Søg på et blad" />
-      <button class="btn" type="submit">Søg</button>
-    </form>
-  </div>
+  <section class="hero">
+    <div class="container">
+      <p class="kicker">Danske magasiner · ét overblik</p>
+      <h1 class="serif">Find dit magasin.<br />Se hvor du kan læse det.</h1>
+      <p>
+        Vi sammenligner {antalTitler} danske magasiner og blade med de fire digitale tjenester,
+        så du hurtigt kan se, hvem der har dit blad — og hvad det koster.
+      </p>
 
-  <div class="wrap">
-    <div class="layout">
-      <div class="main">
+      <form class="searchbox" action="/soeg/" method="get" role="search">
+        <span class="icon" aria-hidden="true">⌕</span>
+        <input
+          type="search"
+          name="q"
+          data-autosuggest
+          placeholder="Søg efter fx Euroman, Bo Bedre eller Hjemmet"
+          aria-label="Søg på et magasin"
+        />
+        <button class="btn" type="submit">Find magasin</button>
+      </form>
 
-        <section style="padding:30px 0 8px">
-          <h2>De fire tjenester</h2>
-          <p class="small" style="margin:8px 0 18px">
-            Priser hentet fra tjenesternes egne sider. Readly opkræver i euro — vi viser begge dele.
-          </p>
-          <div class="grid" style="grid-template-columns:repeat(2,minmax(0,1fr))" id="tjenestegrid">
-            {TJENESTER.map((t) => {
-              const p = priser[t.key];
-              const hoved = prisHoved(p);
-              const antal = udvalgFor(t.navn).danske.length;
-              return (
-                <div class="card">
-                  <div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px">
-                    <h3>{t.navn}</h3>
-                    <span class="tag">{antal} danske</span>
-                  </div>
-                  <p class="small" style="margin:6px 0 12px">{t.note}</p>
-                  <div class="price price--lg">
-                    {prisTekst(prisHoved(p))}
-                  </div>
-                  <p class="meta" style="margin:6px 0 14px">
-                    {antal} danske udgivelser · {p?.checked_at ? `pris tjekket ${p.checked_at.slice(0, 10)}` : "ikke tjekket endnu"}
-                  </p>
-                  <a class="btn ghost" href={`/tjenester/${t.key}/`} style="display:inline-block;padding:9px 16px;font-size:14px">
-                    Se udvalg og priser
-                  </a>
-                </div>
-              );
-            })}
-          </div>
-          <p class="meta" style="margin-top:12px">
-            Tallene er vores registreringer, ikke tjenesternes egne opgørelser. De har flere danske
-            udgivelser, end vi har fået registreret endnu, og vi udvider løbende.
-          </p>
-        </section>
+      <a class="btn search-cta" href="/magasiner/">Se alle magasiner</a>
 
-        <Annonce slot="mobile" />
+      <p class="suggestline">
+        Prøv fx:
+        <a href="/euroman/">Euroman</a>
+        <a href="/bo-bedre/">Bo Bedre</a>
+        <a href="/hjemmet/">Hjemmet</a>
+        <a href="/illustreret-videnskab/">Illustreret Videnskab</a>
+      </p>
+    </div>
+  </section>
 
-        <Annonce slot="billboard" />
-
-        <section style="padding:8px 0 20px">
-          <h2>Populære blade</h2>
-          <div class="grid mag" style="margin-top:16px">
-            {populære.map((m) => (
-              <a class="card" href={`/${m.slug}/`} style="text-decoration:none;color:inherit;display:flex;gap:12px;align-items:flex-start">
-                {m.cover
-                  ? <span class="thumb"><img src={m.cover} alt={`Forside af ${m.navn}`} loading="lazy" width="56" height="74" /></span>
-                  : <span class="thumb ph" aria-hidden="true">{m.navn.slice(0,2).toUpperCase()}</span>}
-                <span style="min-width:0">
-                <h3 style="font-size:16.5px">{m.navn}</h3>
-                <p class="small" style="margin:6px 0 0">
-                  {m.type === "ugeblad" ? "Ugeblad" : "Magasin"}
-                  {m.forlag ? ` · ${m.forlag}` : ""}
-                </p>
-                <p style="margin:10px 0 0">
-                  {m.digitalt.length
-                    ? m.digitalt.map((t) => <span class="tag" style="margin-right:5px">{t}</span>)
-                    : <span class="tag no">Ikke digitalt</span>}
-                </p>
-                </span>
-              </a>
-            ))}
-          </div>
-          <p style="margin-top:18px"><a href="/magasiner/">Se hele kataloget →</a></p>
-        </section>
-
+  <section class="section white">
+    <div class="container">
+      <div class="sectiontitle">
+        <div>
+          <h2>Find et magasin, du kender</h2>
+          <p class="lede">Se hvor du kan læse det digitalt, og hvilke alternativer der findes.</p>
+        </div>
+        <a class="link" href="/magasiner/">Se alle magasiner →</a>
       </div>
 
-      <aside class="rail">
-        <div class="sticky-rail">
-          <Annonce slot="rail" />
-        </div>
-      </aside>
+      <div class="maggrid">
+        {seks.map((m) => (
+          <a class="magcard" href={`/${m.slug}/`}>
+            <div class="cover" style={`background:${faldeFarve(m.slug)}`}>
+              {m.cover && <img src={m.cover} alt={`Forside af ${m.navn}`} loading="lazy" width="300" height="420" />}
+              <small>{m.type === "ugeblad" ? "Ugeblad" : "Magasin"}</small>
+              <strong>{m.navn}</strong>
+              <em>Udforsk · Læs · Opdag</em>
+            </div>
+            <h3>{m.navn}</h3>
+            <div class="meta">
+              {m.forlag ? m.forlag : m.type === "ugeblad" ? "Ugeblad" : "Magasin"}
+            </div>
+          </a>
+        ))}
+      </div>
     </div>
-  </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <div class="sectiontitle">
+        <div>
+          <h2>Fire tjenester. Forskelligt udvalg.</h2>
+          <p class="lede">Vi sammenligner priser, udvalg og vilkår hos de fire tjenester.</p>
+        </div>
+        <a class="link" href="/tjenester/">Se alle tjenester →</a>
+      </div>
+
+      <div class="servicegrid">
+        {TJENESTER.map((t) => {
+          const p = priser[t.key];
+          const antal = udvalgFor(t.navn).danske.length;
+          return (
+            <article class="service">
+              <h3>{t.navn}</h3>
+              <p class="meta" style="margin:0">Danske titler: {antal}</p>
+              <div class="price">{prisTekst(prisHoved(p))}</div>
+              <p>
+                {t.note}
+                {p?.checked_at ? ` · pris tjekket ${p.checked_at.slice(0, 10)}` : ""}
+              </p>
+              <a class="btn" href={`/tjenester/${t.key}/`}>Se {t.navn}</a>
+            </article>
+          );
+        })}
+      </div>
+
+      <p class="meta" style="margin-top:18px;max-width:70ch">
+        Tallene er vores registreringer, ikke tjenesternes egne opgørelser. De har flere danske
+        udgivelser, end vi har fået registreret endnu, og vi udvider løbende.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="split">
+        <div>
+          <p class="kicker">Sammenligningsværktøj</p>
+          <h2>Hvilken tjeneste har dine yndlingsblade?</h2>
+          <p class="lede">Vælg de blade, du læser, og se hvilke tjenester der har dem samlet.</p>
+          <a class="btn" href="/sammenlign/">Sammenlign mine blade</a>
+        </div>
+        <div class="selection">
+          <div>
+            {seks.slice(0, 3).map((m) => (
+              <div class="cover mini" style={`background:${faldeFarve(m.slug)}`}>
+                {m.cover && <img src={m.cover} alt={`Forside af ${m.navn}`} loading="lazy" width="88" height="120" />}
+                <strong style="font-size:13px">{m.navn}</strong>
+              </div>
+            ))}
+          </div>
+          <p style="margin-top:20px">Vælg dine blade for at se match</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2 style="margin-bottom:40px">Så nemt finder du dit magasin</h2>
+      <div class="steps">
+        <div>
+          <div class="stepnum">01</div>
+          <h3>Find dit blad</h3>
+          <p>Søg efter et bestemt magasin eller gå på opdagelse i kataloget.</p>
+        </div>
+        <div>
+          <div class="stepnum">02</div>
+          <h3>Sammenlign mulighederne</h3>
+          <p>Se hvilke tjenester der har bladet, og hvad abonnementerne koster.</p>
+        </div>
+        <div>
+          <div class="stepnum">03</div>
+          <h3>Vælg din løsning</h3>
+          <p>Gå direkte videre til tjenesten eller forlaget.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container"><Annonce slot="billboard" /></div>
+
+  <section class="section mint">
+    <div class="container">
+      <h2 style="max-width:22ch">Priser og udvalg ændrer sig. Vi følger med.</h2>
+      <p class="lede" style="margin-top:12px">
+        Ved hver pris og hvert udvalg står der, hvornår vi sidst har tjekket det. Vi opfinder ikke
+        tal — står der ikke en dato, har vi ikke verificeret oplysningen.
+      </p>
+      <p style="margin-top:20px"><a class="link" href="/om/">Sådan arbejder vi med data →</a></p>
+    </div>
+  </section>
+
+  <div class="container"><Annonce slot="mobile" /></div>
 </Base>

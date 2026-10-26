@@ -1,5 +1,5 @@
 ---
-import "../styles/global.css";
+import "../styles/theme.css";
 
 interface Props {
   title: string;
@@ -19,6 +19,12 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://readmagasin
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical.href} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <meta name="generator" content="Astro" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -26,15 +32,16 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://readmagasin
     <meta property="og:locale" content="da_DK" />
   </head>
   <body>
-    <header class="site">
-      <div class="wrap bar">
-        <a class="brand" href="/"><b>read</b><i>magasiner</i><u>.</u></a>
-        <nav class="main">
-          <a href="/magasiner/">Alle blade</a>
+    <header class="site-header">
+      <div class="container bar">
+        <a class="logo" href="/">readmagasiner<b>.</b></a>
+        <nav class="nav">
+          <a href="/magasiner/">Alle magasiner</a>
           <a href="/tjenester/">Tjenester</a>
           <a href="/sammenlign/">Sammenlign</a>
           <a href="/om/">Om sitet</a>
         </nav>
+        <span class="menu" aria-hidden="true">☰</span>
       </div>
     </header>
 
@@ -114,36 +121,51 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://readmagasin
       })();
     </script>
 
-    <footer class="site">
-      <div class="wrap">
-        <div class="cols">
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footgrid">
           <div>
-            <b>readmagasiner.dk</b>
-            <p style="margin:0;max-width:38ch">
-              Uafhængig oversigt over digitale magasintjenester og fysiske bladabonnementer i Danmark.
+            <a class="logo" href="/" style="color:#fff">readmagasiner<b>.</b></a>
+            <p style="margin-top:16px;max-width:36ch">
+              Find magasiner, sammenlign tjenester, og se hvor du kan læse dine yndlingsblade.
               Vi sælger ikke abonnementer selv.
             </p>
           </div>
           <div>
-            <b>Indhold</b>
-            <a href="/magasiner/">Alle blade</a>
-            <a href="/tjenester/">Tjenester</a>
-            <a href="/sammenlign/">Sammenlign</a>
-            <a href="/soeg/">Søg</a>
+            <h3>Udforsk</h3>
+            <div class="footlinks">
+              <a href="/magasiner/">Alle magasiner</a>
+              <a href="/tjenester/">Tjenester</a>
+              <a href="/sammenlign/">Sammenlign</a>
+              <a href="/soeg/">Søg</a>
+            </div>
           </div>
           <div>
-            <b>Om</b>
-            <a href="/om/">Sådan arbejder vi</a>
-            <a href="/om/#priser">Om priserne</a>
-            <a href="/om/#privatliv">Privatliv</a>
+            <h3>Information</h3>
+            <div class="footlinks">
+              <a href="/om/">Om sitet</a>
+              <a href="/om/#priser">Om priserne</a>
+              <a href="/om/#privatliv">Privatliv</a>
+            </div>
+          </div>
+          <div>
+            <h3>Praktisk</h3>
+            <div class="footlinks">
+              <a href="/om/#kontakt">Kontakt</a>
+              <a href="/om/#privatliv">Cookies</a>
+              <a href="/om/#affiliate">Reklame og affiliate</a>
+            </div>
           </div>
         </div>
-        <p class="ai">
-          <strong>Sitet er bygget, skrevet og drevet af en AI.</strong>
-          Alt indhold er AI-skabt eller AI-redigeret. Prishistorik og udvalg indsamles automatisk fra
-          tjenesternes egne sider og tjekkes løbende — hver pris viser datoen for sidste kontrol.
-          Vi påstår ikke at have læst, testet eller abonneret personligt.
-        </p>
+        <div class="footend">
+          <p style="margin:0 0 12px">
+            <strong style="color:#fff">Sitet er bygget, skrevet og drevet af en AI.</strong>
+            Alt indhold er AI-skabt eller AI-redigeret. Prishistorik og udvalg indsamles automatisk fra
+            tjenesternes egne sider og tjekkes løbende — hver pris viser datoen for sidste kontrol.
+            Vi påstår ikke at have læst, testet eller abonneret personligt.
+          </p>
+          © 2026 readmagasiner.dk · Drevet af Hooah AI
+        </div>
       </div>
     </footer>
   </body>
