@@ -23,7 +23,7 @@
   "navn": "Aktiv træning",
   "slug": "magasin-aktiv-traening",
   "type": "magasin",
-  "forlag": "Benjamin Media",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "DK",
   "digitalt": [
@@ -43,7 +43,8 @@
   },
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6215/latest-issue",
-  "cover_kilde": "https://wype.dk/online-magasiner/aktiv-traening/"
+  "cover_kilde": "https://wype.dk/online-magasiner/aktiv-traening/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
  },
  {
   "navn": "Allt om Android",
@@ -309,7 +310,7 @@
   "navn": "Alt for damerne",
   "slug": "magasin-alt-for-damerne",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -335,7 +336,8 @@
    "udgivelser": null,
    "tjekket": "2026-10-26",
    "kilde": "mitblad.dk (link, pris ikke læst)"
-  }
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)"
  },
  {
   "navn": "Alt om data",
@@ -359,7 +361,7 @@
   "navn": "Alt om fiske",
   "slug": "magasin-alt-om-fiske",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "NO",
   "digitalt": [
@@ -373,7 +375,8 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Alt om haven",
@@ -460,7 +463,7 @@
   "navn": "Antik & auktion",
   "slug": "magasin-antik-auktion",
   "type": "magasin",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -478,7 +481,8 @@
   "kilder": {
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
  },
  {
   "navn": "Apple Watch-bogen",
@@ -529,7 +533,7 @@
   "navn": "Auto motor & Sport",
   "slug": "magasin-auto-motor-sport",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "SE",
   "digitalt": [
@@ -543,7 +547,8 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Bandyportföljen",
@@ -569,7 +574,7 @@
   "navn": "Barbie",
   "slug": "magasin-barbie",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "børn",
   "land": "DK",
   "digitalt": [
@@ -583,7 +588,8 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "BBC Historia",
@@ -609,7 +615,7 @@
   "navn": "Big Game",
   "slug": "magasin-big-game",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "SE",
   "digitalt": [
@@ -623,7 +629,8 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Bike powered by Motorrad Danmark",
@@ -672,7 +679,7 @@
   "navn": "Bil magasinet",
   "slug": "magasin-bil-magasinet",
   "type": "magasin",
-  "forlag": "Benjamin Media",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "DK",
   "digitalt": [
@@ -692,7 +699,8 @@
   },
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6193/latest-issue",
-  "cover_kilde": "https://wype.dk/online-magasiner/bil-magasinet/"
+  "cover_kilde": "https://wype.dk/online-magasiner/bil-magasinet/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
  },
  {
   "navn": "Bitcoin – og andre digitale valutaer",
@@ -723,7 +731,7 @@
   "navn": "Bo Bedre",
   "slug": "magasin-bo-bedre",
   "type": "magasin",
-  "forlag": "Benjamin Media",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -743,13 +751,14 @@
   },
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6199/latest-issue",
-  "cover_kilde": "https://wype.dk/online-magasiner/bo-bedre/"
+  "cover_kilde": "https://wype.dk/online-magasiner/bo-bedre/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
  },
  {
   "navn": "Bolig Magasinet",
   "slug": "magasin-bolig-magasinet",
   "type": "magasin",
-  "forlag": "Benjamin Media",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -769,13 +778,14 @@
   },
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6197/latest-issue",
-  "cover_kilde": "https://wype.dk/online-magasiner/bolig-magasinet/"
+  "cover_kilde": "https://wype.dk/online-magasiner/bolig-magasinet/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
  },
  {
   "navn": "BoligLiv",
   "slug": "magasin-boligliv",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -801,7 +811,8 @@
    "udgivelser": null,
    "tjekket": "2026-10-26",
    "kilde": "mitblad.dk (link, pris ikke læst)"
-  }
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)"
  },
  {
   "navn": "Bådnyt",
@@ -827,7 +838,7 @@
   "navn": "Båtnytt",
   "slug": "magasin-baatnytt",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "SE",
   "digitalt": [
@@ -841,7 +852,8 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "CAP&Design",
@@ -867,7 +879,7 @@
   "navn": "Classic motor",
   "slug": "magasin-classic-motor",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "SE",
   "digitalt": [
@@ -881,7 +893,8 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Computer Sweden",
@@ -907,7 +920,7 @@
   "navn": "Costume",
   "slug": "magasin-costume",
   "type": "magasin",
-  "forlag": "Benjamin Media",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -927,7 +940,8 @@
   },
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6195/latest-issue",
-  "cover_kilde": "https://wype.dk/online-magasiner/costume/"
+  "cover_kilde": "https://wype.dk/online-magasiner/costume/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
  },
  {
   "navn": "Costume Living",
@@ -971,7 +985,7 @@
   "navn": "CyclingPlanet",
   "slug": "magasin-cyclingplanet",
   "type": "magasin",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "mænd",
   "land": "DK",
   "digitalt": [
@@ -985,7 +999,8 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Dagens Media",
@@ -1056,7 +1071,7 @@
   "navn": "Digital Foto",
   "slug": "magasin-digital-foto",
   "type": "magasin",
-  "forlag": "Benjamin Media",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "DK",
   "digitalt": [
@@ -1076,7 +1091,8 @@
   },
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6205/latest-issue",
-  "cover_kilde": "https://wype.dk/online-magasiner/digital-foto/"
+  "cover_kilde": "https://wype.dk/online-magasiner/digital-foto/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
  },
  {
   "navn": "DigitalFoto",
@@ -1102,7 +1118,7 @@
   "navn": "Dossier",
   "slug": "magasin-dossier",
   "type": "magasin",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "mænd",
   "land": "DK",
   "digitalt": [],
@@ -1118,7 +1134,8 @@
   "kilder": {
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
  },
  {
   "navn": "Dyreliv Junior",
@@ -1149,7 +1166,7 @@
   "navn": "ELLE",
   "slug": "magasin-elle",
   "type": "magasin",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -1167,7 +1184,8 @@
   "kilder": {
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
  },
  {
   "navn": "Entreprenör",
@@ -1253,7 +1271,7 @@
   "navn": "Euroman",
   "slug": "magasin-euroman",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "DK",
   "digitalt": [
@@ -1279,13 +1297,14 @@
    "udgivelser": null,
    "tjekket": "2026-10-26",
    "kilde": "mitblad.dk (link, pris ikke læst)"
-  }
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)"
  },
  {
   "navn": "Eurowoman",
   "slug": "magasin-eurowoman",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -1311,7 +1330,8 @@
    "udgivelser": null,
    "tjekket": "2026-10-26",
    "kilde": "mitblad.dk (link, pris ikke læst)"
-  }
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)"
  },
  {
   "navn": "Extra",
@@ -1377,7 +1397,7 @@
   "navn": "Fit living",
   "slug": "magasin-fit-living",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -1403,7 +1423,8 @@
    "udgivelser": null,
    "tjekket": "2026-10-26",
    "kilde": "mitblad.dk (link, pris ikke læst)"
-  }
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)"
  },
  {
   "navn": "Fitness For Men",
@@ -1554,7 +1575,7 @@
   "navn": "Frikvarter",
   "slug": "magasin-frikvarter",
   "type": "magasin",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "børn",
   "land": "DK",
   "digitalt": [],
@@ -1566,7 +1587,8 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Föräldrar & Barn",
@@ -1610,7 +1632,7 @@
   "navn": "Gastro",
   "slug": "magasin-gastro",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -1636,7 +1658,8 @@
    "udgivelser": null,
    "tjekket": "2026-10-26",
    "kilde": "mitblad.dk (link, pris ikke læst)"
-  }
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)"
  },
  {
   "navn": "Girls Life Magazine",
@@ -1682,7 +1705,7 @@
   "navn": "Golf Digest",
   "slug": "magasin-golf-digest",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "SE",
   "digitalt": [
@@ -1696,7 +1719,8 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "GOLFmagasinet",
@@ -1742,7 +1766,7 @@
   "navn": "Gravid",
   "slug": "magasin-gravid",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -1760,13 +1784,14 @@
   "kilder": {
    "Flipp": "https://flipp.dk/magasiner/gravid"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "flipp.dk (Egmonts digitale tjeneste)"
  },
  {
   "navn": "Gør det selv",
   "slug": "magasin-goer-det-selv",
   "type": "magasin",
-  "forlag": "Benjamin Media",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "DK",
   "digitalt": [
@@ -1786,13 +1811,14 @@
   },
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6207/latest-issue",
-  "cover_kilde": "https://wype.dk/online-magasiner/goer-det-selv/"
+  "cover_kilde": "https://wype.dk/online-magasiner/goer-det-selv/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
  },
  {
   "navn": "Hendes Verden",
   "slug": "magasin-hendes-verden",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -1818,13 +1844,14 @@
    "udgivelser": null,
    "tjekket": "2026-10-26",
    "kilde": "mitblad.dk (link, pris ikke læst)"
-  }
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)"
  },
  {
   "navn": "Historie",
   "slug": "magasin-historie",
   "type": "magasin",
-  "forlag": "Benjamin Media",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "DK",
   "digitalt": [
@@ -1844,13 +1871,14 @@
   },
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6213/latest-issue",
-  "cover_kilde": "https://wype.dk/online-magasiner/historie/"
+  "cover_kilde": "https://wype.dk/online-magasiner/historie/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
  },
  {
   "navn": "HjemmePC",
   "slug": "magasin-hjemmepc",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "NO",
   "digitalt": [
@@ -1864,13 +1892,14 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Hytteliv",
   "slug": "magasin-hytteliv",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "NO",
   "digitalt": [
@@ -1884,7 +1913,8 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Hälsa & Fitness",
@@ -1930,7 +1960,7 @@
   "navn": "I Form",
   "slug": "magasin-i-form",
   "type": "magasin",
-  "forlag": "Benjamin Media",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -1950,13 +1980,14 @@
   },
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6203/latest-issue",
-  "cover_kilde": "https://wype.dk/online-magasiner/i-form/"
+  "cover_kilde": "https://wype.dk/online-magasiner/i-form/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
  },
  {
   "navn": "Illustreret Videnskab",
   "slug": "magasin-illustreret-videnskab",
   "type": "magasin",
-  "forlag": "Benjamin Media",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "DK",
   "digitalt": [
@@ -1976,7 +2007,8 @@
   },
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6209/latest-issue",
-  "cover_kilde": "https://wype.dk/online-magasiner/illustreret-videnskab/"
+  "cover_kilde": "https://wype.dk/online-magasiner/illustreret-videnskab/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
  },
  {
   "navn": "iPad-bogen",
@@ -2032,7 +2064,7 @@
   "navn": "Isabellas",
   "slug": "magasin-isabellas",
   "type": "magasin",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -2050,7 +2082,8 @@
   "kilder": {
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
  },
  {
   "navn": "JAGT, vildt & våben",
@@ -2076,7 +2109,7 @@
   "navn": "Jakt",
   "slug": "magasin-jakt",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "NO",
   "digitalt": [
@@ -2090,7 +2123,8 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Jaktmarker & Fiskevatten",
@@ -2141,7 +2175,7 @@
   "navn": "King",
   "slug": "magasin-king",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "SE",
   "digitalt": [
@@ -2155,7 +2189,8 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Kloka Hem",
@@ -2221,7 +2256,7 @@
   "navn": "Komputer for alle",
   "slug": "magasin-komputer-for-alle",
   "type": "magasin",
-  "forlag": "Benjamin Media",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "DK",
   "digitalt": [
@@ -2241,7 +2276,8 @@
   },
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6211/latest-issue",
-  "cover_kilde": "https://wype.dk/online-magasiner/komputer-for-alle/"
+  "cover_kilde": "https://wype.dk/online-magasiner/komputer-for-alle/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
  },
  {
   "navn": "Kroppen Junior",
@@ -2272,7 +2308,7 @@
   "navn": "Mad & bolig",
   "slug": "magasin-mad-bolig",
   "type": "magasin",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -2290,7 +2326,8 @@
   "kilder": {
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
  },
  {
   "navn": "MAD & venner",
@@ -2316,7 +2353,7 @@
   "navn": "Mad!",
   "slug": "magasin-mad",
   "type": "magasin",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -2330,13 +2367,14 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Magasinet Liv",
   "slug": "magasin-magasinet-liv",
   "type": "magasin",
-  "forlag": "Benjamin Media",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -2356,7 +2394,8 @@
   },
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6201/latest-issue",
-  "cover_kilde": "https://wype.dk/online-magasiner/magasinet-liv/"
+  "cover_kilde": "https://wype.dk/online-magasiner/magasinet-liv/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
  },
  {
   "navn": "Magasinet M",
@@ -2380,7 +2419,7 @@
   "navn": "Magasinet Q",
   "slug": "magasin-magasinet-q",
   "type": "magasin",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -2394,13 +2433,14 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Mann",
   "slug": "magasin-mann",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "NO",
   "digitalt": [
@@ -2414,13 +2454,14 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Maries ideer",
   "slug": "magasin-maries-ideer",
   "type": "magasin",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -2434,7 +2475,8 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Mindful Fitness",
@@ -2490,7 +2532,7 @@
   "navn": "Modemagasinet IN",
   "slug": "magasin-modemagasinet-in",
   "type": "magasin",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -2504,7 +2546,8 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "National Geographic",
@@ -2550,7 +2593,7 @@
   "navn": "Olivia",
   "slug": "magasin-olivia",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "børn",
   "land": "DK",
   "digitalt": [
@@ -2568,7 +2611,8 @@
   "kilder": {
    "Flipp": "https://flipp.dk/magasiner/olivia"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "flipp.dk (Egmonts digitale tjeneste)"
  },
  {
   "navn": "Penge og Privatøkonomi",
@@ -2592,7 +2636,7 @@
   "navn": "Pokémon",
   "slug": "magasin-pokemon",
   "type": "magasin",
-  "forlag": null,
+  "forlag": "Story House Egmont",
   "maalgruppe": null,
   "land": "DK",
   "digitalt": [
@@ -2619,13 +2663,14 @@
    "udgivelser": null,
    "tjekket": "2026-10-26",
    "kilde": "mitblad.dk (link, pris ikke læst)"
-  }
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)"
  },
  {
   "navn": "Psykologi",
   "slug": "magasin-psykologi",
   "type": "magasin",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -2643,13 +2688,14 @@
   "kilder": {
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
  },
  {
   "navn": "Rum - Interiør design",
   "slug": "magasin-rum-interioer-design",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -2663,13 +2709,14 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Sally’s",
   "slug": "magasin-sallys",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -2683,7 +2730,8 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Samsung-bogen",
@@ -2734,7 +2782,7 @@
   "navn": "Scandinavian Retro",
   "slug": "magasin-scandinavian-retro",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "SE",
   "digitalt": [
@@ -2748,7 +2796,8 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Smag og behag",
@@ -2790,7 +2839,7 @@
   "navn": "Spis bedre",
   "slug": "magasin-spis-bedre",
   "type": "magasin",
-  "forlag": "DG Media",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [],
@@ -2806,13 +2855,14 @@
   "kilder": {
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
  },
  {
   "navn": "Story",
   "slug": "magasin-story",
   "type": "magasin",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "børn",
   "land": "DK",
   "digitalt": [],
@@ -2824,13 +2874,14 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Street boys",
   "slug": "magasin-street-boys",
   "type": "magasin",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "børn",
   "land": "DK",
   "digitalt": [],
@@ -2842,7 +2893,8 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Surfing",
@@ -2888,7 +2940,7 @@
   "navn": "TopModel",
   "slug": "magasin-topmodel",
   "type": "magasin",
-  "forlag": "Aller",
+  "forlag": "Story House Egmont",
   "maalgruppe": "børn",
   "land": "DK",
   "digitalt": [],
@@ -2908,7 +2960,8 @@
    "udgivelser": null,
    "tjekket": "2026-10-26",
    "kilde": "mitblad.dk (link, pris ikke læst)"
-  }
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)"
  },
  {
   "navn": "True Crime",
@@ -2964,7 +3017,7 @@
   "navn": "Utemagasinet",
   "slug": "magasin-utemagasinet",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "SE",
   "digitalt": [
@@ -2978,13 +3031,14 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Vagabond",
   "slug": "magasin-vagabond",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "SE",
   "digitalt": [
@@ -2998,7 +3052,8 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Vi Båtägare",
@@ -3044,7 +3099,7 @@
   "navn": "Vi Menn",
   "slug": "magasin-vi-menn",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "NO",
   "digitalt": [
@@ -3058,13 +3113,14 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Vi Unge",
   "slug": "magasin-vi-unge",
   "type": "magasin",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "børn",
   "land": "DK",
   "digitalt": [
@@ -3082,7 +3138,8 @@
   "kilder": {
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
  },
  {
   "navn": "Videnskab",
@@ -3138,7 +3195,7 @@
   "navn": "Villmarksliv",
   "slug": "magasin-villmarksliv",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "NO",
   "digitalt": [
@@ -3152,13 +3209,14 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Vores børn",
   "slug": "magasin-vores-boern",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -3172,13 +3230,14 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Wendy",
   "slug": "magasin-wendy",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "børn",
   "land": "DK",
   "digitalt": [
@@ -3204,7 +3263,8 @@
    "udgivelser": null,
    "tjekket": "2026-10-26",
    "kilde": "mitblad.dk (link, pris ikke læst)"
-  }
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)"
  },
  {
   "navn": "Windows Phone-bogen",
@@ -3235,7 +3295,7 @@
   "navn": "Woman",
   "slug": "magasin-woman",
   "type": "magasin",
-  "forlag": "Benjamin Media",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -3255,7 +3315,8 @@
   },
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6873/latest-issue",
-  "cover_kilde": "https://wype.dk/online-magasiner/woman/"
+  "cover_kilde": "https://wype.dk/online-magasiner/woman/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
  },
  {
   "navn": "Yoga Journal",
@@ -3281,7 +3342,7 @@
   "navn": "Åka Skidor",
   "slug": "magasin-aaka-skidor",
   "type": "magasin",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "SE",
   "digitalt": [
@@ -3295,13 +3356,14 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "7 tv dage",
   "slug": "ugeblad-7-tv-dage",
   "type": "ugeblad",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -3319,13 +3381,14 @@
   "kilder": {
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
  },
  {
   "navn": "Anders And & Co.",
   "slug": "ugeblad-anders-and",
   "type": "ugeblad",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "børn",
   "land": "DK",
   "digitalt": [
@@ -3339,13 +3402,14 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Anders And Junior",
   "slug": "blad-anders-and-junior",
   "type": "ugeblad",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "børn",
   "land": "DK",
   "digitalt": [
@@ -3363,13 +3427,14 @@
   "kilder": {
    "Flipp": "https://flipp.dk/magasiner/anders-and-junior"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "flipp.dk (Egmonts digitale tjeneste)"
  },
  {
   "navn": "Basserne",
   "slug": "magasin-basserne",
   "type": "ugeblad",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "DK",
   "digitalt": [
@@ -3395,13 +3460,14 @@
    "udgivelser": null,
    "tjekket": "2026-10-26",
    "kilde": "mitblad.dk (link, pris ikke læst)"
-  }
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)"
  },
  {
   "navn": "Billed Bladet",
   "slug": "ugeblad-billed-bladet",
   "type": "ugeblad",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -3427,13 +3493,14 @@
    "udgivelser": 52,
    "tjekket": "2026-10-26",
    "kilde": "allerservice.dk (server-rendered)"
-  }
+  },
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
  },
  {
   "navn": "Familie Journal",
   "slug": "ugeblad-familie-journal",
   "type": "ugeblad",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -3459,13 +3526,14 @@
    "udgivelser": 52,
    "tjekket": "2026-10-26",
    "kilde": "allerservice.dk (server-rendered)"
-  }
+  },
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
  },
  {
   "navn": "Femina",
   "slug": "ugeblad-femina",
   "type": "ugeblad",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -3491,13 +3559,14 @@
    "udgivelser": 12,
    "tjekket": "2026-10-26",
    "kilde": "allerservice.dk (server-rendered)"
-  }
+  },
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
  },
  {
   "navn": "Goal",
   "slug": "ugeblad-goal",
   "type": "ugeblad",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "mænd",
   "land": "DK",
   "digitalt": [
@@ -3523,13 +3592,14 @@
    "udgivelser": null,
    "tjekket": "2026-10-26",
    "kilde": "mitblad.dk (link, pris ikke læst)"
-  }
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)"
  },
  {
   "navn": "Her & Nu",
   "slug": "ugeblad-her-nu",
   "type": "ugeblad",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -3551,13 +3621,14 @@
    "udgivelser": null,
    "tjekket": "2026-10-26",
    "kilde": "mitblad.dk (link, pris ikke læst)"
-  }
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)"
  },
  {
   "navn": "Hjemmet",
   "slug": "ugeblad-hjemmet",
   "type": "ugeblad",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -3583,13 +3654,14 @@
    "udgivelser": null,
    "tjekket": "2026-10-26",
    "kilde": "mitblad.dk (link, pris ikke læst)"
-  }
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)"
  },
  {
   "navn": "Hjemmets bedste mad",
   "slug": "ugeblad-hjemmets-bedste-mad",
   "type": "ugeblad",
-  "forlag": "Egmont",
+  "forlag": "Story House Egmont",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -3615,13 +3687,14 @@
    "udgivelser": null,
    "tjekket": "2026-10-26",
    "kilde": "mitblad.dk (link, pris ikke læst)"
-  }
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)"
  },
  {
   "navn": "Kig Ind",
   "slug": "ugeblad-kig-ind",
   "type": "ugeblad",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [],
@@ -3633,13 +3706,14 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Royal",
   "slug": "ugeblad-royal",
   "type": "ugeblad",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -3653,13 +3727,14 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "SE og HØR",
   "slug": "ugeblad-se-og-hoer",
   "type": "ugeblad",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -3681,13 +3756,14 @@
    "udgivelser": 52,
    "tjekket": "2026-10-26",
    "kilde": "allerservice.dk (server-rendered)"
-  }
+  },
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "Søndag",
   "slug": "ugeblad-soendag",
   "type": "ugeblad",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -3709,7 +3785,8 @@
    "udgivelser": 52,
    "tjekket": "2026-10-26",
    "kilde": "allerservice.dk (server-rendered)"
-  }
+  },
+  "forlag_kilde": "kategorier på det tidligere site (navn normaliseret)"
  },
  {
   "navn": "TÆT PÅ",
@@ -3733,7 +3810,7 @@
   "navn": "Ude og Hjemme",
   "slug": "ugeblad-ude-og-hjemme",
   "type": "ugeblad",
-  "forlag": "Aller",
+  "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
   "digitalt": [
@@ -3759,6 +3836,7 @@
    "udgivelser": 52,
    "tjekket": "2026-10-26",
    "kilde": "allerservice.dk (server-rendered)"
-  }
+  },
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
  }
 ]
