@@ -14,6 +14,11 @@ listen = "Nej". Wype undtaget indtil vi har en fuld liste fra dem.
 tallene passede ikke (Readly stod med 71).
 *Ligger i:* `data/kilder/*.json`, `scripts/build_udvalg.py`.
 
+**Kun danske blade har sider.**
+De 13 udenlandske titler fra Flipps liste er fjernet som sider og 301'es til kataloget.
+*Hvorfor:* "Vi skal kun have de blade vi selv har fundet" — og vi fokuserer på det danske.
+Tjenestesiderne fortæller stadig, hvor mange udenlandske titler tjenesten har (Flipp: 57).
+
 **Kun blade vi selv har fundet findes som sider.**
 Kataloget blev skåret fra 188 til 100: alle blade uden for de fire lister blev fjernet, og
 deres URL'er 301'es til `/magasiner/`.

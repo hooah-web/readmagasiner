@@ -6,6 +6,23 @@ Tal skal være talt op, ikke husket.
 
 ---
 
+## 26. oktober 2026 — kun danske blade
+
+**Hvad der skete**
+- De 13 udenlandske sider er fjernet. Kataloget er nu 87 danske blade, alle fundet hos
+  en af de fire tjenester, alle med omslag.
+- Redirect-blokken blev udvidet til 202 regler, og scriptet bevarer nu tidligere kørslers
+  regler i stedet for at overskrive dem.
+- 0 interne links peger på fjernede sider. Søgeindekset er 87 poster. Sitemap 98 URL'er.
+
+**Beslutninger**
+- Kun danske blade har sider. Udenlandske titler nævnes som tal på tjenestesiderne.
+
+**Mangler stadig**
+- 41 blade uden beskrivelse, 40 uden forlag.
+- `/tjenester/`, `/soeg/` og `/om/` er ikke bygget om til designsystemet.
+
+---
 ## 26. oktober 2026 — 88 blade fjernet
 
 **Hvad der skete**
