@@ -62,6 +62,9 @@ p:last-child { margin-bottom: 0; }
 .serif { font-family: var(--serif); font-weight: 400; letter-spacing: -0.01em; }
 .kicker, .eyebrow { font-size: 12px; font-weight: 800; letter-spacing: 1.8px; text-transform: uppercase; color: var(--muted); margin: 0 0 var(--s2); }
 .lead, .lede { font-size: var(--fs-lg); color: var(--muted); max-width: 62ch; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.service .tj-logo, .card .tj-logo { margin-bottom: var(--s2); }
 .muted, .small { color: var(--muted); }
 .small { font-size: 13px; }
 .meta { font-size: var(--fs-xs); color: var(--muted); }

@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import { priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgFor, tjenesteInfo } from "../lib/site";
 import Annonce from "../components/Annonce.astro";
+import TjenesteLogo from "../components/TjenesteLogo.astro";
 ---
 
 <Base
@@ -116,7 +117,8 @@ import Annonce from "../components/Annonce.astro";
       <div class="comparison-cards">
         {TJENESTER.map((t) => (
           <div class="c-card">
-            <h3>{t.navn}</h3>
+            <TjenesteLogo key={t.key} navn={t.navn} højde="lille" />
+            <h3 class="sr-only">{t.navn}</h3>
             <strong>{udvalgFor(t.navn).danske.length}</strong>
             <p class="meta">danske blade registreret</p>
             <p style="margin:12px 0 0"><a class="btn btn--secondary btn--sm" href={`/tjenester/${t.key}/`}>Se udvalg</a></p>

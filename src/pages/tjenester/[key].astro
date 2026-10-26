@@ -2,6 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgFor, tjenesteInfo, danskDato } from "../../lib/site";
 import Annonce from "../../components/Annonce.astro";
+import TjenesteLogo from "../../components/TjenesteLogo.astro";
 
 export function getStaticPaths() {
   return TJENESTER.map((t) => ({ params: { key: t.key }, props: { t } }));
@@ -31,7 +32,8 @@ const farveFor = (s: string) => {
       <div class="bread"><a href="/">Forside</a> / <a href="/tjenester/">Tjenester</a> / {t.navn}</div>
       <div class="servicesplit">
         <div>
-          <p class="kicker">Magasintjeneste</p>
+          <TjenesteLogo key={t.key} navn={t.navn} højde="stor" klasse="tj-logo--hero" />
+          <p class="kicker" style="margin-top:20px">Magasintjeneste</p>
           <h1>{t.navn}</h1>
           <p class="lede">{t.note}</p>
           <p style="margin-top:24px">

@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import { magasiner, priser, TJENESTER, prisTekst, prisHoved, udvalgFor, danskDato } from "../lib/site";
 import Annonce from "../components/Annonce.astro";
+import TjenesteLogo from "../components/TjenesteLogo.astro";
 
 const populære = [
   "Billed-Bladet", "Hjemmet", "Se og Hør", "ALT for damerne",
@@ -104,7 +105,8 @@ const seks = populære.slice(0, 6);
           const antal = udvalgFor(t.navn).danske.length;
           return (
             <article class="service">
-              <h3>{t.navn}</h3>
+              <TjenesteLogo key={t.key} navn={t.navn} />
+              <h3 class="sr-only">{t.navn}</h3>
               <p class="meta" style="margin:0">Danske titler: {antal}</p>
               <div class="price">{prisTekst(prisHoved(p))}</div>
               <p>

@@ -2,6 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import { magasiner, priser, TJENESTER, prisTekst, prisHoved } from "../../lib/site";
 import Annonce from "../../components/Annonce.astro";
+import TjenesteLogo from "../../components/TjenesteLogo.astro";
 ---
 
 <Base title="Tjenester — sammenlign digitale magasintjenester | readmagasiner.dk"
@@ -27,7 +28,8 @@ import Annonce from "../../components/Annonce.astro";
             const antal = magasiner.filter((m) => m.digitalt.includes(t.navn)).length;
             return (
               <div class="card">
-                <h3>{t.navn}</h3>
+                <TjenesteLogo key={t.key} navn={t.navn} />
+                <h3 class="sr-only">{t.navn}</h3>
                 <p class="small" style="margin:6px 0 12px">{t.note}</p>
                 <div class="price price--lg">{prisTekst(prisHoved(p))}</div>
                 <p class="small" style="margin:8px 0 0">{antal} blade i vores katalog</p>
