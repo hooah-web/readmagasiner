@@ -121,7 +121,16 @@ const tjekket = Object.values(priser)
           </div>
 
           <h2 style="margin-top:42px">Om bladet</h2>
-          <p style="margin-top:10px">{m.beskrivelse || "Vi har endnu ikke en beskrivelse af bladet."}</p>
+          {m.beskrivelse
+            ? <p style="margin-top:10px">{m.beskrivelse}</p>
+            : <div class="card" style="margin-top:12px">
+                <p style="margin:0">Vi har ikke en selvstændig beskrivelse af bladet endnu.</p>
+                <p class="small" style="margin:8px 0 0">
+                  Bladet er registreret, fordi det findes i en af tjenesternes kataloger
+                  {(m as any).kategori ? ` (kategori: ${(m as any).kategori})` : ""}.
+                  Vi skriver først en beskrivelse, når vi har et reelt grundlag for den.
+                </p>
+              </div>}
           <p class="meta" style="margin-top:10px">
             Beskrivelsen er AI-skrevet og bygger på kildematerialet fra det tidligere readmagasiner.dk.
             <a href="/om/">Sådan arbejder vi</a>.

@@ -1256,5 +1256,205 @@
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
   "tjekket": "2026-10-26"
+ },
+ "magasin-android-bogen": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/android-bogen"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-apple-watch-bogen": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/apple-watch-bogen"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-bike-powered-by-motorrad-danmark": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/bike-powered-by-motorrad-danmark"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-bitcoin-og-andre-digitale-valutaer": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/bitcoin-og-andre-digitale-valutaer-1"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-det-vilde-vesten-junior": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/det-vilde-vesten-junior"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-dyreliv-junior": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/dyreliv-junior"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-fortnite": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/fortnite-dk-1"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-ipad-bogen": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/ipad-bogen"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-iphone-bogen": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/iphone-bogen"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-junior-utrolige-koeretoejer": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/junior-utrolige-koretojer"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-kroppen-junior": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/kroppen-junior-dk"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-mindful-fitness": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/mindful-fitness-dk"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-minecraft": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/minecraft-dk"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-pokemon": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/pokemon-dk"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-samsung-bogen": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/samsung-bogen"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-true-crime": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/true-crime-dk"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-traening-for-alle-loeb": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/traening-for-alle-lob"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-videnskab": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/videnskab"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-videnskab-junior": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/videnskab-junior-dk"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
+ },
+ "magasin-windows-phone-bogen": {
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
+  "Pling": "ukendt",
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/windows-phone-bogen"
+  },
+  "tjekket": "2026-10-26",
+  "Readly": "bekraeftet"
  }
 }

@@ -422,6 +422,31 @@
   "udvalg_tjekket": "2026-10-26"
  },
  {
+  "navn": "Android-bogen",
+  "slug": "magasin-android-bogen",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/android-bogen",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/android-bogen"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "it-technology"
+ },
+ {
   "navn": "Antik & auktion",
   "slug": "magasin-antik-auktion",
   "type": "magasin",
@@ -444,6 +469,31 @@
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
   "udvalg_tjekket": "2026-10-26"
+ },
+ {
+  "navn": "Apple Watch-bogen",
+  "slug": "magasin-apple-watch-bogen",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/apple-watch-bogen",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/apple-watch-bogen"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "it-technology"
  },
  {
   "navn": "Arkitektur",
@@ -566,6 +616,31 @@
   "udvalg_tjekket": "2026-10-26"
  },
  {
+  "navn": "Bike powered by Motorrad Danmark",
+  "slug": "magasin-bike-powered-by-motorrad-danmark",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/bike-powered-by-motorrad-danmark",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/bike-powered-by-motorrad-danmark"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "automotive"
+ },
+ {
   "navn": "Bil ekspressen",
   "slug": "magasin-bil-ekspressen",
   "type": "magasin",
@@ -606,6 +681,31 @@
    "Wype": "https://wype.dk/online-magasiner/"
   },
   "udvalg_tjekket": "2026-10-26"
+ },
+ {
+  "navn": "Bitcoin – og andre digitale valutaer",
+  "slug": "magasin-bitcoin-og-andre-digitale-valutaer",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/bitcoin-og-andre-digitale-valutaer-1",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/bitcoin-og-andre-digitale-valutaer-1"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "business-finance"
  },
  {
   "navn": "Bo Bedre",
@@ -902,6 +1002,31 @@
   "udvalg_tjekket": "2026-10-26"
  },
  {
+  "navn": "Det vilde vesten Junior",
+  "slug": "magasin-det-vilde-vesten-junior",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/det-vilde-vesten-junior",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/det-vilde-vesten-junior"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "history"
+ },
+ {
   "navn": "Digital Foto",
   "slug": "magasin-digital-foto",
   "type": "magasin",
@@ -966,6 +1091,31 @@
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
   "udvalg_tjekket": "2026-10-26"
+ },
+ {
+  "navn": "Dyreliv Junior",
+  "slug": "magasin-dyreliv-junior",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/dyreliv-junior",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/dyreliv-junior"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "animals-pets"
  },
  {
   "navn": "ELLE",
@@ -1262,6 +1412,31 @@
   "digitalt_bekraeftet": [],
   "kilder": {},
   "udvalg_tjekket": "2026-10-26"
+ },
+ {
+  "navn": "Fortnite",
+  "slug": "magasin-fortnite",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/fortnite-dk-1",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/fortnite-dk-1"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "gaming"
  },
  {
   "navn": "FotoGuiden",
@@ -1728,6 +1903,56 @@
   "udvalg_tjekket": "2026-10-26"
  },
  {
+  "navn": "iPad-bogen",
+  "slug": "magasin-ipad-bogen",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/ipad-bogen",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/ipad-bogen"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "it-technology"
+ },
+ {
+  "navn": "iPhone-bogen",
+  "slug": "magasin-iphone-bogen",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/iphone-bogen",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/iphone-bogen"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "it-technology"
+ },
+ {
   "navn": "Isabellas",
   "slug": "magasin-isabellas",
   "type": "magasin",
@@ -1810,6 +2035,31 @@
   "digitalt_bekraeftet": [],
   "kilder": {},
   "udvalg_tjekket": "2026-10-26"
+ },
+ {
+  "navn": "Junior: Utrolige køretøjer",
+  "slug": "magasin-junior-utrolige-koeretoejer",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/junior-utrolige-koretojer",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/junior-utrolige-koretojer"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "teen-kids"
  },
  {
   "navn": "King",
@@ -1914,6 +2164,31 @@
    "Wype": "https://wype.dk/online-magasiner/"
   },
   "udvalg_tjekket": "2026-10-26"
+ },
+ {
+  "navn": "Kroppen Junior",
+  "slug": "magasin-kroppen-junior",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/kroppen-junior-dk",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/kroppen-junior-dk"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "teen-kids"
  },
  {
   "navn": "Mad & bolig",
@@ -2082,6 +2357,56 @@
   "udvalg_tjekket": "2026-10-26"
  },
  {
+  "navn": "Mindful Fitness",
+  "slug": "magasin-mindful-fitness",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/mindful-fitness-dk",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/mindful-fitness-dk"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "health-fitness"
+ },
+ {
+  "navn": "Minecraft",
+  "slug": "magasin-minecraft",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/minecraft-dk",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/minecraft-dk"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "gaming"
+ },
+ {
   "navn": "Modemagasinet IN",
   "slug": "magasin-modemagasinet-in",
   "type": "magasin",
@@ -2184,6 +2509,31 @@
   "udvalg_tjekket": "2026-10-26"
  },
  {
+  "navn": "Pokémon",
+  "slug": "magasin-pokemon",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/pokemon-dk",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/pokemon-dk"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "gaming"
+ },
+ {
   "navn": "Psykologi",
   "slug": "magasin-psykologi",
   "type": "magasin",
@@ -2246,6 +2596,31 @@
   "digitalt_bekraeftet": [],
   "kilder": {},
   "udvalg_tjekket": "2026-10-26"
+ },
+ {
+  "navn": "Samsung-bogen",
+  "slug": "magasin-samsung-bogen",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/samsung-bogen",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/samsung-bogen"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "it-technology"
  },
  {
   "navn": "Saveur",
@@ -2440,6 +2815,56 @@
   "udvalg_tjekket": "2026-10-26"
  },
  {
+  "navn": "True Crime",
+  "slug": "magasin-true-crime",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/true-crime-dk",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/true-crime-dk"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "history"
+ },
+ {
+  "navn": "Træning for alle – Løb",
+  "slug": "magasin-traening-for-alle-loeb",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/traening-for-alle-lob",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/traening-for-alle-lob"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "running-cycling-fitness"
+ },
+ {
   "navn": "Utemagasinet",
   "slug": "magasin-utemagasinet",
   "type": "magasin",
@@ -2564,6 +2989,56 @@
   "udvalg_tjekket": "2026-10-26"
  },
  {
+  "navn": "Videnskab",
+  "slug": "magasin-videnskab",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/videnskab",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/videnskab"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "science-nature"
+ },
+ {
+  "navn": "Videnskab Junior",
+  "slug": "magasin-videnskab-junior",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/videnskab-junior-dk",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/videnskab-junior-dk"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "science-nature/teen-kids"
+ },
+ {
   "navn": "Villmarksliv",
   "slug": "magasin-villmarksliv",
   "type": "magasin",
@@ -2626,6 +3101,31 @@
    "Flipp": "https://flipp.dk/magasiner/wendy"
   },
   "udvalg_tjekket": "2026-10-26"
+ },
+ {
+  "navn": "Windows Phone-bogen",
+  "slug": "magasin-windows-phone-bogen",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "",
+  "kilde": "https://readly.com/da-dk/products/magazine/windows-phone-bogen",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/windows-phone-bogen"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "it-technology"
  },
  {
   "navn": "Woman",
