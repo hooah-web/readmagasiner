@@ -38,6 +38,12 @@ const farveFor = (s: string) => {
             <a class="btn" href={t.url} rel="nofollow sponsored noopener" target="_blank">Besøg {t.navn} ↗</a>
             <a class="link" href="/sammenlign/" style="margin-left:16px">Sammenlign tjenester →</a>
           </p>
+
+          {info.beskrivelse && (
+            <div class="service-intro">
+              {info.beskrivelse.split("\n\n").map((a) => <p>{a}</p>)}
+            </div>
+          )}
         </div>
 
         <div class="pricepanel">

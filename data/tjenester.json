@@ -33,7 +33,8 @@
     "hentet": "2026-10-26"
    }
   ],
-  "udvalg_i_alt": 21
+  "udvalg_i_alt": 21,
+  "beskrivelse": "Readly er en svensk magasintjeneste, der samler danske og udenlandske blade i én app. Du betaler et fast månedligt beløb og får adgang til hele udvalget — ikke enkelte titler. I vores registrering har Readly 21 danske titler, og det er dem, vi viser her på siden. Hvor mange udenlandske titler de har, oplyser de ikke et samlet tal for i deres danske oversigt.\n\nPrisen opkræves i euro, fordi tjenesten er svensk. Det betyder, at det beløb der trækkes fra din konto afhænger af dagens valutakurs — derfor viser vi både euro og en omregning med dato.\n\nAbonnementet betales forud hver måned og fornyer sig selv. Vil du ud, skal du opsige på readly.com under Abonnementer, og du får en bekræftelse på mail. Har du tegnet abonnementet i Apples eller Googles app-butik, skal det opsiges samme sted."
  },
  "flipp": {
   "navn": "Flipp",
@@ -42,7 +43,7 @@
   "udenlandske_oplyst": 57,
   "udenlandske_kilde": "https://flipp.dk/magasiner/",
   "danske_kilde": "flipp.dk/magasiner/<blad>",
-  "bemaerkning": "Flipp er dansk og oplyser ikke et antal udenlandske titler.",
+  "bemaerkning": "Flipp er dansk. I deres katalog på flipp.dk/magasiner er 36 af de 93 titler danske; resten er norske og svenske.",
   "pris_fakta": [
    {
     "q": "Hvad koster Flipp?",
@@ -69,7 +70,8 @@
     "hentet": "2026-10-26"
    }
   ],
-  "udvalg_i_alt": 93
+  "udvalg_i_alt": 93,
+  "beskrivelse": "Flipp er Egmonts læsetjeneste og den af de fire, der ligger tættest på de klassiske ugeblade og tegneserier. Deres katalog tæller 93 titler, hvoraf vi har registreret 36 danske — Hjemmet, HER&NU, Anders And, Jumbobog og flere. De øvrige er norske og svenske titler i samme koncern.\n\nPrisen er 99 kr. om måneden uden binding. Er du i forvejen printabonnent på et Egmont-blad, koster Flipp 39 kr. om måneden — den rabat fremgår ikke af forsiden, men står i deres FAQ.\n\nFlipp kører også med opstartsrabatter: tre måneder for prisen af én, eller tolv måneder for prisen af ni. Efter rabatperioden overgår abonnementet til den normale månedspris. Opsigelse sker under Min Konto, og du bliver ikke opkrævet næste måned."
  },
  "pling": {
   "navn": "Pling",
@@ -78,7 +80,7 @@
   "udenlandske_oplyst": 39,
   "udenlandske_kilde": "https://pling.dk/alle-magasiner/",
   "danske_kilde": "pling.dk/partner-forside/danske-brands/",
-  "bemaerkning": "Pling viser 22 internationale brands på deres partner-sider. Det er ikke nødvendigvis hele det udenlandske udvalg.",
+  "bemaerkning": "Pling viser 39 udenlandske brands i deres kategorilister. Det er ikke nødvendigvis hele det udenlandske udvalg.",
   "pris_fakta": [
    {
     "q": "Hvad koster Pling Komplet?",
@@ -111,7 +113,8 @@
     "hentet": "2026-10-26"
    }
   ],
-  "udvalg_i_alt": 57
+  "udvalg_i_alt": 57,
+  "beskrivelse": "Pling er Allers læsetjeneste og den af de fire med flest nichetitler. Deres katalog tæller 57 titler, hvoraf vi har registreret 18 danske — SE og HØR, Billed-Bladet, Femina, Søndag, Ude og Hjemme og flere. Resten er udenlandske brands.\n\nPling Komplet koster 99 kr. om måneden, og første måned er gratis. Er du printabonnent på et Aller-blad, koster det 49 kr. om måneden — og med Pling Favorit får du gratis digital adgang til netop det blad, du abonnerer på.\n\nTo ting adskiller Pling fra de andre: du skal opsige senest fem dage før næste betaling, og du kan dele abonnementet med op til fem andre brugere."
  },
  "wype": {
   "navn": "Wype",
@@ -141,6 +144,7 @@
     "hentet": "2026-10-26"
    }
   ],
-  "udvalg_i_alt": 13
+  "udvalg_i_alt": 13,
+  "beskrivelse": "Wype er en bladkiosk frem for et fast abonnement: du kan købe enkeltnumre, eller tegne et abonnement med adgang til hele udvalget. Vi har registreret 13 danske titler i deres katalog — Bo Bedre, Euroman, I FORM, Illustreret Videnskab, Costume og flere. Wype oplyser selv, at de har mere end 500 udgivelser i alt, men fordeler ikke tallet på danske og udenlandske.\n\nDen første måned er gratis, derefter 99 kr. om måneden for fuld adgang. Er du i forvejen abonnent på et af magasinerne, har du gratis adgang til den nyeste udgave og tidligere udgaver af netop det magasin. Vil du have adgang til resten, koster det 59 kr. om måneden."
  }
 }

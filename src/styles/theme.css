@@ -250,6 +250,9 @@ p:last-child { margin-bottom: 0; }
 .servicesplit { display: grid; grid-template-columns: 1.3fr .8fr; gap: var(--s10); align-items: center; }
 .servicesplit h1 { font-size: 58px; margin: 0 0 var(--s2); }
 .servicesplit p { color: var(--muted); }
+.service-intro { margin-top: var(--s4); max-width: 60ch; }
+.service-intro p { color: var(--muted); font-size: 15.5px; line-height: 1.75; margin: 0 0 var(--s2); }
+.service-intro p:last-child { margin-bottom: 0; }
 .pricepanel { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: var(--s4); }
 .pricepanel .price { font-size: 44px; font-weight: 800; color: var(--pine); margin: 6px 0; font-variant-numeric: tabular-nums; }
 .facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--s2); }
