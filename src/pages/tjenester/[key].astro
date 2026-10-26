@@ -82,10 +82,12 @@ const farveFor = (s: string) => {
           <small>Danske titler</small>
           <b>{danske.length}</b>
         </div>
-        <div class="fact">
-          <small>Titler i alt</small>
-          <b>{info.udvalg_i_alt ?? "Ikke oplyst"}</b>
-        </div>
+        {info.udvalg_i_alt != null && (
+          <div class="fact">
+            <small>Titler i alt</small>
+            <b>{info.udvalg_i_alt}</b>
+          </div>
+        )}
         <div class="fact">
           <small>Udenlandske titler</small>
           <b>{info.udenlandske_oplyst ?? "Ikke oplyst"}</b>

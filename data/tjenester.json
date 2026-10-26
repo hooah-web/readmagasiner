@@ -2,8 +2,8 @@
  "readly": {
   "navn": "Readly",
   "url": "https://readly.com/da-dk/",
-  "note": "Størst samlet udvalg, flest internationale titler",
-  "udenlandske_oplyst": 0,
+  "note": "Svensk tjeneste med danske og udenlandske blade",
+  "udenlandske_oplyst": null,
   "udenlandske_kilde": "https://readly.com/ (dansk udvalg)",
   "danske_kilde": "Readlys danske udgivelsesoversigt",
   "bemaerkning": "Readly oplyser ikke et samlet antal udenlandske titler på deres danske sider. Vi viser derfor ingen tal.",
@@ -33,7 +33,7 @@
     "hentet": "2026-10-26"
    }
   ],
-  "udvalg_i_alt": 21,
+  "udvalg_i_alt": null,
   "beskrivelse": "Readly er en svensk magasintjeneste, der samler danske og udenlandske blade i én app. Du betaler et fast månedligt beløb og får adgang til hele udvalget — ikke enkelte titler. I vores registrering har Readly 21 danske titler, og det er dem, vi viser her på siden. Hvor mange udenlandske titler de har, oplyser de ikke et samlet tal for i deres danske oversigt.\n\nPrisen opkræves i euro, fordi tjenesten er svensk. Det betyder, at det beløb der trækkes fra din konto afhænger af dagens valutakurs — derfor viser vi både euro og en omregning med dato.\n\nAbonnementet betales forud hver måned og fornyer sig selv. Vil du ud, skal du opsige på readly.com under Abonnementer, og du får en bekræftelse på mail. Har du tegnet abonnementet i Apples eller Googles app-butik, skal det opsiges samme sted."
  },
  "flipp": {
@@ -120,7 +120,7 @@
   "navn": "Wype",
   "url": "https://wype.dk/",
   "note": "Bladkiosk, kan også købes enkeltvis",
-  "udenlandske_oplyst": 0,
+  "udenlandske_oplyst": null,
   "udenlandske_kilde": null,
   "danske_kilde": "wype.dk/online-magasiner/",
   "bemaerkning": "Wype oplyser \"mere end 500 udgivelser\" i alt, men fordeler ikke tallet på danske og udenlandske.",
@@ -144,7 +144,7 @@
     "hentet": "2026-10-26"
    }
   ],
-  "udvalg_i_alt": 13,
+  "udvalg_i_alt": null,
   "beskrivelse": "Wype er en bladkiosk frem for et fast abonnement: du kan købe enkeltnumre, eller tegne et abonnement med adgang til hele udvalget. Vi har registreret 13 danske titler i deres katalog — Bo Bedre, Euroman, I FORM, Illustreret Videnskab, Costume og flere. Wype oplyser selv, at de har mere end 500 udgivelser i alt, men fordeler ikke tallet på danske og udenlandske.\n\nDen første måned er gratis, derefter 99 kr. om måneden for fuld adgang. Er du i forvejen abonnent på et af magasinerne, har du gratis adgang til den nyeste udgave og tidligere udgaver af netop det magasin. Vil du have adgang til resten, koster det 59 kr. om måneden."
  }
 }
