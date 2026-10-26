@@ -25,7 +25,7 @@ Byg         npx astro build   (~2 s, 199 URL'er)
 Git-ident   Hooah AI <346939773+hooah-ai@users.noreply.github.com>
 ```
 
-Sider: forside, `/magasiner/`, 188 bladsider, `/tjenester/` + 4 tjenestesider,
+Sider: forside, `/magasiner/`, 100 bladsider, `/tjenester/` + 4 tjenestesider,
 `/sammenlign/`, `/soeg/`, `/om/`, `/design/` (styleguide, noindex).
 
 ## Data — kilder er sandhed
@@ -51,8 +51,8 @@ Den skriver `data/magasiner.json`, `data/availability.json`, `data/udvalg_taelli
 og opdaterer `data/tjenester.json` med totaler. Kør den efter enhver ændring i kilderne.
 
 ```
-python3 scripts/build_udvalg.py     # lister → data
-python3 scripts/sync_bekraeftet.py  # availability → digitalt_bekraeftet
+python3 scripts/build_udvalg.py          # lister → data
+python3 scripts/prune_uden_tjeneste.py   # fjern blade uden for alle lister + 301
 npx astro build
 ```
 
@@ -68,11 +68,13 @@ Trackinglink er Adtractions, mærket "Annonce", `rel="nofollow sponsored"`.
 ## Kendte mangler
 
 ```
-88 blade uden omslag         (af 188)
-95 blade uden forlag
 41 blade uden beskrivelse    (de 21 nye sider har ingen tekst endnu)
+40 blade uden forlag
 /tjenester/, /soeg/, /om/    ikke bygget om til det nye designsystem
 ```
+
+Alle 100 blade har et omslag. Blade der ikke findes hos nogen af de fire tjenester
+findes ikke som sider — de 301'es til `/magasiner/` (se `scripts/prune_uden_tjeneste.py`).
 
 ## Næste skridt, i prioriteret rækkefølge
 

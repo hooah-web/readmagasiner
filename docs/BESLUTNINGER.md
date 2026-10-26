@@ -14,6 +14,13 @@ listen = "Nej". Wype undtaget indtil vi har en fuld liste fra dem.
 tallene passede ikke (Readly stod med 71).
 *Ligger i:* `data/kilder/*.json`, `scripts/build_udvalg.py`.
 
+**Kun blade vi selv har fundet findes som sider.**
+Kataloget blev skåret fra 188 til 100: alle blade uden for de fire lister blev fjernet, og
+deres URL'er 301'es til `/magasiner/`.
+*Hvorfor:* Anders' beslutning. De fjernede sider kunne kun sige "findes ingen steder", og
+mange var svenske og norske titler arvet fra det gamle site og fejlagtigt markeret som danske.
+*Konsekvens:* Sitet påstod 171 danske blade; det reelle tal er 87.
+
 **Wypes liste er også sandhed — 13 titler.**
 `wype.dk/online-magasiner` viser 13 danske titler. Dermed har alle fire tjenester en
 komplet liste, og "Ikke oplyst" er afskaffet som svar.

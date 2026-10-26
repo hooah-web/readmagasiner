@@ -6,6 +6,27 @@ Tal skal være talt op, ikke husket.
 
 ---
 
+## 26. oktober 2026 — 88 blade fjernet
+
+**Hvad der skete**
+- Kataloget gik fra 188 til 100 sider. De 88 blade, der ikke findes hos nogen af de fire
+  tjenester, er fjernet, og deres URL'er 301'es til `/magasiner/` (176 regler).
+- 0 interne links pegede på de fjernede sider. Sitemap går fra 199 til 111 URL'er.
+- Alle 100 tilbageværende blade har et omslag — de kommer alle fra en tjenesteliste.
+
+**Beslutninger**
+- Kun blade vi selv har fundet findes som sider. Tomme "findes ingen steder"-sider er væk.
+- Sitet påstod 171 danske blade. Det reelle tal er 87 danske og 13 udenlandske.
+
+**Mangler stadig**
+- 41 blade uden beskrivelse (de 21 nye sider har ingen tekst endnu), 40 uden forlag.
+- TopModel er fjernet sammen med de andre, men har en print-aftale hos Egmont. Anders bør
+  tage stilling til om den skal tilbage som ren print-side.
+
+**Fejl undervejs**
+- Ingen, men tørkørslen viste advarslen om TopModel, som ellers var let at overse.
+
+---
 ## 26. oktober 2026 — Wypes udvalg hentet
 
 **Hvad der skete**
