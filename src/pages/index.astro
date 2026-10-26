@@ -52,10 +52,9 @@ const seks = populære.slice(0, 6);
 
       <p class="suggestline">
         Prøv fx:
-        <a href="/euroman/">Euroman</a>
-        <a href="/bo-bedre/">Bo Bedre</a>
-        <a href="/hjemmet/">Hjemmet</a>
-        <a href="/illustreret-videnskab/">Illustreret Videnskab</a>
+        {populære.slice(0, 4).map((m, i) => (
+          <>{i > 0 && " "}<a href={`/${m.slug}/`}>{m.navn}</a></>
+        ))}
       </p>
     </div>
   </section>
