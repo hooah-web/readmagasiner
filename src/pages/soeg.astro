@@ -8,6 +8,7 @@ const data = magasiner.map((m) => ({
   t: m.type,
   f: m.forlag,
   d: m.digitalt,
+  c: m.cover ?? null,
 }));
 const antal = magasiner.length;
 ---
@@ -66,12 +67,16 @@ const antal = magasiner.length;
       }
       status.textContent = hits.length + (hits.length === 1 ? ' blad' : ' blade') + ' matcher.';
       res.innerHTML = hits.map((x) => `
-        <a class="card" href="/${x.s}/" style="text-decoration:none;color:inherit">
+        <a class="card" href="/${x.s}/" style="text-decoration:none;color:inherit;display:flex;gap:12px;align-items:flex-start">
+          ${x.c ? `<span class="thumb"><img src="${x.c}" alt="" loading="lazy" width="56" height="74"></span>`
+                 : `<span class="thumb ph">${x.n.slice(0,2).toUpperCase()}</span>`}
+          <span style="min-width:0">
           <h3 style="font-size:16px;margin:0">${x.n}</h3>
           <p class="small" style="margin:6px 0 0">${x.t === 'ugeblad' ? 'Ugeblad' : 'Magasin'}${x.f ? ' · ' + x.f : ''}</p>
           <p style="margin:10px 0 0">${x.d.length
             ? x.d.map((t) => `<span class="tag" style="margin-right:5px">${t}</span>`).join('')
             : '<span class="tag no">Ikke digitalt</span>'}</p>
+          </span>
         </a>`).join('');
     }
 

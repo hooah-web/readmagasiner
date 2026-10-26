@@ -54,6 +54,9 @@ const grupper = [
                   href={`/${m.slug}/`}
                   style={`display:flex;gap:14px;align-items:baseline;padding:11px 16px;text-decoration:none;color:inherit;${i ? "border-top:1px solid var(--line);" : ""}`}
                 >
+                  {m.cover
+                    ? <span class="thumb" style="width:40px;height:53px"><img src={m.cover} alt="" loading="lazy" width="40" height="53" /></span>
+                    : <span class="thumb ph" style="width:40px;height:53px;font-size:12px" aria-hidden="true">{m.navn.slice(0,2).toUpperCase()}</span>}
                   <span style="flex:1;font-weight:600">{m.navn}</span>
                   <span class="small" style="min-width:130px;text-align:right">
                     {m.forlag ?? "forlag ukendt"}

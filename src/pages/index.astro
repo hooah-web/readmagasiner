@@ -77,7 +77,11 @@ const medDigital = danske.filter((m) => m.digitalt.length).length;
           <h2>Populære blade</h2>
           <div class="grid mag" style="margin-top:16px">
             {populære.map((m) => (
-              <a class="card" href={`/${m.slug}/`} style="text-decoration:none;color:inherit">
+              <a class="card" href={`/${m.slug}/`} style="text-decoration:none;color:inherit;display:flex;gap:12px;align-items:flex-start">
+                {m.cover
+                  ? <span class="thumb"><img src={m.cover} alt={`Forside af ${m.navn}`} loading="lazy" width="56" height="74" /></span>
+                  : <span class="thumb ph" aria-hidden="true">{m.navn.slice(0,2).toUpperCase()}</span>}
+                <span style="min-width:0">
                 <h3 style="font-size:16.5px">{m.navn}</h3>
                 <p class="small" style="margin:6px 0 0">
                   {m.type === "ugeblad" ? "Ugeblad" : "Magasin"}
@@ -88,6 +92,7 @@ const medDigital = danske.filter((m) => m.digitalt.length).length;
                     ? m.digitalt.map((t) => <span class="tag" style="margin-right:5px">{t}</span>)
                     : <span class="tag no">Ikke digitalt</span>}
                 </p>
+                </span>
               </a>
             ))}
           </div>
