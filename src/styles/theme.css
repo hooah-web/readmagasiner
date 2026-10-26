@@ -256,6 +256,14 @@ p:last-child { margin-bottom: 0; }
 .service-intro { margin-top: var(--s4); max-width: 60ch; }
 .service-intro p { color: var(--muted); font-size: 15.5px; line-height: 1.75; margin: 0 0 var(--s2); }
 .service-intro p:last-child { margin-bottom: 0; }
+.pricepanel__head {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: var(--s2); margin-bottom: var(--s1);
+}
+.pricepanel__head .kicker { margin: 0; }
+.pricepanel__head .tj-logo--readly { height: 30px; }
+.pricepanel__head .tj-logo--wype { height: 24px; }
+.pricepanel__head .tj-logo--flipp { height: 38px; }
 .pricepanel { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: var(--s4); }
 .pricepanel .price { font-size: 44px; font-weight: 800; color: var(--pine); margin: 6px 0; font-variant-numeric: tabular-nums; }
 .facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--s2); }

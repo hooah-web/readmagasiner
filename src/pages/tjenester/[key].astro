@@ -32,8 +32,7 @@ const farveFor = (s: string) => {
       <div class="bread"><a href="/">Forside</a> / <a href="/tjenester/">Tjenester</a> / {t.navn}</div>
       <div class="servicesplit">
         <div>
-          <TjenesteLogo key={t.key} navn={t.navn} højde="stor" klasse="tj-logo--hero" />
-          <p class="kicker" style="margin-top:20px">Magasintjeneste</p>
+          <p class="kicker">Magasintjeneste</p>
           <h1>{t.navn}</h1>
           <p class="lede">{t.note}</p>
           <p style="margin-top:24px">
@@ -49,7 +48,10 @@ const farveFor = (s: string) => {
         </div>
 
         <div class="pricepanel">
-          <p class="kicker" style="margin-bottom:8px">Normalpris</p>
+          <div class="pricepanel__head">
+            <p class="kicker">Normalpris</p>
+            <TjenesteLogo key={t.key} navn={t.navn} højde="mellem" klasse="tj-logo--panel" />
+          </div>
           <p class="price">
             {prisTekst(hoved).split(" ≈ ")[0]}
             {prisTekst(hoved).includes(" ≈ ") && (
