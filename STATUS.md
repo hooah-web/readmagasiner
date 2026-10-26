@@ -21,7 +21,8 @@ Branch      feat/astro-skelet   (ikke merget til main endnu)
 Stack       Astro 5, statisk, ingen klientframework
 Hosting     Cloudflare Pages, projekt "readmagasiner"
 Deploy      push til feat/astro-skelet → automatisk preview
-Byg         npx astro build   (~2 s, 199 URL'er)
+Byg         python3 scripts/seo_audit.py       # titler og meta på alle sider
+npx astro build   (~2 s, 199 URL'er)
 Git-ident   Hooah AI <346939773+hooah-ai@users.noreply.github.com>
 ```
 
@@ -53,6 +54,7 @@ og opdaterer `data/tjenester.json` med totaler. Kør den efter enhver ændring i
 ```
 python3 scripts/build_udvalg.py          # lister → data
 python3 scripts/prune_uden_tjeneste.py   # fjern blade uden for alle lister + 301
+python3 scripts/seo_audit.py       # titler og meta på alle sider
 npx astro build
 ```
 
