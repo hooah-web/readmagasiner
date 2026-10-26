@@ -40,6 +40,80 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://readmagasin
 
     <slot />
 
+    <script is:inline>
+      // Auto-forslag til søgefeltet. Henter indekset én gang pr. sidevisning.
+      (function () {
+        var inputs = document.querySelectorAll('input[data-autosuggest]');
+        if (!inputs.length) return;
+        var index = null, loading = false;
+
+        function load(cb) {
+          if (index) return cb();
+          if (loading) return setTimeout(function () { load(cb); }, 100);
+          loading = true;
+          fetch('/soeg-index.json').then(function (r) { return r.json(); }).then(function (d) {
+            index = d; loading = false; cb();
+          }).catch(function () { loading = false; });
+        }
+
+        var norm = function (s) {
+          return s.toLowerCase().replace(/æ/g, 'ae').replace(/ø/g, 'oe').replace(/å/g, 'aa');
+        };
+
+        inputs.forEach(function (input) {
+          var box = document.createElement('div');
+          box.className = 'suggest';
+          var wrap = input.parentElement;
+          wrap.classList.add('searchbox');
+          wrap.appendChild(box);
+          var items = [], active = -1;
+
+          function render(term) {
+            var t = norm(term.trim());
+            if (t.length < 2) { box.classList.remove('open'); return; }
+            load(function () {
+              items = index.filter(function (x) { return norm(x.n).indexOf(t) > -1; }).slice(0, 8);
+              active = -1;
+              if (!items.length) {
+                box.innerHTML = '<div class="empty">Ingen blade matcher "' + term + '"</div>';
+              } else {
+                box.innerHTML = items.map(function (x, i) {
+                  return '<button type="button" data-i="' + i + '"><span class="nm">' + x.n + '</span><span class="tp">' +
+                    (x.t === 'ugeblad' ? 'ugeblad' : 'magasin') + '</span></button>';
+                }).join('');
+              }
+              box.classList.add('open');
+            });
+          }
+
+          input.addEventListener('input', function () { render(input.value); });
+          input.addEventListener('focus', function () { if (input.value.length >= 2) render(input.value); });
+          input.addEventListener('keydown', function (e) {
+            if (!box.classList.contains('open')) return;
+            var btns = box.querySelectorAll('button');
+            if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+              e.preventDefault();
+              if (!btns.length) return;
+              active = e.key === 'ArrowDown' ? (active + 1) % btns.length : (active - 1 + btns.length) % btns.length;
+              btns.forEach(function (b, i) { b.classList.toggle('active', i === active); });
+            } else if (e.key === 'Enter' && active > -1) {
+              e.preventDefault();
+              location.href = '/' + items[active].s + '/';
+            } else if (e.key === 'Escape') {
+              box.classList.remove('open');
+            }
+          });
+          box.addEventListener('click', function (e) {
+            var b = e.target.closest('button[data-i]');
+            if (b) location.href = '/' + items[+b.dataset.i].s + '/';
+          });
+          document.addEventListener('click', function (e) {
+            if (!wrap.contains(e.target)) box.classList.remove('open');
+          });
+        });
+      })();
+    </script>
+
     <footer class="site">
       <div class="wrap">
         <div class="cols">

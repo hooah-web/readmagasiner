@@ -24,7 +24,7 @@ const medDigital = danske.filter((m) => m.digitalt.length).length;
       Søg på et blad, og se hvem der har det, og hvad det koster.
     </p>
     <form class="search" action="/soeg/" method="get" role="search">
-      <input type="search" name="q" placeholder="Fx Euroman, Billed-Bladet, Bo Bedre…" aria-label="Søg på et blad" />
+      <input type="search" name="q" data-autosuggest placeholder="Fx Euroman, Billed-Bladet, Bo Bedre…" aria-label="Søg på et blad" />
       <button class="btn" type="submit">Søg</button>
     </form>
   </div>
