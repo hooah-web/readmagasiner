@@ -177,7 +177,7 @@
   "Pling": "bekraeftet",
   "Readly": "ukendt",
   "kilder": {
-   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+   "Pling": "https://pling.dk/brands/?publicationId=33939"
   },
   "tjekket": "2026-10-26"
  },
@@ -391,7 +391,7 @@
   "Pling": "bekraeftet",
   "Readly": "ukendt",
   "kilder": {
-   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+   "Pling": "https://pling.dk/brands/?publicationId=33970"
   },
   "tjekket": "2026-10-26"
  },
@@ -712,7 +712,7 @@
   "Pling": "bekraeftet",
   "Readly": "ukendt",
   "kilder": {
-   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+   "Pling": "https://pling.dk/brands/?publicationId=33980"
   },
   "tjekket": "2026-10-26"
  },
@@ -788,7 +788,7 @@
   "Pling": "bekraeftet",
   "Readly": "ukendt",
   "kilder": {
-   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+   "Pling": "https://pling.dk/brands/?publicationId=33982"
   },
   "tjekket": "2026-10-26"
  },
@@ -898,7 +898,7 @@
   "Pling": "bekraeftet",
   "Readly": "ukendt",
   "kilder": {
-   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+   "Pling": "https://pling.dk/brands/?publicationId=33986"
   },
   "tjekket": "2026-10-26"
  },
@@ -956,7 +956,7 @@
   "Pling": "bekraeftet",
   "Readly": "ukendt",
   "kilder": {
-   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+   "Pling": "https://pling.dk/brands/?publicationId=33989"
   },
   "tjekket": "2026-10-26"
  },
@@ -1046,7 +1046,7 @@
   "Pling": "bekraeftet",
   "Readly": "ukendt",
   "kilder": {
-   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+   "Pling": "https://pling.dk/brands/?publicationId=33994"
   },
   "tjekket": "2026-10-26"
  },
@@ -1108,7 +1108,7 @@
   "Pling": "bekraeftet",
   "Readly": "ukendt",
   "kilder": {
-   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+   "Pling": "https://pling.dk/brands/?publicationId=33904"
   },
   "tjekket": "2026-10-26"
  },
@@ -1146,7 +1146,7 @@
   "Pling": "bekraeftet",
   "Readly": "ukendt",
   "kilder": {
-   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+   "Pling": "https://pling.dk/brands/?publicationId=33941"
   },
   "tjekket": "2026-10-26"
  },
@@ -1156,7 +1156,7 @@
   "Pling": "bekraeftet",
   "Readly": "ukendt",
   "kilder": {
-   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+   "Pling": "https://pling.dk/brands/?publicationId=33975"
   },
   "tjekket": "2026-10-26"
  },
@@ -1166,7 +1166,7 @@
   "Pling": "bekraeftet",
   "Readly": "ukendt",
   "kilder": {
-   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+   "Pling": "https://pling.dk/brands/?publicationId=33976"
   },
   "tjekket": "2026-10-26"
  },
@@ -1219,25 +1219,31 @@
  "ugeblad-royal": {
   "Flipp": "ukendt",
   "Wype": "ukendt",
-  "Pling": "ukendt",
+  "Pling": "bekraeftet",
   "Readly": "ukendt",
-  "kilder": {},
+  "kilder": {
+   "Pling": "https://pling.dk/brands/?publicationId=33940"
+  },
   "tjekket": "2026-10-26"
  },
  "ugeblad-se-og-hoer": {
   "Flipp": "ukendt",
   "Wype": "ukendt",
-  "Pling": "ukendt",
+  "Pling": "bekraeftet",
   "Readly": "ukendt",
-  "kilder": {},
+  "kilder": {
+   "Pling": "https://pling.dk/brands/?publicationId=33988"
+  },
   "tjekket": "2026-10-26"
  },
  "ugeblad-soendag": {
   "Flipp": "ukendt",
   "Wype": "ukendt",
-  "Pling": "ukendt",
+  "Pling": "bekraeftet",
   "Readly": "ukendt",
-  "kilder": {},
+  "kilder": {
+   "Pling": "https://pling.dk/brands/?publicationId=33991"
+  },
   "tjekket": "2026-10-26"
  },
  "taet-paa-ugeblad": {
@@ -1254,7 +1260,7 @@
   "Pling": "bekraeftet",
   "Readly": "ukendt",
   "kilder": {
-   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+   "Pling": "https://pling.dk/brands/?publicationId=33993"
   },
   "tjekket": "2026-10-26"
  },

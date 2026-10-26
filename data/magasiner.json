@@ -485,7 +485,9 @@
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
   "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/magasin-antik-auktion.webp",
+  "cover_kilde": "Pling"
  },
  {
   "navn": "Apple Watch-bogen",
@@ -1149,7 +1151,9 @@
   "forlag": "Aller Media",
   "maalgruppe": "mænd",
   "land": "DK",
-  "digitalt": [],
+  "digitalt": [
+   "Pling"
+  ],
   "ikke_digitalt": false,
   "lukket": false,
   "beskrivelse": "Vi har længe efterspurgt et nyt mandemagasin her i Danmark og nu ser det ud til at Aller har hørt os. Slut oktober 2016 udkommer mandemagasinet Dossier nemlig for første gang. Magasinet vil, imodsætning til andre magasiner, være gratis og vil være tilgængelig i stormagasinet Magasin, Københavns Lufthavn og sammen med magasinet Elle, der også bliver udgivet af Aller. Ifølge ansvarlig chefredaktør Cecilie Ingdal har teamet arbejdet meget grundigt med udviklingen af konceptet, og kombinationen af business-, kultur-, livsstils- og modestof i et eksklusivt og maskulint univers. I første nummer af magasinet kan vi blandt andet møde sangeren Lukas Forchhammer, Michael Laudrup, den tidligere B&O-boss Tue Mantoni og skuespilleren Nikolaj Coster-Waldau, så vi glæder os til at få fingre i magasinet. Det er på nuværende tidspunkt planlagt 4 udgivelser af magasinet i 2017. Vi ved endnu ikke om magasinet også kommer som en onlineversion.",
@@ -1163,7 +1167,9 @@
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
   "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/magasin-dossier.webp",
+  "cover_kilde": "Pling"
  },
  {
   "navn": "Dyreliv Junior",
@@ -2136,7 +2142,9 @@
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
   "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/magasin-isabellas.webp",
+  "cover_kilde": "Pling"
  },
  {
   "navn": "JAGT, vildt & våben",
@@ -2388,7 +2396,9 @@
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
   "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/magasin-mad-bolig.webp",
+  "cover_kilde": "Pling"
  },
  {
   "navn": "MAD & venner",
@@ -2757,7 +2767,9 @@
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
   "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/magasin-psykologi.webp",
+  "cover_kilde": "Pling"
  },
  {
   "navn": "Rum - Interiør design",
@@ -2918,7 +2930,9 @@
   "forlag": "Aller Media",
   "maalgruppe": "kvinder",
   "land": "DK",
-  "digitalt": [],
+  "digitalt": [
+   "Pling"
+  ],
   "ikke_digitalt": true,
   "lukket": false,
   "beskrivelse": "Spis bedre er dit månedlige indspark med ny inspiration og nye ideer til mad, der passer til sæsonen og vejret. Det betyder naturligvis en guide til, hvordan man griller næsten alt om sommeren, og en masse varme rette og deserter, der passer rigtig godt til vinterhalvåret. Alt i alt er man helt dækket ind på madfronten og udover de utallige opskrifter på alle slags retter, får man også små fifs til, hvordan man kan gøre det nemmere at lave maden, holde det rent, eller gøre det på et budget. Alt sammen er nemt og enkelt, men en rigtig god ide at få læst, så man kan spare penge ved sine næste indkøb, eller lette rengøringsbyrden, der kan være stor i forbindelse med madlavning. Bladet har også sin egen brevkasse som hedder ”Spørgsmål og svar” her kan man spørge professionelle kokke til, hvordan man skal tilberede eller forbedre sin ret. Man også høre deres mening til ens egne forbedringer og kreative indslag, og det skaber alt i alt en fornemmelse af at verdenen udvikler sig, men man kan også her hente masser af gode råd og nye ideer, som man efterfølgende bør prøve af i køkkenet.",
@@ -2932,7 +2946,9 @@
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
   "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/magasin-spis-bedre.webp",
+  "cover_kilde": "Pling"
  },
  {
   "navn": "Story",
@@ -3225,7 +3241,9 @@
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
   "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/magasin-vi-unge.webp",
+  "cover_kilde": "Pling"
  },
  {
   "navn": "Videnskab",
@@ -3481,7 +3499,9 @@
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
   "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/ugeblad-7-tv-dage.webp",
+  "cover_kilde": "Pling"
  },
  {
   "navn": "Anders And & Co.",
@@ -3602,7 +3622,9 @@
    "tjekket": "2026-10-26",
    "kilde": "allerservice.dk (server-rendered)"
   },
-  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/ugeblad-billed-bladet.webp",
+  "cover_kilde": "Pling"
  },
  {
   "navn": "Familie Journal",
@@ -3635,7 +3657,9 @@
    "tjekket": "2026-10-26",
    "kilde": "allerservice.dk (server-rendered)"
   },
-  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/ugeblad-familie-journal.webp",
+  "cover_kilde": "Pling"
  },
  {
   "navn": "Femina",
@@ -3668,7 +3692,9 @@
    "tjekket": "2026-10-26",
    "kilde": "allerservice.dk (server-rendered)"
   },
-  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/ugeblad-femina.webp",
+  "cover_kilde": "Pling"
  },
  {
   "navn": "Goal",
@@ -3848,7 +3874,9 @@
   "digitalt_bekraeftet": [],
   "kilder": {},
   "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": null
+  "forlag_kilde": null,
+  "cover": "/omslag/ugeblad-royal.webp",
+  "cover_kilde": "Pling"
  },
  {
   "navn": "SE og HØR",
@@ -3877,7 +3905,9 @@
    "tjekket": "2026-10-26",
    "kilde": "allerservice.dk (server-rendered)"
   },
-  "forlag_kilde": null
+  "forlag_kilde": null,
+  "cover": "/omslag/ugeblad-se-og-hoer.webp",
+  "cover_kilde": "Pling"
  },
  {
   "navn": "Søndag",
@@ -3906,7 +3936,9 @@
    "tjekket": "2026-10-26",
    "kilde": "allerservice.dk (server-rendered)"
   },
-  "forlag_kilde": null
+  "forlag_kilde": null,
+  "cover": "/omslag/ugeblad-soendag.webp",
+  "cover_kilde": "Pling"
  },
  {
   "navn": "TÆT PÅ",
@@ -3957,6 +3989,8 @@
    "tjekket": "2026-10-26",
    "kilde": "allerservice.dk (server-rendered)"
   },
-  "forlag_kilde": "pling.dk (Allers digitale tjeneste)"
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/ugeblad-ude-og-hjemme.webp",
+  "cover_kilde": "Pling"
  }
 ]
