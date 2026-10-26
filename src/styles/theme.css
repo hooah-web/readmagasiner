@@ -307,7 +307,7 @@ td.num, th.num { font-variant-numeric: tabular-nums; text-align: right; }
 
 /* Footer */
 .site-footer, footer.site { background: var(--pine); color: #fff; padding: 65px 0 30px; font-size: 13px; }
-.footgrid { display: grid; grid-template-columns: 2fr repeat(3, 1fr); gap: 30px; }
+.footgrid { display: grid; grid-template-columns: 1fr; gap: 30px; }
 .site-footer .logo, footer.site .logo, footer.site .brand { color: #fff; }
 footer.site .brand b, footer.site .brand i { color: #fff; }
 footer.site b { display: block; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; color: #fff; margin-bottom: var(--s1); }
