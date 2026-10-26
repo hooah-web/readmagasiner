@@ -1,12 +1,4 @@
 {
- "magasin-active-escape": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-aktiv-traening": {
   "Flipp": "nej",
   "Wype": "bekraeftet",
@@ -15,110 +7,6 @@
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "tjekket": "2026-10-26"
- },
- "magasin-allt-om-android": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-allt-om-appar": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-allt-om-bilar": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-allt-om-brollop": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-allt-om-canon": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-allt-om-historia": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-allt-om-hobby": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-allt-om-lchf": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-allt-om-mtb": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-allt-om-nikon": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-allt-om-panasonic": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-allt-om-resor": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-allt-om-vin": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-alt-for-damerne": {
@@ -131,40 +19,8 @@
   },
   "tjekket": "2026-10-26"
  },
- "magasin-alt-om-data": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-alt-om-fiske": {
   "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-alt-om-haven": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-alt-om-historie": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-american-photo": {
-  "Flipp": "nej",
   "Wype": "nej",
   "Pling": "nej",
   "Readly": "nej",
@@ -181,56 +37,8 @@
   },
   "tjekket": "2026-10-26"
  },
- "magasin-arkitektur": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-auto-motor-sport": {
   "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-bandyportfoljen": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-barbie": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-bbc-historia": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-big-game": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-bil-ekspressen": {
-  "Flipp": "nej",
   "Wype": "nej",
   "Pling": "nej",
   "Readly": "nej",
@@ -277,14 +85,6 @@
   },
   "tjekket": "2026-10-26"
  },
- "magasin-baadnyt": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-baatnytt": {
   "Flipp": "bekraeftet",
   "Wype": "nej",
@@ -293,24 +93,8 @@
   "kilder": {},
   "tjekket": "2026-10-26"
  },
- "magasin-capdesign": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-classic-motor": {
   "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-computer-sweden": {
-  "Flipp": "nej",
   "Wype": "nej",
   "Pling": "nej",
   "Readly": "nej",
@@ -327,46 +111,6 @@
   },
   "tjekket": "2026-10-26"
  },
- "magasin-costume-living": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-cover": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-cyclingplanet": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-dagens-media": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-daisy-beauty": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-digital-foto": {
   "Flipp": "nej",
   "Wype": "bekraeftet",
@@ -377,14 +121,6 @@
   },
   "tjekket": "2026-10-26"
  },
- "magasin-digitalfoto": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-dossier": {
   "Flipp": "nej",
   "Wype": "nej",
@@ -393,48 +129,6 @@
   "kilder": {
    "Pling": "https://pling.dk/brands/?publicationId=33970"
   },
-  "tjekket": "2026-10-26"
- },
- "magasin-elle": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {
-   "Pling": "https://pling.dk/partner-forside/danske-brands/"
-  },
-  "tjekket": "2026-10-26"
- },
- "magasin-entreprenor": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-equipage": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-equus": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-escape-360": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-euroman": {
@@ -457,30 +151,6 @@
   },
   "tjekket": "2026-10-26"
  },
- "magasin-extra": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-fast-company": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-finansliv": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-fit-living": {
   "Flipp": "bekraeftet",
   "Wype": "nej",
@@ -491,78 +161,6 @@
   },
   "tjekket": "2026-10-26"
  },
- "magasin-fitness-for-men": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-flying": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-forskning-framsteg": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-fotoguiden": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-fotosidan": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-fotoskolan": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-frikvarter": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-foraldrar-barn": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-gaffa": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-gastro": {
   "Flipp": "bekraeftet",
   "Wype": "nej",
@@ -571,46 +169,6 @@
   "kilder": {
    "Flipp": "https://flipp.dk/magasiner/gastro"
   },
-  "tjekket": "2026-10-26"
- },
- "magasin-girls-life-magazine": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-gods-gaardar": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-golf-digest": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-golfmagasinet": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-gourmet": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-gravid": {
@@ -654,32 +212,8 @@
   },
   "tjekket": "2026-10-26"
  },
- "magasin-hjemmepc": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-hytteliv": {
   "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-halsa-fitness": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-hastmagazinet": {
-  "Flipp": "nej",
   "Wype": "nej",
   "Pling": "nej",
   "Readly": "nej",
@@ -716,14 +250,6 @@
   },
   "tjekket": "2026-10-26"
  },
- "magasin-jagt-vildt-vaaben": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-jakt": {
   "Flipp": "bekraeftet",
   "Wype": "nej",
@@ -732,40 +258,8 @@
   "kilder": {},
   "tjekket": "2026-10-26"
  },
- "magasin-jaktmarker-fiskevatten": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-king": {
   "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-kloka-hem": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-kom-i-form-kvinna": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-kom-i-form-man": {
-  "Flipp": "nej",
   "Wype": "nej",
   "Pling": "nej",
   "Readly": "nej",
@@ -792,22 +286,6 @@
   },
   "tjekket": "2026-10-26"
  },
- "magasin-mad-venner": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-mad": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-magasinet-liv": {
   "Flipp": "nej",
   "Wype": "bekraeftet",
@@ -816,80 +294,6 @@
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "tjekket": "2026-10-26"
- },
- "magasin-magasinet-m": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-magasinet-q": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-mann": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-maries-ideer": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-modemagasinet-in": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-national-geografic": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "nordic-living": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-olivia": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {
-   "Flipp": "https://flipp.dk/magasiner/olivia"
-  },
-  "tjekket": "2026-10-26"
- },
- "magasin-penge-og-privatoekonomi": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-psykologi": {
@@ -902,14 +306,6 @@
   },
   "tjekket": "2026-10-26"
  },
- "magasin-rum-interioer-design": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-sallys": {
   "Flipp": "bekraeftet",
   "Wype": "nej",
@@ -918,32 +314,8 @@
   "kilder": {},
   "tjekket": "2026-10-26"
  },
- "magasin-saveur": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-scandinavian-retro": {
   "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-smag-og-behag": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-soundvenue": {
-  "Flipp": "nej",
   "Wype": "nej",
   "Pling": "nej",
   "Readly": "nej",
@@ -960,46 +332,6 @@
   },
   "tjekket": "2026-10-26"
  },
- "magasin-story": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-street-boys": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-surfing": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-tidens-kvinder": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-topmodel": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-utemagasinet": {
   "Flipp": "bekraeftet",
   "Wype": "nej",
@@ -1010,22 +342,6 @@
  },
  "magasin-vagabond": {
   "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-vi-baatagare": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-vi-med-hund": {
-  "Flipp": "nej",
   "Wype": "nej",
   "Pling": "nej",
   "Readly": "nej",
@@ -1084,14 +400,6 @@
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "tjekket": "2026-10-26"
- },
- "magasin-yoga-journal": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-aaka-skidor": {
@@ -1208,14 +516,6 @@
   },
   "tjekket": "2026-10-26"
  },
- "ugeblad-kig-ind": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "ugeblad-royal": {
   "Flipp": "nej",
   "Wype": "nej",
@@ -1244,14 +544,6 @@
   "kilder": {
    "Pling": "https://pling.dk/brands/?publicationId=33991"
   },
-  "tjekket": "2026-10-26"
- },
- "taet-paa-ugeblad": {
-  "Flipp": "nej",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "ugeblad-ude-og-hjemme": {
