@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { magasiner, priser, TJENESTER, prisTekst, udvalgFor, tjenesteInfo } from "../../lib/site";
+import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgFor, tjenesteInfo } from "../../lib/site";
 import Annonce from "../../components/Annonce.astro";
 
 export function getStaticPaths() {
@@ -11,86 +11,154 @@ const p = priser[t.key];
 const { danske, udenlandske } = udvalgFor(t.navn);
 const info = tjenesteInfo[t.key];
 const priser_liste = p ? Object.entries(p.prices) : [];
+const hoved = prisHoved(p);
+const intro = prisIntro(p);
+
+const farver = ["#123B3A", "#202C36", "#153C60", "#5B3A2E", "#4A3B52", "#2F4858", "#6B4A3A", "#33452F"];
+const farveFor = (s: string) => {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 9973;
+  return farver[h % farver.length];
+};
 ---
 
-<Base title={t.navn + " — pris, udvalg og hvad den koster | readmagasiner.dk"}
-      description={t.navn + ": se priser, prøveperiode og hvilke blade tjenesten har. Prisen tjekkes løbende af os."}>
-  <div class="wrap" style="padding-top:26px">
-    <p class="small"><a href="/">Forside</a> › <a href="/tjenester/">Tjenester</a> › <span>{t.navn}</span></p>
-  </div>
-  <div class="wrap">
-    <div class="layout">
-      <div class="main">
-                <article style="padding:18px 0 30px">
-          <h1 style="font-size:clamp(28px,4vw,42px)">{t.navn}</h1>
-          <p class="lead" style="color:var(--ink-soft);max-width:60ch;margin-top:12px">{t.note}</p>
-        <Annonce slot="mobile" />
-
-
-          <h2 style="margin-top:30px">Priser</h2>
-          <div class="tablewrap"><table style="margin-top:14px">
-            <thead><tr><th>Type</th><th>Pris</th></tr></thead>
-            <tbody>
-              {priser_liste.map(([k, v]) => (
-                <tr><td>{v.etikett ?? k}</td><td class="num">{prisTekst(v)}</td></tr>
-              ))}
-            </tbody>
-          </table></div>
-          <p class="meta" style="margin-top:10px">
-            {p?.checked_at ? "Tjekket " + p.checked_at.slice(0,10) : "Ikke tjekket endnu"}
-            {" · "}kilde: <a href={t.url} rel="nofollow noopener" target="_blank">{t.url.replace("https://","")}</a>
+<Base
+  title={t.navn + " — pris, udvalg og hvad den koster | readmagasiner.dk"}
+  description={t.navn + ": se priser, prøveperiode og hvilke blade tjenesten har. Prisen tjekkes løbende af os."}
+>
+  <section class="servicehero">
+    <div class="container">
+      <div class="bread"><a href="/">Forside</a> / <a href="/tjenester/">Tjenester</a> / {t.navn}</div>
+      <div class="servicesplit">
+        <div>
+          <p class="kicker">Magasintjeneste</p>
+          <h1>{t.navn}</h1>
+          <p class="lede">{t.note}</p>
+          <p style="margin-top:24px">
+            <a class="btn" href={t.url} rel="nofollow sponsored noopener" target="_blank">Besøg {t.navn} ↗</a>
+            <a class="link" href="/sammenlign/" style="margin-left:16px">Sammenlign tjenester →</a>
           </p>
+        </div>
 
-          {info.pris_fakta && info.pris_fakta.length > 0 && (
-            <>
-              <h2 style="margin-top:38px">Priser og betingelser</h2>
-              <p class="small" style="margin:8px 0 16px">
-                Hentet fra {t.navn}s egen FAQ. Det er de ting, der afgør, hvad du reelt betaler —
-                og hvornår du kan komme ud igen.
-              </p>
-              <div class="grid" style="grid-template-columns:1fr;gap:12px">
-                {info.pris_fakta.map((f) => (
-                  <div class="card">
-                    <h3 style="font-size:15.5px;margin:0 0 6px">{f.q}</h3>
-                    <p style="margin:0">{f.a}</p>
-                    <p class="meta" style="margin:8px 0 0">
-                      Kilde: <a href={f.kilde} rel="nofollow noopener" target="_blank">{t.navn}s FAQ</a> · hentet {f.hentet}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </>
-          )}
-
-          <h2 style="margin-top:38px">Danske udgivelser hos {t.navn} ({danske.length})</h2>
-          <p class="small" style="margin:8px 0 0">
-            Vi koncentrerer os om de danske udgivelser. Tjenesten har også udenlandske titler
-            {info.udenlandske_oplyst
-              ? ` — Pling viser ${info.udenlandske_oplyst} internationale brands på deres egen side`
-              : " — antallet oplyses ikke på tjenestens danske sider"}.
+        <div class="pricepanel">
+          <p class="kicker" style="margin-bottom:8px">Normalpris</p>
+          <p class="price">{prisTekst(hoved)}</p>
+          {intro
+            ? <p class="meta" style="margin:8px 0 0">{intro.etikett ?? "Introduktionstilbud"}: <strong>{prisTekst(intro)}</strong></p>
+            : <p class="meta" style="margin:8px 0 0">Vi har ikke registreret et introduktionstilbud.</p>}
+          <hr style="border:0;border-top:1px solid var(--line);margin:24px 0" />
+          <p class="meta" style="margin:0">
+            Sidst tjekket: {p?.checked_at ? p.checked_at.slice(0, 10) : "ikke tjekket endnu"}<br />
+            Kilde: <a href={t.url} rel="nofollow noopener" target="_blank">{t.url.replace("https://", "").replace(/\/$/, "")}</a>
           </p>
-          <div style="margin-top:14px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden">
-            {danske.slice(0, 80).map((m, i) => (
-              <a href={"/" + m.slug + "/"} style={i ? "display:block;padding:10px 16px;border-top:1px solid var(--line);text-decoration:none;color:inherit" : "display:block;padding:10px 16px;text-decoration:none;color:inherit"}>
-                <strong>{m.navn}</strong> <span class="small">{m.forlag ? "· " + m.forlag : ""}</span>
-              </a>
-            ))}
-          </div>
-          {danske.length > 80 && <p class="small" style="margin-top:8px">Viser de første 80 af {danske.length}.</p>}
-          {udenlandske.length > 0 && (
-            <p class="small" style="margin-top:14px">
-              {udenlandske.length} udenlandske titler er også registreret hos {t.navn}:
-              {" "}{udenlandske.map((m, i) => (<span>{i ? ", " : ""}{m.navn}</span>))}
-            </p>
-          )}
-
-          <p style="margin-top:28px">
-            <a class="btn" href={t.url} rel="nofollow sponsored noopener" target="_blank">Til {t.navn} →</a>
-          </p>
-          <p class="meta">Linket er et reklamelink. Vi får ikke betaling for det endnu — aftaler er ikke indgået.</p>
-        </article>
+        </div>
       </div>
-      <aside class="rail"><div class="sticky-rail"><Annonce slot="rail" /></div></aside>
     </div>
-  </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2 style="margin-bottom:24px">{t.navn} — hurtigt overblik</h2>
+      <div class="facts">
+        <div class="fact">
+          <small>Normalpris</small>
+          <b>{prisTekst(hoved)}</b>
+        </div>
+        <div class="fact">
+          <small>Danske titler</small>
+          <b>{danske.length}</b>
+        </div>
+        <div class="fact">
+          <small>Kampagnepris</small>
+          <b>{intro ? prisTekst(intro) : "Ingen"}</b>
+        </div>
+        <div class="fact">
+          <small>Udenlandske titler</small>
+          <b>{info.udenlandske_oplyst ?? "Ikke oplyst"}</b>
+        </div>
+      </div>
+      <p class="meta" style="margin-top:16px;max-width:70ch">
+        Tallene for danske titler er vores registreringer, ikke tjenestens egen opgørelse.
+        Vi udvider løbende, og et blad kan mangle uden at tjenesten har fjernet det.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="sectiontitle">
+        <div>
+          <h2>Danske udgivelser hos {t.navn}</h2>
+          <p class="lede">
+            {danske.length} danske blade er registreret hos tjenesten.
+            {udenlandske.length > 0 ? ` Derudover ${udenlandske.length} udenlandske titler i vores registrering.` : ""}
+          </p>
+        </div>
+        <a class="link" href="/magasiner/">Se alle magasiner →</a>
+      </div>
+
+      <div class="catalog">
+        {danske.slice(0, 60).map((m) => (
+          <a class="magcard" href={`/${m.slug}/`}>
+            <div class={`cover ${m.cover ? "cover--billede" : ""}`} style={`background:${farveFor(m.slug)}`}>
+              {m.cover && <img src={m.cover} alt={`Forside af ${m.navn}`} loading="lazy" width="300" height="400" />}
+              <small>{m.type === "ugeblad" ? "Ugeblad" : "Magasin"}</small>
+              <strong style="font-size:20px">{m.navn}</strong>
+            </div>
+            <h3>{m.navn}</h3>
+            <div class="meta">{m.forlag ?? (m.type === "ugeblad" ? "Ugeblad" : "Magasin")}</div>
+          </a>
+        ))}
+      </div>
+      {danske.length > 60 && <p class="meta">Viser de første 60 af {danske.length}.</p>}
+    </div>
+  </section>
+
+  {info.pris_fakta && info.pris_fakta.length > 0 && (
+    <section class="section alt">
+      <div class="container">
+        <h2 style="margin-bottom:8px">Priser og betingelser</h2>
+        <p class="lede" style="margin-bottom:24px">
+          Hentet fra {t.navn}s egen FAQ. Det er de ting, der afgør, hvad du reelt betaler — og hvornår du kan komme ud igen.
+        </p>
+        <div class="pros">
+          {info.pris_fakta.map((f) => (
+            <div class="panel">
+              <h3>{f.q}</h3>
+              <p style="margin:0">{f.a}</p>
+              <p class="meta" style="margin:10px 0 0">
+                Kilde: <a href={f.kilde} rel="nofollow noopener" target="_blank">{t.navn}s FAQ</a> · hentet {f.hentet}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section">
+    <div class="container">
+      <h2>Alle priser vi har registreret</h2>
+      <div class="tablewrap" style="margin-top:20px">
+        <table>
+          <thead><tr><th>Type</th><th class="num">Pris</th></tr></thead>
+          <tbody>
+            {priser_liste.map(([k, v]) => (
+              <tr><td>{v.etikett ?? k}</td><td class="num">{prisTekst(v)}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="meta" style="margin-top:14px">
+        {p?.checked_at ? `Tjekket ${p.checked_at.slice(0, 10)}` : "Ikke tjekket endnu"} · kilde:{" "}
+        <a href={t.url} rel="nofollow noopener" target="_blank">{t.url.replace("https://", "").replace(/\/$/, "")}</a>
+      </p>
+      <p style="margin-top:24px">
+        <a class="btn" href={t.url} rel="nofollow sponsored noopener" target="_blank">Til {t.navn} →</a>
+      </p>
+      <p class="meta">Linket er et reklamelink. Vi får ikke betaling for det endnu — aftaler er ikke indgået.</p>
+    </div>
+  </section>
+
+  <div class="container"><Annonce slot="billboard" /></div>
 </Base>
