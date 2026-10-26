@@ -1,6 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
-import { magasiner, priser, TJENESTER, prisTekst, prisHoved, udvalgFor } from "../lib/site";
+import { magasiner, priser, TJENESTER, prisTekst, prisHoved, udvalgFor, danskDato } from "../lib/site";
 import Annonce from "../components/Annonce.astro";
 
 const populære = [
@@ -109,7 +109,7 @@ const seks = populære.slice(0, 6);
               <div class="price">{prisTekst(prisHoved(p))}</div>
               <p>
                 {t.note}
-                {p?.checked_at ? ` · pris tjekket ${p.checked_at.slice(0, 10)}` : ""}
+                {p?.checked_at ? ` · pris tjekket ${danskDato(p.checked_at)}` : ""}
               </p>
               <a class="btn" href={`/tjenester/${t.key}/`}>Se {t.navn}</a>
             </article>

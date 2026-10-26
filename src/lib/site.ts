@@ -81,6 +81,14 @@ export function udvalgsStatus(slug: string, navn: string, ikkeDigitalt: boolean)
 }
 export const aiDato = "25. oktober 2026";
 
+/** 2026-10-25 -> 25.10.2026. Tomt input giver tom streng. */
+export function danskDato(iso?: string | null): string {
+  if (!iso) return "";
+  const d = String(iso).slice(0, 10);
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(d);
+  return m ? `${m[3]}.${m[2]}.${m[1]}` : d;
+}
+
 export const TJENESTER = [
   {
     key: "readly",

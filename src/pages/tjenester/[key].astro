@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgFor, tjenesteInfo } from "../../lib/site";
+import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgFor, tjenesteInfo, danskDato } from "../../lib/site";
 import Annonce from "../../components/Annonce.astro";
 
 export function getStaticPaths() {
@@ -56,7 +56,7 @@ const farveFor = (s: string) => {
             : <p class="meta" style="margin:8px 0 0">Vi har ikke registreret et introduktionstilbud.</p>}
           <hr style="border:0;border-top:1px solid var(--line);margin:24px 0" />
           <p class="meta" style="margin:0">
-            Sidst tjekket: {p?.checked_at ? p.checked_at.slice(0, 10) : "ikke tjekket endnu"}<br />
+            Sidst tjekket: {p?.checked_at ? danskDato(p.checked_at) : "ikke tjekket endnu"}<br />
             Kilde: <a href={t.url} rel="nofollow noopener" target="_blank">{t.url.replace("https://", "").replace(/\/$/, "")}</a>
           </p>
         </div>
@@ -158,7 +158,7 @@ const farveFor = (s: string) => {
         </table>
       </div>
       <p class="meta" style="margin-top:14px">
-        {p?.checked_at ? `Tjekket ${p.checked_at.slice(0, 10)}` : "Ikke tjekket endnu"} · kilde:{" "}
+        {p?.checked_at ? `Tjekket ${danskDato(p.checked_at)}` : "Ikke tjekket endnu"} · kilde:{" "}
         <a href={t.url} rel="nofollow noopener" target="_blank">{t.url.replace("https://", "").replace(/\/$/, "")}</a>
       </p>
       <p style="margin-top:24px">
