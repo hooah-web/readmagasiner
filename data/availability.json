@@ -1,910 +1,1234 @@
 {
  "magasin-active-escape": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-aktiv-traening": {
+  "Flipp": "ukendt",
+  "Wype": "bekraeftet",
+  "Pling": "ukendt",
+  "Readly": "ukendt",
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "Wype": "bekraeftet",
-  "Pling": "ukendt",
   "tjekket": "2026-10-26"
  },
  "magasin-allt-om-android": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-allt-om-appar": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-allt-om-bilar": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-allt-om-brollop": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-allt-om-canon": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-allt-om-historia": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-allt-om-hobby": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-allt-om-lchf": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-allt-om-mtb": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-allt-om-nikon": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-allt-om-panasonic": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-allt-om-resor": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-allt-om-vin": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-alt-for-damerne": {
-  "kilder": {},
+  "Flipp": "bekraeftet",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/alt-for-damerne"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-alt-om-data": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-alt-om-fiske": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-alt-om-haven": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-alt-om-historie": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-american-photo": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-antik-auktion": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-arkitektur": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-auto-motor-sport": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-bandyportfoljen": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-barbie": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-bbc-historia": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-big-game": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-bil-ekspressen": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-bil-magasinet": {
+  "Flipp": "ukendt",
+  "Wype": "bekraeftet",
+  "Pling": "ukendt",
+  "Readly": "ukendt",
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "Wype": "bekraeftet",
-  "Pling": "ukendt",
   "tjekket": "2026-10-26"
  },
  "magasin-bo-bedre": {
+  "Flipp": "ukendt",
+  "Wype": "bekraeftet",
+  "Pling": "ukendt",
+  "Readly": "ukendt",
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "Wype": "bekraeftet",
-  "Pling": "ukendt",
   "tjekket": "2026-10-26"
  },
  "magasin-bolig-magasinet": {
+  "Flipp": "ukendt",
+  "Wype": "bekraeftet",
+  "Pling": "ukendt",
+  "Readly": "ukendt",
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "Wype": "bekraeftet",
-  "Pling": "ukendt",
   "tjekket": "2026-10-26"
  },
  "magasin-boligliv": {
-  "kilder": {},
+  "Flipp": "bekraeftet",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/boligliv"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-baadnyt": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-baatnytt": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-capdesign": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-classic-motor": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-computer-sweden": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-costume": {
+  "Flipp": "ukendt",
+  "Wype": "bekraeftet",
+  "Pling": "ukendt",
+  "Readly": "ukendt",
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "Wype": "bekraeftet",
-  "Pling": "ukendt",
   "tjekket": "2026-10-26"
  },
  "magasin-costume-living": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-cover": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-cyclingplanet": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-dagens-media": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-daisy-beauty": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-digital-foto": {
-  "kilder": {},
-  "Wype": "ukendt",
+  "Flipp": "ukendt",
+  "Wype": "bekraeftet",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {
+   "Wype": "https://wype.dk/online-magasiner/"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-digitalfoto": {
-  "kilder": {
-   "Wype": "https://wype.dk/online-magasiner/"
-  },
-  "Wype": "bekraeftet",
+  "Flipp": "ukendt",
+  "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-dossier": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-elle": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-entreprenor": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-equipage": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-equus": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-escape-360": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-euroman": {
-  "kilder": {},
+  "Flipp": "bekraeftet",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/euroman"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-eurowoman": {
-  "kilder": {},
+  "Flipp": "bekraeftet",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/eurowoman"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-extra": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-fast-company": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-finansliv": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-fit-living": {
-  "kilder": {},
+  "Flipp": "bekraeftet",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/fit-living"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-fitness-for-men": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-flying": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-forskning-framsteg": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-fotoguiden": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-fotosidan": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-fotoskolan": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-frikvarter": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-foraldrar-barn": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-gaffa": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-gastro": {
-  "kilder": {},
+  "Flipp": "bekraeftet",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/gastro"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-girls-life-magazine": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-gods-gaardar": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-golf-digest": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-golfmagasinet": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-gourmet": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-gravid": {
-  "kilder": {},
+  "Flipp": "bekraeftet",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/gravid"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-goer-det-selv": {
+  "Flipp": "ukendt",
+  "Wype": "bekraeftet",
+  "Pling": "ukendt",
+  "Readly": "ukendt",
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "Wype": "bekraeftet",
-  "Pling": "ukendt",
   "tjekket": "2026-10-26"
  },
  "magasin-hendes-verden": {
-  "kilder": {},
+  "Flipp": "bekraeftet",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/hendes-verden"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-historie": {
+  "Flipp": "ukendt",
+  "Wype": "bekraeftet",
+  "Pling": "ukendt",
+  "Readly": "ukendt",
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "Wype": "bekraeftet",
-  "Pling": "ukendt",
   "tjekket": "2026-10-26"
  },
  "magasin-hjemmepc": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-hytteliv": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-halsa-fitness": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-hastmagazinet": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-i-form": {
+  "Flipp": "ukendt",
+  "Wype": "bekraeftet",
+  "Pling": "ukendt",
+  "Readly": "ukendt",
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "Wype": "bekraeftet",
-  "Pling": "ukendt",
   "tjekket": "2026-10-26"
  },
  "magasin-illustreret-videnskab": {
+  "Flipp": "ukendt",
+  "Wype": "bekraeftet",
+  "Pling": "ukendt",
+  "Readly": "ukendt",
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "Wype": "bekraeftet",
-  "Pling": "ukendt",
   "tjekket": "2026-10-26"
  },
  "magasin-isabellas": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-jagt-vildt-vaaben": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-jakt": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-jaktmarker-fiskevatten": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-king": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-kloka-hem": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-kom-i-form-kvinna": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-kom-i-form-man": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-komputer-for-alle": {
+  "Flipp": "ukendt",
+  "Wype": "bekraeftet",
+  "Pling": "ukendt",
+  "Readly": "ukendt",
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "Wype": "bekraeftet",
-  "Pling": "ukendt",
   "tjekket": "2026-10-26"
  },
  "magasin-mad-bolig": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-mad-venner": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-mad": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-magasinet-liv": {
+  "Flipp": "ukendt",
+  "Wype": "bekraeftet",
+  "Pling": "ukendt",
+  "Readly": "ukendt",
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "Wype": "bekraeftet",
-  "Pling": "ukendt",
   "tjekket": "2026-10-26"
  },
  "magasin-magasinet-m": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-magasinet-q": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-mann": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-maries-ideer": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-modemagasinet-in": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-national-geografic": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "nordic-living": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-olivia": {
-  "kilder": {},
+  "Flipp": "bekraeftet",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/olivia"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-penge-og-privatoekonomi": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-psykologi": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-rum-interioer-design": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-sallys": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-saveur": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-scandinavian-retro": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-smag-og-behag": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-soundvenue": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-spis-bedre": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-story": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-street-boys": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-surfing": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-tidens-kvinder": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-topmodel": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-utemagasinet": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-vagabond": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-vi-baatagare": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-vi-med-hund": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-vi-menn": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-vi-unge": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-villmarksliv": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-vores-boern": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-wendy": {
-  "kilder": {},
+  "Flipp": "bekraeftet",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/wendy"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-woman": {
+  "Flipp": "ukendt",
+  "Wype": "bekraeftet",
+  "Pling": "ukendt",
+  "Readly": "ukendt",
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "Wype": "bekraeftet",
-  "Pling": "ukendt",
   "tjekket": "2026-10-26"
  },
  "magasin-yoga-journal": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-aaka-skidor": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "ugeblad-7-tv-dage": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "ugeblad-anders-and": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "blad-anders-and-junior": {
-  "kilder": {},
+  "Flipp": "bekraeftet",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/anders-and-junior"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-basserne": {
-  "kilder": {},
+  "Flipp": "bekraeftet",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/basserne"
+  },
   "tjekket": "2026-10-26"
  },
  "ugeblad-billed-bladet": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "ugeblad-familie-journal": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "ugeblad-femina": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "ugeblad-goal": {
-  "kilder": {},
+  "Flipp": "bekraeftet",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/goal"
+  },
   "tjekket": "2026-10-26"
  },
  "ugeblad-her-nu": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "ugeblad-hjemmet": {
-  "kilder": {},
+  "Flipp": "bekraeftet",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/hjemmet"
+  },
   "tjekket": "2026-10-26"
  },
  "ugeblad-hjemmets-bedste-mad": {
-  "kilder": {},
+  "Flipp": "bekraeftet",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/hjemmets-bedste-mad"
+  },
   "tjekket": "2026-10-26"
  },
  "ugeblad-kig-ind": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "ugeblad-royal": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "ugeblad-se-og-hoer": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "ugeblad-soendag": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "taet-paa-ugeblad": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "ugeblad-ude-og-hjemme": {
-  "kilder": {},
+  "Flipp": "ukendt",
   "Wype": "ukendt",
   "Pling": "ukendt",
+  "Readly": "ukendt",
+  "kilder": {},
   "tjekket": "2026-10-26"
  }
 }
