@@ -5,7 +5,6 @@ import Annonce from "../../components/Annonce.astro";
 
 const mag = magasiner.filter((m) => m.type === "magasin" && m.land === "DK");
 const uge = magasiner.filter((m) => m.type === "ugeblad" && m.land === "DK");
-const udenlandske = magasiner.filter((m) => m.land !== "DK");
 
 const grupper = [
   { titel: "Ugeblade", liste: uge },
@@ -30,7 +29,7 @@ const farveFor = (s: string) => {
       <h1>Alle magasiner</h1>
       <p>
         {mag.length + uge.length} danske blade — alle kan læses digitalt hos mindst én af de fire
-        tjenester. Vi har også {udenlandske.length} udenlandske titler registreret.
+        tjenester.
       </p>
     </div>
   </section>
@@ -82,20 +81,6 @@ const farveFor = (s: string) => {
           </div>
         </div>
       ))}
-
-      {udenlandske.length > 0 && (
-        <div style="margin-bottom:40px">
-          <h2>Udenlandske titler ({udenlandske.length})</h2>
-          <p class="lede" style="margin:8px 0 16px">
-            De er registreret, fordi tjenesterne har dem, men de er ikke fokus for os.
-          </p>
-          <p>
-            {udenlandske.map((m) => (
-              <span class="pill" style="margin:0 6px 6px 0;display:inline-flex">{m.navn} · {m.land}</span>
-            ))}
-          </p>
-        </div>
-      )}
 
       <p class="meta" style="padding:8px 0 0">
         Kataloget dækker danske blade og udvides løbende. Alt indhold er AI-skrevet.
