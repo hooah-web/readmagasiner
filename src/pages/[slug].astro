@@ -128,7 +128,7 @@ const tjekket = Object.values(priser)
               <div style="display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap">
                 <div>
                   <p style="margin:0" class="small">{m.print.forlag === "Aller" ? "Aller Media" : "Story House Egmont"} · print</p>
-                  <p style="margin:4px 0 0;font-size:24px;font-weight:750;font-variant-numeric:tabular-nums">
+                  <p class="price price--lg" style="margin:4px 0 0">
                     {m.print.pris_fra ? `fra ${m.print.pris_fra} kr.` : "Se pris hos forlaget"}
                   </p>
                   {m.print.udgivelser && (

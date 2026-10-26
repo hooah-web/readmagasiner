@@ -1,0 +1,166 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base title="Designsystem — readmagasiner.dk" description="Tokens og komponenter bag readmagasiner.dk.">
+  <meta name="robots" content="noindex" />
+  <div class="wrap" style="padding-top:32px;max-width:900px">
+    <p class="eyebrow">Designsystem</p>
+    <h1 style="margin-top:8px">Byggeklodserne</h1>
+    <p class="lead" style="margin-top:16px">
+      Farver, typografi og komponenter. Alt er bygget med 8 px-afstande og kontrastverificerede farvepar.
+    </p>
+
+    <h2 style="margin-top:48px">Farver</h2>
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin-top:16px">
+      {[
+        ["Baggrund", "#FAF9F6", "--bg"],
+        ["Flade", "#FFFFFF", "--surface"],
+        ["Sekundær", "#F0F4F4", "--surface-2"],
+        ["Tekst", "#17212B", "--ink"],
+        ["Dæmpet", "#5A6B76", "--ink-muted"],
+        ["Accent", "#087F8C", "--accent"],
+        ["Accent tekst", "#07747F", "--accent-text"],
+        ["Kant", "#DFE5E6", "--border"],
+      ].map(([navn, hex, token]) => (
+        <div class="card" style="padding:12px">
+          <div style={`height:56px;border-radius:8px;background:${hex};border:1px solid var(--border)`}></div>
+          <p class="small" style="margin:10px 0 0;font-weight:600;color:var(--ink)">{navn}</p>
+          <p class="meta" style="margin:2px 0 0">{hex} · {token}</p>
+        </div>
+      ))}
+    </div>
+
+    <h2 style="margin-top:48px">Typografi</h2>
+    <div class="card" style="margin-top:16px">
+      <p class="eyebrow">Eyebrow · 12 px</p>
+      <h1 style="font-size:44px;margin-top:8px">Overskrift 1</h1>
+      <h2 style="margin-top:8px">Overskrift 2</h2>
+      <h3 style="margin-top:8px">Overskrift 3</h3>
+      <p class="lead" style="margin-top:8px">Lead — 18,5 px, dæmpet farve, maks 62 tegns bredde.</p>
+      <p>Brødtekst — 16,5 px med 1,6 linjeafstand.</p>
+      <p class="small">Lille tekst — 14 px</p>
+      <p class="meta">Metadata — 12,5 px</p>
+    </div>
+
+    <h2 style="margin-top:48px">Knapper</h2>
+    <div class="card" style="margin-top:16px;display:flex;gap:12px;flex-wrap:wrap;align-items:center">
+      <a class="btn" href="#">Primær</a>
+      <a class="btn btn--secondary" href="#">Sekundær</a>
+      <a class="btn btn--quiet" href="#">Rolig →</a>
+      <a class="btn btn--sm" href="#">Lille</a>
+      <a class="btn btn--sm btn--secondary" href="#">Lille sekundær</a>
+    </div>
+
+    <h2 style="margin-top:48px">Søgefelt</h2>
+    <div class="card" style="margin-top:16px">
+      <form class="search" role="search" onsubmit="return false">
+        <input type="search" placeholder="Søg på et blad…" aria-label="Søg" />
+        <button class="btn" type="submit">Søg</button>
+      </form>
+    </div>
+
+    <h2 style="margin-top:48px">Priser</h2>
+    <div class="card" style="margin-top:16px">
+      <div style="display:flex;gap:40px;flex-wrap:wrap;align-items:flex-end">
+        <div>
+          <p class="meta">Stor pris</p>
+          <p class="price price--lg">99 kr.<span class="price__unit"> /md.</span></p>
+          <span class="price__note">Ordinær pris</span>
+        </div>
+        <div>
+          <p class="meta">Mellem</p>
+          <p class="price price--md">14,99 €<span class="price__unit"> ≈ 112 kr.</span></p>
+        </div>
+        <div>
+          <p class="meta">Lille</p>
+          <p class="price price--sm">39 kr.</p>
+        </div>
+        <div>
+          <p class="meta">Kampagne</p>
+          <p class="price price--md price--accent">0 kr.<span class="price__unit"> første måned</span></p>
+        </div>
+      </div>
+    </div>
+
+    <h2 style="margin-top:48px">Badges og status</h2>
+    <div class="card" style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+      <span class="badge badge--ok">Ja · bekræftet</span>
+      <span class="badge">Ikke oplyst</span>
+      <span class="badge badge--warn">Arvet data</span>
+      <span class="badge badge--danger">Nej</span>
+      <span class="badge badge--accent">Ny pris</span>
+      <span class="badge badge--ghost">Ugeblad</span>
+    </div>
+    <div class="card" style="margin-top:16px;display:flex;gap:28px;flex-wrap:wrap">
+      <span class="status status--ok">Pris tjekket i dag</span>
+      <span class="status status--warn">Tjekket for 3 dage siden</span>
+      <span class="status status--danger">Kunne ikke hentes</span>
+      <span class="status status--unknown">Ikke oplyst</span>
+    </div>
+
+    <h2 style="margin-top:48px">Kort</h2>
+    <div class="grid grid--services" style="margin-top:16px">
+      <div class="card">
+        <div class="card__head">
+          <span class="card__title">Readly</span>
+          <span class="badge badge--ok">20 danske</span>
+        </div>
+        <p class="small" style="margin:8px 0 16px">Størst udvalg, flest internationale titler</p>
+        <p class="price price--lg">14,99 €<span class="price__unit"> ≈ 112 kr.</span></p>
+        <span class="price__note">Tjekket 26.10.2026</span>
+        <p class="card__foot"><a class="btn btn--secondary btn--sm" href="#">Se udvalg og priser</a></p>
+      </div>
+      <div class="card">
+        <div class="card__head">
+          <span class="card__title">Flipp</span>
+          <span class="badge badge--ok">15 danske</span>
+        </div>
+        <p class="small" style="margin:8px 0 16px">Dansk, stærk på ugeblade</p>
+        <p class="price price--lg">99 kr.<span class="price__unit"> /md.</span></p>
+        <span class="price__note">39 kr. for Egmont-abonnenter</span>
+        <p class="card__foot"><a class="btn btn--secondary btn--sm" href="#">Se udvalg og priser</a></p>
+      </div>
+    </div>
+
+    <h2 style="margin-top:48px">Tabel</h2>
+    <div class="tablewrap">
+      <table>
+        <thead>
+          <tr><th>Tjeneste</th><th>Har bladet</th><th class="num">Pris</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Pling</strong><span class="small" style="display:block">Aller</span></td>
+            <td><span class="badge badge--ok">Ja</span></td>
+            <td class="num">99 kr.</td>
+            <td><span class="status status--ok">Tjekket i dag</span></td>
+          </tr>
+          <tr>
+            <td><strong>Wype</strong><span class="small" style="display:block">Egmont</span></td>
+            <td><span class="badge">Ikke oplyst</span></td>
+            <td class="num">99 kr.</td>
+            <td><span class="status status--unknown">Ikke oplyst</span></td>
+          </tr>
+          <tr>
+            <td><strong>Readly</strong><span class="small" style="display:block">Svensk</span></td>
+            <td><span class="badge badge--ok">Ja</span></td>
+            <td class="num">14,99 €</td>
+            <td><span class="status status--warn">Manuel kontrol</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 style="margin-top:48px">8 px-skalaen</h2>
+    <div class="card" style="margin-top:16px">
+      {[8, 16, 24, 32, 40, 48, 56, 64].map((n) => (
+        <div style="display:flex;align-items:center;gap:16px;margin-bottom:8px">
+          <span class="meta" style="width:44px">{n}</span>
+          <span style={`display:inline-block;height:10px;width:${n}px;background:var(--accent);border-radius:3px`}></span>
+          <span class="meta">--s{n / 8}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+</Base>
