@@ -42,7 +42,15 @@ const farveFor = (s: string) => {
 
         <div class="pricepanel">
           <p class="kicker" style="margin-bottom:8px">Normalpris</p>
-          <p class="price">{prisTekst(hoved)}</p>
+          <p class="price">
+            {prisTekst(hoved).split(" ≈ ")[0]}
+            {prisTekst(hoved).includes(" ≈ ") && (
+              <>
+                <br />
+                <span style="font-size:.6em;font-weight:600;color:var(--muted)">≈ {prisTekst(hoved).split(" ≈ ")[1]}</span>
+              </>
+            )}
+          </p>
           {intro
             ? <p class="meta" style="margin:8px 0 0">{intro.etikett ?? "Introduktionstilbud"}: <strong>{prisTekst(intro)}</strong></p>
             : <p class="meta" style="margin:8px 0 0">Vi har ikke registreret et introduktionstilbud.</p>}
