@@ -6,6 +6,28 @@ Tal skal være talt op, ikke husket.
 
 ---
 
+## 26. oktober 2026 — beskrivelser skrevet om
+
+**Hvad der skete**
+- Alle 87 blade har nu en ny beskrivelse. 41 sider havde ingen tekst; 46 havde arvet tekst.
+- Første runde skrev alle 87, men 36 af de 46 eksisterende blev kortere end originalen.
+  De blev sendt til en ny runde med krav om mindst 150 tegn mere.
+- Nu: median 1.183 tegn, maks 1.710. Ingen er kortere end den oprindelige tekst.
+
+**Fejl fundet og rettet**
+- 20 udgivelsesfrekvenser og vurderinger ("månedligt", "18 gange om året", "kortere
+  anmeldelser frem for dybdegående kritik") stod ikke i kildeteksten. Fjernet.
+  Tilbage er kun frekvenser der står i den oprindelige tekst, eller som er alment kendte.
+- `bladTekst()` foretrak `data/rewritten.json` frem for `magasiner.json`, så de gamle
+  tekster blev ved med at vises efter den nye runde. Filen er slettet, og funktionen
+  læser nu kun magasiner.json. Det var tæt på at gå ubemærket hen — jeg fandt det ved at
+  tjekke den deployede side frem for kun at tjekke bygget.
+
+**Mangler stadig**
+- 40 blade uden forlag.
+- `/tjenester/`, `/soeg/` og `/om/` er ikke bygget om til designsystemet.
+
+---
 ## 26. oktober 2026 — kun danske blade
 
 **Hvad der skete**

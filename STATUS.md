@@ -68,7 +68,6 @@ Trackinglink er Adtractions, mærket "Annonce", `rel="nofollow sponsored"`.
 ## Kendte mangler
 
 ```
-41 blade uden beskrivelse    (de 21 nye sider har ingen tekst endnu)
 40 blade uden forlag
 /tjenester/, /soeg/, /om/    ikke bygget om til det nye designsystem
 ```
