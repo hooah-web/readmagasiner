@@ -95,7 +95,7 @@ export const TJENESTER = [
     key: "readly",
     navn: "Readly",
     url: "https://readly.com/da-dk/",
-    note: "Størst udvalg, flest internationale titler",
+    note: "Svensk tjeneste med danske og udenlandske blade",
   },
   {
     key: "flipp",
