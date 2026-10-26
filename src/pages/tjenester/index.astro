@@ -11,13 +11,14 @@ import { magasiner, priser, TJENESTER, prisTekst, prisHoved } from "../../lib/si
   <div class="wrap">
     <div class="layout">
       <div class="main">
-        <div class="ad ad-mobile">300 × 250</div>
-        <div style="padding:18px 0 6px">
+                <div style="padding:18px 0 6px">
           <h1 style="font-size:clamp(28px,4vw,42px)">Tjenesterne</h1>
           <p class="lead" style="color:var(--ink-soft);max-width:62ch;margin-top:12px">
             Fire tjenester deler det danske marked. De ligner hinanden i pris, men ikke i udvalg.
           </p>
         </div>
+        <div class="ad ad-mobile">300 × 250</div>
+
         <div class="grid svc" style="padding:14px 0 30px">
           {TJENESTER.map((t) => {
             const p = priser[t.key];
