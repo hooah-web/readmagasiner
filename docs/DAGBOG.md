@@ -6,6 +6,28 @@ Tal skal være talt op, ikke husket.
 
 ---
 
+## 26. oktober 2026 — SEO-gennemgang
+
+**Hvad der skete**
+- SEO-gennemgang af alle 98 sider, 97 indekserbare.
+- Titler: fra median 61 tegn til 52. Ingen over 60. Ingen dubletter.
+- Meta-beskrivelser: alle 130-158 tegn, ingen dubletter. Før lå 47 uden for intervallet.
+- 87 bladsider hed alle "X — digitalt eller i postkassen". Nu siger titlen hvad
+  siden giver: "BoligLiv: læs digitalt hos Flipp | readmagasiner.dk".
+- Strukturerede data tilføjet: WebSite + SearchAction og Organization på forsiden,
+  BreadcrumbList på alle 87 bladsider og fire tjenestesider. Der var ingen før.
+- scripts/seo_audit.py tjekker længder og dubletter ved hvert build.
+
+**Fejl fundet undervejs**
+- Første udgave klippede beskrivelserne midt i en ledsætning ("…og har i mere.").
+  Nu bruges kun hele sætninger, ellers en kort faktuel indledning.
+- Styleguiden havde to h1; rettet, så alle sider har præcis én.
+
+**Mangler stadig**
+- Intern linkstruktur mellem beslægtede blade kan blive bedre (nu kun 6 tilfældige).
+- Ingen måling af Core Web Vitals endnu.
+
+---
 ## 26. oktober 2026 — beskrivelser skrevet om
 
 **Hvad der skete**
