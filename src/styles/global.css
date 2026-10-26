@@ -28,7 +28,9 @@ nav.main a:hover{color:var(--ink);text-decoration:none}
 @media(max-width:820px){ nav.main{display:none} }
 
 .layout{display:grid;grid-template-columns:minmax(0,1fr)}
-@media(min-width:1180px){ .layout{grid-template-columns:minmax(0,1fr) var(--rail);gap:34px;align-items:start} }
+@media(min-width:1180px){ .layout{grid-template-columns:minmax(0,1fr) var(--rail);gap:34px;align-items:stretch} }
+/* sticky kræver at spalten har højde nok til at kunne følge med */
+@media(min-width:1180px){ aside.rail{align-self:stretch} .rail-inner{height:100%} }
 aside.rail{display:none}
 @media(min-width:1180px){ aside.rail{display:block} }
 .sticky-rail{position:sticky;top:84px}

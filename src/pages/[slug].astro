@@ -1,6 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
-import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgsStatus, afsnit } from "../lib/site";
+import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgsStatus, afsnit, bladTekst } from "../lib/site";
 
 export function getStaticPaths() {
   return magasiner.map((m) => ({ params: { slug: m.slug }, props: { m } }));
@@ -33,6 +33,16 @@ const tjekket = Object.values(priser)
         <div class="ad ad-mobile">300 × 250</div>
 
         <article style="padding:18px 0 30px">
+          <div style="display:flex;gap:22px;align-items:flex-start;margin-bottom:6px">
+            {m.cover
+              ? <img src={m.cover} alt={`Forside af ${m.navn}`} width="150" height="198" loading="eager"
+                     style="width:150px;height:198px;object-fit:cover;border-radius:8px;border:1px solid var(--line);background:#fff;flex:none" />
+              : <div aria-hidden="true" style="width:150px;height:198px;border-radius:8px;flex:none;
+                     background:linear-gradient(145deg,#123456,#0A63AE);color:#fff;display:flex;align-items:center;
+                     justify-content:center;font-size:44px;font-weight:800;letter-spacing:-.03em">
+                  {m.navn.slice(0,2).toUpperCase()}
+                </div>}
+            <div style="min-width:0">
           <h1 style="font-size:clamp(28px,4vw,44px)">
             {m.navn}
             {m.lukket && <span class="tag no" style="vertical-align:middle;margin-left:10px;font-size:13px">Nedlagt</span>}
@@ -43,6 +53,8 @@ const tjekket = Object.values(priser)
             {m.maalgruppe ? ` · ${m.maalgruppe}` : ""}
             {m.land !== "DK" ? ` · ${m.land}` : ""}
           </p>
+            </div>
+          </div>
 
           <h2 style="margin-top:32px">Læs {m.navn} digitalt</h2>
           {harNogen ? (
@@ -121,9 +133,9 @@ const tjekket = Object.values(priser)
           </div>
 
           <h2 style="margin-top:42px">Om bladet</h2>
-          {m.beskrivelse
+          {bladTekst(m)
             ? <div style="margin-top:10px;max-width:68ch">
-                {afsnit(m.beskrivelse).map((a) => <p style="margin:0 0 12px">{a}</p>)}
+                {afsnit(bladTekst(m)).map((a) => <p style="margin:0 0 12px">{a}</p>)}
               </div>
             : <div class="card" style="margin-top:12px">
                 <p style="margin:0">Vi har ikke en selvstændig beskrivelse af bladet endnu.</p>

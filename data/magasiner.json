@@ -41,7 +41,9 @@
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6215/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/aktiv-traening/"
  },
  {
   "navn": "Allt om Android",
@@ -680,7 +682,9 @@
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6193/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/bil-magasinet/"
  },
  {
   "navn": "Bitcoin – og andre digitale valutaer",
@@ -729,7 +733,9 @@
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6199/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/bo-bedre/"
  },
  {
   "navn": "Bolig Magasinet",
@@ -753,7 +759,9 @@
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6197/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/bolig-magasinet/"
  },
  {
   "navn": "BoligLiv",
@@ -901,7 +909,9 @@
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6195/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/costume/"
  },
  {
   "navn": "Costume Living",
@@ -1048,7 +1058,9 @@
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6205/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/digital-foto/"
  },
  {
   "navn": "DigitalFoto",
@@ -1724,7 +1736,9 @@
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6207/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/goer-det-selv/"
  },
  {
   "navn": "Hendes Verden",
@@ -1772,7 +1786,9 @@
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6213/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/historie/"
  },
  {
   "navn": "HjemmePC",
@@ -1876,7 +1892,9 @@
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6203/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/i-form/"
  },
  {
   "navn": "Illustreret Videnskab",
@@ -1900,7 +1918,9 @@
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6209/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/illustreret-videnskab/"
  },
  {
   "navn": "iPad-bogen",
@@ -2163,7 +2183,9 @@
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6211/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/komputer-for-alle/"
  },
  {
   "navn": "Kroppen Junior",
@@ -2276,7 +2298,9 @@
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6201/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/magasinet-liv/"
  },
  {
   "navn": "Magasinet M",
@@ -3149,7 +3173,9 @@
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6873/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/woman/"
  },
  {
   "navn": "Yoga Journal",

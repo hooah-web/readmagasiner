@@ -1,0 +1,582 @@
+{
+ "magasin-active-escape": {
+  "tekst": "Active Escape er et magasin for dem, der søger aktive ferieoplevelser og udfordringer. \n\nDet henvender sig til læsere, der elsker sportsgrene som ski, surfing, golf, sejlsport, vandring og klatring. \n\nI bladet finder man inspiration til aktive ferier og information om forskellige adrenalinsport.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-aktiv-traening": {
+  "tekst": "Aktiv Træning er et magasin for alle, der elsker at dyrke motion. Det henvender sig til både nybegyndere og erfarne sportsudøvere, herunder løbere og crossfit-udøvere.\n\nBladet indeholder artikler om motion, kost og udstyr samt produktanmeldelser, der hjælper læserne med at vælge træningsudstyr som løbe-ure og cykler. \n\nAktiv Træning udkommer en gang om måneden og tilbyder også ekstra læsning på deres hjemmeside, hvor man kan følge sin træning og finde motivation til en aktiv livsstil.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-allt-om-android": {
+  "tekst": "Allt om Android er et magasin, der fokuserer på Android-telefoner og -tablets. \n\nDet henvender sig primært til brugere af Android-enheder, men kan også læses af iPhone- og iPad-ejere. \n\nMagasinet indeholder tests af forskellige Android-enheder og apps samt råd til køb af nye enheder.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-allt-om-appar": {
+  "tekst": "Allt om appar er et magasin, der fokuserer på apps til smartphones. \n\nDet henvender sig til alle smartphone-ejere, uanset om de bruger Apple, Android eller Windows. \n\nMagasinet tilbyder forslag til nye apps samt tips til at optimere brugen af eksisterende apps.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-allt-om-bilar": {
+  "tekst": "Allt om bilar er et magasin, der fokuserer på biler og bilrelaterede emner. \n\nDet henvender sig til både almindelige bilinteresserede og dem, der har en forkærlighed for luksusbiler. \n\nI bladet finder man artikler og tests, der er relevante og anvendelige for læserne, uanset om de er interesserede i dyre sportsvogne eller mere almindelige biler.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-allt-om-brollop": {
+  "tekst": "Allt om Bröllop er et svensk bryllupsmagasin. \n\nDet henvender sig til personer, der snart skal giftes. \n\nI bladet finder man information om bryllupstrends, mode, invitationer, kjoler, ringe, skønhed, bryllupsrejser og blomster.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-allt-om-canon": {
+  "tekst": "Allt om Canon er et magasin, der fokuserer udelukkende på Canon kameraer. \n\nDet henvender sig til både professionelle fotografer og hobbyister, der ønsker at forbedre deres færdigheder. \n\nMagasinet indeholder tests og guides, der hjælper læserne med at få mest muligt ud af deres Canon kamera.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-allt-om-historia": {
+  "tekst": "Allt om historia er et magasin, der fokuserer på historiske emner. \n\nDet henvender sig til læsere med interesse for historie, uanset om det er romertiden, 2. verdenskrig eller andre perioder. \n\nMagasinet indeholder artikler, der dækker forskellige historiske temaer og begivenheder.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-allt-om-hobby": {
+  "tekst": "Allt om Hobby er et magasin, der fokuserer på modeller af fly, skibe, tog, biler og andre emner inden for modelverden. \n\nBladet henvender sig til både entusiaster, der bygger modeller, og dem, der blot interesserer sig for at se på dem. \n\nI bladet finder man artikler og billeder relateret til forskellige modeller og hobbyprojekter.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-allt-om-lchf": {
+  "tekst": "Allt om LCHF er et magasin, der fokuserer på kost med få kulhydrater og meget fedt. \n\nDet henvender sig til læsere, der er interesseret i LCHF-diæten og lignende kostformer, som stenalderkost. \n\nI bladet finder man opskrifter og tips til at reducere kulhydratindtaget.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-allt-om-mtb": {
+  "tekst": "Allt om MTB er et magasin dedikeret til mountainbiking og sportens forskellige aspekter. \n\nDet henvender sig til entusiaster og personer, der ønsker at forbedre deres færdigheder inden for mountainbiking. \n\nI bladet finder man inspiration til cykelkøb samt tips til bedre kørsel.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-allt-om-nikon": {
+  "tekst": "Allt om Nikon er et magasin, der fokuserer på kameraer fra Nikon. \n\nBladet henvender sig til både nuværende og potentielle ejere af Nikon-kameraer samt fotografer, der ønsker at forbedre deres færdigheder. \n\nI magasinet finder man artikler, tests og tips til at tage bedre billeder, uanset hvilket kamera man bruger.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-allt-om-panasonic": {
+  "tekst": "Allt om Panasonic er et magasin, der fokuserer på Panasonic-kameraer og relaterede emner. \n\nDet henvender sig til fotografer og entusiaster, der er interesseret i Panasonic-produkter, samt dem, der søger inspiration til kamerakøb. \n\nMagasinet indeholder tips til fotografering og vejledning til at tage bedre billeder, uanset hvilket kamera man bruger.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-allt-om-resor": {
+  "tekst": "Allt om resor er et rejsemagasin, der fokuserer på rejseinspiration og tips til ferier. \n\nMagasinet henvender sig til rejselystne, der søger information til både nordiske og sydlige destinationer. \n\nI bladet finder man artikler, billeder samt råd til en vellykket rejse, herunder tips til lufthavnen.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-allt-om-vin": {
+  "tekst": "Allt om Vin er et magasin, der beskæftiger sig med vin. \n\nDet henvender sig til vinentusiaster og dem, der ønsker at lære mere om vinverdenen. \n\nI bladet finder man vintips, madforslag, artikler om vin og vinsmagning samt forslag til vinrejser.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-alt-for-damerne": {
+  "tekst": "Alt for damerne er et magasin, der dækker emner fra damernes univers, herunder mode, sundhed og interessante personer. \n\nBladet henvender sig primært til kvinder, men mange artikler er også relevante for mænd. \n\nIndholdet inkluderer tips, tricks og aktuelle temaer, der varierer med årstiderne, samt ekstra læsning på hjemmesiden. \n\nBladet udkommer ugentligt.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-alt-om-data": {
+  "tekst": "Alt om data er et blad, der fokuserer på elektroniske genstande som mobiltelefoner og computere. \n\nDet henvender sig til både erfarne brugere og nybegyndere, der ønsker at optimere deres brug af teknologi. \n\nBladet indeholder tips, tricks, produktanmeldelser og artikler om ny udvikling inden for data og elektronik. Det udkommer 17 gange om året.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-alt-om-fiske": {
+  "tekst": "Alt om fiske er et sportsfiskeri-magasin, der dækker emner fra lystfiskerhistorier til tekniske aspekter af fiskeri. \n\nBladet henvender sig primært til sportsfiskere, men inkluderer også guides til nybegyndere, så der er indhold for alle niveauer. \n\nLæserne finder artikler om fisketeknikker, fiskens adfærd og konkurrencer, der gør det lettere at forstå og deltage i sporten. \n\nAlt om fiske udkommer 10 gange årligt.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-alt-om-haven": {
+  "tekst": "Alt om haven er et månedligt blad, der tilbyder inspiration, tips og tricks til havearbejde. \n\nBladet henvender sig til haveelskere, uanset om de er nybegyndere eller erfarne gartnere. \n\nI bladet finder man alt fra praktiske råd til køkkenhaven til dybdegående historier om inspirerende personer og deres haver. Det indeholder også guides til årstidens opgaver, som hjælper læserne med at planlægge deres havearbejde.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-alt-om-historie": {
+  "tekst": "Alt om historie er et blad, der fokuserer på historiske emner og nyheder. \n\nDet henvender sig til læsere med interesse for historie, herunder dem, der ønsker at lære mere eller genopfriske deres viden. \n\nBladet indeholder artikler, tips om bøger, udstillinger, spørgsmål og svar samt specielle sider om dansk historie. Det udkommer 14 gange årligt.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-american-photo": {
+  "tekst": "American Photo er et magasin om fotografering, der henvender sig til både professionelle fotografer og hobbyinteresserede. \n\nBladet indeholder interessante artikler og et væld af billeder, der appellerer til læsere med forskellige niveauer af erfaring. \n\nDet er en kilde til inspiration og viden inden for fotografi.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-antik-auktion": {
+  "tekst": "Antik & Auktion er et magasin, der fokuserer på antikviteter og indretning. \n\nDet henvender sig til personer, der interesserer sig for at finde og indrette med antikke genstande, samt dem, der søger inspiration til deres bolig. \n\nBladet indeholder tips til indretning, vurdering af antikviteter, samt artikler om kunstnere og stilarter. Derudover tilbyder det information om loppemarkeder og internetshopping.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-arkitektur": {
+  "tekst": "Magasinet Arkitektur omhandler arkitektur i forskellige former. \n\nDet henvender sig til læsere med interesse for unikke bygninger, møbler og indretning. \n\nI bladet finder man inspiration og idéer til både byggeri og indretning.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-auto-motor-sport": {
+  "tekst": "Auto motor & Sport er et bilmagasin, der tester biler og dækker nyheder fra bilindustrien. \n\nDet henvender sig til bilentusiaster og personer med interesse for biler, der ønsker at læse om både luksus- og almindelige biler. \n\nMagasinet indeholder anmeldelser, tests og artikler om forskellige bilmodeller samt konkurrencer og aktiviteter for læserne. \n\nDet udkommer i Sverige og har en hjemmeside med yderligere indhold.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-bandyportfoljen": {
+  "tekst": "Bandyportföljen er et magasin, der fokuserer på ishockey og i mindre grad almindelig hockey. \n\nDet henvender sig til både aktive spillere og fans af sporten. \n\nMagasinet indeholder interessante artikler og tips til at forbedre spillet.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-barbie": {
+  "tekst": "Barbie er et blad, der centrerer sig om den kendte figur Barbie og hendes univers. \n\nBladet henvender sig primært til piger i alderen 4-7 år og fokuserer på prinsessetemaer. \n\nIndholdet inkluderer aktiviteter, lege, plakater og små historier, der engagerer både børn og forældre. \n\nBarbie udkommer hver 4. uge.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-bbc-historia": {
+  "tekst": "BBC Historia er et magasin, der fokuserer på historiske begivenheder og personer. \n\nDet henvender sig til læsere med interesse for historie og dem, der ønsker at forstå nutiden gennem fortiden. \n\nMagasinet indeholder artikler skrevet af specialister, der dækker emner fra det gamle Egypten til Anden Verdenskrig, med fokus på nyeste forskning.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-big-game": {
+  "tekst": "Big Game er et jagtmagasin, der fokuserer på højkvalitets indhold om jagtoplevelser fra hele verden. \n\nBladet henvender sig til jægere, der ønsker at udforske nye jagtmarker og få inspiration til deres egne jagteventyr. \n\nI bladet finder man historier fra forskellige jagtområder, tips til udstyr og opdateringer om nyheder i jagtverdenen, herunder regler og muligheder.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-bil-ekspressen": {
+  "tekst": "Bil ekspressen er et bilmagasin for bilentusiaster med interesse for motorer og hastighed. \n\nBladet henvender sig til personer, der har en passion for biler og ønsker at følge med i de nyeste modeller og trends. \n\nI Bil ekspressen finder man testkørsler, interviews, motorsportsdækning samt forbrugerstof til bilejere. Desuden indeholder det historier om mandemode og har en tilhørende webside med videoer og nyheder.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-bil-magasinet": {
+  "tekst": "Bil magasinet er et blad for bilentusiaster, der har en passion for biler og bilkultur. \n\nDet henvender sig til læsere, der ønsker at følge med i bilmarkedets udvikling og de nyeste modeller, samt dem der har interesse for klassiske biler. \n\nI bladet finder man artikler om nye biler, teknologiske fremskridt og præstationer, samt indhold om klassiske bilers design og værdi.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-bo-bedre": {
+  "tekst": "Bo Bedre er Danmarks største boligmagasin, der har eksisteret i over 50 år. Magasinet tilbyder inspiration til boligen med tips, tricks og ideer til en bedre livsstil.\n\nBladet henvender sig primært til mænd og kvinder mellem 30 og 64 år, hvoraf størstedelen er kvinder. Læserne har høje krav til boliginteriør og kvalitet.\n\nIndholdet består af dybdegående artikler skrevet af dygtige journalister, suppleret med professionelle billeder. Bo Bedre er kendt for at spotte fremtidige tendenser inden for boligindretning. \n\nBo Bedre udgives månedligt.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-bolig-magasinet": {
+  "tekst": "Bolig Magasinet er et månedligt magasin, der fokuserer på boligindretning. \n\nDet henvender sig til læsere, der søger inspiration og idéer til at forandre deres hjem. \n\nBladet præsenterer artikler om forskellige indretningstemaer, som eksempelvis Make-over, og tilbyder tips til både budgetvenlige løsninger og mere omfattende forvandlinger.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-boligliv": {
+  "tekst": "BoligLiv er et magasin, der fokuserer på livet med en bolig, men indeholder også mange livsstilsartikler uden for boligindretning. \n\nDet henvender sig til læsere, der ønsker inspiration til både bolig og livsstil, herunder opskrifter og indretningstips. \n\nMagasinet byder på aktuelle artikler om sæsonbestemte emner, som ferietid, samt tips til sommeraktiviteter og opskrifter. \n\nBoligLiv udkommer månedligt.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-baadnyt": {
+  "tekst": "BådNyt er et magasin for sejlere, der ønsker inspiration til deres passion for sejlads. \n\nDet henvender sig til både erfarne sejlere og nybegyndere, der ønsker at lære mere om bådsejlads. \n\nI bladet finder man vejledninger til reparationer, motortjek, test og anmeldelser samt gode råd til køb af brugte både. BådNyt udkommer 14 gange årligt.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-baatnytt": {
+  "tekst": "Båtnytt er et blad om både, der henvender sig til både entusiaster og nybegyndere, der søger information og inspiration til bådkøb. \n\nBladet indeholder guides, tests, små historier og billeder, der kan inspirere læserne til deres egne bådprojekter. \n\nDet er skrevet af kyndige journalister og fotografer, hvilket sikrer en dybdegående og relevant dækning af bådverdenen.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-capdesign": {
+  "tekst": "CAP&Design er et magasin, der fokuserer på grafisk design. \n\nDet henvender sig til både professionelle designere og designinteresserede. \n\nI bladet finder man artikler om designtrends, interviews med designere og inspiration til kreative projekter.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-classic-motor": {
+  "tekst": "Classic motor er et svensk nichemagasin, der fokuserer på veteranbiler og klassiske køretøjer. \n\nDet henvender sig til bilentusiaster, der har en interesse for biler, motorcykler og knallerter, der er over 20 år gamle. \n\nMagasinet indeholder billeder og beskrivelser af klassiske modeller samt artikler om deres historiske betydning og udvikling.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-computer-sweden": {
+  "tekst": "Computer Sweden er et magasin, der fokuserer på IT og business. \n\nBladet henvender sig til professionelle og beslutningstagere inden for IT-branchen. \n\nDet indeholder artikler om, hvordan IT kan forbedre forretningsgange og innovation på internettet.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-costume": {
+  "tekst": "Costume er et månedligt blad, der fokuserer på mode, sundhed og livsstil. \n\nBladet henvender sig primært til kvindelige læsere, især de yngre, men har også indhold, der appellerer til en bredere målgruppe. \n\nI Costume finder man historier, portrætter af kendte, interviews og billeder af tøjvalg. Bladet indeholder også sæsonbestemte temaer og har en omfattende online afdeling med ekstra materiale og artikler.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-cover": {
+  "tekst": "Cover er et dameblad, der fokuserer på kendte personer og deres historier. \n\nBladet henvender sig til læsere, der er interesseret i livsstil, mode og blogindhold fra populære bloggere. \n\nI Cover finder man interviews, livsstilsartikler, mode- og rejsetips samt meninger fra bloggere, hvilket giver en bred vifte af spændende læsning. \n\nBladet udkommer hver måned.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-cyclingplanet": {
+  "tekst": "CyclingPlanet er et magasin, der fokuserer på cykelsporten. Det henvender sig til både cykelfans og udøvere, der ønsker at følge med i sporten.\n\nBladet tilbyder forskellige vinkler på cykelsport, herunder kostvejledning, anmeldelser af cykler og gadgets samt interviews med professionelle cyklister. Der er også fokus på dansk cykelsport og amatørernes aktiviteter.\n\nCyclingPlanet arrangerer desuden sit eget cykelløb, som læsere kan tilmelde sig. Magasinet har aktuelt fokus på Tour de France.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-dagens-media": {
+  "tekst": "Dagens Media er et magasin, der fokuserer på marketing og medievalg. \n\nDet henvender sig til personer, der arbejder i eller har interesse for kommunikationsbranchen. \n\nI bladet finder man indhold om medier og markedsføring, der giver læserne nye indsigter og inspiration.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-daisy-beauty": {
+  "tekst": "Daisy Beauty er et skønhedsmagasin, der fokuserer på makeup, hudpleje, hår, negle, mode, sundhed og psykologi. \n\nBladet henvender sig til læsere, der interesserer sig for mode og æstetik. \n\nI Daisy Beauty finder man inspiration og tips til både indre og ydre skønhed.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-digital-foto": {
+  "tekst": "Digital Foto handler om fotografi og fokuserer på, hvordan man tager professionelle billeder og forbedrer sine færdigheder. \n\nBladet henvender sig til både amatør- og professionelle fotografer, der ønsker inspiration og viden om fotografering. \n\nI bladet finder man flotte billeder, konkurrencer, guides, kurser og tests af fotoudstyr, der hjælper læserne med at udvikle deres evner og træffe informerede køb.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-digitalfoto": {
+  "tekst": "DigitalFoto er et magasin, der fokuserer på fotografering, billedredigering og fotogadgets. \n\nDet henvender sig til både nybegyndere og erfarne fotografer, der ønsker at forbedre deres færdigheder. \n\nI bladet finder man dybdegående artikler samt kortere tips, der gør det lettere at lære og anvende fotografiske teknikker.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-dossier": {
+  "tekst": "Dossier er et mandemagasin, der udkom første gang i slutningen af oktober 2016. \n\nDet henvender sig til mænd, der interesserer sig for business, kultur, livsstil og mode. \n\nI magasinet finder man interviews med kendte personligheder som Lukas Forchhammer, Michael Laudrup og Nikolaj Coster-Waldau. \n\nDossier planlægger at udgive fire numre i 2017.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-elle": {
+  "tekst": "ELLE er et modemagasin, der fokuserer på både dansk og international mode. \n\nBladet henvender sig til kvinder, der interesserer sig for mode samt stjerner fra mode-, film- og kunstverdenen. \n\nI ELLE finder man artikler om sæsonens mode, gossip og konkurrencer, skrevet af kompetente kvinder. \n\nELLE udkommer 12 gange årligt.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-entreprenor": {
+  "tekst": "Magasinet Entreprenör henvender sig til personer med interesse for iværksætteri og innovation. \n\nDet er relevant for både kommende og etablerede virksomhedsejere, der ønsker inspiration og indsigt. \n\nBladet indeholder artikler om innovative mennesker, deres motivationer, strategier og levevilkår.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-equipage": {
+  "tekst": "Equipage er et magasin for ryttere og hesteentusiaster, der interesserer sig for både fritids- og konkurrence ridning. \n\nBladet henvender sig til alle, der rider eller har interesse for ridning. \n\nLæserne kan finde artikler om forbedring af ridefærdigheder samt de nyeste trends inden for ridemode.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-equus": {
+  "tekst": "EQUUS er et magasin med fokus på hestepleje, hesteadfærd og relaterede emner. \n\nDet henvender sig til både professionelle ryttere og hobbyryttere samt hesteelskere generelt. \n\nI bladet finder man artikler om pleje, træning og adfærd hos heste.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-escape-360": {
+  "tekst": "ESCAPE 360 er et luksus livsstilsmagasin, der fokuserer på rejser og oplevelser uden for de traditionelle chartertilbud. \n\nDet henvender sig til rejsende, der søger inspiration til nye destinationer og oplevelser. \n\nI magasinet finder man artikler om byer, strande, shopping, kultur, mad, underholdning, eventyr og afslapning.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-euroman": {
+  "tekst": "Euroman er et dansk livsstilsmagasin, der fokuserer på emner som tøj, sport, kultur og gadgets. \n\nBladet henvender sig til mænd i alderen 18 til 60 år, der interesserer sig for livsstil og ønsker at være opdateret på samfundet. \n\nIndholdet består af artikler skrevet af dygtige journalister, der leverer kvalitetsindhold og professionelle billeder. \n\nEuroman udkommer én gang om måneden og udgives af Egmont.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-eurowoman": {
+  "tekst": "Eurowoman er et månedligt blad, der henvender sig til kvinder og fokuserer på emner relateret til livsstil og mode. \n\nBladet retter sig mod læsere, der søger inspiration og underholdning i deres hverdag, med et særligt fokus på kvinders udfordringer. \n\nIndholdet inkluderer interviews med kendte personligheder samt artikler om mode og livsstil, der kan inspirere og engagere læserne. \n\nEurowoman udkommer månedligt.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-extra": {
+  "tekst": "Extra er et klassisk ugeblad, der skildrer livet for kendte og berømte. \n\nBladet henvender sig primært til læsere, der interesserer sig for svenske celebriteter og kongelige. \n\nI Extra finder man artikler om det svenske kongehus samt indhold relateret til kendte personer.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-fast-company": {
+  "tekst": "Fast Company er et magasin, der sætter dagsordenen indenfor erhvervslivet. \n\nDet henvender sig til læsere med interesse for forretning og innovation. \n\nI bladet finder man fokus på nye og innovative idéer og produkter samt afdækning af kommende trends på tværs af brancher.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-finansliv": {
+  "tekst": "Finansliv er et magasin, der skildrer bank-, forsikrings- og finansbranchen indefra. \n\nDet henvender sig til personer med interesse for bank-, finans- og forsikringsverdenen, herunder branchefolk og beslutningstagere. \n\nI bladet finder man artikler om magtfulde personer, trendsættere og analytikere, samt karrieretips og erhvervsnyheder.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-fit-living": {
+  "tekst": "Fit Living er et træningsmagasin for kvinder, der fokuserer på at leve sundt. \n\nBladet henvender sig til kvinder, der ønsker inspiration og råd til en fit livsstil. \n\nIndholdet inkluderer artikler om opskrifter, slankekure, yoga og personlige historier fra kvinder, der deler deres erfaringer. \n\nFit Living udgives af Egmont Publishing.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-fitness-for-men": {
+  "tekst": "Fitness for Mænd er et magasin, der fokuserer på aktiv livsstil og træning. \n\nDet henvender sig til både erfarne fitnessudøvere og nybegyndere, der ønsker at forbedre deres træning. \n\nI hvert nummer finder læserne træningsguider, fitnessreportager, teknik tips samt opskrifter på madretter, der understøtter muskelopbygning og fedtforbrænding.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-flying": {
+  "tekst": "Magasinet Flying henvender sig til flyinteresserede, herunder både piloter og almindelige entusiaster. \n\nBladet indeholder artikler om moderne fly samt klassiske flymodeller. \n\nDet tilbyder en bred vifte af spændende indhold relateret til flyvning.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-forskning-framsteg": {
+  "tekst": "Forskning & Framsteg er et magasin, der behandler emner inden for astronomi, historie, medicin, fysik, natur og teknik. \n\nDet henvender sig til læsere, der ønsker en let og tilgængelig introduktion til naturvidenskabelige emner, uanset deres baggrund. \n\nI bladet finder man forklaringer på komplicerede størrelser, der påvirker vores hverdag.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-fotoguiden": {
+  "tekst": "FotoGuiden er et magasin, der fokuserer på fotografering og brugen af digitale spejlreflekskameraer. \n\nDet henvender sig til både nybegyndere og dem, der ønsker at forbedre deres fotografiske færdigheder. \n\nMagasinet indeholder information, tips og råd fra erfarne fotografer, der hjælper læserne med at udnytte deres kameras potentiale.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-fotosidan": {
+  "tekst": "Fotosidan er et magasin for fotografer, der ønsker at forbedre deres færdigheder. \n\nDet henvender sig til både amatører og mere erfarne fotografer med en seriøs tilgang til fotografering. \n\nI bladet finder man artikler, fototips og indhold opdelt i fem fagområder, som dækker emner som vilde dyr, kunst, natur og portrætter.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-fotoskolan": {
+  "tekst": "Fotoskolan er et magasin, der fokuserer på fotografering og tilbyder tips til at forbedre ens færdigheder. \n\nBladet henvender sig til både nybegyndere og mere erfarne fotografer, der ønsker at få mere ud af deres kamera. \n\nI hvert nummer præsenteres enkle og praktiske råd til brug af forskellige typer kameraer, herunder spejlrefleks, kompaktkameraer og smartphones.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-frikvarter": {
+  "tekst": "Frikvarter er et ungdomsblad, der dækker emner som musik, film, gadgets og kendisser. \n\nBladet henvender sig primært til unge fra 7. til 10. klasse og er skrevet af unge til unge. \n\nI Frikvarter finder man interviews med stjerner, artikler om sport, kærlighed, søskende og makeup samt indhold, der følger tidens trends. Bladet er også aktivt på sociale medier som Facebook og Instagram.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-foraldrar-barn": {
+  "tekst": "Föräldrar & Barn er et magasin, der henvender sig til forældre. \n\nBladet tilbyder tips og tricks til at håndtere forskellige aspekter af forældreskabet, såsom søvn, kost og opdragelse. \n\nDet fokuserer på at forbedre forståelsen af samspillet mellem forældre og børn.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-gaffa": {
+  "tekst": "Gaffa er Danmarks største musikmagasin, der fokuserer på musiknyheder, anmeldelser og interviews. \n\nBladet henvender sig til musikelskere, der ønsker at holde sig opdateret på den seneste musik og kunstnere. \n\nLæserne finder nyheder, anmeldelser af albums og koncerter samt interviews med kendte musikere. Gaffa tilbyder også gratis online indhold, herunder videoer med optrædener.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-gastro": {
+  "tekst": "Gastro er et madmagasin, der fokuserer på dybdegående madindhold. \n\nDet henvender sig primært til mænd, der ønsker at udforske madlavning og nye smagsoplevelser. \n\nI bladet finder man opskrifter, artikler om både sund og mindre sund mad samt inspiration til at kombinere forskellige køkkener.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-girls-life-magazine": {
+  "tekst": "Girls Life Magazine er et magasin, der kombinerer sjove artikler med brugbare oplysninger. \n\nDet henvender sig til teenage-piger og fokuserer på emner, der er relevante for dem. \n\nI bladet finder man indhold, der dækker alt, hvad der rører sig hos unge piger.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-gods-gaardar": {
+  "tekst": "Gods & Gårdar er et livsstilsmagasin, der fokuserer på herregårdslivet og bevarelsen af svensk kulturarv. \n\nBladet henvender sig til læsere med interesse for eksklusiv livsstil, indretning og kulturhistorie. \n\nI magasinet finder man artikler om smukke hjem, klassisk indretning, design, samt tips til shopping, mad, antikviteter, kunst, jagt, fester, mode og kongelige.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-golf-digest": {
+  "tekst": "Golf Digest er et magasin for skandinaviske golfentusiaster, der tilbyder relevant læsning om golf. \n\nBladet henvender sig primært til golfspillere, der ønsker at forbedre deres spil og finde inspiration til golfoplevelser. \n\nI Golf Digest finder man guides til udstyr og golfbaner, samt historier fra kendte svenske golfpersonligheder. Magasinet indeholder også tests af det nyeste golfgrej og information om Golf Digest Trophy, en stor amatørturnering.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-golfmagasinet": {
+  "tekst": "GOLFmagasinet er et magasin, der fokuserer på golf og opdaterer læserne om nyheder og trends inden for sporten. \n\nDet henvender sig til golfentusiaster, der ønsker at fordybe sig i både danske og internationale golfoplevelser. \n\nI bladet finder man tips, tricks, rejsebeskrivelser, udstyrsanmeldelser samt vurderinger af golfbaner. GOLFmagasinet udkommer 14 gange årligt.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-gourmet": {
+  "tekst": "Magasinet Gourmet fokuserer på mad og drikke. \n\nDet henvender sig til læsere, der har interesse for madlavning og gastronomi. \n\nI bladet finder man artikler om madtrends, vin- og ølanmeldelser samt tips til kulinariske rejser og restauranter. \n\nGourmet udkommer 10 gange om året.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-gravid": {
+  "tekst": "Gravid er en underafdeling af magasinet \"Vores børn\", der fokuserer på graviditet og fødsel. \n\nBladet henvender sig primært til kvinder, der ønsker at blive forældre eller overvejer det, og tilbyder støtte til at navigere gennem graviditeten. \n\nIndholdet ligner artikler fra almindelige kvindeblade og omfatter emner som amning og myter om graviditet, der hjælper læserne med at forberede sig på det kommende liv. \n\nDet meste af magasinet er tilgængeligt online.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-goer-det-selv": {
+  "tekst": "Gør Det Selv er Danmarks største gør det selv-magasin, der tilbyder artikler, guides, anmeldelser, tips og tricks. \n\nBladet henvender sig primært til mænd i alderen 30-65 år, der ønsker at dygtiggøre sig inden for håndværk og nyder praktisk arbejde. \n\nIndholdet fokuserer på at gøre gør det selv-aktiviteter sjove og tilgængelige med udførlige guides og letlæseligt sprog, hvor fagudtryk forklares. \n\nGør Det Selv udkommer 18 gange om året.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-hendes-verden": {
+  "tekst": "Hendes Verden er et livsstilblad, der fokuserer på at skabe en hyggelig og personlig læseoplevelse. \n\nBladet henvender sig primært til kvinder og tilbyder indhold, der appellerer til dem, der ønsker inspiration til hjemmet og hverdagen. \n\nLæserne finder ideer til håndarbejde, små projekter, sjove fortællinger, interviews samt en stor brevkasse med råd til personlige problemer. Bladet inkluderer også et afsnit med tøjstile til større piger.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-historie": {
+  "tekst": "Historie er et magasin, der viderefører konceptet fra Illustreret Videnskab ved at præsentere levende fortællinger fra fortiden baseret på ny forskning. \n\nBladet henvender sig til alle, der har interesse for historie, uanset forudgående viden, da det er skrevet på en måde, der appellerer til en bred læserskare. \n\nI bladet finder man artikler om historiske emner, quizzer og links til yderligere indhold på Histories hjemmeside, hvor man kan udforske nyheder og dybere artikler.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-hjemmepc": {
+  "tekst": "HjemmePC er et magasin om computere og elektronik, der henvender sig til både nybegyndere og erfarne brugere. \n\nBladet tilbyder tests, tips og tricks til håndtering af elektronik samt guides til hardware og software. \n\nLæserne kan finde information om nye programmer, opdateringer og gratis værktøjer, der kan gøre hverdagen lettere. \n\nHjemmePC har også en hjemmeside med yderligere indhold, der er tilgængeligt for alle, også ikke-abonnenter.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-hytteliv": {
+  "tekst": "Hytteliv er et blad, der fokuserer på indretning og livsstil i hytter, inspireret af den norske tradition. \n\nDet henvender sig til både mænd og kvinder, der ønsker at skabe hygge og gode øjeblikke i deres hjem og hverdag. \n\nBladet indeholder tips til design, livsstil og inspiration til at bringe den særlige hytte-atmosfære ind i eget hjem. \n\nDet udkommer 11 gange årligt og inkluderer to ekstra store udgaver til påske og sommer.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-halsa-fitness": {
+  "tekst": "Hälsa & Fitness er et magasin om sundhed og fitness. \n\nDet henvender sig til læsere, der ønsker at tabe sig, forbedre træningsresultater eller styrke deres krop. \n\nMagasinet indeholder inspirerende artikler og opdateringer om de nyeste fødevare- og fitness-tendenser.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-hastmagazinet": {
+  "tekst": "Hästmagazinet er et hestemagasin, der fokuserer på forholdet mellem hest og rytter. \n\nBladet henvender sig til hesteentusiaster, der ønsker at forbedre deres viden og færdigheder. \n\nI Hästmagazinet finder man artikler og råd om forskellige aspekter af hestehold og ridning.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-i-form": {
+  "tekst": "I Form er et livsstilsmagasin, der fokuserer på et sundt og aktivt liv. \n\nMagasinet henvender sig primært til kvinder, især dem der ønsker at forbedre deres livsstil og komme i bedre form gennem sund mad og motion. \n\nI Form indeholder kvalitetsartikler om sundhed, kost og motion, samt konkrete tips til en sundere livsstil. Magasinet udkommer én gang om måneden.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-illustreret-videnskab": {
+  "tekst": "Illustreret Videnskab er et magasin, der fokuserer på den nyeste forskning inden for alle videnskabelige områder. \n\nBladet henvender sig til læsere med en interesse for videnskab, der ønsker at udforske både moderne forskning og historiske temaer. \n\nIndholdet inkluderer dybdegående artikler, underholdende elementer som quizzer og logiske opgaver, samt ekstra materiale tilgængeligt online. \n\nBladet udkommer engang om måneden.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-isabellas": {
+  "tekst": "Isabellas er et magasin, der fokuserer på kreative projekter indenfor indretning, madlavning og havearbejde. \n\nBladet henvender sig primært til kvinder med interesse for skønhed i hjemmet og økologi, men mænd kan også finde inspiration her. \n\nI Isabellas finder man tips til DIY-projekter, kulinariske opskrifter og indretningstips. Bladet har også en tilhørende hjemmeside med yderligere indhold om mad, bolig og have.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-jagt-vildt-vaaben": {
+  "tekst": "JAGT, vildt & våben er et magasin for jagtinteresserede i Danmark. \n\nBladet henvender sig til både erfarne jægere og begyndere, der ønsker at lære mere om jagt, vildt og våben. \n\nIndholdet inkluderer guides til jagtudstyr, tips til jagtoplevelser og artikler om dyreliv i Danmark og andre steder. Bladet udkommer 14 gange årligt.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-jakt": {
+  "tekst": "Jakt er et blad, der fokuserer på jagt som livsstil. Det er skrevet af erfarne jægere og henvender sig til dem, der tager jagten alvorligt eller har interesse for emnet.\n\nBladet indeholder artikler om storvildtsjagt, træning af jagthunde og udstyrstest, herunder våben og beklædning. Derudover præsenteres historier og billeder fra jagtoplevelser.\n\nJakt udkommer 10 gange om året samt i to specialudgivelser, \"Småviltjakt\" og \"Storvildtjagt\". Det er muligt for læserne at bidrage med egne billeder og historier.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-jaktmarker-fiskevatten": {
+  "tekst": "Jaktmarker & Fiskevatten er et magasin, der fokuserer på jagt og fiskeri. \n\nDet henvender sig til læsere, der er interesseret i jagtoplevelser og fiskeri. \n\nMagasinet indeholder nyheder, tests, tips og tricks relateret til jagt og fiskeri.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-king": {
+  "tekst": "King er et magasin, der fokuserer på mode til mænd, men dækker også andre emner som elektronik, biler, film og rejser. \n\nDet henvender sig primært til mænd i alderen 20-35 år, men kan også interessere læsere uden for denne målgruppe. \n\nI bladet finder man artikler om mode, livsstil og inspirerende bloggere, samt indhold om de 100 mægtigste personer i modeverdenen. \n\nKing udkommer regelmæssigt og tilbyder også daglige opdateringer på Kingmagazine.se.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-kloka-hem": {
+  "tekst": "Kloka Hem er et magasin, der fokuserer på klima-smart livsstil og øko-venligt design. \n\nDet henvender sig til læsere, der ønsker inspiration til at forbedre deres hjem med bæredygtige løsninger. \n\nI bladet finder man tips til at forvandle genbrugsting til nye møbler og indretningselementer.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-kom-i-form-kvinna": {
+  "tekst": "\"Kom i form kvinna\" er et magasin, der fokuserer på træning og ernæring. \n\nDet henvender sig til kvinder, der ønsker at tabe sig og komme i form. \n\nBladet tilbyder enkle og tilgængelige råd til en sund livsstil.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-kom-i-form-man": {
+  "tekst": "Kom i Form MAN er et blad, der fokuserer på at hjælpe læsere med at øge deres muskelmasse gennem træning og kost. \n\nBladet henvender sig til mænd, der ønsker at forbedre deres fysiske form og opnå bedre træningsresultater. \n\nI bladet finder man vejledninger og tips til både træningsprogrammer og kostplaner, der understøtter muskelopbygning.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-komputer-for-alle": {
+  "tekst": "Komputer for alle er et magasin, der henvender sig til den brede befolkning og gør det nemt at forstå computerverdenen. \n\nDet er ideelt for både nybegyndere og mere avancerede brugere, der ønsker at forbedre deres færdigheder og viden om computere. \n\nMagasinet indeholder softwaretests, guides til optimering af computeren og anmeldelser af gamer-tilbehør samt information om aktuelle styresystemer.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-mad-bolig": {
+  "tekst": "Mad & bolig er et magasin, der kombinerer kulinariske oplevelser med boligindretning. \n\nDet henvender sig til læsere med interesse for madlavning og indretning, der ønsker inspiration til begge områder. \n\nBladet indeholder opskrifter, indretningstips og rejseanbefalinger samt shoppingmuligheder. \n\nMad & bolig udkommer en gang om måneden.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-mad-venner": {
+  "tekst": "MAD & venner er et magasin, der fokuserer på spændende og eksotiske retter. Det henvender sig til madentusiaster, der ønsker at imponere gæster med nye opskrifter og eksplosioner af smag.\n\nHvert nummer indeholder opskrifter, tips, tricks og artikler om madlavning. Magasinet udkommer 14 gange om året og tilbyder også en hjemmeside med opskriftssøgning og konkurrencer. \n\nDerudover kan læsere følge med på Facebook for opdateringer og få hjælp til opskrifter, hvis der opstår problemer i køkkenet.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-mad": {
+  "tekst": "Mad! er et blad for dem, der ønsker at samle familien om madlavning i en travl hverdag. \n\nDet henvender sig til alle, der er interesseret i at lave mad og ønsker at udvide deres opskriftsamling. \n\nBladet indeholder nemme og hurtige opskrifter, der ikke går på kompromis med smag eller kvalitet. Det fungerer også som en online ressource, hvor man kan finde opskrifter, når man er ude at handle.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-magasinet-liv": {
+  "tekst": "Magasinet Liv er et livsstilsblad, der dækker en bred vifte af emner, herunder kvindeliv, mad, sundhed, mode, skønhed, bolig, film og tv. \n\nBladet henvender sig primært til kvinder og tilbyder indhold, der er relevant for deres hverdag og interesser. \n\nLæsere kan finde artikler, klummer og konkurrencer, samt en ekstra sektion med sæsonbestemte eller tematiske emner. Magasinet giver inspiration og viden om aktuelle emner, som for eksempel tabuer og livserfaringer.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-magasinet-m": {
+  "tekst": "Magasinet M er et tidligere trykt magasin, der nu fokuserer på online indhold. Det har været populært blandt unge mænd med interesse for livsstil og underholdning.\n\nBladet henvender sig primært til unge mænd, der søger underholdning og sjove indhold. Det har været en del af deres månedlige læsning.\n\nI Magasinet M finder man dybdegående artikler om forskellige emner, herunder tests af chilier og sjove forsøg. Derudover indeholder det mode, interviews og billeder af babes.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-magasinet-q": {
+  "tekst": "Magasinet Q er et magasin, der fokuserer på kvinders liv og udfordringer. \n\nDet henvender sig til nysgerrige kvinder i alderen 25 til 45 år, der ønsker at forstå sig selv og deres liv bedre. \n\nI magasinet finder man hudløst ærlige artikler om emner som skønhed, sundhed, sex og livsstil. \n\nMagasinet Q udkommer normalt den første mandag i hver måned.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-mann": {
+  "tekst": "Mann er et livsstilsmagasin for den moderne mand. \n\nMålgruppen er mænd i alderen 25 til 49 år, uanset om de er der mentalt eller reelt. \n\nBladet indeholder artikler om sport, træning, mode og stil samt eksklusive interviews med kendisser. Det tilbyder inspiration og læsestof om forskellige emner, der appellerer til læseren.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-maries-ideer": {
+  "tekst": "Maries ideer er et blad, der fokuserer på strik og håndarbejde, og fungerer som en udvidet blog. \n\nBladet henvender sig til kreative kvinder, der ønsker inspiration til at skabe deres eget tøj og håndarbejde. \n\nI bladet finder man guides til strik og syning, opskrifter på tøj, samt temabøger og gratis opskrifter. Derudover tilbydes der videoguides og en sektion med retroinspiration.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-modemagasinet-in": {
+  "tekst": "Modemagasinet IN er et magasin med fokus på mode, skønhed og livsstil. \n\nDet henvender sig primært til kvinder, der interesserer sig for både dansk og international mode samt livsstilsemner som boligindretning, karriere og rejser. \n\nI bladet findes artikler om de seneste trends, beauty-anbefalinger fra eksperter og interviews med inspirerende kvinder. IN opdaterer læserne månedligt om modens tendenser og tilbyder også indhold på deres hjemmeside og Facebook-side. \n\nBladet udkommer månedligt.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-national-geografic": {
+  "tekst": "National Geographic er et dansk magasin, der præsenterer dokumentarisk indhold om natur og videnskab. \n\nBladet henvender sig til læsere med interesse for spændende emner fra hele verden, herunder kultur, historie og miljø.\n\nI bladet finder man temaer som vikinger og regnskoven, samt fængslende journalistik og flotte billeder. Det nyeste nummer omhandler emnet cannabis og præsenterer forskellige perspektiver på debatten.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-olivia": {
+  "tekst": "Olivia er Danmarks største blad for tweens piger mellem 8 og 12 år. \n\nBladet henvender sig til unge piger, der ønsker at følge med i nyheder om kendte, mode og musik. \n\nI Olivia finder man billeder, historier om kæledyr og aktiviteter, der inddrager læserne, som chat-forums og konkurrencer. \n\nBladet udkommer hver måned.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-penge-og-privatoekonomi": {
+  "tekst": "Penge og Privatøkonomi, ofte kaldet Penge, er et magasin, der fokuserer på privatøkonomi og investering. \n\nBladet henvender sig til læsere med interesse for økonomi, aktiehandel og dem, der ønsker at få styr på deres økonomiske forhold. \n\nIndholdet inkluderer investeringstips, guides til porteføljebygning og analyser af markedstendenser. Bladet tilbyder konkrete ideer til, hvordan man kan navigere i økonomiske beslutninger. \n\nBladet udkommer en gang om måneden.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-psykologi": {
+  "tekst": "Psykologi er et magasin, der tilbyder indsigt i menneskelig adfærd og psykologiske dilemmaer. \n\nDet henvender sig primært til personer med humanistiske uddannelser samt til alle, der ønsker at forstå menneskers opførsel bedre. \n\nBladet indeholder artikler om emner som kærlighed, ondskab, familie, arbejdsliv og personlig udvikling. \n\nPsykologi har også en hjemmeside og en Facebook-side, hvor man kan følge med i aktuelle temaer og artikler.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-rum-interioer-design": {
+  "tekst": "Rum - Interiør design er et blad, der fokuserer på design i hjemmet. \n\nDet henvender sig til læsere, der interesserer sig for indretning og ønsker inspiration til deres bolig. \n\nBladet indeholder nyheder om aktuelle designtrends, herunder stilarter og farver, samt tidløse elementer i interiørverdenen. \n\nDet udkommer engang om måneden.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-sallys": {
+  "tekst": "Sally’s er et blad, der fokuserer på inspiration og guides til projekter i hjemmet. \n\nDet henvender sig til læsere, der søger nye idéer til boligindretning og kreative aktiviteter. \n\nBladet indeholder artikler om alt fra boligindretning til strikkevejledninger samt interessehistorier om kreative kvinder. \n\nSally’s udkommer sammen med Hendes Verden.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-saveur": {
+  "tekst": "Saveur er et magasin for madentusiaster, der dækker næsten alle aspekter af madlavning. \n\nDet henvender sig til både hobbykokke og dem, der har en interesse i mad og køkkenudstyr. \n\nI bladet finder man artikler om vegetarretter, vin, kødretter og forskellige madkulturer.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-scandinavian-retro": {
+  "tekst": "Scandinavian Retro er et magasin, der fokuserer på indretning og design fra 1900-tallet. \n\nBladet henvender sig til læsere, der er interesserede i retrostil og tidsløst design, samt dem, der ønsker inspiration til deres hjem. \n\nI bladet finder man artikler om møbler, porcelæn, keramik, tøj og lamper, samt temaer som Swinging London, der præsenterer elementer fra specifikke tidsperioder. \n\nBladet udkom første gang i 2011.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-smag-og-behag": {
+  "tekst": "Smag og behag er et blad om gastronomi, der fokuserer på smagsoplevelser og madlavning. \n\nBladet henvender sig til alle, der interesserer sig for mad, uanset køn og alder, men det kræver, at man kan håndtere en kniv og er gammel nok til at drikke alkohol. \n\nI bladet finder man opskrifter, guider til anretning, vinanmeldelser og anmeldelser af restauranter og spisesteder. Det indeholder også temaer som madoplevelser uden for hjemmet.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-soundvenue": {
+  "tekst": "Soundvenue er et medie, der dækker musik, film og tech, og tilbyder indhold fra disse tre områder. \n\nBladet henvender sig til læsere, der er interesserede i at opdage nye lyd- og synsoplevelser samt følge med i aktuelle trends inden for underholdning. \n\nI Soundvenue finder man artikler om indie-rock, elektronika, biografanmeldelser, tech-nyheder og indhold fra gaming-kulturen og sociale medier.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-spis-bedre": {
+  "tekst": "Spis bedre er et månedligt madblad, der tilbyder inspiration og ideer til sæsonbaseret madlavning. \n\nBladet henvender sig til madinteresserede, der ønsker at forbedre deres madlavning og finde nemme løsninger. \n\nDet indeholder opskrifter, tips til madlavning, rengøring og budgettering samt en brevkasse, hvor læserne kan stille spørgsmål til professionelle kokke.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-story": {
+  "tekst": "Story er et blad, der henvender sig til piger i alderen 8-12 år. Det fungerer som en lillesøster til Vi Unge og fokuserer på emner, der interesserer yngre piger.\n\nBladet indeholder artikler om tøj og hårtips, men i mindre grad end blade for ældre piger. Derudover finder man sjove artikler, information om unge stjerner, dyr og læsernes egne noveller.\n\nStory udkommer med en læser på forsiden og har en hjemmeside med temaer som stjerner, dyr og historier samt konkurrencer.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-street-boys": {
+  "tekst": "Street boys er et blad for drenge i alderen 11-16 år, der tilbyder læsestof uden fokus på pigetøj og make-up. \n\nBladet henvender sig til drenge, der ønsker indhold om sport, film, musik, street mode, games og sjove facts. \n\nI Street boys finder man artikler, quizzer, plakater og kommentarer fra andre drenge, samt mulighed for at deltage i konkurrencer via bladets hjemmeside og Facebook-side.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-surfing": {
+  "tekst": "Surfing er et magasin, der portrætterer surfing på en kunstnerisk måde. \n\nDet henvender sig til surfere og surfentusiaster, der ønsker at dykke ned i surfekulturen. \n\nI bladet finder man artikler om store bølger, surfebræt design, tips fra professionelle surfere samt flot surf-fotografi. \n\nBladet har eksisteret i mere end 40 år.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-tidens-kvinder": {
+  "tekst": "Tidens Kvinder er Danmarks eneste erotiske magasin, der henvender sig udelukkende til kvinder. \n\nDet retter sig mod den moderne kvinde i alderen 25-50 år, som ønsker at få mere ud af sit sexliv. \n\nMagasinet indeholder artikler om kærlighed, sexlyst, forhold og sex, samt interviews, erotiske noveller og problemløsninger. \n\nTidens Kvinder udgives 8 gange om året, men er blevet nedlagt som særskilt magasin og indgår nu i Se og Hør som sektionen \"Det frække\".",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-topmodel": {
+  "tekst": "TopModel er et blad rettet mod yngre piger, der interesserer sig for mode. \n\nDet henvender sig til piger i alderen 7-14 år og er ideelt for dem, der ønsker at udforske deres interesse for fashion. \n\nBladet indeholder modeinspiration, tips til kreative projekter, tegneserier, konkurrencer, horoskoper og malersider. \n\nTopModel udkommer en gang om måneden.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-utemagasinet": {
+  "tekst": "Utemagasinet er en frilufts- og æventyrstidning, der fokuserer på inspiration til udendørs aktiviteter. \n\nBladet henvender sig til friluftsinteresserede i alle aldre, der søger eventyr og nye oplevelser. \n\nIndholdet spænder fra vandring, cykling og klatring om sommeren til langrend om vinteren, med guides og historier fra både lokale og fjerne destinationer.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-vagabond": {
+  "tekst": "Vagabond er et rejsemagasin, der fokuserer på at beskrive rejseoplevelser gennem artikler fra svenske og udenlandske journalister. \n\nBladet henvender sig til rejselystne læsere, der ønsker at udforske både populære og mindre kendte destinationer. \n\nIndholdet inkluderer rejseberetninger, anmeldelser af steder, samt information om lokale skikke og farer ved at rejse til bestemte områder. Bladet tager også temaer op, der varierer efter årstiden og aktuelle rejsetendenser.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-vi-baatagare": {
+  "tekst": "Vi Båtägare er et magasin, der fokuserer på motorbåde. \n\nDet henvender sig til bådentusiaster, der er interesseret i motorbåde og tilbehør. \n\nI bladet finder man artikler om de nyeste speedbåde, tests og information om gadgets til motorbåde.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-vi-med-hund": {
+  "tekst": "Vi med hund er et magasin for hundeejere, der ønsker at dele deres passion for hunde. \n\nBladet henvender sig til både erfarne og nye hundeejere, der ønsker at få inspiration og viden om hunde. \n\nI bladet finder man billeder af forskellige hunderacer, gode råd fra eksperter, artikler om træning og adfærd samt mulighed for at deltage i debatter. Vi med hund udkommer 12 gange om året.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-vi-menn": {
+  "tekst": "Vi Menn er et norsk magasin rettet mod mænd. Det henvender sig til den mandlige del af befolkningen, der interesserer sig for emner som kampfly, biler og interviews med kvinder.\n\nBladet tilbyder en blanding af journalistik, der dækker forskellige emner og perspektiver fra hele verden. Det har en mere voksen tone sammenlignet med danske mandeblade og adskiller sig ved at trække på freelancere fra forskellige lande.\n\nVi Menn udkommer hver uge.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-vi-unge": {
+  "tekst": "Vi Unge er et magasin for teenagere, især piger i teenagealderen. \n\nBladet henvender sig til unge, der ønsker at blive klogere på teenageproblemer og livets udfordringer. \n\nI magasinet finder man artikler om alt fra problemer i teenageårene til interviews med kendte, samt skønheds-, mode- og sundhedstips. Hver udgave inkluderer også en stor fanplakat. \n\nVi Unge udkommer 17 gange om året.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-villmarksliv": {
+  "tekst": "Villmarksliv er et blad, der fokuserer på vildmarken og naturen i Norge. \n\nBladet henvender sig til naturelskere og friluftsentusiaster, der ønsker at udforske og opleve den norske natur. \n\nI bladet finder man historier fra vildmarken, flotte naturbilleder, fotokonkurrencer samt tests af udstyr til friluftsliv.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-vores-boern": {
+  "tekst": "Vores børn er et magasin, der udkommer månedligt og fokuserer på forældrenes og børnenes historier. \n\nBladet henvender sig primært til mødre, både nuværende og kommende, og tilbyder støtte og inspiration til nye forældre. \n\nIndholdet inkluderer artikler med gode ideer og tips fra erfarne mødre, der kan lette hverdagen, samt fokus på forældrenes velvære og opdragelse af børn.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-wendy": {
+  "tekst": "Wendy er et blad for piger, der elsker heste og ridning. Det henvender sig primært til unge piger, der ejer heste eller drømmer om at have en.\n\nBladet indeholder historier om heste, professionelle ryttere og eventyr fra tegneserien om pigen Wendy. Derudover finder man inspiration til træning, leg og pleje af heste.\n\nWendy udkommer en gang om måneden og inkluderer plakater, konkurrencer og andet indhold. Bladet har også en officiel hjemmeside, hvor man kan læse mere.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-woman": {
+  "tekst": "Woman er et livsstilsblad for kvinder, der fokuserer på emner som mode, træning og seksualitet. \n\nBladet henvender sig til kvinder, der ønsker inspiration og indsigt i kvindekroppen og relationer til mænd. \n\nIndholdet inkluderer personlige fortællinger, tips til krop og velvære samt diskussioner om samfundsnormer og kvindebilleder. \n\nBladet udkommer månedligt.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-yoga-journal": {
+  "tekst": "Yoga Journal er et amerikansk magasin, der fokuserer på yoga. Det er et af de ældste yoga-magasiner og har været udgivet siden 1975.\n\nBladet henvender sig til både nybegyndere og mere erfarne yogaudøvere. Det er tilgængeligt for alle, uanset niveau.\n\nI Yoga Journal finder man artikler og tips til at forbedre sin yoga-praksis. Magasinet indeholder også spændende indhold relateret til yoga og livsstil.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-aaka-skidor": {
+  "tekst": "Åka Skidor er et skisportsmagasin, der udkom første gang i 1974. Det fokuserer på skisport og snowboard.\n\nBladet henvender sig til ski- og snowboardentusiaster, der ønsker at holde sig opdateret om nyheder og trends inden for sporten.\n\nI bladet finder man artikler om verdens bedste sne, interviews med professionelle, tips og tricks samt udstyrstests. Det giver læserne inspiration til deres næste skiferie.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "ugeblad-7-tv-dage": {
+  "tekst": "7 tv dage er et ugeblad, der giver læserne overblik over ugens tv-programmer og film. \n\nBladet henvender sig til alle, der ønsker at være på forkant med tv-udsendelser, uanset om det er familiefilm eller underholdning om kendte og kongelige. \n\nI bladet finder man information om sendetider, samt opdateringer om aktuelle historier og gossip.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "ugeblad-anders-and": {
+  "tekst": "Anders And & Co. er et tegneserieblad, der har været populært i Danmark siden 1949. Bladet præsenterer eventyr med Anders And, hans nevøer Rip, Rap og Rup samt andre figurer fra Andeby.\n\nBladet henvender sig primært til læsere i alderen 7-12 år, men det appellerer også til voksne, der ønsker at genopleve barndommens tegneserier. \n\nI bladet finder man underholdende historier, konkurrencer og udfordringer, der inspirerer til leg. Bladet udkommer hver torsdag.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "blad-anders-and-junior": {
+  "tekst": "Anders And Junior er et blad, der henvender sig til børn i alle aldre, men især de yngre. Det giver dem mulighed for at træne læsefærdigheder og indeholder også indhold til højtlæsning.\n\nBladet præsenterer tegneserier med Anders And og hans nevøer, Rip, Rap og Rup, i et spændende univers, hvor historierne er tilpasset, så de er nemmere at forstå. \n\nDerudover inkluderer bladet udfordrende indhold for børnene samt samleplakater. Anders And Junior udkommer en gang om måneden.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "magasin-basserne": {
+  "tekst": "Basserne er et humorblad, der kombinerer sort militærhumor med samfundssatire. Bladet har været udgivet i Danmark siden 1972 og henvender sig primært til mænd fra teenagealderen og op.\n\nI Basserne finder man en række humoristiske striber, herunder Zits, Hagar, den lille splint og den danske serie På dybt vand. Bladet tilbyder en underholdende afveksling fra tv-serier og andre medier.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "ugeblad-billed-bladet": {
+  "tekst": "Billed Bladet er et dansk ugeblad, der fokuserer på kongelige personer og begivenheder samt kendte fra Danmark og udlandet. \n\nBladet henvender sig primært til kvinder fra 30 år og op, der har interesse for kongehuset og ønsker at følge med i royale aktiviteter. \n\nI Billed Bladet finder man artikler om royale begivenheder, billedserier af den kongelige familie og interviews. Bladet inkluderer også et omfattende TV-magasin.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "ugeblad-familie-journal": {
+  "tekst": "Familie Journal er et ugeblad, der fokuserer på hverdagslivets historier og aktiviteter. \n\nDet henvender sig primært til kvinder over 40 år, men kan også læses af mænd og yngre personer, der interesserer sig for emnerne. \n\nBladet indeholder opskrifter, noveller, brevkasser, håndarbejde, kryds og tværs samt tips til forskellige hobbyer.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "ugeblad-femina": {
+  "tekst": "Femina er et ugeblad rettet mod moderne kvinder fra ca. 25 år og op. Bladet henvender sig til kvinder, der søger inspiration til hverdagen.\n\nIndholdet omfatter opskrifter, artikler, guider til velvære, skønhed, sundhed og livsstil. Femina tilbyder også indhold på deres hjemmeside, der dækker mode, boligindretning, makeup-trends og tips til kærlighedslivet.\n\nDerudover arrangerer Femina events som Femina kvindeløbet, der kombinerer motion med sociale aktiviteter.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "ugeblad-goal": {
+  "tekst": "Goal er et fodboldmagasin, der dækker nyheder fra store ligaer og internationale stjerner. \n\nBladet henvender sig til fodboldfans, der ønsker at følge med i international fodbold, herunder profiler som Christian Eriksen. \n\nI Goal finder man interviews, billeder og plakater, der ofte fokuserer på aktuelle spillere og hold. Bladet har et utraditionelt format og et underholdende indhold.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "ugeblad-her-nu": {
+  "tekst": "Her & Nu er et ugeblad, der fokuserer på livet for kendte personer, herunder kongelige, musikere og realitystjerner. \n\nBladet henvender sig til læsere, der er interesserede i nyheder og intriger fra kendisverdenen. \n\nI bladet finder man interviews, historier og underholdende indhold, herunder en sektion på hjemmesiden med sjove billeder og videoer. \n\nHer & Nu udkommer hver uge om onsdagen.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "ugeblad-hjemmet": {
+  "tekst": "Hjemmet er et ugeblad, der tilbyder underholdning for hele familien. \n\nBladet henvender sig primært til børnefamilier og pensionister, med en særlig appel til kvinder. \n\nI Hjemmet finder man opskrifter, krydsord, håndarbejde, personlige interviews samt romaner og noveller. Ugebladet udkommer hver mandag.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "ugeblad-hjemmets-bedste-mad": {
+  "tekst": "Hjemmets bedste mad er et madblad, der tilbyder inspiration til madlavning og bagning. \n\nBladet henvender sig til både travle personer og dem, der ønsker at lave klassiske måltider, og det er tilpasset det moderne køkken. \n\nI bladet finder man sæsonbestemte opskrifter, spare-mad og en bred variation af retter, der kan tilpasses forskellige smagsløg og budgetter. \n\nBladet udkommer hver måned.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "ugeblad-kig-ind": {
+  "tekst": "Kig Ind er et ugeblad, der fokuserer på mode, glam og gossip, med særlig vægt på Hollywoodstjernernes liv og stil. \n\nBladet henvender sig primært til kvinder i alderen 15 til 40 år, der har interesse for mode og følger med i nyheder fra Hollywood. \n\nI Kig Ind finder man artikler om kendisser, mode- og skønhedstips inspireret af stjernernes stil, samt opdateringer om aktuelle tendenser. \n\nUgebladet udkommer hver torsdag.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "ugeblad-royal": {
+  "tekst": "Royal er et magasin, der fokuserer på kongehusets aktiviteter og livsstil. \n\nBladet henvender sig til læsere, der ønsker at følge med i kongehusets gøren og laden, samt dem, der har interesse for royale familier generelt. \n\nI Royal finder man dybdegående artikler, eksklusive interviews og historier om både den danske kongefamilie og andre historiske kongehuse. \n\nBladet udkommer en gang i kvartalet og tilbyder ekstra indhold ved større begivenheder.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "ugeblad-se-og-hoer": {
+  "tekst": "SE og HØR er et sladdermagasin, der fokuserer på nyheder om kongelige og kendte. \n\nBladet henvender sig til både kvinder og mænd, der er interesseret i sladder og underholdning. \n\nI SE og HØR finder man saftige historier, billeder og et overblik over ugens tv-programmer. Desuden tilbyder bladets hjemmeside web-tv, spil og opdateringer via Facebook.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "ugeblad-soendag": {
+  "tekst": "SØNDAG er et ugeblad, der fokuserer på emner som mode, skønhed og boligindretning. \n\nBladet henvender sig primært til kvinder, der er interesserede i kultur, rejser, bøger, film og teater. \n\nI SØNDAG finder man artikler om nye eksotiske rejsemål, samt tips til haven og opskrifter til madlavning. Bladet tilbyder også indhold på sin hjemmeside og sociale medier.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "taet-paa-ugeblad": {
+  "tekst": "TÆT PÅ er et dansk ugeblad, der fokuserer på kendte og kongelige. Bladet henvender sig til læsere, der interesserer sig for sladder og livsstil.\n\nIndholdet består primært af trivialiteter og nyheder om kendisser, uden at det nødvendigvis byder på sensationer eller dybdegående afsløringer. \n\nBladet udkom første gang den 16. november. Det er trykt på papir og appellerer til dem, der værdsætter den fysiske læseoplevelse.",
+  "model": "openai/gpt-4o-mini"
+ },
+ "ugeblad-ude-og-hjemme": {
+  "tekst": "Ude og Hjemme er et ugeblad, der fokuserer på familielivet og hverdagsfortællinger. \n\nBladet henvender sig til familier og personer, der søger hyggelige historier og inspiration til hverdagen. \n\nI Ude og Hjemme finder man mode, madopskrifter, horoskoper, krydsord samt en brevkasse, hvor læsere kan stille spørgsmål. Bladet tilbyder også sjove spil og konkurrencer.",
+  "model": "openai/gpt-4o-mini"
+ }
+}
