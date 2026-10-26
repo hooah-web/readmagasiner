@@ -43,7 +43,8 @@ const [etiket, w, h] = maal as [string, number, number];
   .ad-slot img { width: 100%; height: auto; display: block; }
   .ad-slot--rail { width: 300px; max-width: 100%; }
   /* billboard centreres i indholdskolonnen */
-  .ad-slot--billboard { width: 100%; max-width: 930px; margin-left: auto; margin-right: auto; }
+  /* luft over og under 930x180, og centreret i kolonnen */
+  .ad-slot--billboard { width: 100%; max-width: 930px; margin: var(--s5) auto; }
   /* mobilbanneret er det eneste, der vises på mobil */
   .ad-slot--mobile { width: 300px; max-width: 100%; margin: 24px auto 0; display: none; }
   @media (max-width: 767px) {
