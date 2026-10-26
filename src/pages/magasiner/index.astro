@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { magasiner, TJENESTER } from "../../lib/site";
+import { magasiner, TJENESTER, udvalgFor } from "../../lib/site";
 import Annonce from "../../components/Annonce.astro";
 
 const mag = magasiner.filter((m) => m.type === "magasin" && m.land === "DK");
@@ -53,8 +53,8 @@ const farveFor = (s: string) => {
 
       <div class="chips">
         {TJENESTER.map((t) => {
-          const n = magasiner.filter((m) => m.digitalt.includes(t.navn)).length;
-          return <a class="chip" href={`/tjenester/${t.key}/`}>{t.navn}: {n} blade</a>;
+          const n = udvalgFor(t.navn).danske.length;
+          return <a class="chip" href={`/tjenester/${t.key}/`}>{t.navn}: {n} blade bekræftet</a>;
         })}
       </div>
 

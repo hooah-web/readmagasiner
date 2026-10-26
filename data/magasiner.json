@@ -1919,6 +1919,7 @@
   "sidst_tjekket": null,
   "ai_tekst": true,
   "digitalt_bekraeftet": [
+   "Readly",
    "Wype"
   ],
   "kilder": {
@@ -3871,7 +3872,9 @@
   "kilde": null,
   "sidst_tjekket": null,
   "ai_tekst": true,
-  "digitalt_bekraeftet": [],
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
   "kilder": {},
   "udvalg_tjekket": "2026-10-26",
   "forlag_kilde": null,
@@ -3894,7 +3897,9 @@
   "kilde": null,
   "sidst_tjekket": null,
   "ai_tekst": true,
-  "digitalt_bekraeftet": [],
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
   "kilder": {},
   "udvalg_tjekket": "2026-10-26",
   "print": {
@@ -3925,7 +3930,9 @@
   "kilde": null,
   "sidst_tjekket": null,
   "ai_tekst": true,
-  "digitalt_bekraeftet": [],
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
   "kilder": {},
   "udvalg_tjekket": "2026-10-26",
   "print": {
