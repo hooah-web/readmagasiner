@@ -131,6 +131,23 @@ export function udvalgFor(navn: string) {
   return { danske, udenlandske };
 }
 
+/** Deler en tekst i afsnit à ca. 3 sætninger, så en lang beskrivelse ikke bliver én blok. */
+export function afsnit(tekst: string, perAfsnit = 3): string[] {
+  if (!tekst) return [];
+  // Beskyt forkortelser, så "bl.a." ikke bliver delt til "bl." + "a."
+  const forkortelser = ["bl.a.", "bl.a", "f.eks.", "fx.", "dvs.", "m.fl.", "m.m.", "osv.",
+    "ca.", "evt.", "ift.", "pga.", "tlf.", "kr.", "md.", "nr.", "jf.", "mm.", "ang."];
+  let beskyttet = tekst;
+  forkortelser.forEach((f, i) => { beskyttet = beskyttet.split(f).join(`\u0000${i}\u0000`); });
+  const saetninger = (beskyttet.match(/[^.!?]+[.!?]+["»]?/g) ?? [beskyttet]).map((x) =>
+    x.replace(/\u0000(\d+)\u0000/g, (_m, i) => forkortelser[+i]));
+  const ud: string[] = [];
+  for (let i = 0; i < saetninger.length; i += perAfsnit) {
+    ud.push(saetninger.slice(i, i + perAfsnit).join(" ").trim());
+  }
+  return ud;
+}
+
 export function tjenesteFor(navn: string) {
   return TJENESTER.find((t) => t.navn.toLowerCase() === navn.toLowerCase());
 }

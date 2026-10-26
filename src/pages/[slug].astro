@@ -1,6 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
-import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgsStatus } from "../lib/site";
+import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgsStatus, afsnit } from "../lib/site";
 
 export function getStaticPaths() {
   return magasiner.map((m) => ({ params: { slug: m.slug }, props: { m } }));
@@ -122,7 +122,9 @@ const tjekket = Object.values(priser)
 
           <h2 style="margin-top:42px">Om bladet</h2>
           {m.beskrivelse
-            ? <p style="margin-top:10px">{m.beskrivelse}</p>
+            ? <div style="margin-top:10px;max-width:68ch">
+                {afsnit(m.beskrivelse).map((a) => <p style="margin:0 0 12px">{a}</p>)}
+              </div>
             : <div class="card" style="margin-top:12px">
                 <p style="margin:0">Vi har ikke en selvstændig beskrivelse af bladet endnu.</p>
                 <p class="small" style="margin:8px 0 0">
