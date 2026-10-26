@@ -77,8 +77,8 @@ const farveFor = (s: string) => {
           <b>{danske.length}</b>
         </div>
         <div class="fact">
-          <small>Kampagnepris</small>
-          <b>{intro ? prisTekst(intro) : "Ingen"}</b>
+          <small>Titler i alt</small>
+          <b>{info.udvalg_i_alt ?? "Ikke oplyst"}</b>
         </div>
         <div class="fact">
           <small>Udenlandske titler</small>
@@ -86,8 +86,8 @@ const farveFor = (s: string) => {
         </div>
       </div>
       <p class="meta" style="margin-top:16px;max-width:70ch">
-        Tallene for danske titler er vores registreringer, ikke tjenestens egen opgørelse.
-        Vi udvider løbende, og et blad kan mangle uden at tjenesten har fjernet det.
+        Tallene er talt op fra tjenestens egen katalog på {t.url.replace("https://", "").replace(/\/$/, "")}, som vi bruger som sandhed.
+        Tjekket {danskDato("2026-10-26")}. Ændrer tjenesten sit udvalg, retter vi listen efter.
       </p>
     </div>
   </section>
@@ -98,8 +98,10 @@ const farveFor = (s: string) => {
         <div>
           <h2>Danske udgivelser hos {t.navn}</h2>
           <p class="lede">
-            {danske.length} danske blade er registreret hos tjenesten.
-            {udenlandske.length > 0 ? ` Derudover ${udenlandske.length} udenlandske titler i vores registrering.` : ""}
+            {info.udvalg_i_alt
+              ? `${danske.length} af tjenestens ${info.udvalg_i_alt} titler er danske og har en side her.`
+              : `${danske.length} danske blade er registreret hos tjenesten.`}
+            {info.udenlandske_oplyst ? ` De øvrige ${info.udenlandske_oplyst} er udenlandske.` : ""}
           </p>
         </div>
         <a class="link" href="/magasiner/">Se alle magasiner →</a>

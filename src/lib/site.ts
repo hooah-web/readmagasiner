@@ -57,6 +57,7 @@ export function bladTekst(m: { slug: string; beskrivelse: string }): string {
 export const tjenesteInfo = tjenestedata as unknown as Record<string, {
   navn: string; url: string; note: string;
   udenlandske_oplyst: number | null; udenlandske_kilde: string | null;
+  udvalg_i_alt?: number | null;
   danske_kilde: string | null; bemaerkning: string;
   pris_fakta?: { q: string; a: string; kilde: string; hentet: string }[];
 }>;

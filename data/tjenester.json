@@ -3,8 +3,8 @@
   "navn": "Readly",
   "url": "https://readly.com/da-dk/",
   "note": "Størst samlet udvalg, flest internationale titler",
-  "udenlandske_oplyst": null,
-  "udenlandske_kilde": null,
+  "udenlandske_oplyst": 0,
+  "udenlandske_kilde": "https://readly.com/ (dansk udvalg)",
   "danske_kilde": "Readlys danske udgivelsesoversigt",
   "bemaerkning": "Readly oplyser ikke et samlet antal udenlandske titler på deres danske sider. Vi viser derfor ingen tal.",
   "pris_fakta": [
@@ -32,14 +32,15 @@
     "kilde": "https://readly.zendesk.com/hc/en-001/articles/4409419638929-Cancellation",
     "hentet": "2026-10-26"
    }
-  ]
+  ],
+  "udvalg_i_alt": 21
  },
  "flipp": {
   "navn": "Flipp",
   "url": "https://flipp.dk/",
   "note": "Dansk tjeneste, stærk på ugeblade",
-  "udenlandske_oplyst": null,
-  "udenlandske_kilde": null,
+  "udenlandske_oplyst": 51,
+  "udenlandske_kilde": "https://flipp.dk/magasiner/",
   "danske_kilde": "flipp.dk/magasiner/<blad>",
   "bemaerkning": "Flipp er dansk og oplyser ikke et antal udenlandske titler.",
   "pris_fakta": [
@@ -67,14 +68,15 @@
     "kilde": "https://www.flipp.dk/faq/",
     "hentet": "2026-10-26"
    }
-  ]
+  ],
+  "udvalg_i_alt": 87
  },
  "pling": {
   "navn": "Pling",
   "url": "https://pling.dk/",
   "note": "Dansk tjeneste, mange nichetitler",
-  "udenlandske_oplyst": 22,
-  "udenlandske_kilde": "pling.dk/partner-forside/internationale-brands/",
+  "udenlandske_oplyst": 39,
+  "udenlandske_kilde": "https://pling.dk/alle-magasiner/",
   "danske_kilde": "pling.dk/partner-forside/danske-brands/",
   "bemaerkning": "Pling viser 22 internationale brands på deres partner-sider. Det er ikke nødvendigvis hele det udenlandske udvalg.",
   "pris_fakta": [
@@ -108,7 +110,8 @@
     "kilde": "https://pling.dk/ofte-stillede-sporgsmal/",
     "hentet": "2026-10-26"
    }
-  ]
+  ],
+  "udvalg_i_alt": 57
  },
  "wype": {
   "navn": "Wype",

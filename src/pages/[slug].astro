@@ -61,13 +61,13 @@ const farve = farver[h % farver.length];
           <div class="statusbox">
             <strong>
               {harNogen
-                ? `Vi har registreret bladet hos ${m.digitalt.length} af ${TJENESTER.length} tjenester`
+                ? `Bladet er hos ${m.digitalt.length} af de ${TJENESTER.length} tjenester, vi sammenligner`
                 : "Ingen af de tjenester, vi sammenligner, har bladet"}
             </strong>
             <p>
               {harNogen
-                ? "Udvalget er tjekket mod tjenesternes egne sider. Kan et blad ikke findes, skriver vi \"Ikke oplyst\" — ikke \"Nej\"."
-                : "Det betyder ikke, at bladet er lukket — kun at det ikke er med i Readly, Flipp, Pling eller Wype."}
+                ? "Udvalget er sammenlignet med tjenesternes egne kataloger, som er vores sandhed. Står der \"Nej\", er bladet ikke på tjenestens liste."
+                : "Det betyder ikke, at bladet er lukket — kun at det ikke står på Readlys, Flipps, Plings eller Wypes egne lister."}
             </p>
           </div>
 
@@ -86,7 +86,11 @@ const farve = farver[h % farver.length];
                   <span class={st === "bekraeftet" ? "tag" : st === "nej" ? "tag no" : "tag"} style={st === "bekraeftet" ? "" : "background:#F1F3EF;color:#536663"}>
                     {tekst}
                   </span>
-                  <small>{t.note}</small>
+                  <small>
+                    {["Readly", "Flipp", "Pling"].includes(t.navn)
+                      ? `Tjekket ${danskDato(tjekket)} mod ${t.navn}s egen katalog`
+                      : t.note}
+                  </small>
                 </div>
                 <div class="cost">
                   {prisTekst(hoved)}
@@ -100,8 +104,9 @@ const farve = farver[h % farver.length];
           })}
 
           <p class="meta" style="margin-top:14px">
-            Vi skriver "Ja", når vi har fundet bladet på tjenestens egen side, og "Ikke oplyst", når vi
-            ikke ved det. Vi skriver aldrig "Nej", medmindre tjenesten selv oplyser det.
+            Vi sammenligner med tjenesternes egne kataloger. Står der "Ja", står bladet på tjenestens
+            liste. Står der "Nej", gør det ikke. Wype har vi endnu ikke en fuld liste fra, så der
+            skriver vi "Ikke oplyst", når vi ikke har bekræftet bladet.
             {tjekket && ` Udvalg og priser tjekket ${danskDato(tjekket)}.`}
           </p>
 
