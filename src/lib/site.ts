@@ -245,12 +245,34 @@ export function seoTitel(m: Magasin): string {
 export function seoBeskrivelse(m: Magasin): string {
   const tjenester = m.digitalt;
   const hos = tjenester.length >= 2 ? `${tjenester[0]} og ${tjenester[1]}` : tjenester[0] ?? "";
-  const start = renSætning(m.beskrivelse ?? "", 86);
+
+  // Kun hele sætninger bruges. Er den første for lang, skriver vi hellere en
+  // kort, sand indledning end at klippe midt i en ledsætning.
+  const ren = (m.beskrivelse ?? "").replace(/\s+/g, " ").trim();
+  const første = /^(.{30,}?[.!?])(\s|$)/.exec(ren);
+  const kandidat = første ? første[1].replace(/[.!?]$/, "") : "";
+  const typeord = m.type === "ugeblad" ? "ugeblad" : "magasin";
+  const dansk = m.land === "DK" ? "dansk " : "";
+  const indledning =
+    kandidat && kandidat.length <= 84
+      ? kandidat
+      : `${m.navn} er ${dansk === "dansk " ? "et dansk " : "et "}${typeord}${m.forlag ? ` fra ${m.forlag}` : ""}`;
+
+  // Variation i afslutningen, så 87 sider ikke ender med samme tre sætninger
+  const afslutninger = [
+    "Se pris og udvalg, og hvornår vi sidst har tjekket det.",
+    "Sammenlign med de andre tjenester, før du vælger.",
+    "Her ser du udvalg og pris, tjekket af os.",
+    "Se hvad abonnementet koster, og hvornår vi sidst tjekkede.",
+  ];
+  let h = 0;
+  for (let i = 0; i < m.slug.length; i++) h = (h * 31 + m.slug.charCodeAt(i)) % 9973;
+  const afslutning = afslutninger[h % afslutninger.length];
+
   return bedsteUtfald([
-    start ? start + "." : "",
+    indledning + ".",
     tjenester.length ? `Kan læses digitalt hos ${hos}.` : "Ingen af de fire tjenester har bladet.",
-    "Se pris og udvalg.",
-    "Vi viser hvornår prisen sidst er tjekket.",
+    afslutning,
     "Sammenlign de fire tjenester, før du vælger.",
   ]);
 }
