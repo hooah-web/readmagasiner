@@ -108,7 +108,15 @@ const seks = populære.slice(0, 6);
               <TjenesteLogo key={t.key} navn={t.navn} />
               <h3 class="sr-only">{t.navn}</h3>
               <p class="meta" style="margin:0">Danske titler: {antal}</p>
-              <div class="price">{prisTekst(prisHoved(p))}</div>
+              <div class="price">
+                {prisTekst(prisHoved(p)).split(" ≈ ")[0]}
+                {prisTekst(prisHoved(p)).includes(" ≈ ") && (
+                  <>
+                    <br />
+                    <span class="price__unit">≈ {prisTekst(prisHoved(p)).split(" ≈ ")[1]}</span>
+                  </>
+                )}
+              </div>
               <p>
                 {t.note}
                 {p?.checked_at ? ` · pris tjekket ${danskDato(p.checked_at)}` : ""}
