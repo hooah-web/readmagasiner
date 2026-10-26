@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import { magasiner, TJENESTER } from "../../lib/site";
+import Annonce from "../../components/Annonce.astro";
 
 const mag = magasiner.filter((m) => m.type === "magasin" && m.land === "DK");
 const uge = magasiner.filter((m) => m.type === "ugeblad" && m.land === "DK");
@@ -43,7 +44,7 @@ const grupper = [
             })}
           </p>
         </div>
-        <div class="ad ad-mobile">300 × 250</div>
+        <Annonce slot="mobile" />
 
 
         {grupper.map((g) => (
@@ -91,7 +92,7 @@ const grupper = [
       </div>
 
       <aside class="rail">
-        <div class="sticky-rail"><div class="ad ad-rail">300 × 600</div></div>
+        <div class="sticky-rail"><Annonce slot="rail" /></div>
       </aside>
     </div>
   </div>

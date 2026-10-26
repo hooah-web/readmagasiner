@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgFor, tjenesteInfo } from "../lib/site";
+import Annonce from "../components/Annonce.astro";
 ---
 
 <Base title="Sammenlign Readly, Flipp, Pling og Wype | readmagasiner.dk"
@@ -18,7 +19,7 @@ import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgFo
             men består i høj grad af udenlandske titler, som ikke er relevante for danske læsere.
           </p>
         </div>
-        <div class="ad ad-mobile">300 × 250</div>
+        <Annonce slot="mobile" />
 
         <div class="tablewrap"><table style="margin:10px 0 30px">
           <thead><tr><th>Tjeneste</th><th>Pris</th><th>Danske udgivelser</th><th>Udenlandske</th><th>Prøveperiode</th></tr></thead>
@@ -73,9 +74,9 @@ import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgFo
           pling: { navn: "Pling", normal: "99 kr.", note: "Opsig senest 5 dage før næste betaling." },
           wype: { navn: "Wype", normal: "99 kr.", note: "Første måned gratis." }
         })} />
-        <div class="ad ad-billboard">930 × 180</div>
+        <Annonce slot="billboard" />
       </div>
-      <aside class="rail"><div class="sticky-rail"><div class="ad ad-rail">300 × 600</div></div></aside>
+      <aside class="rail"><div class="sticky-rail"><Annonce slot="rail" /></div></aside>
     </div>
   </div>
 

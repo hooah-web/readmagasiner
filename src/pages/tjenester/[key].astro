@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import { magasiner, priser, TJENESTER, prisTekst, udvalgFor, tjenesteInfo } from "../../lib/site";
+import Annonce from "../../components/Annonce.astro";
 
 export function getStaticPaths() {
   return TJENESTER.map((t) => ({ params: { key: t.key }, props: { t } }));
@@ -23,7 +24,7 @@ const priser_liste = p ? Object.entries(p.prices) : [];
                 <article style="padding:18px 0 30px">
           <h1 style="font-size:clamp(28px,4vw,42px)">{t.navn}</h1>
           <p class="lead" style="color:var(--ink-soft);max-width:60ch;margin-top:12px">{t.note}</p>
-        <div class="ad ad-mobile">300 × 250</div>
+        <Annonce slot="mobile" />
 
 
           <h2 style="margin-top:30px">Priser</h2>
@@ -89,7 +90,7 @@ const priser_liste = p ? Object.entries(p.prices) : [];
           <p class="meta">Linket er et reklamelink. Vi får ikke betaling for det endnu — aftaler er ikke indgået.</p>
         </article>
       </div>
-      <aside class="rail"><div class="sticky-rail"><div class="ad ad-rail">300 × 600</div></div></aside>
+      <aside class="rail"><div class="sticky-rail"><Annonce slot="rail" /></div></aside>
     </div>
   </div>
 </Base>

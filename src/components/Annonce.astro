@@ -1,0 +1,57 @@
+---
+import annoncer from "../../data/annoncer.json";
+
+interface Props {
+  slot: "rail" | "billboard" | "mobile";
+  klasse?: string;
+  stil?: string;
+}
+const { slot, klasse = "", stil } = Astro.props;
+const a = (annoncer as any)[slot];
+const maal = { rail: ["300 × 600", 300, 600], billboard: ["930 × 180", 930, 180], mobile: ["300 × 250", 300, 250] }[slot];
+const [etiket, w, h] = maal as [string, number, number];
+---
+
+{
+  a && a.billede ? (
+    <a
+      href={a.link}
+      rel="nofollow sponsored noopener"
+      target="_blank"
+      class={`ad-slot ${klasse}`}
+      style={stil}
+      aria-label={a.alt}
+    >
+      <span class="ad-marker">Annonce</span>
+      <img src={a.billede} alt={a.alt} width={w} height={h} loading="lazy" />
+    </a>
+  ) : (
+    <div class={`ad ad-${slot} ${klasse}`} style={stil}>{etiket}</div>
+  )
+}
+
+<style>
+  .ad-slot {
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    background: #fff;
+    line-height: 0;
+  }
+  .ad-slot img { width: 100%; height: auto; display: block; }
+  .ad-slot .ad-marker {
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    font-size: 9px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #fff;
+    background: rgba(18, 52, 86, 0.55);
+    padding: 2px 6px;
+    border-radius: 4px;
+    line-height: 1.4;
+  }
+</style>

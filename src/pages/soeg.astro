@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { magasiner, TJENESTER } from "../lib/site";
+import Annonce from "../components/Annonce.astro";
 
 const data = magasiner.map((m) => ({
   n: m.navn,
@@ -34,14 +35,14 @@ const antal = magasiner.length;
   <div class="wrap">
     <div class="layout">
       <div class="main">
-                <div class="ad ad-mobile">300 × 250</div>
+                <Annonce slot="mobile" />
         <div id="status" class="small" style="padding:14px 0"></div>
         <div id="results" class="grid mag"></div>
         <noscript>
           <p class="small">Søgningen kræver JavaScript. Du kan i stedet bruge <a href="/magasiner/">hele kataloget</a>.</p>
         </noscript>
       </div>
-      <aside class="rail"><div class="sticky-rail"><div class="ad ad-rail">300 × 600</div></div></aside>
+      <aside class="rail"><div class="sticky-rail"><Annonce slot="rail" /></div></aside>
     </div>
   </div>
 

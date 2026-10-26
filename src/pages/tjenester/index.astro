@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import { magasiner, priser, TJENESTER, prisTekst, prisHoved } from "../../lib/site";
+import Annonce from "../../components/Annonce.astro";
 ---
 
 <Base title="Tjenester — sammenlign digitale magasintjenester | readmagasiner.dk"
@@ -17,7 +18,7 @@ import { magasiner, priser, TJENESTER, prisTekst, prisHoved } from "../../lib/si
             Fire tjenester deler det danske marked. De ligner hinanden i pris, men ikke i udvalg.
           </p>
         </div>
-        <div class="ad ad-mobile">300 × 250</div>
+        <Annonce slot="mobile" />
 
         <div class="grid svc" style="padding:14px 0 30px">
           {TJENESTER.map((t) => {
@@ -36,9 +37,9 @@ import { magasiner, priser, TJENESTER, prisTekst, prisHoved } from "../../lib/si
             );
           })}
         </div>
-        <div class="ad ad-billboard">930 × 180</div>
+        <Annonce slot="billboard" />
       </div>
-      <aside class="rail"><div class="sticky-rail"><div class="ad ad-rail">300 × 600</div></div></aside>
+      <aside class="rail"><div class="sticky-rail"><Annonce slot="rail" /></div></aside>
     </div>
   </div>
 </Base>
