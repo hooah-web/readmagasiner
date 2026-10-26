@@ -63,31 +63,6 @@
   "cover_kilde": "Flipp"
  },
  {
-  "navn": "Alt om fiske",
-  "slug": "magasin-alt-om-fiske",
-  "type": "magasin",
-  "forlag": "Story House Egmont",
-  "maalgruppe": "mænd",
-  "land": "NO",
-  "digitalt": [
-   "Flipp"
-  ],
-  "ikke_digitalt": false,
-  "lukket": false,
-  "beskrivelse": "Alt om fiske er det eneste sportsfiskeri-magasin i Norge og bladet tager fast i alt fra lystfiskerhistorier, til det tekniske, og interesserer man sig for sportsfiskeri, så er der helt sikkert en masse at hente. I denne måned kan man fx læse meget mere om hvordan man forbedre sin teknik på lange kast, og det giver naturligvis en bedre præcision og meget andet. Derudover kan man læse om fiskene, hvor de normalt vil stå, hvornår de bider og meget andet, der i sidste ende gør det meget nemmere for dig at være fisker. Bladet er selvfølgelig rettet mod dem, der allerede er inde i branchen, men der kommer også af og til guides til nybegyndere, der ønsker at starte op, så der på den måde er lidt for enhver smag. Sidst med ikke mindst er der også en anelse materiale og fiskekonkurrencer, hvor folk fisker for at slå rekorder eller for at slå hinanden. Dette er naturligvis også spændende læsning, for selvom man er udenfor miljøet kan det være sjovt at læse om, hvordan sporten bliver gjort til en konkurrence under vilkårene. Alt om Fiske udkommer 10 gange årligt og har hver gang en masse nyt spændende læsestof.",
-  "kilde": null,
-  "sidst_tjekket": null,
-  "ai_tekst": true,
-  "digitalt_bekraeftet": [
-   "Flipp"
-  ],
-  "kilder": {},
-  "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": null,
-  "cover": "/omslag/magasin-alt-om-fiske.webp",
-  "cover_kilde": "Flipp"
- },
- {
   "navn": "Android-bogen",
   "slug": "magasin-android-bogen",
   "type": "magasin",
@@ -167,32 +142,6 @@
   "kategori": "it-technology",
   "cover": "/omslag/magasin-apple-watch-bogen.webp",
   "cover_kilde": "Readly"
- },
- {
-  "navn": "Auto motor & Sport",
-  "slug": "magasin-auto-motor-sport",
-  "type": "magasin",
-  "forlag": "Story House Egmont",
-  "maalgruppe": "mænd",
-  "land": "SE",
-  "digitalt": [
-   "Flipp"
-  ],
-  "ikke_digitalt": false,
-  "lukket": false,
-  "beskrivelse": "Auto motor & Sport tester alle de biler, som du kun drømmer om. Det er i hvert fald påstanden fra chefredaktøren på det Svenske magasin, der mest af alt er for dig med benzin i blodet. Det store svenske magasin tilbyder nemlig tonsvis af materiale, der dækker alt lige fra nyheder fra bilindustrien, til mærkelige test af biler, som du nok godt kan få råd til. Magasinet minder på mange måder om Top Gear og er da også et af verdens største bilmagasiner med forskellige afdelinger overalt i verden. Faktisk har de opgjort at de hvert år tester omkring 300 nye biler i Auto motor & Sport, og det må da i hvert fald siges at være imponerende. Magasinet har naturligvis også en hjemmeside, der giver en masse konkurrencer og lignende, så du aldrig løber tør for materiale, og det er blandt andet muligt at få lov til at hjælpe med at prøvekøre bilerne og en masse andet. Derfor er der helt bestemt også noget for de danske læsere, selvom det kræver at man kan klare at læse det svenske.",
-  "kilde": null,
-  "sidst_tjekket": null,
-  "ai_tekst": true,
-  "digitalt_bekraeftet": [
-   "Flipp"
-  ],
-  "kilder": {},
-  "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": null,
-  "cover": "https://cdn.egmontservice.com/Publication/Cover/AMS__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/auto-motor--sport-se/",
-  "cover_verificeret": true
  },
  {
   "navn": "Bike powered by Motorrad Danmark",
@@ -366,58 +315,6 @@
   "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
   "cover": "https://cdn.egmontservice.com/Publication/Cover/BOL__b600m.jpg",
   "cover_kilde": "https://flipp.dk/magasiner/boligliv/",
-  "cover_verificeret": true
- },
- {
-  "navn": "Båtnytt",
-  "slug": "magasin-baatnytt",
-  "type": "magasin",
-  "forlag": "Story House Egmont",
-  "maalgruppe": "mænd",
-  "land": "SE",
-  "digitalt": [
-   "Flipp"
-  ],
-  "ikke_digitalt": false,
-  "lukket": false,
-  "beskrivelse": "Båtnytt er, som navnet også indikerer, et blad om både, der tager udgangspunkt i både entusiasternes verden, men bringer også en masse information og inspiration, til folk der er nye i universet, og måske er på udkig efter deres første båd. Denne kombination betyder at der er masser af guides og test i magasinet, samtidig med at der naturligvis også er små historier, krydret med billeder, der kan give inspiration til ens egen båd. Bladet er nemlig ”Av båtfolk för båtfolk” og det er derfor kyndige journalister og fotografer, der skriver artiklerne og tager billederne, og det er alt i alt med til at give et blad med en masse spændende læsning for alle med bare en lille interesse i både. Man er ikke i tvivl om at bladet kommer fra folk der selv er i miljøet, og det er med til at skabe et lidt nichepræget blad, der sagtens kan læses af alle. Bladet har derudover eksisteret i hele 50 år og er det mest læste bådmagasin i Sverige.",
-  "kilde": null,
-  "sidst_tjekket": null,
-  "ai_tekst": true,
-  "digitalt_bekraeftet": [
-   "Flipp"
-  ],
-  "kilder": {},
-  "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": null,
-  "cover": "https://cdn.egmontservice.com/Publication/Cover/BAT__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/batnytt-se/",
-  "cover_verificeret": true
- },
- {
-  "navn": "Classic motor",
-  "slug": "magasin-classic-motor",
-  "type": "magasin",
-  "forlag": "Story House Egmont",
-  "maalgruppe": "mænd",
-  "land": "SE",
-  "digitalt": [
-   "Flipp"
-  ],
-  "ikke_digitalt": false,
-  "lukket": false,
-  "beskrivelse": "Classic motor er igen et svensk nichemagasin, som vi desværre ikke har noget sidestykke til i Danmark. Man må derfor se mod dette svenske blad, hvis man har en forkærlighed for blandt andet veteran biler, som dette magasin specielt behandler. Classic motor skriver om de klassiske biler, som vi næsten alle sammen kender, men måske har glemt fordi modellerne er blevet erstattet af nyere, mere moderne versioner. Derfor tager Magasinet fat i biler, motorcykler, knallerter og andet nostalgi, der er mere end 20 år gammelt. På den måde kan man finde frem til nogle af de bedste biler gennem tiden. Flere gamle biler har nemlig noget rå køreglæde, som moderne biler har mistet for flere. Derudover kan man se på de fantastiske udviklinger op gennem historien, og dermed se hvorfra de moderne biler har lånt inspiration, eller taget skarpt afstand fra noget, man engang så som den bedste løsning. Bladet indeholder masser af billeder og beskrivelser af de gamle modeller, og der er naturligvis også noget for enhver og fra de fleste historiske perioder, så man kan læse alt op veteranbilerne eller de gamle motorcykler, hvis det er det, du kigger efter.",
-  "kilde": null,
-  "sidst_tjekket": null,
-  "ai_tekst": true,
-  "digitalt_bekraeftet": [
-   "Flipp"
-  ],
-  "kilder": {},
-  "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": null,
-  "cover": "https://cdn.egmontservice.com/Publication/Cover/CLA__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/classic-motor-se/",
   "cover_verificeret": true
  },
  {
@@ -850,31 +747,6 @@
   "cover_verificeret": true
  },
  {
-  "navn": "Hytteliv",
-  "slug": "magasin-hytteliv",
-  "type": "magasin",
-  "forlag": "Story House Egmont",
-  "maalgruppe": "mænd",
-  "land": "NO",
-  "digitalt": [
-   "Flipp"
-  ],
-  "ikke_digitalt": false,
-  "lukket": false,
-  "beskrivelse": "Hytteliv er en helt unik niche, som dog alligevel kan ramme rigtigt mange læsere, specielt i Danmark hvor man ikke har noget sidestykke. Bladet tager nemlig indretning af hytter, som kun nordmændene kan gøre det. Hytteliv bringer alt fra design til små smarte tips til livet i hytten, men det er ikke nødvendigvis dette, der rent faktisk er i fokus. I stedet er det et blad om de gode øjeblikke, og det at skabe hyggen omkring sig. De fleste der har været i en hytte, hvad end det er på skitur eller noget andet, ved at der er en helt speciel stemning over det. Og denne stemning kan man faktisk godt bringe med videre, og bruge i sit eget hjem til at skabe hyggen. Bladet målretter sig både mod mænd og kvinder og omhandler både livstil og inspiration til design. Selvom det ikke er hyttedelen, som danskere kan tage med, finder man hurtigt en masse andet, der kan hjælpe en til at skabe en god hjemlig atmosfære, eller blot gode råd til at gøre dagligdagen bedre eller nemmere. Bladet udkommer 11 gange i 2015, hvor den online giver masser af inspiration og fungerer også som et opslagsværk, hvis man senere hen skulle få lyst til at hente noget derfra. Derudover kommer der to store versioner: Påske og sommerudgaven der er ekstra store og pakket med masser af læsestof og materiale.",
-  "kilde": null,
-  "sidst_tjekket": null,
-  "ai_tekst": true,
-  "digitalt_bekraeftet": [
-   "Flipp"
-  ],
-  "kilder": {},
-  "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": null,
-  "cover": "/omslag/magasin-hytteliv.webp",
-  "cover_kilde": "Flipp"
- },
- {
   "navn": "I Form",
   "slug": "magasin-i-form",
   "type": "magasin",
@@ -1011,31 +883,6 @@
   "cover_kilde": "Pling"
  },
  {
-  "navn": "Jakt",
-  "slug": "magasin-jakt",
-  "type": "magasin",
-  "forlag": "Story House Egmont",
-  "maalgruppe": "mænd",
-  "land": "NO",
-  "digitalt": [
-   "Flipp"
-  ],
-  "ikke_digitalt": false,
-  "lukket": false,
-  "beskrivelse": "Jagt er en livstil og Jakt er alt, hvad du behøver at vide om denne livsstil. Så simplet er det. Bladet er skrevet af jægere og målrettet til andre, der tager jagten alvorligt, eller som i hvert fald interesserer sig for dette område. Som nævnt er skribenterne oftest meget erfarne jægere, der beskriver alt lige fra deres erfaringer med Storvildtsjagt til træning af jagthunde, og du vil kunne finde masser af historier, som du ikke lige får fra hvilken som helst jæger. Det gælder blandt andet de store elge og folk med specielle tilladelser, der skal holde populationen af visse dyr i skak. Derudover kan du naturligvis læse alt om udstyret, som vil hjælpe dig meget på din jagt. Det betyder test af alt fra våben til tøjet og båden, og der er naturligvis meget forskellige emner i bladet, der údkommer 10 gange om året, samt to specialudgivelserne ”Småviltjakt”, ”Storvildtjagt” og hjemmeladerens bibel: ”Ladeboken”. Bladet giver naturligvis også en masse flotte billeder fra de bedste, største og pæneste dyr, og det er naturligvis muligt at sende sine egne billeder eller historier ind til bladet, så man kan blive en del af Jakt.",
-  "kilde": null,
-  "sidst_tjekket": null,
-  "ai_tekst": true,
-  "digitalt_bekraeftet": [
-   "Flipp"
-  ],
-  "kilder": {},
-  "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": null,
-  "cover": "/omslag/magasin-jakt.webp",
-  "cover_kilde": "Flipp"
- },
- {
   "navn": "Junior: Utrolige køretøjer",
   "slug": "magasin-junior-utrolige-koeretoejer",
   "type": "magasin",
@@ -1061,32 +908,6 @@
   "kategori": "teen-kids",
   "cover": "/omslag/magasin-junior-utrolige-koeretoejer.webp",
   "cover_kilde": "Readly"
- },
- {
-  "navn": "King",
-  "slug": "magasin-king",
-  "type": "magasin",
-  "forlag": "Story House Egmont",
-  "maalgruppe": "mænd",
-  "land": "SE",
-  "digitalt": [
-   "Flipp"
-  ],
-  "ikke_digitalt": false,
-  "lukket": false,
-  "beskrivelse": "King er et lidt specielt blad for mens flere blade til mænd har haft økonomiske problemer de sidste par år, så har King klaret sig rigtig godt. King beskrives som bladet til alle os, der vil gøre et godt indtryk, når vi møder andre mennesker, og bladet er derfor specielt fokuseret på mode til mænd. Magasinet har dog meget mere end blot mode, og giver desuden også lidt til drengerøvene med beskrivelser af de nyeste elektroniske gir samt lidt om bilverdenen, nye film og rejser. Det er med andre ord hele pakken man får med King, og du vil derfor også kunne finde en masse interessant læsning, selvom du måske ligger udenfor målgruppen på 20-35 år. Hvis man har interesse for modedelen, kan det være sjovt at se forskellene fra den danske til den svenske mode, og faktisk ser man ofte store ligheder, selvom de også nogle gange skyder forbi hinanden. Derudover er der som nævnt en masse andet, og du kan blandt andet læse om de 100 mægtigste personer i modeverdenen og en masse andet fra de inspirerende bloggere. Disse holder også til på Kingmagazine.se, hvor du får daglige opdateringer, tips og en masse andre gode råd til at forny din stil.",
-  "kilde": null,
-  "sidst_tjekket": null,
-  "ai_tekst": true,
-  "digitalt_bekraeftet": [
-   "Flipp"
-  ],
-  "kilder": {},
-  "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": null,
-  "cover": "https://cdn.egmontservice.com/Publication/Cover/KNG__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/king-se/",
-  "cover_verificeret": true
  },
  {
   "navn": "Komputer for alle",
@@ -1369,32 +1190,6 @@
   "cover_kilde": "Readly"
  },
  {
-  "navn": "Scandinavian Retro",
-  "slug": "magasin-scandinavian-retro",
-  "type": "magasin",
-  "forlag": "Story House Egmont",
-  "maalgruppe": "kvinder",
-  "land": "SE",
-  "digitalt": [
-   "Flipp"
-  ],
-  "ikke_digitalt": false,
-  "lukket": false,
-  "beskrivelse": "Retro er et kendt term for mange. Det er det ”nye” gamle. Det betyder alt det fede, der måske desværre er blevet glemt i løbet af tiden trods det tidsløse design. Meget af dette er opstået igen og rider en modebølge, der gør det moderne at købe alle disse ældre ting. Der er selvfølgelig også meget nyt, der blot bliver designet som var det mange år siden. Bladet fokuserer mest af alt på 1900- tallets indretning og design. Det gælder blandt andet møbler, poselæn, keramik, tøj, lamper og meget andet, der kan være en fed tilføjelse til dig eller din stue. Bladet er relativt nyt og udkom første gang i 2011, hvorefter den nye kan købes i alle nordiske lande samt Japan. Bladet kører temaer som fx Swinging London der tager dig tilbage i tiden, og bringer dig de bedste elementer fra en bestemt tidsperiode. Hvordan du vælger at sammensætte det er naturligvis op til dig, men inspiration er der masser af, både i form af billeder, men også blot journalisterne og eksperternes gode råd og historier med lige netop disse ting.",
-  "kilde": null,
-  "sidst_tjekket": null,
-  "ai_tekst": true,
-  "digitalt_bekraeftet": [
-   "Flipp"
-  ],
-  "kilder": {},
-  "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": null,
-  "cover": "https://cdn.egmontservice.com/Publication/Cover/RET__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/scandinavian-retro-se/",
-  "cover_verificeret": true
- },
- {
   "navn": "Spis bedre",
   "slug": "magasin-spis-bedre",
   "type": "magasin",
@@ -1476,83 +1271,6 @@
   "cover_kilde": "Readly"
  },
  {
-  "navn": "Utemagasinet",
-  "slug": "magasin-utemagasinet",
-  "type": "magasin",
-  "forlag": "Story House Egmont",
-  "maalgruppe": "mænd",
-  "land": "SE",
-  "digitalt": [
-   "Flipp"
-  ],
-  "ikke_digitalt": false,
-  "lukket": false,
-  "beskrivelse": "Utemagasinet er ”Sveriges ledande frilufts- och äventyrstidning för friluftsintresserade i alla åldrar.” Målet med bladet er forskelligt alt efter hvem der læser det, men hovedsageligt vil man nok finde masser af inspiration og eventyrlyst i bladet, der tager dig med i fantastiske omgivelser, i alt fra de lokale bjerge til Himalaya. Bladet er naturligvis tilpasset efter sæsonerne, og vil derfor give dig vandring, cykling og klatring om sommeren, mens du om vinteren vil få masser af guides til at begive dig ud i sneen. Selvfølgelig er det ikke lige frem normal skisport, som bladet fokuserer på, men i stedet langrend der sætter dig helt fri og giver muligheden for at komme væk fra lands lov og ret. Bladet er selvfølgelig mest relevant, hvis du selv ønsker at komme ud, men rent grafisk er bladet også meget lækkert med fantastiske billeder og historier fra hele verden. Journalisterne kommer nemlig også langt omkring og skriver hjem fra de fjerneste lande, hvor man kan opleve helt unikke ting, der giver flere timers interessant læsning, og selvom den Danske natur måske ikke er et fokuspunkt, kan man sagtens finde masser af inspiration til oplevelser her.",
-  "kilde": null,
-  "sidst_tjekket": null,
-  "ai_tekst": true,
-  "digitalt_bekraeftet": [
-   "Flipp"
-  ],
-  "kilder": {},
-  "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": null,
-  "cover": "https://cdn.egmontservice.com/Publication/Cover/UTE__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/utemagasinet-se/",
-  "cover_verificeret": true
- },
- {
-  "navn": "Vagabond",
-  "slug": "magasin-vagabond",
-  "type": "magasin",
-  "forlag": "Story House Egmont",
-  "maalgruppe": "mænd",
-  "land": "SE",
-  "digitalt": [
-   "Flipp"
-  ],
-  "ikke_digitalt": false,
-  "lukket": false,
-  "beskrivelse": "Vagabond er for dig med mottoet: ”At rejse er at leve”, og bladet tager dig derfor med en lang række svenske og udenlandske journalister, der rejser rundt i verden, hvor de beskriver hvad de ser, og det kan selvfølgelig vække en stor rejselyst i dig, eller også kan du blot bruge det til at bestemme dig for, hvad du ikke har et behov for at se. Lige meget hvad er der masser at hente fra det store svenske magasin. Bladet er bygget op omkring det at rejse, og derfor tager det naturligvis også nogle temaer, som varierer efter årstiden, og hvad der ”trender” for tiden. Derudover kommer der naturligvis også en masse anmeldelser af stederne, hvad man bør besøge og en masse andet. Bladet fortælle naturligvis også en masse om de farer, der kan være ved at rejse visse steder, og kan på den måde guide dig mod de rigtigste destinationer, hvor de fortæller alle de lokale ”do’s” and ”don’ts”, som du helt sikkert vil få meget brug for på rejsen, hvis du har mod på at besøge de mindre turistattraktive destinationer. Det er generelt hele pointen, at journalisterne skal søge væk fra stigen og give de mere autentiske beretninger fra lokalsamfund, hvor det ikke er alle og enhver der nemt kommer frem. Det giver i sidste ende en masse spændende læsning for de fleste og inspiration.",
-  "kilde": null,
-  "sidst_tjekket": null,
-  "ai_tekst": true,
-  "digitalt_bekraeftet": [
-   "Flipp"
-  ],
-  "kilder": {},
-  "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": null,
-  "cover": "https://cdn.egmontservice.com/Publication/Cover/VAG__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/vagabond-se/",
-  "cover_verificeret": true
- },
- {
-  "navn": "Vi Menn",
-  "slug": "magasin-vi-menn",
-  "type": "magasin",
-  "forlag": "Story House Egmont",
-  "maalgruppe": "mænd",
-  "land": "NO",
-  "digitalt": [
-   "Flipp"
-  ],
-  "ikke_digitalt": false,
-  "lukket": false,
-  "beskrivelse": "Vi Menn er et norsk magasin, der, som navnet antyder, er rettet mod den mandlige del af befolkningen. Derfor er der også fyret godt op for testosteron-niveauet, når man går i gang med læsningen om fx de nye norske kampfly, nyheder på bilmarkedet, eller små interviews med pæne piger. Bladet er tæt på at ligne, hvad det danske M! var før i tiden, dog med en mere voksen tone, og derudover udkommer bladet faktisk hver uge. Bladet har siden 1951 været tro mod den norske mand og de områder, som han måtte interessere sig for, men der er naturligvis masser af læsning, der passer til danskeren. Selvfølgelig vil mange af historierne og interviews være med normænd, men kan man klare sig forbi sprogbarrieren, har man her et magasin, som ikke har noget sidestykke i Danmark, og som helt sikker kan give mange timers god og spændende læsning til den danske mand. Journalistisk tager magasinet dig med på en rejse rundt i verden, og som nævnt så er den fjollede tone, som man kender fra mandeblade herhjemme erstattet med hårdhed og resultatet er et blad med noget unikt at tilbyde, da den trækker på freelancere fra hele kloden.",
-  "kilde": null,
-  "sidst_tjekket": null,
-  "ai_tekst": true,
-  "digitalt_bekraeftet": [
-   "Flipp"
-  ],
-  "kilder": {},
-  "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": null,
-  "cover": "/omslag/magasin-vi-menn.webp",
-  "cover_kilde": "Flipp"
- },
- {
   "navn": "Vi Unge",
   "slug": "magasin-vi-unge",
   "type": "magasin",
@@ -1632,31 +1350,6 @@
   "kategori": "science-nature/teen-kids",
   "cover": "/omslag/magasin-videnskab-junior.webp",
   "cover_kilde": "Readly"
- },
- {
-  "navn": "Villmarksliv",
-  "slug": "magasin-villmarksliv",
-  "type": "magasin",
-  "forlag": "Story House Egmont",
-  "maalgruppe": "mænd",
-  "land": "NO",
-  "digitalt": [
-   "Flipp"
-  ],
-  "ikke_digitalt": false,
-  "lukket": false,
-  "beskrivelse": "Villmarksliv er som navnet også siger lidt om, bladet om vildmarken. Norge har, som de fleste nok ved, områder, hvor udkants-Danmark kommer til at virke som det indre København. Her er den nemlig jungleloven der regerer og det er her du kan møde dyr, som nok egentlig ligger over dig i fødekæden, hvis det ikke var på grund af en masse teknologi. Det er også her du ser smuk og uberørt natur, og det er her du virkelig kan føle dig som en del af naturen. Bladet er en god blanding af historier fra vildmarken kombineret med en masse flotte billeder af naturen, og der kører sågar ofte fotokonkurrencer i bladet, så man selv kan lege fotograf ude i naturen. Derudover er der naturligvis test af alt det grej du skal bruge til at overleve derude. I det seneste eksemplar kan du blandt andet læse om ”12 lette fjellsko” og meget andet, som kan hjælpe dig på din næste tur ud i vildmarken. Du kan med fordel også følge Villmarksliv på sociale medier som Instagram, hvor man kan se meget mere fra de billeder, der bliver sendt ind, og tager du selv på tur op gennem Norge, kan du også sende dem hertil.",
-  "kilde": null,
-  "sidst_tjekket": null,
-  "ai_tekst": true,
-  "digitalt_bekraeftet": [
-   "Flipp"
-  ],
-  "kilder": {},
-  "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": null,
-  "cover": "/omslag/magasin-villmarksliv.webp",
-  "cover_kilde": "Flipp"
  },
  {
   "navn": "Vores børn",
@@ -1773,32 +1466,6 @@
   "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
   "cover": "/omslag/magasin-woman.webp",
   "cover_kilde": "Wype"
- },
- {
-  "navn": "Åka Skidor",
-  "slug": "magasin-aaka-skidor",
-  "type": "magasin",
-  "forlag": "Story House Egmont",
-  "maalgruppe": "mænd",
-  "land": "SE",
-  "digitalt": [
-   "Flipp"
-  ],
-  "ikke_digitalt": false,
-  "lukket": false,
-  "beskrivelse": "Åka Skidor udkom for første gang i 1974 - 75 omkring samme tidspunkt som Ingemar Stenmark fik sit gennembrud og mange, både danskere og andre nationaliteter fik øjnene op for skisporten. Til de der ikke lige kan huske Ingemar Stenmark, så er han stadig regnet for en af de bedste skiløbere nogensinde og vandt 2 gange OL og tre VM guldmedaljer, hvilket satte ham og Sverige på verdenskortet i vinter disciplinerne. Sverige er derudover naturligvis et af de lande som mange forbinder med skisport, og rigtig mange tager turen til Sverige hvert år for at stå på ski. Det er derfor også kun naturligt at det er herfra, at et af verdens største skisportsmagasiner kommer. Har du interesse for ski og snowboard, så kan du helt sikkert finde en masse spændende læsning i bladet, der bringer dig nyheder som: ”Världens Bästa Snö”, eller verdens bedste sne, så du kan finde inspiration til din næste ferie destination. Bladet indeholder desuden lækre billeder fra pisten, interviews med professionelle og naturligvis en lang række tips og tricks, samt test af det bedste udstyr. På den måde bliver du klædt på til vinterens tur, hvad end den går sydpå mod alperne eller nordpå mod Norge og Sverige eller et helt tredje sted.",
-  "kilde": null,
-  "sidst_tjekket": null,
-  "ai_tekst": true,
-  "digitalt_bekraeftet": [
-   "Flipp"
-  ],
-  "kilder": {},
-  "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": null,
-  "cover": "https://cdn.egmontservice.com/Publication/Cover/SKI__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/aka-skidor-se/",
-  "cover_verificeret": true
  },
  {
   "navn": "7 tv dage",

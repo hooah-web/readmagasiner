@@ -19,14 +19,6 @@
   },
   "tjekket": "2026-10-26"
  },
- "magasin-alt-om-fiske": {
-  "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-antik-auktion": {
   "Flipp": "nej",
   "Wype": "nej",
@@ -35,14 +27,6 @@
   "kilder": {
    "Pling": "https://pling.dk/brands/?publicationId=33939"
   },
-  "tjekket": "2026-10-26"
- },
- "magasin-auto-motor-sport": {
-  "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-bil-magasinet": {
@@ -83,22 +67,6 @@
   "kilder": {
    "Flipp": "https://flipp.dk/magasiner/boligliv"
   },
-  "tjekket": "2026-10-26"
- },
- "magasin-baatnytt": {
-  "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-classic-motor": {
-  "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-costume": {
@@ -212,14 +180,6 @@
   },
   "tjekket": "2026-10-26"
  },
- "magasin-hytteliv": {
-  "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-i-form": {
   "Flipp": "nej",
   "Wype": "bekraeftet",
@@ -248,22 +208,6 @@
   "kilder": {
    "Pling": "https://pling.dk/brands/?publicationId=33980"
   },
-  "tjekket": "2026-10-26"
- },
- "magasin-jakt": {
-  "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-king": {
-  "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-komputer-for-alle": {
@@ -314,14 +258,6 @@
   "kilder": {},
   "tjekket": "2026-10-26"
  },
- "magasin-scandinavian-retro": {
-  "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-spis-bedre": {
   "Flipp": "nej",
   "Wype": "nej",
@@ -332,30 +268,6 @@
   },
   "tjekket": "2026-10-26"
  },
- "magasin-utemagasinet": {
-  "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-vagabond": {
-  "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
- "magasin-vi-menn": {
-  "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
-  "tjekket": "2026-10-26"
- },
  "magasin-vi-unge": {
   "Flipp": "nej",
   "Wype": "nej",
@@ -364,14 +276,6 @@
   "kilder": {
    "Pling": "https://pling.dk/brands/?publicationId=33994"
   },
-  "tjekket": "2026-10-26"
- },
- "magasin-villmarksliv": {
-  "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "magasin-vores-boern": {
@@ -400,14 +304,6 @@
   "kilder": {
    "Wype": "https://wype.dk/online-magasiner/"
   },
-  "tjekket": "2026-10-26"
- },
- "magasin-aaka-skidor": {
-  "Flipp": "bekraeftet",
-  "Wype": "nej",
-  "Pling": "nej",
-  "Readly": "nej",
-  "kilder": {},
   "tjekket": "2026-10-26"
  },
  "ugeblad-7-tv-dage": {
