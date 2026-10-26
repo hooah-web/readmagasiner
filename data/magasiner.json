@@ -44,7 +44,8 @@
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6215/latest-issue",
   "cover_kilde": "https://wype.dk/online-magasiner/aktiv-traening/",
-  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true
  },
  {
   "navn": "Allt om Android",
@@ -337,9 +338,7 @@
    "tjekket": "2026-10-26",
    "kilde": "mitblad.dk (link, pris ikke læst)"
   },
-  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
-  "cover": "https://cdn.egmontservice.com/Publication/Cover/HJM__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/alt-for-damerne/"
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)"
  },
  {
   "navn": "Alt om data",
@@ -552,7 +551,8 @@
   "udvalg_tjekket": "2026-10-26",
   "forlag_kilde": null,
   "cover": "https://cdn.egmontservice.com/Publication/Cover/AMS__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/auto-motor--sport-se/"
+  "cover_kilde": "https://flipp.dk/magasiner/auto-motor--sport-se/",
+  "cover_verificeret": true
  },
  {
   "navn": "Bandyportföljen",
@@ -704,7 +704,8 @@
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6193/latest-issue",
   "cover_kilde": "https://wype.dk/online-magasiner/bil-magasinet/",
-  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true
  },
  {
   "navn": "Bitcoin – og andre digitale valutaer",
@@ -756,7 +757,8 @@
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6199/latest-issue",
   "cover_kilde": "https://wype.dk/online-magasiner/bo-bedre/",
-  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true
  },
  {
   "navn": "Bolig Magasinet",
@@ -783,7 +785,8 @@
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6197/latest-issue",
   "cover_kilde": "https://wype.dk/online-magasiner/bolig-magasinet/",
-  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true
  },
  {
   "navn": "BoligLiv",
@@ -818,7 +821,8 @@
   },
   "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
   "cover": "https://cdn.egmontservice.com/Publication/Cover/BOL__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/boligliv/"
+  "cover_kilde": "https://flipp.dk/magasiner/boligliv/",
+  "cover_verificeret": true
  },
  {
   "navn": "Bådnyt",
@@ -861,7 +865,8 @@
   "udvalg_tjekket": "2026-10-26",
   "forlag_kilde": null,
   "cover": "https://cdn.egmontservice.com/Publication/Cover/BAT__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/batnytt-se/"
+  "cover_kilde": "https://flipp.dk/magasiner/batnytt-se/",
+  "cover_verificeret": true
  },
  {
   "navn": "CAP&Design",
@@ -904,7 +909,8 @@
   "udvalg_tjekket": "2026-10-26",
   "forlag_kilde": null,
   "cover": "https://cdn.egmontservice.com/Publication/Cover/CLA__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/classic-motor-se/"
+  "cover_kilde": "https://flipp.dk/magasiner/classic-motor-se/",
+  "cover_verificeret": true
  },
  {
   "navn": "Computer Sweden",
@@ -951,7 +957,8 @@
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6195/latest-issue",
   "cover_kilde": "https://wype.dk/online-magasiner/costume/",
-  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true
  },
  {
   "navn": "Costume Living",
@@ -1102,7 +1109,8 @@
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6205/latest-issue",
   "cover_kilde": "https://wype.dk/online-magasiner/digital-foto/",
-  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true
  },
  {
   "navn": "DigitalFoto",
@@ -1310,7 +1318,8 @@
   },
   "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
   "cover": "https://cdn.egmontservice.com/Publication/Cover/EUM__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/euroman/"
+  "cover_kilde": "https://flipp.dk/magasiner/euroman/",
+  "cover_verificeret": true
  },
  {
   "navn": "Eurowoman",
@@ -1438,7 +1447,8 @@
   },
   "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
   "cover": "https://cdn.egmontservice.com/Publication/Cover/FIT__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/fit-living/"
+  "cover_kilde": "https://flipp.dk/magasiner/fit-living/",
+  "cover_verificeret": true
  },
  {
   "navn": "Fitness For Men",
@@ -1675,7 +1685,8 @@
   },
   "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
   "cover": "https://cdn.egmontservice.com/Publication/Cover/GAS__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/gastro/"
+  "cover_kilde": "https://flipp.dk/magasiner/gastro/",
+  "cover_verificeret": true
  },
  {
   "navn": "Girls Life Magazine",
@@ -1803,7 +1814,8 @@
   "udvalg_tjekket": "2026-10-26",
   "forlag_kilde": "flipp.dk (Egmonts digitale tjeneste)",
   "cover": "https://cdn.egmontservice.com/Publication/Cover/VOG__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/gravid/"
+  "cover_kilde": "https://flipp.dk/magasiner/gravid/",
+  "cover_verificeret": true
  },
  {
   "navn": "Gør det selv",
@@ -1830,7 +1842,8 @@
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6207/latest-issue",
   "cover_kilde": "https://wype.dk/online-magasiner/goer-det-selv/",
-  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true
  },
  {
   "navn": "Hendes Verden",
@@ -1865,7 +1878,8 @@
   },
   "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
   "cover": "https://cdn.egmontservice.com/Publication/Cover/HEV__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/hendes-verden/"
+  "cover_kilde": "https://flipp.dk/magasiner/hendes-verden/",
+  "cover_verificeret": true
  },
  {
   "navn": "Historie",
@@ -1892,7 +1906,8 @@
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6213/latest-issue",
   "cover_kilde": "https://wype.dk/online-magasiner/historie/",
-  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true
  },
  {
   "navn": "HjemmePC",
@@ -1999,8 +2014,6 @@
    "Wype": "https://wype.dk/online-magasiner/"
   },
   "udvalg_tjekket": "2026-10-26",
-  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6203/latest-issue",
-  "cover_kilde": "https://wype.dk/online-magasiner/i-form/",
   "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
  },
  {
@@ -2028,7 +2041,8 @@
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6209/latest-issue",
   "cover_kilde": "https://wype.dk/online-magasiner/illustreret-videnskab/",
-  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true
  },
  {
   "navn": "iPad-bogen",
@@ -2212,7 +2226,8 @@
   "udvalg_tjekket": "2026-10-26",
   "forlag_kilde": null,
   "cover": "https://cdn.egmontservice.com/Publication/Cover/KNG__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/king-se/"
+  "cover_kilde": "https://flipp.dk/magasiner/king-se/",
+  "cover_verificeret": true
  },
  {
   "navn": "Kloka Hem",
@@ -2299,7 +2314,8 @@
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6211/latest-issue",
   "cover_kilde": "https://wype.dk/online-magasiner/komputer-for-alle/",
-  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true
  },
  {
   "navn": "Kroppen Junior",
@@ -2417,7 +2433,8 @@
   "udvalg_tjekket": "2026-10-26",
   "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6201/latest-issue",
   "cover_kilde": "https://wype.dk/online-magasiner/magasinet-liv/",
-  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true
  },
  {
   "navn": "Magasinet M",
@@ -2755,7 +2772,8 @@
   "udvalg_tjekket": "2026-10-26",
   "forlag_kilde": null,
   "cover": "https://cdn.egmontservice.com/Publication/Cover/SAL__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/sallys/"
+  "cover_kilde": "https://flipp.dk/magasiner/sallys/",
+  "cover_verificeret": true
  },
  {
   "navn": "Samsung-bogen",
@@ -2823,7 +2841,8 @@
   "udvalg_tjekket": "2026-10-26",
   "forlag_kilde": null,
   "cover": "https://cdn.egmontservice.com/Publication/Cover/RET__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/scandinavian-retro-se/"
+  "cover_kilde": "https://flipp.dk/magasiner/scandinavian-retro-se/",
+  "cover_verificeret": true
  },
  {
   "navn": "Smag og behag",
@@ -3060,7 +3079,8 @@
   "udvalg_tjekket": "2026-10-26",
   "forlag_kilde": null,
   "cover": "https://cdn.egmontservice.com/Publication/Cover/UTE__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/utemagasinet-se/"
+  "cover_kilde": "https://flipp.dk/magasiner/utemagasinet-se/",
+  "cover_verificeret": true
  },
  {
   "navn": "Vagabond",
@@ -3083,7 +3103,8 @@
   "udvalg_tjekket": "2026-10-26",
   "forlag_kilde": null,
   "cover": "https://cdn.egmontservice.com/Publication/Cover/VAG__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/vagabond-se/"
+  "cover_kilde": "https://flipp.dk/magasiner/vagabond-se/",
+  "cover_verificeret": true
  },
  {
   "navn": "Vi Båtägare",
@@ -3263,7 +3284,8 @@
   "udvalg_tjekket": "2026-10-26",
   "forlag_kilde": null,
   "cover": "https://cdn.egmontservice.com/Publication/Cover/VOB__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/vores-born/"
+  "cover_kilde": "https://flipp.dk/magasiner/vores-born/",
+  "cover_verificeret": true
  },
  {
   "navn": "Wendy",
@@ -3298,7 +3320,8 @@
   },
   "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
   "cover": "https://cdn.egmontservice.com/Publication/Cover/WEN__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/wendy/"
+  "cover_kilde": "https://flipp.dk/magasiner/wendy/",
+  "cover_verificeret": true
  },
  {
   "navn": "Windows Phone-bogen",
@@ -3348,8 +3371,6 @@
    "Wype": "https://wype.dk/online-magasiner/"
   },
   "udvalg_tjekket": "2026-10-26",
-  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6873/latest-issue",
-  "cover_kilde": "https://wype.dk/online-magasiner/woman/",
   "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
  },
  {
@@ -3393,7 +3414,8 @@
   "udvalg_tjekket": "2026-10-26",
   "forlag_kilde": null,
   "cover": "https://cdn.egmontservice.com/Publication/Cover/SKI__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/aka-skidor-se/"
+  "cover_kilde": "https://flipp.dk/magasiner/aka-skidor-se/",
+  "cover_verificeret": true
  },
  {
   "navn": "7 tv dage",
@@ -3441,7 +3463,8 @@
   "udvalg_tjekket": "2026-10-26",
   "forlag_kilde": null,
   "cover": "https://cdn.egmontservice.com/Publication/Cover/AND__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/anders-and--co/"
+  "cover_kilde": "https://flipp.dk/magasiner/anders-and--co/",
+  "cover_verificeret": true
  },
  {
   "navn": "Anders And Junior",
@@ -3468,7 +3491,8 @@
   "udvalg_tjekket": "2026-10-26",
   "forlag_kilde": "flipp.dk (Egmonts digitale tjeneste)",
   "cover": "https://cdn.egmontservice.com/Publication/Cover/AAJ__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/anders-and-junior/"
+  "cover_kilde": "https://flipp.dk/magasiner/anders-and-junior/",
+  "cover_verificeret": true
  },
  {
   "navn": "Basserne",
@@ -3503,7 +3527,8 @@
   },
   "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
   "cover": "https://cdn.egmontservice.com/Publication/Cover/BAS__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/basserne/"
+  "cover_kilde": "https://flipp.dk/magasiner/basserne/",
+  "cover_verificeret": true
  },
  {
   "navn": "Billed Bladet",
@@ -3637,7 +3662,8 @@
   },
   "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
   "cover": "https://cdn.egmontservice.com/Publication/Cover/GOA__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/goal/"
+  "cover_kilde": "https://flipp.dk/magasiner/goal/",
+  "cover_verificeret": true
  },
  {
   "navn": "Her & Nu",
@@ -3668,7 +3694,8 @@
   },
   "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
   "cover": "https://cdn.egmontservice.com/Publication/Cover/HNU__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/hernu/"
+  "cover_kilde": "https://flipp.dk/magasiner/hernu/",
+  "cover_verificeret": true
  },
  {
   "navn": "Hjemmet",
@@ -3703,7 +3730,8 @@
   },
   "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
   "cover": "https://cdn.egmontservice.com/Publication/Cover/HJM__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/hjemmet/"
+  "cover_kilde": "https://flipp.dk/magasiner/hjemmet/",
+  "cover_verificeret": true
  },
  {
   "navn": "Hjemmets bedste mad",
@@ -3738,7 +3766,8 @@
   },
   "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
   "cover": "https://cdn.egmontservice.com/Publication/Cover/HBM__b600m.jpg",
-  "cover_kilde": "https://flipp.dk/magasiner/hjemmets-bedste-mad/"
+  "cover_kilde": "https://flipp.dk/magasiner/hjemmets-bedste-mad/",
+  "cover_verificeret": true
  },
  {
   "navn": "Kig Ind",
