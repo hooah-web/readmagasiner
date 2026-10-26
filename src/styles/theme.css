@@ -94,7 +94,7 @@ p:last-child { margin-bottom: 0; }
 .searchbox .icon { margin-left: 12px; color: var(--muted); font-size: 18px; }
 .searchbox input { border: 0; outline: 0; flex: 1; min-width: 0; color: var(--ink); background: transparent; font: inherit; }
 .suggestline { margin-top: var(--s2); font-size: 13px; color: var(--muted); }
-.suggestline a, .suggestline span { margin: 0 var(--s1); color: var(--pine); font-weight: 600; }
+.suggestline a, .suggestline span { margin: 0 var(--s1) 4px 0; color: var(--pine); font-weight: 600; display: inline-block; }
 .search-cta { display: none; }
 @media (max-width: 767px) {
   .hero { padding: var(--s8) 0; }

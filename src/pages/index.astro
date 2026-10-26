@@ -36,7 +36,7 @@ const seks = populære.slice(0, 6);
         så du hurtigt kan se, hvem der har dit blad — og hvad det koster.
       </p>
 
-      <form class="searchbox" action="/soeg/" method="get" role="search">
+      <form class="searchbox" id="soegform" action="/soeg/" method="get" role="search">
         <span class="icon" aria-hidden="true">⌕</span>
         <input
           type="search"
@@ -48,7 +48,7 @@ const seks = populære.slice(0, 6);
         <button class="btn" type="submit">Find magasin</button>
       </form>
 
-      <a class="btn search-cta" href="/magasiner/">Se alle magasiner</a>
+      <button class="btn search-cta" type="submit" form="soegform">Find magasin</button>
 
       <p class="suggestline">
         Prøv fx:
