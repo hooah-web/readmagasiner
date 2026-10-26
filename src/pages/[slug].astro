@@ -122,15 +122,37 @@ const tjekket = Object.values(priser)
           )}
 
           <h2 style="margin-top:42px">Få {m.navn} i postkassen</h2>
-          <div class="card" style="margin-top:14px;border-style:dashed">
-            <p style="margin:0"><strong>Printabonnementer er ikke på plads endnu.</strong></p>
-            <p class="small" style="margin:8px 0 0">
-              Vi har ikke indgået aftaler med forlagene, og derfor viser vi ingen priser her.
-              Så snart aftalerne er der, kan vi tjekke papirabonnementer lige så systematisk som de digitale —
-              med udgivelsesfrekvens, pris pr. nummer og besparelse mod løssalg.
-              Indtil da: ingen tal, ingen gæt.
-            </p>
-          </div>
+          {m.print ? (
+            <div class="card" style="margin-top:14px">
+              <div style="display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap">
+                <div>
+                  <p style="margin:0" class="small">{m.print.forlag === "Aller" ? "Aller Media" : "Story House Egmont"} · print</p>
+                  <p style="margin:4px 0 0;font-size:24px;font-weight:750;font-variant-numeric:tabular-nums">
+                    {m.print.pris_fra ? `fra ${m.print.pris_fra} kr.` : "Se pris hos forlaget"}
+                  </p>
+                  {m.print.udgivelser && (
+                    <p class="small" style="margin:6px 0 0">{m.print.udgivelser} udgivelser om året</p>
+                  )}
+                </div>
+                <a class="btn" href={m.print.url} rel="nofollow noopener" target="_blank">
+                  Se abonnementet →
+                </a>
+              </div>
+              <p class="meta" style="margin:12px 0 0">
+                {m.print.pris_fra
+                  ? `Prisen er forlagets egen "fra"-pris og kan dække flere abonnementstyper. Hentet ${m.print.tjekket} fra ${m.print.kilde}.`
+                  : `Vi viser ikke en pris her, fordi forlagets side kræver JavaScript. Linket går til forlagets egen side. Tjekket ${m.print.tjekket}.`}
+              </p>
+            </div>
+          ) : (
+            <div class="card" style="margin-top:14px;border-style:dashed">
+              <p style="margin:0"><strong>Vi har ingen printaftale registreret på {m.navn}.</strong></p>
+              <p class="small" style="margin:8px 0 0">
+                Bladet kan stadig købes i postkassen — vi har bare ikke fundet det hos Aller eller Egmont
+                endnu. Vi viser ingen pris, vi ikke kan dokumentere.
+              </p>
+            </div>
+          )}
 
           <h2 style="margin-top:42px">Om bladet</h2>
           {bladTekst(m)

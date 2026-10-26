@@ -16,6 +16,7 @@ export type Magasin = {
   lukket: boolean;
   digitalt_bekraeftet?: string[];
   cover?: string;
+  print?: { forlag: string; url: string; pris_fra: string | null; udgivelser: number | null; tjekket: string; kilde: string };
   cover_kilde?: string;
   kategori?: string;
   beskrivelse: string;

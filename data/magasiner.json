@@ -327,7 +327,15 @@
   "kilder": {
    "Flipp": "https://flipp.dk/magasiner/alt-for-damerne"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/alt-for-damerne/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  }
  },
  {
   "navn": "Alt om data",
@@ -785,7 +793,15 @@
   "kilder": {
    "Flipp": "https://flipp.dk/magasiner/boligliv"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/boligliv/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  }
  },
  {
   "navn": "Bådnyt",
@@ -1255,7 +1271,15 @@
   "kilder": {
    "Flipp": "https://flipp.dk/magasiner/euroman"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/euroman/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  }
  },
  {
   "navn": "Eurowoman",
@@ -1279,7 +1303,15 @@
   "kilder": {
    "Flipp": "https://flipp.dk/magasiner/eurowoman"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/eurowoman/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  }
  },
  {
   "navn": "Extra",
@@ -1363,7 +1395,15 @@
   "kilder": {
    "Flipp": "https://flipp.dk/magasiner/fit-living"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/fitliving/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  }
  },
  {
   "navn": "Fitness For Men",
@@ -1588,7 +1628,15 @@
   "kilder": {
    "Flipp": "https://flipp.dk/magasiner/gastro"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/gastro/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  }
  },
  {
   "navn": "Girls Life Magazine",
@@ -1762,7 +1810,15 @@
   "kilder": {
    "Flipp": "https://flipp.dk/magasiner/hendes-verden"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/hendes-verden/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  }
  },
  {
   "navn": "Historie",
@@ -2555,7 +2611,15 @@
    "Readly": "https://readly.com/da-dk/products/magazine/pokemon-dk"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "gaming"
+  "kategori": "gaming",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/pokemon/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  }
  },
  {
   "navn": "Psykologi",
@@ -2836,7 +2900,15 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/topmodel/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  }
  },
  {
   "navn": "True Crime",
@@ -3124,7 +3196,15 @@
   "kilder": {
    "Flipp": "https://flipp.dk/magasiner/wendy"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/wendy/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  }
  },
  {
   "navn": "Windows Phone-bogen",
@@ -3307,7 +3387,15 @@
   "kilder": {
    "Flipp": "https://flipp.dk/magasiner/basserne"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/basserne/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  }
  },
  {
   "navn": "Billed Bladet",
@@ -3331,7 +3419,15 @@
   "kilder": {
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Aller",
+   "url": "https://www.allerservice.dk/brands/billed-bladet",
+   "pris_fra": "79,95",
+   "udgivelser": 52,
+   "tjekket": "2026-10-26",
+   "kilde": "allerservice.dk (server-rendered)"
+  }
  },
  {
   "navn": "Familie Journal",
@@ -3355,7 +3451,15 @@
   "kilder": {
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Aller",
+   "url": "https://www.allerservice.dk/brands/familie-journal",
+   "pris_fra": "79,95",
+   "udgivelser": 52,
+   "tjekket": "2026-10-26",
+   "kilde": "allerservice.dk (server-rendered)"
+  }
  },
  {
   "navn": "Femina",
@@ -3379,7 +3483,15 @@
   "kilder": {
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Aller",
+   "url": "https://www.allerservice.dk/brands/femina",
+   "pris_fra": "39,95",
+   "udgivelser": 12,
+   "tjekket": "2026-10-26",
+   "kilde": "allerservice.dk (server-rendered)"
+  }
  },
  {
   "navn": "Goal",
@@ -3403,7 +3515,15 @@
   "kilder": {
    "Flipp": "https://flipp.dk/magasiner/goal"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/goal/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  }
  },
  {
   "navn": "Her & Nu",
@@ -3423,7 +3543,15 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/her-og-nu/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  }
  },
  {
   "navn": "Hjemmet",
@@ -3447,7 +3575,15 @@
   "kilder": {
    "Flipp": "https://flipp.dk/magasiner/hjemmet"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/hjemmet/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  }
  },
  {
   "navn": "Hjemmets bedste mad",
@@ -3471,7 +3607,15 @@
   "kilder": {
    "Flipp": "https://flipp.dk/magasiner/hjemmets-bedste-mad"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/hjemmets-bedste-mad/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  }
  },
  {
   "navn": "Kig Ind",
@@ -3529,7 +3673,15 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Aller",
+   "url": "https://www.allerservice.dk/brands/se-og-hor",
+   "pris_fra": "79,95",
+   "udgivelser": 52,
+   "tjekket": "2026-10-26",
+   "kilde": "allerservice.dk (server-rendered)"
+  }
  },
  {
   "navn": "Søndag",
@@ -3549,7 +3701,15 @@
   "ai_tekst": true,
   "digitalt_bekraeftet": [],
   "kilder": {},
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Aller",
+   "url": "https://www.allerservice.dk/brands/sondag",
+   "pris_fra": "79,95",
+   "udgivelser": 52,
+   "tjekket": "2026-10-26",
+   "kilde": "allerservice.dk (server-rendered)"
+  }
  },
  {
   "navn": "TÆT PÅ",
@@ -3591,6 +3751,14 @@
   "kilder": {
    "Pling": "https://pling.dk/partner-forside/danske-brands/"
   },
-  "udvalg_tjekket": "2026-10-26"
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Aller",
+   "url": "https://www.allerservice.dk/brands/ude-og-hjemme",
+   "pris_fra": "79,95",
+   "udgivelser": 52,
+   "tjekket": "2026-10-26",
+   "kilde": "allerservice.dk (server-rendered)"
+  }
  }
 ]
