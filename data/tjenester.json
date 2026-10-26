@@ -117,7 +117,7 @@
   "navn": "Wype",
   "url": "https://wype.dk/",
   "note": "Bladkiosk, kan også købes enkeltvis",
-  "udenlandske_oplyst": null,
+  "udenlandske_oplyst": 0,
   "udenlandske_kilde": null,
   "danske_kilde": "wype.dk/online-magasiner/",
   "bemaerkning": "Wype oplyser \"mere end 500 udgivelser\" i alt, men fordeler ikke tallet på danske og udenlandske.",
@@ -140,6 +140,7 @@
     "kilde": "https://wype.dk/spoergsmaal-svar/",
     "hentet": "2026-10-26"
    }
-  ]
+  ],
+  "udvalg_i_alt": 13
  }
 }

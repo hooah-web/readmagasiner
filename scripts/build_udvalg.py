@@ -4,7 +4,8 @@
 Kilderne ligger i data/kilder/:
   readly.json  21 titler  (Readlys danske grid)
   pling.json   57 titler  (Plings syv kategorisider)
-  flipp.json   87 titler  (flipp.dk/magasiner, med DK/NO/SE-præfiks i id)
+  flipp.json   93 titler  (flipp.dk/magasiner, med DK/NO/SE-præfiks i id)
+  wype.json    13 titler  (wype.dk/online-magasiner)
 
 Scriptet:
   1. matcher kildernes titler mod kataloget (normaliseret navn + manuelle koblinger)
@@ -36,6 +37,7 @@ MANUELLE = {
         "BILLED-BLADET Royal": "ugeblad-royal",
     },
     "Flipp": {},
+    "Wype": {},
 }
 
 # Danske Pling-titler der ikke findes i kataloget i forvejen
@@ -97,17 +99,17 @@ def main() -> None:
     av = json.loads((ROOT / "data/availability.json").read_text(encoding="utf-8"))
     kilder = {
         t: json.loads((ROOT / f"data/kilder/{t.lower()}.json").read_text(encoding="utf-8"))
-        for t in ("readly", "pling", "flipp")
+        for t in ("readly", "pling", "flipp", "wype")
     }
-    kildenavn = {"readly": "Readly", "pling": "Pling", "flipp": "Flipp"}
+    kildenavn = {"readly": "Readly", "pling": "Pling", "flipp": "Flipp", "wype": "Wype"}
 
     by_norm = {}
     for m in mags:
         by_norm.setdefault(norm(m["navn"]), m)
 
     nye = 0
-    udvalg: dict[str, set[str]] = {t: set() for t in ("Readly", "Pling", "Flipp")}
-    ubesvarede = {"Readly": [], "Pling": [], "Flipp": []}
+    udvalg: dict[str, set[str]] = {t: set() for t in ("Readly", "Pling", "Flipp", "Wype")}
+    ubesvarede = {"Readly": [], "Pling": [], "Flipp": [], "Wype": []}
 
     for key, liste in kilder.items():
         tjen = kildenavn[key]
@@ -152,13 +154,8 @@ def main() -> None:
     for m in mags:
         a = av.setdefault(m["slug"], {})
         kilder_map = a.setdefault("kilder", {})
-        for tjen in ("Readly", "Pling", "Flipp"):
-            if m["slug"] in udvalg[tjen]:
-                a[tjen] = "bekraeftet"
-            else:
-                a[tjen] = "nej"
-        # Wype er ikke en udpeget sandhedsliste — den beholder sin status
-        a.setdefault("Wype", "ukendt")
+        for tjen in ("Readly", "Pling", "Flipp", "Wype"):
+            a[tjen] = "bekraeftet" if m["slug"] in udvalg[tjen] else "nej"
         a["tjekket"] = IDAG
         m["digitalt"] = sorted(t for t in TJENESTER if a.get(t) == "bekraeftet")
         m["digitalt_bekraeftet"] = list(m["digitalt"])
@@ -179,14 +176,14 @@ def main() -> None:
     # hold tjenesteinfo i takt med listerne
     tj_path = ROOT / "data/tjenester.json"
     tj = json.loads(tj_path.read_text(encoding="utf-8"))
-    for navn in ("Readly", "Pling", "Flipp"):
+    for navn in ("Readly", "Pling", "Flipp", "Wype"):
         key = navn.lower()
         tj[key]["udvalg_i_alt"] = taelling["total"][navn]
         tj[key]["udenlandske_oplyst"] = taelling["udenlandske"][navn]
     tj_path.write_text(json.dumps(tj, ensure_ascii=False, indent=1), encoding="utf-8")
 
     print("nye katalogsider:", nye, "| katalog i alt:", len(mags))
-    for t in ("Readly", "Pling", "Flipp"):
+    for t in ("Readly", "Pling", "Flipp", "Wype"):
         print(f"  {t:8} kilde={len(kilder[t.lower()]):>3}  danske={taelling['danske'][t]:>3}  "
               f"udenlandske={taelling['udenlandske'][t]:>3}  uden katalogside={len(ubesvarede[t])}")
     print("blade med omslag:", sum(1 for m in mags if m.get("cover")), "/", len(mags))

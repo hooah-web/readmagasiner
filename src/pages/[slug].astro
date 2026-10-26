@@ -87,7 +87,7 @@ const farve = farver[h % farver.length];
                     {tekst}
                   </span>
                   <small>
-                    {["Readly", "Flipp", "Pling"].includes(t.navn)
+                    {["Readly", "Flipp", "Pling", "Wype"].includes(t.navn)
                       ? `Tjekket ${danskDato(tjekket)} mod ${t.navn}s egen katalog`
                       : t.note}
                   </small>
@@ -109,8 +109,7 @@ const farve = farver[h % farver.length];
 
           <p class="meta" style="margin-top:14px">
             Vi sammenligner med tjenesternes egne kataloger. Står der "Ja", står bladet på tjenestens
-            liste. Står der "Nej", gør det ikke. Wype har vi endnu ikke en fuld liste fra, så der
-            skriver vi "Ikke oplyst", når vi ikke har bekræftet bladet.
+            liste. Står der "Nej", gør det ikke. Listerne er tjekket 26. oktober 2026.
             {tjekket && ` Udvalg og priser tjekket ${danskDato(tjekket)}.`}
           </p>
 

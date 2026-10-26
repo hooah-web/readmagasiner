@@ -1950,7 +1950,9 @@
    "Wype": "https://wype.dk/online-magasiner/"
   },
   "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover": "/omslag/magasin-i-form.webp",
+  "cover_kilde": "Wype"
  },
  {
   "navn": "Illustreret Videnskab",
@@ -3327,7 +3329,9 @@
    "Wype": "https://wype.dk/online-magasiner/"
   },
   "udvalg_tjekket": "2026-10-26",
-  "forlag_kilde": "wype.dk (Egmonts bladkiosk)"
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover": "/omslag/magasin-woman.webp",
+  "cover_kilde": "Wype"
  },
  {
   "navn": "Yoga Journal",
