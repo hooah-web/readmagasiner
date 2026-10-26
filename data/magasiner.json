@@ -458,7 +458,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/android-bogen"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "it-technology"
+  "kategori": "it-technology",
+  "cover": "/omslag/magasin-android-bogen.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "Antik & auktion",
@@ -508,7 +510,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/apple-watch-bogen"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "it-technology"
+  "kategori": "it-technology",
+  "cover": "/omslag/magasin-apple-watch-bogen.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "Arkitektur",
@@ -659,7 +663,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/bike-powered-by-motorrad-danmark"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "automotive"
+  "kategori": "automotive",
+  "cover": "/omslag/magasin-bike-powered-by-motorrad-danmark.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "Bil ekspressen",
@@ -730,7 +736,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/bitcoin-og-andre-digitale-valutaer-1"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "business-finance"
+  "kategori": "business-finance",
+  "cover": "/omslag/magasin-bitcoin-og-andre-digitale-valutaer.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "Bo Bedre",
@@ -1082,7 +1090,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/det-vilde-vesten-junior"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "history"
+  "kategori": "history",
+  "cover": "/omslag/magasin-det-vilde-vesten-junior.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "Digital Foto",
@@ -1178,7 +1188,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/dyreliv-junior"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "animals-pets"
+  "kategori": "animals-pets",
+  "cover": "/omslag/magasin-dyreliv-junior.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "ELLE",
@@ -1533,7 +1545,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/fortnite-dk-1"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "gaming"
+  "kategori": "gaming",
+  "cover": "/omslag/magasin-fortnite.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "FotoGuiden",
@@ -1889,6 +1903,7 @@
   "maalgruppe": "mænd",
   "land": "DK",
   "digitalt": [
+   "Readly",
    "Wype"
   ],
   "ikke_digitalt": true,
@@ -1904,8 +1919,8 @@
    "Wype": "https://wype.dk/online-magasiner/"
   },
   "udvalg_tjekket": "2026-10-26",
-  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6213/latest-issue",
-  "cover_kilde": "https://wype.dk/online-magasiner/historie/",
+  "cover": "/omslag/magasin-historie.webp",
+  "cover_kilde": "Readly",
   "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
   "cover_verificeret": true
  },
@@ -2067,7 +2082,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/ipad-bogen"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "it-technology"
+  "kategori": "it-technology",
+  "cover": "/omslag/magasin-ipad-bogen.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "iPhone-bogen",
@@ -2092,7 +2109,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/iphone-bogen"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "it-technology"
+  "kategori": "it-technology",
+  "cover": "/omslag/magasin-iphone-bogen.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "Isabellas",
@@ -2203,7 +2222,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/junior-utrolige-koretojer"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "teen-kids"
+  "kategori": "teen-kids",
+  "cover": "/omslag/magasin-junior-utrolige-koeretoejer.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "King",
@@ -2340,7 +2361,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/kroppen-junior-dk"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "teen-kids"
+  "kategori": "teen-kids",
+  "cover": "/omslag/magasin-kroppen-junior.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "Mad & bolig",
@@ -2540,7 +2563,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/mindful-fitness-dk"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "health-fitness"
+  "kategori": "health-fitness",
+  "cover": "/omslag/magasin-mindful-fitness.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "Minecraft",
@@ -2565,7 +2590,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/minecraft-dk"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "gaming"
+  "kategori": "gaming",
+  "cover": "/omslag/magasin-minecraft.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "Modemagasinet IN",
@@ -2703,7 +2730,9 @@
    "tjekket": "2026-10-26",
    "kilde": "mitblad.dk (link, pris ikke læst)"
   },
-  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)"
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
+  "cover": "/omslag/magasin-pokemon.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "Psykologi",
@@ -2798,7 +2827,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/samsung-bogen"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "it-technology"
+  "kategori": "it-technology",
+  "cover": "/omslag/magasin-samsung-bogen.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "Saveur",
@@ -3031,7 +3062,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/true-crime-dk"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "history"
+  "kategori": "history",
+  "cover": "/omslag/magasin-true-crime.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "Træning for alle – Løb",
@@ -3056,7 +3089,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/traening-for-alle-lob"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "running-cycling-fitness"
+  "kategori": "running-cycling-fitness",
+  "cover": "/omslag/magasin-traening-for-alle-loeb.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "Utemagasinet",
@@ -3215,7 +3250,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/videnskab"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "science-nature"
+  "kategori": "science-nature",
+  "cover": "/omslag/magasin-videnskab.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "Videnskab Junior",
@@ -3240,7 +3277,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/videnskab-junior-dk"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "science-nature/teen-kids"
+  "kategori": "science-nature/teen-kids",
+  "cover": "/omslag/magasin-videnskab-junior.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "Villmarksliv",
@@ -3346,7 +3385,9 @@
    "Readly": "https://readly.com/da-dk/products/magazine/windows-phone-bogen"
   },
   "udvalg_tjekket": "2026-10-26",
-  "kategori": "it-technology"
+  "kategori": "it-technology",
+  "cover": "/omslag/magasin-windows-phone-bogen.webp",
+  "cover_kilde": "Readly"
  },
  {
   "navn": "Woman",

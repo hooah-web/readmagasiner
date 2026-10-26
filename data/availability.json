@@ -647,9 +647,10 @@
   "Flipp": "ukendt",
   "Wype": "bekraeftet",
   "Pling": "ukendt",
-  "Readly": "ukendt",
+  "Readly": "bekraeftet",
   "kilder": {
-   "Wype": "https://wype.dk/online-magasiner/"
+   "Wype": "https://wype.dk/online-magasiner/",
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5eb5224003c6b753ce1ebeb7/5de4fae503c6b72b8a111f07/1/432-0001.webp"
   },
   "tjekket": "2026-10-26"
  },
@@ -1262,7 +1263,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/android-bogen"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5922eaf9d9e840bac4000238/59c3b23703c6b7b117000002/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1272,7 +1273,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/apple-watch-bogen"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5922eb4103c6b740eb0000b0/59c3c327d9e8402aca00000b/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1282,7 +1283,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/bike-powered-by-motorrad-danmark"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5a7dc4e3d9e840490a00007a/5a81aad5d9e84023b50000d8/6abf61b8c3880c000af7308f/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1292,7 +1293,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/bitcoin-og-andre-digitale-valutaer-1"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5b30893803c6b7a580000042/5b30895f03c6b70fdd000141/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1302,7 +1303,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/det-vilde-vesten-junior"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5bd6bbc0d9e8409041000027/5bd6bbd8d9e840803f000021/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1312,7 +1313,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/dyreliv-junior"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5922ef36d9e840aeee000287/59c3d456d9e840ce1c000005/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1322,7 +1323,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/fortnite-dk-1"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5b5c26d1d9e8400108000093/63c55018b5d280001f97181e/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1332,7 +1333,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/ipad-bogen"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/59c4acbed9e8402aca000020/59c4acfa03c6b7410d00001c/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1342,7 +1343,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/iphone-bogen"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5922eb1203c6b72a9f000265/59c3b3d103c6b7bd24000004/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1352,7 +1353,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/junior-utrolige-koretojer"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5922ef7703c6b72a9f00026e/59ef7d35d9e8403a87000091/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1362,7 +1363,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/kroppen-junior-dk"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5922ef58d9e840bac4000249/59c3df83d9e8402aca00001a/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1372,7 +1373,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/mindful-fitness-dk"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5d79f62003c6b75da6eeb984/5d79f62ed9e84054f568541c/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1382,7 +1383,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/minecraft-dk"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5a8a726003c6b7028e0000c6/5a8a728c03c6b7d8b6000052/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1392,7 +1393,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/pokemon-dk"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5922f484d9e840aeee00029d/59c4ba4cd9e84066b7000022/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1402,7 +1403,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/samsung-bogen"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5922eae0d9e840bac4000237/59c3b04dd9e84066b7000003/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1412,7 +1413,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/true-crime-dk"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5eb5234003c6b753ce1ebeb9/5de4fc0403c6b72b8a111f14/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1422,7 +1423,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/traening-for-alle-lob"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5922fb1203c6b75de1000247/59c4957203c6b7bd24000017/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1432,7 +1433,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/videnskab"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5eb5236fd9e8401b86c6b421/5bd6b08403c6b7c54700001b/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1442,7 +1443,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/videnskab-junior-dk"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5eb5239403c6b753ce1ebeba/5b3094fad9e840829e000128/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
@@ -1452,7 +1453,7 @@
   "Wype": "ukendt",
   "Pling": "ukendt",
   "kilder": {
-   "Readly": "https://readly.com/da-dk/products/magazine/windows-phone-bogen"
+   "Readly": "https://d3ry4o1su9a59w.cloudfront.net/public/5888926a03c6b71c1800004a/5922eb2bd9e840aeee00027b/59c3c1e0d9e840ce1c000002/1/432-0001.webp"
   },
   "tjekket": "2026-10-26",
   "Readly": "bekraeftet"
