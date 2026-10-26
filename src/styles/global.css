@@ -104,3 +104,5 @@ h1+p,h2+p{margin-top:10px}
 .thumb.lg{width:96px;height:127px;border-radius:8px}
 .thumb.lg.ph{font-size:24px}
 .rowitem{display:flex;gap:12px;align-items:center}
+
+.tablewrap{margin-top:14px;overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}

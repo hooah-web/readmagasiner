@@ -62,7 +62,7 @@ const tjekket = Object.values(priser)
               <p class="small" style="margin:8px 0 16px">
                 Bladet findes hos {m.digitalt.length} af de {TJENESTER.length} tjenester vi sammenligner.
               </p>
-              <table>
+              <div class="tablewrap"><table>
                 <thead>
                   <tr><th>Tjeneste</th><th>Har bladet</th><th>Pris</th><th></th></tr>
                 </thead>
@@ -97,7 +97,7 @@ const tjekket = Object.values(priser)
                     );
                   })}
                 </tbody>
-              </table>
+              </table></div>
               <p class="meta" style="margin-top:10px">
                 Vi skriver "Ja", når vi har fundet bladet på tjenestens egen side, og "Ikke oplyst",
                 når vi ikke ved det. Vi skriver aldrig "Nej", medmindre tjenesten selv oplyser det.

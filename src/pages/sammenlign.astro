@@ -19,7 +19,7 @@ import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgFo
             men består i høj grad af udenlandske titler, som ikke er relevante for danske læsere.
           </p>
         </div>
-        <table style="margin:10px 0 30px">
+        <div class="tablewrap"><table style="margin:10px 0 30px">
           <thead><tr><th>Tjeneste</th><th>Pris</th><th>Danske udgivelser</th><th>Udenlandske</th><th>Prøveperiode</th></tr></thead>
           <tbody>
             {TJENESTER.map((t) => {
@@ -39,7 +39,7 @@ import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgFo
               );
             })}
           </tbody>
-        </table>
+        </table></div>
 
         <h2 style="margin-top:34px">Hvad koster det dig — ud fra hvad du har i forvejen?</h2>
         <p class="small" style="margin:8px 0 14px">
@@ -52,7 +52,7 @@ import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgFo
           <button class="pill" data-s="aller" type="button">Aller-blad</button>
           <button class="pill" data-s="wype" type="button">Wype-blad</button>
         </div>
-        <table>
+        <div class="tablewrap"><table>
           <thead><tr><th>Tjeneste</th><th>Din pris</th><th>Normalpris</th><th>Bemærkning</th></tr></thead>
           <tbody id="pristabel">
             <tr><td><a href="/tjenester/readly/"><strong>Readly</strong></a></td><td class="num">14,99 € ≈ 112 kr.</td><td class="num">14,99 € ≈ 112 kr.</td><td class="small">Opkræves i euro. 40 % rabat i 3 måneder: 8,99 € ≈ 67 kr.</td></tr>
@@ -60,7 +60,7 @@ import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgFo
             <tr><td><a href="/tjenester/pling/"><strong>Pling</strong></a></td><td class="num">99 kr.</td><td class="num">99 kr.</td><td class="small">Opsig senest 5 dage før næste betaling.</td></tr>
             <tr><td><a href="/tjenester/wype/"><strong>Wype</strong></a></td><td class="num">99 kr.</td><td class="num">99 kr.</td><td class="small">Første måned gratis.</td></tr>
           </tbody>
-        </table>
+        </table></div>
         <p class="meta" style="margin-top:10px">
           Prishistorik fra tjenesternes egne FAQ'er, hentet 26. oktober 2026.
           <a href="/tjenester/flipp/">Flipp</a> · <a href="/tjenester/pling/">Pling</a> ·
