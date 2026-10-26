@@ -1,6 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
-import { magasiner, priser, TJENESTER, prisTekst, billigste } from "../lib/site";
+import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro } from "../lib/site";
 ---
 
 <Base title="Sammenlign Readly, Flipp, Pling og Wype | readmagasiner.dk"
@@ -23,12 +23,12 @@ import { magasiner, priser, TJENESTER, prisTekst, billigste } from "../lib/site"
           <tbody>
             {TJENESTER.map((t) => {
               const p = priser[t.key];
-              const billig = p ? billigste(p.prices) : undefined;
-              const intro = p?.prices?.intro ?? p?.prices?.offer;
+              const hoved = prisHoved(p);
+              const intro = prisIntro(p);
               return (
                 <tr>
                   <td><a href={"/tjenester/" + t.key + "/"}><strong>{t.navn}</strong></a></td>
-                  <td class="num">{prisTekst(billig)}</td>
+                  <td class="num">{prisTekst(hoved)}</td>
                   <td class="num">{magasiner.filter((m) => m.digitalt.includes(t.navn)).length}</td>
                   <td>{intro ? prisTekst(intro) : <span class="small">ikke oplyst</span>}</td>
                 </tr>

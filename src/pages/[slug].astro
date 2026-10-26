@@ -1,6 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
-import { magasiner, priser, TJENESTER, prisTekst, billigste, harTjeneste } from "../lib/site";
+import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgsStatus } from "../lib/site";
 
 export function getStaticPaths() {
   return magasiner.map((m) => ({ params: { slug: m.slug }, props: { m } }));
@@ -57,19 +57,25 @@ const tjekket = Object.values(priser)
                 <tbody>
                   {TJENESTER.map((t) => {
                     const p = priser[t.key];
-                    const billig = p ? billigste(p.prices) : undefined;
-                    const har = harTjeneste(m, t.navn);
+                    const hoved = prisHoved(p);
+                    const intro = prisIntro(p);
+                    const st = udvalgsStatus(m.slug, t.navn, m.ikke_digitalt);
                     return (
                       <tr>
                         <td><strong>{t.navn}</strong></td>
                         <td>
-                          {har
-                            ? <span class="tag">Ja</span>
-                            : m.ikke_digitalt
-                              ? <span class="tag no">Nej</span>
-                              : <span class="pill">Ikke oplyst</span>}
+                          {st === "bekraeftet"
+                            ? <span class="tag">Ja · bekræftet</span>
+                            : st === "arv"
+                              ? <span class="pill">Ja · ikke bekræftet</span>
+                              : st === "nej"
+                                ? <span class="tag no">Nej</span>
+                                : <span class="pill">Ikke oplyst</span>}
                         </td>
-                        <td class="num">{prisTekst(billig)}</td>
+                        <td class="num">
+                          {prisTekst(hoved)}
+                          {intro && <div class="meta">{intro.etikett ?? "tilbud"}: {prisTekst(intro)}</div>}
+                        </td>
                         <td>
                           <a href={t.url} rel="nofollow sponsored noopener" target="_blank" class="small">
                             Til {t.navn} →

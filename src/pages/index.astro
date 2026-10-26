@@ -1,6 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
-import { magasiner, priser, TJENESTER, prisTekst, billigste } from "../lib/site";
+import { magasiner, priser, TJENESTER, prisTekst, prisHoved } from "../lib/site";
 
 const populære = [
   "Billed-Bladet", "Hjemmet", "Se og Hør", "ALT for damerne",
@@ -42,13 +42,13 @@ const medDigital = magasiner.filter((m) => m.digitalt.length).length;
           <div class="grid svc">
             {TJENESTER.map((t) => {
               const p = priser[t.key];
-              const billig = p ? billigste(p.prices) : undefined;
+              const hoved = prisHoved(p);
               return (
                 <div class="card">
                   <h3>{t.navn}</h3>
                   <p class="small" style="margin:6px 0 12px">{t.note}</p>
                   <div style="font-size:24px;font-weight:750;font-variant-numeric:tabular-nums">
-                    {prisTekst(billig)}
+                    {prisTekst(prisHoved(p))}
                   </div>
                   <p class="meta" style="margin:6px 0 14px">
                     {p?.checked_at ? `Tjekket ${p.checked_at.slice(0, 10)}` : "Ikke tjekket endnu"}

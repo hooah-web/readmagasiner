@@ -1,5 +1,6 @@
 import catalog from "../../data/magasiner.json";
 import prices from "../../data/prices_current.json";
+import availability from "../../data/availability.json";
 
 export type Magasin = {
   navn: string;
@@ -37,6 +38,26 @@ export type TjenestePris = {
 
 export const magasiner = catalog as Magasin[];
 export const priser = prices as unknown as Record<string, TjenestePris>;
+export const tilgaengelighed = availability as unknown as Record<string, Record<string, any>>;
+
+/**
+ * Fire tilstande for et blads udvalg hos en tjeneste:
+ *  - "bekraeftet": fundet på tjenestens egen side (dato i availability.json)
+ *  - "arv": kildesitet markerede bladet hos tjenesten, men vi har ikke verificeret det
+ *  - "nej": kilden markerer udtrykkeligt at bladet ikke er digitalt tilgængeligt
+ *  - "ukendt": vi ved det ikke
+ */
+export function udvalgsStatus(slug: string, navn: string, ikkeDigitalt: boolean):
+  "bekraeftet" | "arv" | "nej" | "ukendt" {
+  const a = tilgaengelighed[slug] || {};
+  if (a[navn] === "bekraeftet") return "bekraeftet";
+  const m = magasiner.find((x) => x.slug === slug);
+  if (m && m.digitalt.some((t) => t.toLowerCase() === navn.toLowerCase())) return "arv";
+  // Kilden modsiger sig selv på nogle blade (både "har tjenester" og "ikke digital").
+  // Ved modstrid er svaret ukendt — ikke et nej.
+  if (ikkeDigitalt && m && m.digitalt.length === 0) return "nej";
+  return "ukendt";
+}
 export const aiDato = "25. oktober 2026";
 
 export const TJENESTER = [
@@ -80,6 +101,18 @@ export function billigste(p: Record<string, Pris>): Pris | undefined {
   const list = Object.values(p || {});
   if (!list.length) return undefined;
   return list.reduce((a, b) => ((a.pris_dkk ?? a.pris) <= (b.pris_dkk ?? b.pris) ? a : b));
+}
+
+/** Ordinær pris — den pris der gælder efter en eventuel kampagne. */
+export function prisHoved(p?: TjenestePris): Pris | undefined {
+  if (!p || !p.prices) return undefined;
+  return p.prices.ordinary ?? Object.values(p.prices)[0];
+}
+
+/** Introduktions- eller kampagnepris, hvis tjenesten har en. */
+export function prisIntro(p?: TjenestePris): Pris | undefined {
+  if (!p || !p.prices) return undefined;
+  return p.prices.intro ?? p.prices.offer ?? p.prices.campaign ?? p.prices.reduced;
 }
 
 export function tjenesteFor(navn: string) {
