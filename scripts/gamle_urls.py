@@ -97,6 +97,16 @@ def main() -> None:
             print("  " + l)
         return
 
+    # korte aliaser: /hjemmet/ → /ugeblad-hjemmet/, så gamle links og gæt virker
+    alias = []
+    for slug in magasiner:
+        kort = slug.split("-", 1)[1] if "-" in slug else slug
+        if kort and kort not in eksisterende and f"/{kort}" not in {l.split()[0].rstrip("/") for l in linjer}:
+            alias.append(f"/{kort}/  /{slug}/  301")
+            alias.append(f"/{kort}   /{slug}/  301")
+    print(f"korte aliaser: {len(alias)//2}")
+    linjer += alias
+
     tekst = REDIRECTS.read_text(encoding="utf-8") if REDIRECTS.exists() else ""
     hoved = tekst.split(MARKER, 1)[0].rstrip()
     REDIRECTS.write_text(hoved + "\n\n" + MARKER + "\n" + "\n".join(linjer) + "\n", encoding="utf-8")
