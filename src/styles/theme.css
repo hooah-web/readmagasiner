@@ -236,7 +236,7 @@ p:last-child { margin-bottom: 0; }
 .availability b { font-size: 19px; color: var(--pine); width: 120px; }
 .availability .mid { flex: 1; }
 .availability .mid small { display: block; color: var(--muted); }
-.availability .cost { width: 130px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.availability .cost { width: 168px; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1.35; }
 @media (max-width: 767px) {
   .detail { padding: 30px 0 45px; }
   .detailgrid { display: block; }
