@@ -2,7 +2,6 @@ import catalog from "../../data/magasiner.json";
 import prices from "../../data/prices_current.json";
 import availability from "../../data/availability.json";
 import tjenestedata from "../../data/tjenester.json";
-import rewritten from "../../data/rewritten.json";
 
 export type Magasin = {
   navn: string;
@@ -46,12 +45,10 @@ export type TjenestePris = {
 export const magasiner = catalog as Magasin[];
 export const priser = prices as unknown as Record<string, TjenestePris>;
 export const tilgaengelighed = availability as unknown as Record<string, Record<string, any>>;
-export const omskrevne = rewritten as unknown as Record<string, { tekst?: string; model?: string }>;
 
-/** Foretrækker den omskrevne tekst, falder tilbage til originalen. */
+/** Beskrivelsen ligger nu i magasiner.json — der er ikke længere en separat omskrevet fil. */
 export function bladTekst(m: { slug: string; beskrivelse: string }): string {
-  const r = omskrevne[m.slug];
-  return (r && r.tekst) ? r.tekst : m.beskrivelse;
+  return m.beskrivelse ?? "";
 }
 
 export const tjenesteInfo = tjenestedata as unknown as Record<string, {
