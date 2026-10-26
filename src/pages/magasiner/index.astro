@@ -6,94 +6,104 @@ import Annonce from "../../components/Annonce.astro";
 const mag = magasiner.filter((m) => m.type === "magasin" && m.land === "DK");
 const uge = magasiner.filter((m) => m.type === "ugeblad" && m.land === "DK");
 const udenlandske = magasiner.filter((m) => m.land !== "DK");
-const udenDigital = magasiner.filter((m) => !m.digitalt.length);
+const antalDigital = magasiner.filter((m) => m.land === "DK" && m.digitalt.length).length;
 
 const grupper = [
   { titel: "Ugeblade", liste: uge },
   { titel: "Magasiner", liste: mag },
 ];
+
+const farver = ["#123B3A", "#202C36", "#153C60", "#5B3A2E", "#4A3B52", "#2F4858", "#6B4A3A", "#33452F"];
+const farveFor = (s: string) => {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 9973;
+  return farver[h % farver.length];
+};
 ---
 
 <Base
   title="Alle blade — digital tilgængelighed og priser | readmagasiner.dk"
   description={`Katalog over ${magasiner.length} danske og nordiske blade. Se hvilke der kan læses digitalt hos Readly, Flipp, Pling og Wype.`}
 >
-  <div class="wrap" style="padding-top:26px">
-    <p class="small"><a href="/">Forside</a> › <span>Alle blade</span></p>
-  </div>
+  <section class="pagehero">
+    <div class="container">
+      <div class="bread"><a href="/">Forside</a> / Magasiner</div>
+      <h1>Alle magasiner</h1>
+      <p>
+        {mag.length + uge.length} danske blade · {antalDigital} kan læses digitalt hos mindst én tjeneste.
+        Vi har også {udenlandske.length} udenlandske titler registreret.
+      </p>
+    </div>
+  </section>
 
-  <div class="wrap">
-    <div class="layout">
-      <div class="main">
-        
-        <div style="padding:18px 0 8px">
-          <h1 style="font-size:clamp(28px,4vw,42px)">Danske blade</h1>
-          <p class="lead" style="color:var(--ink-soft);max-width:62ch;margin-top:12px">
-            {mag.length + uge.length} danske blade. {magasiner.filter((m) => m.land === "DK" && m.digitalt.length).length}
-            kan læses digitalt hos mindst én tjeneste. Vi har også {udenlandske.length} udenlandske titler registreret —
-            dem viser vi separat nedenfor.
-          </p>
-          <form class="search" action="/soeg/" method="get" role="search" style="margin-top:18px;max-width:520px">
-            <input type="search" name="q" data-autosuggest placeholder="Søg i de 150 blade…" aria-label="Søg på et blad" autocomplete="off" />
-            <button class="btn" type="submit">Søg</button>
-          </form>
-          <p style="margin-top:16px">
-            {TJENESTER.map((t) => {
-              const n = magasiner.filter((m) => m.digitalt.includes(t.navn)).length;
-              return <span class="pill" style="margin:0 6px 6px 0">{t.navn}: {n} blade</span>;
-            })}
-          </p>
-        </div>
-        <Annonce slot="mobile" />
+  <section style="padding-bottom:64px">
+    <div class="container">
+      <form class="searchbox" action="/soeg/" method="get" role="search" style="margin:0 0 24px;max-width:none">
+        <span class="icon" aria-hidden="true">⌕</span>
+        <input
+          type="search"
+          name="q"
+          data-autosuggest
+          placeholder="Søg i alle blade…"
+          aria-label="Søg på et blad"
+          autocomplete="off"
+        />
+        <button class="btn" type="submit">Søg</button>
+      </form>
 
-
-        {grupper.map((g) => (
-          <section style="padding:26px 0 6px">
-            <h2 style="font-size:22px">{g.titel} <span class="small" style="font-weight:400">({g.liste.length})</span></h2>
-            <div style="margin-top:14px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden">
-              {g.liste.map((m, i) => (
-                <a
-                  href={`/${m.slug}/`}
-                  style={`display:flex;gap:14px;align-items:baseline;padding:11px 16px;text-decoration:none;color:inherit;${i ? "border-top:1px solid var(--line);" : ""}`}
-                >
-                  {m.cover
-                    ? <span class="thumb" style="width:40px;height:53px"><img src={m.cover} alt="" loading="lazy" width="40" height="53" /></span>
-                    : <span class="thumb ph" style="width:40px;height:53px;font-size:12px" aria-hidden="true">{m.navn.slice(0,2).toUpperCase()}</span>}
-                  <span style="flex:1;font-weight:600">{m.navn}</span>
-                  <span class="small" style="min-width:130px;text-align:right">
-                    {m.forlag ?? "forlag ukendt"}
-                  </span>
-                  <span style="min-width:170px;text-align:right">
-                    {m.digitalt.length
-                      ? m.digitalt.map((t) => <span class="tag" style="margin-left:4px">{t}</span>)
-                      : <span class="tag no">Kun papir</span>}
-                  </span>
-                </a>
-              ))}
-            </div>
-          </section>
-        ))}
-
-        {udenlandske.length > 0 && (
-          <section style="padding:30px 0 6px">
-            <h2 style="font-size:20px">Udenlandske titler ({udenlandske.length})</h2>
-            <p class="small" style="margin:8px 0 12px">
-              De er registreret, fordi tjenesterne har dem, men de er ikke fokus for os.
-            </p>
-            <p>
-              {udenlandske.map((m) => (<span class="pill" style="margin:0 6px 6px 0">{m.navn} · {m.land}</span>))}
-            </p>
-          </section>
-        )}
-        <p class="meta" style="padding:18px 0 0">
-          Kataloget dækker danske blade og udvides løbende. Alt indhold er AI-skrevet.
-          Mangler et blad, eller er en tjeneste forkert? <a href="/om/">Sådan retter vi</a>.
-        </p>
+      <div class="chips">
+        {TJENESTER.map((t) => {
+          const n = magasiner.filter((m) => m.digitalt.includes(t.navn)).length;
+          return <a class="chip" href={`/tjenester/${t.key}/`}>{t.navn}: {n} blade</a>;
+        })}
       </div>
 
-      <aside class="rail">
-        <div class="sticky-rail"><Annonce slot="rail" /></div>
-      </aside>
+      {grupper.map((g) => (
+        <div style="margin-bottom:56px">
+          <div class="sectiontitle">
+            <h2>
+              {g.titel}{" "}
+              <span class="meta" style="font-family:var(--sans);font-weight:400">({g.liste.length})</span>
+            </h2>
+          </div>
+          <div class="catalog">
+            {g.liste.map((m) => (
+              <a class="magcard" href={`/${m.slug}/`}>
+                <div class="cover" style={`background:${farveFor(m.slug)}`}>
+                  {m.cover && (
+                    <img src={m.cover} alt={`Forside af ${m.navn}`} loading="lazy" width="300" height="400" />
+                  )}
+                  <small>{m.type === "ugeblad" ? "Ugeblad" : "Magasin"}</small>
+                  <strong style="font-size:20px">{m.navn}</strong>
+                </div>
+                <h3>{m.navn}</h3>
+                <div class="meta">{m.digitalt.length ? m.digitalt.join(" · ") : "Ikke digitalt"}</div>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+
+      {udenlandske.length > 0 && (
+        <div style="margin-bottom:40px">
+          <h2>Udenlandske titler ({udenlandske.length})</h2>
+          <p class="lede" style="margin:8px 0 16px">
+            De er registreret, fordi tjenesterne har dem, men de er ikke fokus for os.
+          </p>
+          <p>
+            {udenlandske.map((m) => (
+              <span class="pill" style="margin:0 6px 6px 0;display:inline-flex">{m.navn} · {m.land}</span>
+            ))}
+          </p>
+        </div>
+      )}
+
+      <p class="meta" style="padding:8px 0 0">
+        Kataloget dækker danske blade og udvides løbende. Alt indhold er AI-skrevet.
+        Mangler et blad, eller er en tjeneste forkert? <a href="/om/">Sådan retter vi</a>.
+      </p>
     </div>
-  </div>
+  </section>
+
+  <div class="container"><Annonce slot="billboard" /></div>
 </Base>

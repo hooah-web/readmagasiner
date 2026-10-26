@@ -120,6 +120,11 @@ p:last-child { margin-bottom: 0; }
 .btn--quiet:hover { background: transparent; text-decoration: underline; }
 .btn--sm { padding: 9px var(--s2); font-size: 13px; }
 .btn--block { width: 100%; }
+/* mobil-CTA må ikke vises på desktop, selvom .btn sætter display */
+.btn.search-cta { display: none; }
+@media (max-width: 767px) {
+  .btn.search-cta { display: block; width: 100%; margin-top: 12px; }
+}
 
 /* Sektioner */
 .section { padding: 78px 0; }

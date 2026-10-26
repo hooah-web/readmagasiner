@@ -15,188 +15,170 @@ const tjekket = Object.values(priser)
   .filter(Boolean)
   .sort()
   .pop();
+
+const farver = ["#123B3A", "#202C36", "#153C60", "#5B3A2E", "#4A3B52", "#2F4858", "#6B4A3A", "#33452F"];
+let h = 0;
+for (let i = 0; i < m.slug.length; i++) h = (h * 31 + m.slug.charCodeAt(i)) % 9973;
+const farve = farver[h % farver.length];
 ---
 
 <Base
   title={`${m.navn} — digitalt eller i postkassen | readmagasiner.dk`}
   description={`${m.navn}${m.forlag ? ` fra ${m.forlag}` : ""}: se hvilke tjenester der har bladet digitalt, og hvad abonnementet koster. Priser tjekket af os.`}
 >
-  <div class="wrap" style="padding-top:26px">
-    <p class="small">
-      <a href="/">Forside</a> › <a href="/magasiner/">Blade</a> › <span>{m.navn}</span>
-    </p>
-  </div>
+  <section class="detail">
+    <div class="container">
+      <div class="bread">
+        <a href="/">Forside</a> / <a href="/magasiner/">Magasiner</a> / {m.navn}
+      </div>
 
-  <div class="wrap">
-    <div class="layout">
-      <div class="main">
+      <div class="detailgrid">
+        <div>
+          <div class="cover largecover" style={`background:${farve}`}>
+            {m.cover && <img src={m.cover} alt={`Forside af ${m.navn}`} width="320" height="440" loading="eager" />}
+            <small>{m.type === "ugeblad" ? "Ugeblad" : "Magasin"}</small>
+            <strong>{m.navn}</strong>
+            <em>{m.land === "DK" ? "Dansk udgivelse" : m.land}</em>
+          </div>
+          <div class="information">
+            Genre: {m.maalgruppe ?? (m.type === "ugeblad" ? "Ugeblad" : "Magasin")}<br />
+            Forlag: {m.forlag ?? "ikke oplyst"}<br />
+            Sprog: {m.land === "DK" ? "Dansk" : m.land}
+          </div>
+        </div>
 
-        
-        <article style="padding:18px 0 30px">
-          <div style="display:flex;gap:22px;align-items:flex-start;margin-bottom:6px">
-            {m.cover
-              ? <img src={m.cover} alt={`Forside af ${m.navn}`} width="150" height="198" loading="eager"
-                     style="width:150px;height:198px;object-fit:cover;border-radius:8px;border:1px solid var(--line);background:#fff;flex:none" />
-              : <div aria-hidden="true" style="width:150px;height:198px;border-radius:8px;flex:none;
-                     background:linear-gradient(145deg,#123456,#0A63AE);color:#fff;display:flex;align-items:center;
-                     justify-content:center;font-size:44px;font-weight:800;letter-spacing:-.03em">
-                  {m.navn.slice(0,2).toUpperCase()}
-                </div>}
-            <div style="min-width:0">
-          <h1 style="font-size:clamp(28px,4vw,44px)">
+        <div>
+          <h1>
             {m.navn}
             {m.lukket && <span class="tag no" style="vertical-align:middle;margin-left:10px;font-size:13px">Nedlagt</span>}
           </h1>
-          <p class="small" style="margin:10px 0 0">
+          <p class="meta" style="margin:0">
             {m.type === "ugeblad" ? "Ugeblad" : "Magasin"}
             {m.forlag ? ` · ${m.forlag}` : ""}
             {m.maalgruppe ? ` · ${m.maalgruppe}` : ""}
-            {m.land !== "DK" ? ` · ${m.land}` : ""}
           </p>
-        <Annonce slot="mobile" />
 
-            </div>
+          <div class="statusbox">
+            <strong>
+              {harNogen
+                ? `Kan læses digitalt hos ${m.digitalt.length} af ${TJENESTER.length} tjenester`
+                : "Ingen af de tjenester, vi sammenligner, har bladet"}
+            </strong>
+            <p>
+              {harNogen
+                ? "Udvalget er tjekket mod tjenesternes egne sider. Kan et blad ikke findes, skriver vi \"Ikke oplyst\" — ikke \"Nej\"."
+                : "Det betyder ikke, at bladet er lukket — kun at det ikke er med i Readly, Flipp, Pling eller Wype."}
+            </p>
           </div>
 
-          <h2 style="margin-top:32px">Læs {m.navn} digitalt</h2>
-          {harNogen ? (
-            <>
-              <p class="small" style="margin:8px 0 16px">
-                Bladet findes hos {m.digitalt.length} af de {TJENESTER.length} tjenester vi sammenligner.
-              </p>
-              <div class="tablewrap"><table>
-                <thead>
-                  <tr><th>Tjeneste</th><th>Har bladet</th><th>Pris</th><th></th></tr>
-                </thead>
-                <tbody>
-                  {TJENESTER.map((t) => {
-                    const p = priser[t.key];
-                    const hoved = prisHoved(p);
-                    const intro = prisIntro(p);
-                    const st = udvalgsStatus(m.slug, t.navn, m.ikke_digitalt);
-                    return (
-                      <tr>
-                        <td><strong>{t.navn}</strong></td>
-                        <td>
-                          {st === "bekraeftet"
-                            ? <span class="tag">Ja · bekræftet</span>
-                            : st === "arv"
-                              ? <span class="pill">Ja · ikke bekræftet</span>
-                              : st === "nej"
-                                ? <span class="tag no">Nej</span>
-                                : <span class="pill">Ikke oplyst</span>}
-                        </td>
-                        <td class="num">
-                          {prisTekst(hoved)}
-                          {intro && <div class="meta">{intro.etikett ?? "tilbud"}: {prisTekst(intro)}</div>}
-                        </td>
-                        <td>
-                          <a href={t.url} rel="nofollow sponsored noopener" target="_blank" class="small">
-                            Til {t.navn} →
-                          </a>
-                        </td>
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table></div>
-              <p class="meta" style="margin-top:10px">
-                Vi skriver "Ja", når vi har fundet bladet på tjenestens egen side, og "Ikke oplyst",
-                når vi ikke ved det. Vi skriver aldrig "Nej", medmindre tjenesten selv oplyser det.
-              </p>
-              {tjekket && (
-                <p class="meta" style="margin-top:10px">
-                  Udvalg og priser tjekket {tjekket.slice(0, 10)} · udvalg kan ændre sig uden varsel
-                </p>
-              )}
-            </>
-          ) : (
-            <div class="card" style="margin-top:14px">
-              <p style="margin:0">
-                <strong>{m.navn} findes ikke hos de tjenester, vi sammenligner.</strong>
-              </p>
-              <p class="small" style="margin:8px 0 0">
-                Det betyder ikke, at bladet er lukket — kun at det ikke er med i Readly, Flipp, Pling eller Wype.
-                Vi viser det alligevel, fordi et "nej" er et svar.
-              </p>
-            </div>
-          )}
+          <h2>Hvor kan du læse {m.navn}?</h2>
 
-          <h2 style="margin-top:42px">Få {m.navn} i postkassen</h2>
-          {m.print ? (
-            <div class="card" style="margin-top:14px">
-              <div style="display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap">
-                <div>
-                  <p style="margin:0" class="small">{m.print.forlag === "Aller" ? "Aller Media" : "Story House Egmont"} · print</p>
-                  <p class="price price--lg" style="margin:4px 0 0">
-                    {m.print.pris_fra ? `fra ${m.print.pris_fra} kr.` : "Se pris hos forlaget"}
-                  </p>
-                  {m.print.udgivelser && (
-                    <p class="small" style="margin:6px 0 0">{m.print.udgivelser} udgivelser om året</p>
-                  )}
+          {TJENESTER.map((t) => {
+            const p = priser[t.key];
+            const hoved = prisHoved(p);
+            const intro = prisIntro(p);
+            const st = udvalgsStatus(m.slug, t.navn, m.ikke_digitalt);
+            const tekst = st === "bekraeftet" ? "Ja · bekræftet" : st === "arv" ? "Ikke bekræftet" : st === "nej" ? "Nej" : "Ikke oplyst";
+            return (
+              <div class="availability">
+                <b>{t.navn}</b>
+                <div class="mid">
+                  <span class={st === "bekraeftet" ? "tag" : st === "nej" ? "tag no" : "tag"} style={st === "bekraeftet" ? "" : "background:#F1F3EF;color:#536663"}>
+                    {tekst}
+                  </span>
+                  <small>{t.note}</small>
                 </div>
-                <a class="btn" href={m.print.url} rel="nofollow noopener" target="_blank">
-                  Se abonnementet →
+                <div class="cost">
+                  {prisTekst(hoved)}
+                  {intro && <span class="price__note">{intro.etikett ?? "tilbud"}: {prisTekst(intro)}</span>}
+                </div>
+                <a class="btn btn--secondary" href={t.url} rel="nofollow sponsored noopener" target="_blank">
+                  Se hos {t.navn} →
                 </a>
               </div>
-              <p class="meta" style="margin:12px 0 0">
+            );
+          })}
+
+          <p class="meta" style="margin-top:14px">
+            Vi skriver "Ja", når vi har fundet bladet på tjenestens egen side, og "Ikke oplyst", når vi
+            ikke ved det. Vi skriver aldrig "Nej", medmindre tjenesten selv oplyser det.
+            {tjekket && ` Udvalg og priser tjekket ${tjekket.slice(0, 10)}.`}
+          </p>
+
+          <h2>Få {m.navn} i postkassen</h2>
+          {m.print ? (
+            <div class="panel">
+              <p class="meta" style="margin:0">
+                {m.print.forlag === "Aller" ? "Aller Media" : "Story House Egmont"} · fysisk abonnement
+              </p>
+              <p class="price price--lg" style="margin:8px 0 0;color:var(--pine)">
+                {m.print.pris_fra ? `fra ${m.print.pris_fra} kr.` : "Se pris hos forlaget"}
+              </p>
+              {m.print.udgivelser && <p class="meta" style="margin:6px 0 0">{m.print.udgivelser} udgivelser om året</p>}
+              <p style="margin:16px 0 0">
+                <a class="btn btn--secondary" href={m.print.url} rel="nofollow noopener" target="_blank">
+                  Se abonnementet →
+                </a>
+              </p>
+              <p class="meta" style="margin:14px 0 0">
                 {m.print.pris_fra
                   ? `Prisen er forlagets egen "fra"-pris og kan dække flere abonnementstyper. Hentet ${m.print.tjekket} fra ${m.print.kilde}.`
                   : `Vi viser ikke en pris her, fordi forlagets side kræver JavaScript. Linket går til forlagets egen side. Tjekket ${m.print.tjekket}.`}
               </p>
             </div>
           ) : (
-            <div class="card" style="margin-top:14px;border-style:dashed">
+            <div class="panel" style="border-style:dashed">
               <p style="margin:0"><strong>Vi har ingen printaftale registreret på {m.navn}.</strong></p>
-              <p class="small" style="margin:8px 0 0">
+              <p class="meta" style="margin:8px 0 0">
                 Bladet kan stadig købes i postkassen — vi har bare ikke fundet det hos Aller eller Egmont
                 endnu. Vi viser ingen pris, vi ikke kan dokumentere.
               </p>
             </div>
           )}
 
-          <h2 style="margin-top:42px">Om bladet</h2>
+          <h2>Om {m.navn}</h2>
           {bladTekst(m)
-            ? <div style="margin-top:10px;max-width:68ch">
-                {afsnit(bladTekst(m)).map((a) => <p style="margin:0 0 12px">{a}</p>)}
+            ? <div class="detailcopy">
+                {afsnit(bladTekst(m)).map((a) => <p>{a}</p>)}
               </div>
-            : <div class="card" style="margin-top:12px">
+            : <div class="panel">
                 <p style="margin:0">Vi har ikke en selvstændig beskrivelse af bladet endnu.</p>
-                <p class="small" style="margin:8px 0 0">
-                  Bladet er registreret, fordi det findes i en af tjenesternes kataloger
-                  {(m as any).kategori ? ` (kategori: ${(m as any).kategori})` : ""}.
+                <p class="meta" style="margin:8px 0 0">
+                  Bladet er registreret, fordi det findes i en af tjenesternes kataloger.
                   Vi skriver først en beskrivelse, når vi har et reelt grundlag for den.
                 </p>
               </div>}
-          <p class="meta" style="margin-top:10px">
+          <p class="meta" style="margin-top:14px">
             Beskrivelsen er skrevet af en AI på grundlag af bladets eget indhold og forlagets oplysninger.
             <a href="/om/">Sådan arbejder vi</a>.
           </p>
-        </article>
-
-        {relevante.length > 0 && (
-          <section style="padding-bottom:20px">
-            <h2 style="font-size:22px">Andre {m.type === "ugeblad" ? "ugeblade" : "magasiner"}</h2>
-            <div class="grid mag" style="margin-top:14px">
-              {relevante.map((r) => (
-                <a class="card" href={`/${r.slug}/`} style="text-decoration:none;color:inherit">
-                  <h3 style="font-size:15.5px">{r.navn}</h3>
-                  <p class="small" style="margin:5px 0 0">
-                    {r.digitalt.length ? r.digitalt.join(" · ") : "Ikke digitalt"}
-                  </p>
-                </a>
-              ))}
-            </div>
-          </section>
-        )}
-
-      </div>
-
-      <aside class="rail">
-        <div class="sticky-rail">
-          <Annonce slot="rail" />
         </div>
-      </aside>
+      </div>
     </div>
-  </div>
+  </section>
+
+  <div class="container"><Annonce slot="billboard" /></div>
+
+  {relevante.length > 0 && (
+    <section class="section white">
+      <div class="container">
+        <div class="sectiontitle">
+          <h2>Andre {m.type === "ugeblad" ? "ugeblade" : "magasiner"}</h2>
+          <a class="link" href="/magasiner/">Se alle →</a>
+        </div>
+        <div class="maggrid">
+          {relevante.map((r) => (
+            <a class="magcard" href={`/${r.slug}/`}>
+              <div class="cover" style={`background:${farver[(r.slug.length * 7) % farver.length]}`}>
+                {r.cover && <img src={r.cover} alt={`Forside af ${r.navn}`} loading="lazy" width="300" height="420" />}
+                <strong style="font-size:18px">{r.navn}</strong>
+              </div>
+              <h3>{r.navn}</h3>
+              <div class="meta">{r.digitalt.length ? r.digitalt.join(" · ") : "Ikke digitalt"}</div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
 </Base>
