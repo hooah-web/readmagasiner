@@ -1,13 +1,14 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { magasiner, priser, TJENESTER, prisTekst } from "../../lib/site";
+import { magasiner, priser, TJENESTER, prisTekst, udvalgFor, tjenesteInfo } from "../../lib/site";
 
 export function getStaticPaths() {
   return TJENESTER.map((t) => ({ params: { key: t.key }, props: { t } }));
 }
 const { t } = Astro.props;
 const p = priser[t.key];
-const blade = magasiner.filter((m) => m.digitalt.includes(t.navn));
+const { danske, udenlandske } = udvalgFor(t.navn);
+const info = tjenesteInfo[t.key];
 const priser_liste = p ? Object.entries(p.prices) : [];
 ---
 
@@ -38,15 +39,27 @@ const priser_liste = p ? Object.entries(p.prices) : [];
             {" · "}kilde: <a href={t.url} rel="nofollow noopener" target="_blank">{t.url.replace("https://","")}</a>
           </p>
 
-          <h2 style="margin-top:38px">Blade hos {t.navn} ({blade.length})</h2>
+          <h2 style="margin-top:38px">Danske udgivelser hos {t.navn} ({danske.length})</h2>
+          <p class="small" style="margin:8px 0 0">
+            Vi koncentrerer os om de danske udgivelser. Tjenesten har også udenlandske titler
+            {info.udenlandske_oplyst
+              ? ` — Pling viser ${info.udenlandske_oplyst} internationale brands på deres egen side`
+              : " — antallet oplyses ikke på tjenestens danske sider"}.
+          </p>
           <div style="margin-top:14px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden">
-            {blade.slice(0, 60).map((m, i) => (
+            {danske.slice(0, 80).map((m, i) => (
               <a href={"/" + m.slug + "/"} style={i ? "display:block;padding:10px 16px;border-top:1px solid var(--line);text-decoration:none;color:inherit" : "display:block;padding:10px 16px;text-decoration:none;color:inherit"}>
                 <strong>{m.navn}</strong> <span class="small">{m.forlag ? "· " + m.forlag : ""}</span>
               </a>
             ))}
           </div>
-          {blade.length > 60 && <p class="small" style="margin-top:8px">Viser de første 60 af {blade.length}.</p>}
+          {danske.length > 80 && <p class="small" style="margin-top:8px">Viser de første 80 af {danske.length}.</p>}
+          {udenlandske.length > 0 && (
+            <p class="small" style="margin-top:14px">
+              {udenlandske.length} udenlandske titler er også registreret hos {t.navn}:
+              {" "}{udenlandske.map((m, i) => (<span>{i ? ", " : ""}{m.navn}</span>))}
+            </p>
+          )}
 
           <p style="margin-top:28px">
             <a class="btn" href={t.url} rel="nofollow sponsored noopener" target="_blank">Til {t.navn} →</a>

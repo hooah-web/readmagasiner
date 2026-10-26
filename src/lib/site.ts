@@ -1,6 +1,7 @@
 import catalog from "../../data/magasiner.json";
 import prices from "../../data/prices_current.json";
 import availability from "../../data/availability.json";
+import tjenestedata from "../../data/tjenester.json";
 
 export type Magasin = {
   navn: string;
@@ -12,6 +13,8 @@ export type Magasin = {
   digitalt: string[];
   ikke_digitalt: boolean;
   lukket: boolean;
+  digitalt_bekraeftet?: string[];
+  kategori?: string;
   beskrivelse: string;
   kilde: string;
   sidst_tjekket: string | null;
@@ -39,6 +42,11 @@ export type TjenestePris = {
 export const magasiner = catalog as Magasin[];
 export const priser = prices as unknown as Record<string, TjenestePris>;
 export const tilgaengelighed = availability as unknown as Record<string, Record<string, any>>;
+export const tjenesteInfo = tjenestedata as unknown as Record<string, {
+  navn: string; url: string; note: string;
+  udenlandske_oplyst: number | null; udenlandske_kilde: string | null;
+  danske_kilde: string | null; bemaerkning: string;
+}>;
 
 /**
  * Fire tilstande for et blads udvalg hos en tjeneste:
@@ -113,6 +121,13 @@ export function prisHoved(p?: TjenestePris): Pris | undefined {
 export function prisIntro(p?: TjenestePris): Pris | undefined {
   if (!p || !p.prices) return undefined;
   return p.prices.intro ?? p.prices.offer ?? p.prices.campaign ?? p.prices.reduced;
+}
+
+/** Blade i kataloget hvor tjenesten er bekræftet, opdelt på land. */
+export function udvalgFor(navn: string) {
+  const danske = magasiner.filter((m) => m.land === "DK" && m.digitalt_bekraeftet?.includes(navn));
+  const udenlandske = magasiner.filter((m) => m.land !== "DK" && m.digitalt_bekraeftet?.includes(navn));
+  return { danske, udenlandske };
 }
 
 export function tjenesteFor(navn: string) {

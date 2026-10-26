@@ -8,8 +8,9 @@ const populære = [
 ].map((n) => magasiner.find((m) => m.navn.toLowerCase() === n.toLowerCase()))
  .filter(Boolean) as typeof magasiner;
 
-const antalTitler = magasiner.length;
-const medDigital = magasiner.filter((m) => m.digitalt.length).length;
+const danske = magasiner.filter((m) => m.land === "DK");
+const antalTitler = danske.length;
+const medDigital = danske.filter((m) => m.digitalt.length).length;
 ---
 
 <Base
@@ -19,7 +20,7 @@ const medDigital = magasiner.filter((m) => m.digitalt.length).length;
   <div class="wrap hero">
     <h1>Hvilket blad vil du læse?</h1>
     <p class="lead">
-      Vi har {antalTitler} blade i kataloget — {medDigital} af dem kan læses digitalt hos en af tjenesterne.
+      Vi har {antalTitler} danske blade i kataloget — {medDigital} af dem kan læses digitalt hos en af tjenesterne.
       Søg på et blad, og se hvem der har det, og hvad det koster.
     </p>
     <form class="search" action="/soeg/" method="get" role="search">

@@ -1,0 +1,38 @@
+{
+ "readly": {
+  "navn": "Readly",
+  "url": "https://readly.com/da-dk/",
+  "note": "Størst samlet udvalg, flest internationale titler",
+  "udenlandske_oplyst": null,
+  "udenlandske_kilde": null,
+  "danske_kilde": "Readlys danske udgivelsesoversigt",
+  "bemaerkning": "Readly oplyser ikke et samlet antal udenlandske titler på deres danske sider. Vi viser derfor ingen tal."
+ },
+ "flipp": {
+  "navn": "Flipp",
+  "url": "https://flipp.dk/",
+  "note": "Dansk tjeneste, stærk på ugeblade",
+  "udenlandske_oplyst": null,
+  "udenlandske_kilde": null,
+  "danske_kilde": "flipp.dk/magasiner/<blad>",
+  "bemaerkning": "Flipp er dansk og oplyser ikke et antal udenlandske titler."
+ },
+ "pling": {
+  "navn": "Pling",
+  "url": "https://pling.dk/",
+  "note": "Dansk tjeneste, mange nichetitler",
+  "udenlandske_oplyst": 22,
+  "udenlandske_kilde": "pling.dk/partner-forside/internationale-brands/",
+  "danske_kilde": "pling.dk/partner-forside/danske-brands/",
+  "bemaerkning": "Pling viser 22 internationale brands på deres partner-sider. Det er ikke nødvendigvis hele det udenlandske udvalg."
+ },
+ "wype": {
+  "navn": "Wype",
+  "url": "https://wype.dk/",
+  "note": "Bladkiosk, kan også købes enkeltvis",
+  "udenlandske_oplyst": null,
+  "udenlandske_kilde": null,
+  "danske_kilde": "wype.dk/online-magasiner/",
+  "bemaerkning": "Wype oplyser \"mere end 500 udgivelser\" i alt, men fordeler ikke tallet på danske og udenlandske."
+ }
+}

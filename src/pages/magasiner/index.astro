@@ -2,8 +2,9 @@
 import Base from "../../layouts/Base.astro";
 import { magasiner, TJENESTER } from "../../lib/site";
 
-const mag = magasiner.filter((m) => m.type === "magasin");
-const uge = magasiner.filter((m) => m.type === "ugeblad");
+const mag = magasiner.filter((m) => m.type === "magasin" && m.land === "DK");
+const uge = magasiner.filter((m) => m.type === "ugeblad" && m.land === "DK");
+const udenlandske = magasiner.filter((m) => m.land !== "DK");
 const udenDigital = magasiner.filter((m) => !m.digitalt.length);
 
 const grupper = [
@@ -26,10 +27,11 @@ const grupper = [
         <div class="ad ad-mobile">300 × 250</div>
 
         <div style="padding:18px 0 8px">
-          <h1 style="font-size:clamp(28px,4vw,42px)">Alle blade</h1>
+          <h1 style="font-size:clamp(28px,4vw,42px)">Danske blade</h1>
           <p class="lead" style="color:var(--ink-soft);max-width:62ch;margin-top:12px">
-            {magasiner.length} blade — {magasiner.length - udenDigital.length} kan læses digitalt hos mindst én tjeneste.
-            {udenDigital.length} findes kun på papir.
+            {mag.length + uge.length} danske blade. {magasiner.filter((m) => m.land === "DK" && m.digitalt.length).length}
+            kan læses digitalt hos mindst én tjeneste. Vi har også {udenlandske.length} udenlandske titler registreret —
+            dem viser vi separat nedenfor.
           </p>
           <p style="margin-top:16px">
             {TJENESTER.map((t) => {
@@ -63,6 +65,17 @@ const grupper = [
           </section>
         ))}
 
+        {udenlandske.length > 0 && (
+          <section style="padding:30px 0 6px">
+            <h2 style="font-size:20px">Udenlandske titler ({udenlandske.length})</h2>
+            <p class="small" style="margin:8px 0 12px">
+              De er registreret, fordi tjenesterne har dem, men de er ikke fokus for os.
+            </p>
+            <p>
+              {udenlandske.map((m) => (<span class="pill" style="margin:0 6px 6px 0">{m.navn} · {m.land}</span>))}
+            </p>
+          </section>
+        )}
         <p class="meta" style="padding:18px 0 0">
           Kataloget er AI-genereret ud fra det tidligere readmagasiner.dk og udvides løbende.
           Mangler et blad, eller er en tjeneste forkert? <a href="/om/">Sådan retter vi</a>.
