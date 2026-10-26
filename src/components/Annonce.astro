@@ -18,7 +18,7 @@ const [etiket, w, h] = maal as [string, number, number];
       href={a.link}
       rel="nofollow sponsored noopener"
       target="_blank"
-      class={`ad-slot ${klasse}`}
+      class={`ad-slot ad-slot--${slot} ${klasse}`}
       style={stil}
       aria-label={a.alt}
     >
@@ -41,6 +41,10 @@ const [etiket, w, h] = maal as [string, number, number];
     line-height: 0;
   }
   .ad-slot img { width: 100%; height: auto; display: block; }
+  .ad-slot--rail { width: 300px; max-width: 100%; }
+  .ad-slot--billboard { width: 100%; max-width: 930px; }
+  .ad-slot--mobile { width: 300px; max-width: 100%; margin: 24px auto 0; }
+  @media (min-width: 1180px) { .ad-slot--mobile { display: none; } }
   .ad-slot .ad-marker {
     position: absolute;
     top: 6px;
