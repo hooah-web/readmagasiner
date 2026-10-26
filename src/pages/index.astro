@@ -1,0 +1,217 @@
+---
+import Base from "../layouts/Base.astro";
+import { magasiner, priser, TJENESTER, prisTekst, prisHoved, udvalgFor, danskDato } from "../lib/site";
+import Annonce from "../components/Annonce.astro";
+import TjenesteLogo from "../components/TjenesteLogo.astro";
+
+const populære = [
+  "Billed-Bladet", "Hjemmet", "Se og Hør", "ALT for damerne",
+  "Hendes Verden", "Bo Bedre", "Euroman", "Illustreret Videnskab",
+].map((n) => magasiner.find((m) => m.navn.toLowerCase() === n.toLowerCase()))
+ .filter(Boolean) as typeof magasiner;
+
+const danske = magasiner.filter((m) => m.land === "DK");
+const antalTitler = danske.length;
+const medDigital = danske.filter((m) => m.digitalt.length).length;
+
+/* Faldefarve til blade uden omslag — samme blad får altid samme farve. */
+const farver = ["#123B3A", "#202C36", "#153C60", "#5B3A2E", "#4A3B52", "#2F4858", "#6B4A3A", "#33452F"];
+const faldeFarve = (s: string) => {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 9973;
+  return farver[h % farver.length];
+};
+const seks = populære.slice(0, 6);
+---
+
+<Base
+  title="Magasiner digitalt — find dit blad | readmagasiner.dk"
+  jsonld={[
+    {
+      "@type": "WebSite",
+      name: "readmagasiner.dk",
+      url: "https://readmagasiner.dk",
+      inLanguage: "da-DK",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: "https://readmagasiner.dk/soeg/?q={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@type": "Organization",
+      name: "readmagasiner.dk",
+      url: "https://readmagasiner.dk",
+      description: "Uafhængig oversigt over danske magasiner og de tjenester, der udgiver dem digitalt.",
+    },
+  ]}
+  description="Sammenlign 87 danske blade med Readly, Flipp, Pling og Wype. Se hvem der har dit blad, hvad det koster, og hvornår prisen sidst er tjekket."
+>
+  <section class="hero">
+    <div class="container">
+      <p class="kicker">Danske magasiner · ét overblik</p>
+      <h1 class="serif">Find dit magasin.<br />Se hvor du kan læse det.</h1>
+      <p>
+        Vi sammenligner {antalTitler} danske magasiner og blade med de fire digitale tjenester,
+        så du hurtigt kan se, hvem der har dit blad — og hvad det koster.
+      </p>
+
+      <form class="searchbox" id="soegform" action="/soeg/" method="get" role="search">
+        <span class="icon" aria-hidden="true">⌕</span>
+        <input
+          type="search"
+          name="q"
+          data-autosuggest
+          placeholder="Søg efter fx Euroman, Bo Bedre eller Hjemmet"
+          aria-label="Søg på et magasin"
+        />
+        <button class="btn" type="submit">Find magasin</button>
+      </form>
+
+      <button class="btn search-cta" type="submit" form="soegform">Find magasin</button>
+
+      <p class="suggestline">
+        Prøv fx:
+        {populære.slice(0, 4).map((m, i) => (
+          <>{i > 0 && " "}<a href={`/${m.slug}/`}>{m.navn}</a></>
+        ))}
+      </p>
+    </div>
+  </section>
+
+  <section class="section white">
+    <div class="container">
+      <div class="sectiontitle">
+        <div>
+          <h2>Find et magasin, du kender</h2>
+          <p class="lede">Se hvor du kan læse det digitalt, og hvilke alternativer der findes.</p>
+        </div>
+        <a class="link" href="/magasiner/">Se alle magasiner →</a>
+      </div>
+
+      <div class="maggrid">
+        {seks.map((m) => (
+          <a class="magcard" href={`/${m.slug}/`}>
+            <div class={`cover ${m.cover ? "cover--billede" : ""}`} style={`background:${faldeFarve(m.slug)}`}>
+              {m.cover && <img src={m.cover} alt={`Forside af ${m.navn}`} loading="lazy" width="300" height="420" />}
+              <small>{m.type === "ugeblad" ? "Ugeblad" : "Magasin"}</small>
+              <strong>{m.navn}</strong>
+              <em>Udforsk · Læs · Opdag</em>
+            </div>
+            <h3>{m.navn}</h3>
+            <div class="meta">
+              {m.forlag ? m.forlag : m.type === "ugeblad" ? "Ugeblad" : "Magasin"}
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <div class="sectiontitle">
+        <div>
+          <h2>Fire tjenester. Forskelligt udvalg.</h2>
+          <p class="lede">Vi sammenligner priser, udvalg og vilkår hos de fire tjenester.</p>
+        </div>
+        <a class="link" href="/tjenester/">Se alle tjenester →</a>
+      </div>
+
+      <div class="servicegrid">
+        {TJENESTER.map((t) => {
+          const p = priser[t.key];
+          const antal = udvalgFor(t.navn).danske.length;
+          return (
+            <article class="service">
+              <TjenesteLogo key={t.key} navn={t.navn} />
+              <h3 class="sr-only">{t.navn}</h3>
+              <p class="meta" style="margin:0">Danske titler: {antal}</p>
+              <div class="price">
+                {prisTekst(prisHoved(p)).split(" ≈ ")[0]}
+                {prisTekst(prisHoved(p)).includes(" ≈ ") && (
+                  <>
+                    <br />
+                    <span class="price__unit">≈ {prisTekst(prisHoved(p)).split(" ≈ ")[1]}</span>
+                  </>
+                )}
+              </div>
+              <p>
+                {t.note}
+                {p?.checked_at ? ` · pris tjekket ${danskDato(p.checked_at)}` : ""}
+              </p>
+              <a class="btn" href={`/tjenester/${t.key}/`}>Se {t.navn}</a>
+            </article>
+          );
+        })}
+      </div>
+
+      <p class="meta" style="margin-top:18px;max-width:70ch">
+        Tallene er talt op fra tjenesternes egne kataloger, som vi bruger som sandhed.
+        Readly har 21 titler, Pling 57 og Flipp 93 — de danske af dem har en side her.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="split">
+        <div>
+          <p class="kicker">Sammenligningsværktøj</p>
+          <h2>Hvilken tjeneste har dine yndlingsblade?</h2>
+          <p class="lede">Vælg de blade, du læser, og se hvilke tjenester der har dem samlet.</p>
+          <a class="btn" href="/sammenlign/">Sammenlign mine blade</a>
+        </div>
+        <div class="selection">
+          <div>
+            {seks.slice(0, 3).map((m) => (
+              <div class={`cover mini ${m.cover ? "cover--billede" : ""}`} style={`background:${faldeFarve(m.slug)}`}>
+                {m.cover && <img src={m.cover} alt={`Forside af ${m.navn}`} loading="lazy" width="88" height="120" />}
+                <strong style="font-size:13px">{m.navn}</strong>
+              </div>
+            ))}
+          </div>
+          <p style="margin-top:20px">Vælg dine blade for at se match</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2 style="margin-bottom:40px">Så nemt finder du dit magasin</h2>
+      <div class="steps">
+        <div>
+          <div class="stepnum">01</div>
+          <h3>Find dit blad</h3>
+          <p>Søg efter et bestemt magasin eller gå på opdagelse i kataloget.</p>
+        </div>
+        <div>
+          <div class="stepnum">02</div>
+          <h3>Sammenlign mulighederne</h3>
+          <p>Se hvilke tjenester der har bladet, og hvad abonnementerne koster.</p>
+        </div>
+        <div>
+          <div class="stepnum">03</div>
+          <h3>Vælg din løsning</h3>
+          <p>Gå direkte videre til tjenesten eller forlaget.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container"><Annonce slot="billboard" /></div>
+
+  <section class="section mint">
+    <div class="container">
+      <h2 style="max-width:22ch">Priser og udvalg ændrer sig. Vi følger med.</h2>
+      <p class="lede" style="margin-top:12px">
+        Ved hver pris og hvert udvalg står der, hvornår vi sidst har tjekket det. Vi opfinder ikke
+        tal — står der ikke en dato, har vi ikke verificeret oplysningen.
+      </p>
+      <p style="margin-top:20px"><a class="link" href="/om/">Sådan arbejder vi med data →</a></p>
+    </div>
+  </section>
+
+  <div class="container"><Annonce slot="mobile" /></div>
+</Base>

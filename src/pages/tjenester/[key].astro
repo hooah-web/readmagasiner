@@ -1,0 +1,194 @@
+---
+import Base from "../../layouts/Base.astro";
+import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgFor, tjenesteInfo, danskDato, seoTjenesteTitel, seoTjenesteBeskrivelse } from "../../lib/site";
+import Annonce from "../../components/Annonce.astro";
+import TjenesteLogo from "../../components/TjenesteLogo.astro";
+
+export function getStaticPaths() {
+  return TJENESTER.map((t) => ({ params: { key: t.key }, props: { t } }));
+}
+const { t } = Astro.props;
+const p = priser[t.key];
+const { danske, udenlandske } = udvalgFor(t.navn);
+const info = tjenesteInfo[t.key];
+const priser_liste = p ? Object.entries(p.prices) : [];
+const hoved = prisHoved(p);
+const intro = prisIntro(p);
+
+const farver = ["#123B3A", "#202C36", "#153C60", "#5B3A2E", "#4A3B52", "#2F4858", "#6B4A3A", "#33452F"];
+const farveFor = (s: string) => {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 9973;
+  return farver[h % farver.length];
+};
+---
+
+<Base
+  title={seoTjenesteTitel(t.navn)}
+  jsonld={{
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Forside", item: "https://readmagasiner.dk/" },
+      { "@type": "ListItem", position: 2, name: "Tjenester", item: "https://readmagasiner.dk/tjenester/" },
+      { "@type": "ListItem", position: 3, name: t.navn },
+    ],
+  }}
+  description={seoTjenesteBeskrivelse(t.navn, danske.length, prisTekst(prisHoved(p)), "Se udvalg, prøveperiode og opsigelse.", danskDato(p?.checked_at))}
+>
+  <section class="servicehero">
+    <div class="container">
+      <div class="bread"><a href="/">Forside</a> / <a href="/tjenester/">Tjenester</a> / {t.navn}</div>
+      <div class="servicesplit">
+        <div>
+          <p class="kicker">Magasintjeneste</p>
+          <h1>{t.navn}</h1>
+          <p class="lede">{t.note}</p>
+          <p style="margin-top:24px">
+            <a class="btn" href={t.url} rel="nofollow sponsored noopener" target="_blank">Besøg {t.navn} ↗</a>
+            <a class="link" href="/sammenlign/" style="margin-left:16px">Sammenlign tjenester →</a>
+          </p>
+
+          {info.beskrivelse && (
+            <div class="service-intro">
+              {info.beskrivelse.split("\n\n").map((a) => <p>{a}</p>)}
+            </div>
+          )}
+        </div>
+
+        <div class="pricepanel">
+          <div class="pricepanel__head">
+            <p class="kicker">Normalpris</p>
+            <TjenesteLogo key={t.key} navn={t.navn} højde="mellem" klasse="tj-logo--panel" />
+          </div>
+          <p class="price">
+            {prisTekst(hoved).split(" ≈ ")[0]}
+            {prisTekst(hoved).includes(" ≈ ") && (
+              <>
+                <br />
+                <span style="font-size:.6em;font-weight:600;color:var(--muted)">≈ {prisTekst(hoved).split(" ≈ ")[1]}</span>
+              </>
+            )}
+          </p>
+          {intro
+            ? <p class="meta" style="margin:8px 0 0">{intro.etikett ?? "Introduktionstilbud"}: <strong>{prisTekst(intro)}</strong></p>
+            : <p class="meta" style="margin:8px 0 0">Vi har ikke registreret et introduktionstilbud.</p>}
+          <hr style="border:0;border-top:1px solid var(--line);margin:24px 0" />
+          <p class="meta" style="margin:0">
+            Sidst tjekket: {p?.checked_at ? danskDato(p.checked_at) : "ikke tjekket endnu"}<br />
+            Kilde: <a href={t.url} rel="nofollow noopener" target="_blank">{t.url.replace("https://", "").replace(/\/$/, "")}</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2 style="margin-bottom:24px">{t.navn} — hurtigt overblik</h2>
+      <div class="facts">
+        <div class="fact">
+          <small>Normalpris</small>
+          <b>{prisTekst(hoved)}</b>
+        </div>
+        <div class="fact">
+          <small>Danske titler</small>
+          <b>{danske.length}</b>
+        </div>
+        {info.udvalg_i_alt != null && (
+          <div class="fact">
+            <small>Titler i alt</small>
+            <b>{info.udvalg_i_alt}</b>
+          </div>
+        )}
+        <div class="fact">
+          <small>Udenlandske titler</small>
+          <b>{info.udenlandske_oplyst ?? "Ikke oplyst"}</b>
+        </div>
+      </div>
+      <p class="meta" style="margin-top:16px;max-width:70ch">
+        Tallene er talt op fra tjenestens egen katalog på {t.url.replace("https://", "").replace(/\/$/, "")}, som vi bruger som sandhed.
+        Tjekket {danskDato("2026-10-26")}. Ændrer tjenesten sit udvalg, retter vi listen efter.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="sectiontitle">
+        <div>
+          <h2>Danske udgivelser hos {t.navn}</h2>
+          <p class="lede">
+            {info.udvalg_i_alt
+              ? `${danske.length} af tjenestens ${info.udvalg_i_alt} titler er danske og har en side her.`
+              : `${danske.length} danske blade er registreret hos tjenesten.`}
+            {info.udenlandske_oplyst ? ` De øvrige ${info.udenlandske_oplyst} er udenlandske.` : ""}
+          </p>
+        </div>
+        <a class="link" href="/magasiner/">Se alle magasiner →</a>
+      </div>
+
+      <div class="catalog">
+        {danske.slice(0, 60).map((m) => (
+          <a class="magcard" href={`/${m.slug}/`}>
+            <div class={`cover ${m.cover ? "cover--billede" : ""}`} style={`background:${farveFor(m.slug)}`}>
+              {m.cover && <img src={m.cover} alt={`Forside af ${m.navn}`} loading="lazy" width="300" height="400" />}
+              <small>{m.type === "ugeblad" ? "Ugeblad" : "Magasin"}</small>
+              <strong style="font-size:20px">{m.navn}</strong>
+            </div>
+            <h3>{m.navn}</h3>
+            <div class="meta">{m.forlag ?? (m.type === "ugeblad" ? "Ugeblad" : "Magasin")}</div>
+          </a>
+        ))}
+      </div>
+      {danske.length > 60 && <p class="meta">Viser de første 60 af {danske.length}.</p>}
+    </div>
+  </section>
+
+  {info.pris_fakta && info.pris_fakta.length > 0 && (
+    <section class="section alt">
+      <div class="container">
+        <h2 style="margin-bottom:8px">Priser og betingelser</h2>
+        <p class="lede" style="margin-bottom:24px">
+          Hentet fra {t.navn}s egen FAQ. Det er de ting, der afgør, hvad du reelt betaler — og hvornår du kan komme ud igen.
+        </p>
+        <div class="pros">
+          {info.pris_fakta.map((f) => (
+            <div class="panel">
+              <h3>{f.q}</h3>
+              <p style="margin:0">{f.a}</p>
+              <p class="meta" style="margin:10px 0 0">
+                Kilde: <a href={f.kilde} rel="nofollow noopener" target="_blank">{t.navn}s FAQ</a> · hentet {f.hentet}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section">
+    <div class="container">
+      <h2>Alle priser vi har registreret</h2>
+      <div class="tablewrap" style="margin-top:20px">
+        <table>
+          <thead><tr><th>Type</th><th class="num">Pris</th></tr></thead>
+          <tbody>
+            {priser_liste.map(([k, v]) => (
+              <tr><td>{v.etikett ?? k}</td><td class="num">{prisTekst(v)}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="meta" style="margin-top:14px">
+        {p?.checked_at ? `Tjekket ${danskDato(p.checked_at)}` : "Ikke tjekket endnu"} · kilde:{" "}
+        <a href={t.url} rel="nofollow noopener" target="_blank">{t.url.replace("https://", "").replace(/\/$/, "")}</a>
+      </p>
+      <p style="margin-top:24px">
+        <a class="btn" href={t.url} rel="nofollow sponsored noopener" target="_blank">Til {t.navn} →</a>
+      </p>
+      <p class="meta">Linket er et reklamelink. Vi får ikke betaling for det endnu — aftaler er ikke indgået.</p>
+    </div>
+  </section>
+
+  <div class="container"><Annonce slot="billboard" /></div>
+</Base>

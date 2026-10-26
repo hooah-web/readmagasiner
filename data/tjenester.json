@@ -1,0 +1,150 @@
+{
+ "readly": {
+  "navn": "Readly",
+  "url": "https://readly.com/da-dk/",
+  "note": "Svensk tjeneste med danske og udenlandske blade",
+  "udenlandske_oplyst": null,
+  "udenlandske_kilde": "https://readly.com/ (dansk udvalg)",
+  "danske_kilde": "Readlys danske udgivelsesoversigt",
+  "bemaerkning": "Readly oplyser ikke et samlet antal udenlandske titler på deres danske sider. Vi viser derfor ingen tal.",
+  "pris_fakta": [
+   {
+    "q": "Hvordan fungerer prøveperioden?",
+    "a": "Ved opstart kan du bruge en gratis prøveperiode. Når den udløber, fortsætter abonnementet automatisk som månedligt abonnement.",
+    "kilde": "https://readly.zendesk.com/hc/en-001/articles/4410019367313-Monthly-renewal",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Hvornår betaler jeg?",
+    "a": "Betalingen sker altid forud og trækkes automatisk hver måned.",
+    "kilde": "https://readly.zendesk.com/hc/en-001/articles/360012747860-How-do-I-pay",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Hvilke betalingsmetoder?",
+    "a": "Kreditkort (VISA/MasterCard) og PayPal. Køber du i appen via Apple, Google Play eller Amazon, skal abonnementet opsiges samme sted.",
+    "kilde": "https://readly.zendesk.com/hc/en-001/articles/360012747860-How-do-I-pay",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Hvordan opsiger jeg?",
+    "a": "Log ind på readly.com, vælg Abonnementer → Administrer abonnement og følg vejledningen. Du får en bekræftelse på mail.",
+    "kilde": "https://readly.zendesk.com/hc/en-001/articles/4409419638929-Cancellation",
+    "hentet": "2026-10-26"
+   }
+  ],
+  "udvalg_i_alt": null,
+  "beskrivelse": "Readly er en svensk magasintjeneste, der samler danske og udenlandske blade i én app. Du betaler et fast månedligt beløb og får adgang til hele udvalget — ikke enkelte titler. I vores registrering har Readly 21 danske titler, og det er dem, vi viser her på siden. Hvor mange udenlandske titler de har, oplyser de ikke et samlet tal for i deres danske oversigt.\n\nPrisen opkræves i euro, fordi tjenesten er svensk. Det betyder, at det beløb der trækkes fra din konto afhænger af dagens valutakurs — derfor viser vi både euro og en omregning med dato.\n\nAbonnementet betales forud hver måned og fornyer sig selv. Vil du ud, skal du opsige på readly.com under Abonnementer, og du får en bekræftelse på mail. Har du tegnet abonnementet i Apples eller Googles app-butik, skal det opsiges samme sted."
+ },
+ "flipp": {
+  "navn": "Flipp",
+  "url": "https://flipp.dk/",
+  "note": "Dansk tjeneste, stærk på ugeblade",
+  "udenlandske_oplyst": 57,
+  "udenlandske_kilde": "https://flipp.dk/magasiner/",
+  "danske_kilde": "flipp.dk/magasiner/<blad>",
+  "bemaerkning": "Flipp er dansk. I deres katalog på flipp.dk/magasiner er 36 af de 93 titler danske; resten er norske og svenske.",
+  "pris_fakta": [
+   {
+    "q": "Hvad koster Flipp?",
+    "a": "99 kr. pr. måned, opkrævet forud. Ingen binding — du kan opsige under Min Konto og bliver ikke opkrævet næste måned.",
+    "kilde": "https://www.flipp.dk/faq/",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "3 måneder for 1",
+    "a": "Du betaler 99 kr. ved start og får 3 måneders adgang. Derefter overgår abonnementet til standardprisen 99 kr. pr. måned.",
+    "kilde": "https://www.flipp.dk/faq/",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "12 måneder for 9",
+    "a": "Du betaler 891 kr. ved start og får 12 måneders adgang — svarende til 9 måneders pris. Derefter 99 kr. pr. måned.",
+    "kilde": "https://www.flipp.dk/faq/",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Er du i forvejen abonnent hos Egmont?",
+    "a": "Printabonnenter på Egmonts magasiner, ugeblade eller børneblade betaler 39 kr. pr. måned for Flipp.",
+    "kilde": "https://www.flipp.dk/faq/",
+    "hentet": "2026-10-26"
+   }
+  ],
+  "udvalg_i_alt": 93,
+  "beskrivelse": "Flipp er Egmonts læsetjeneste og den af de fire, der ligger tættest på de klassiske ugeblade og tegneserier. Deres katalog tæller 93 titler, hvoraf vi har registreret 36 danske — Hjemmet, HER&NU, Anders And, Jumbobog og flere. De øvrige er norske og svenske titler i samme koncern.\n\nPrisen er 99 kr. om måneden uden binding. Er du i forvejen printabonnent på et Egmont-blad, koster Flipp 39 kr. om måneden — den rabat fremgår ikke af forsiden, men står i deres FAQ.\n\nFlipp kører også med opstartsrabatter: tre måneder for prisen af én, eller tolv måneder for prisen af ni. Efter rabatperioden overgår abonnementet til den normale månedspris. Opsigelse sker under Min Konto, og du bliver ikke opkrævet næste måned."
+ },
+ "pling": {
+  "navn": "Pling",
+  "url": "https://pling.dk/",
+  "note": "Dansk tjeneste, mange nichetitler",
+  "udenlandske_oplyst": 39,
+  "udenlandske_kilde": "https://pling.dk/alle-magasiner/",
+  "danske_kilde": "pling.dk/partner-forside/danske-brands/",
+  "bemaerkning": "Pling viser 39 udenlandske brands i deres kategorilister. Det er ikke nødvendigvis hele det udenlandske udvalg.",
+  "pris_fakta": [
+   {
+    "q": "Hvad koster Pling Komplet?",
+    "a": "Første måned er gratis. Derefter 99 kr. pr. måned, som trækkes automatisk.",
+    "kilde": "https://pling.dk/ofte-stillede-sporgsmal/",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Hvornår skal jeg opsige?",
+    "a": "Du skal opsige senest fem dage inden næste betaling, ellers fornyes abonnementet automatisk. Det er en kortere frist end hos de andre tjenester.",
+    "kilde": "https://pling.dk/ofte-stillede-sporgsmal/",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Hvad er Pling Kombi?",
+    "a": "Er du printabonnent på et af Allers magasiner eller ugeblade, koster Pling 49 kr. pr. måned — halv pris — så længe printabonnementet er aktivt. Opsiger du print, går Pling til 99 kr.",
+    "kilde": "https://pling.dk/ofte-stillede-sporgsmal/",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Hvad er Pling Favorit?",
+    "a": "Som printabonnent hos Aller får du gratis digital adgang til den udgave, du abonnerer på.",
+    "kilde": "https://pling.dk/ofte-stillede-sporgsmal/",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Kan jeg dele abonnementet?",
+    "a": "Ja, op til fem andre brugere.",
+    "kilde": "https://pling.dk/ofte-stillede-sporgsmal/",
+    "hentet": "2026-10-26"
+   }
+  ],
+  "udvalg_i_alt": 57,
+  "beskrivelse": "Pling er Allers læsetjeneste og den af de fire med flest nichetitler. Deres katalog tæller 57 titler, hvoraf vi har registreret 18 danske — SE og HØR, Billed-Bladet, Femina, Søndag, Ude og Hjemme og flere. Resten er udenlandske brands.\n\nPling Komplet koster 99 kr. om måneden, og første måned er gratis. Er du printabonnent på et Aller-blad, koster det 49 kr. om måneden — og med Pling Favorit får du gratis digital adgang til netop det blad, du abonnerer på.\n\nTo ting adskiller Pling fra de andre: du skal opsige senest fem dage før næste betaling, og du kan dele abonnementet med op til fem andre brugere."
+ },
+ "wype": {
+  "navn": "Wype",
+  "url": "https://wype.dk/",
+  "note": "Bladkiosk, kan også købes enkeltvis",
+  "udenlandske_oplyst": null,
+  "udenlandske_kilde": null,
+  "danske_kilde": "wype.dk/online-magasiner/",
+  "bemaerkning": "Wype oplyser \"mere end 500 udgivelser\" i alt, men fordeler ikke tallet på danske og udenlandske.",
+  "pris_fakta": [
+   {
+    "q": "Hvad koster Wype?",
+    "a": "Gratis den første måned, derefter 99 kr. pr. måned for fuld adgang til alle magasiner.",
+    "kilde": "https://wype.dk/spoergsmaal-svar/",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Jeg abonnerer allerede på et af magasinerne",
+    "a": "Print- og digitale abonnenter på et af deres magasiner har gratis adgang til den nyeste udgave og tidligere udgaver af netop det magasin.",
+    "kilde": "https://wype.dk/spoergsmaal-svar/",
+    "hentet": "2026-10-26"
+   },
+   {
+    "q": "Hvad hvis jeg vil have adgang til resten?",
+    "a": "Abonnenter kan købe adgang til alle de øvrige e-magasiner for 59 kr. pr. måned.",
+    "kilde": "https://wype.dk/spoergsmaal-svar/",
+    "hentet": "2026-10-26"
+   }
+  ],
+  "udvalg_i_alt": null,
+  "beskrivelse": "Wype er en bladkiosk frem for et fast abonnement: du kan købe enkeltnumre, eller tegne et abonnement med adgang til hele udvalget. Vi har registreret 13 danske titler i deres katalog — Bo Bedre, Euroman, I FORM, Illustreret Videnskab, Costume og flere. Wype oplyser selv, at de har mere end 500 udgivelser i alt, men fordeler ikke tallet på danske og udenlandske.\n\nDen første måned er gratis, derefter 99 kr. om måneden for fuld adgang. Er du i forvejen abonnent på et af magasinerne, har du gratis adgang til den nyeste udgave og tidligere udgaver af netop det magasin. Vil du have adgang til resten, koster det 59 kr. om måneden."
+ }
+}

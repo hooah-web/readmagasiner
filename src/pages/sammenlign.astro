@@ -1,0 +1,166 @@
+---
+import Base from "../layouts/Base.astro";
+import { priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgFor, tjenesteInfo } from "../lib/site";
+import Annonce from "../components/Annonce.astro";
+import TjenesteLogo from "../components/TjenesteLogo.astro";
+---
+
+<Base
+  title="Sammenlign Readly, Flipp, Pling og Wype — pris og udvalg"
+  description="Sammenlign de fire tjenester side om side: pris, danske titler, udenlandske titler og prøveperiode. Se hvad du betaler ud fra dit abonnement."
+>
+  <section class="pagehero">
+    <div class="container">
+      <div class="bread"><a href="/">Forside</a> / Sammenlign</div>
+      <h1>Sammenlign tjenester</h1>
+      <p>
+        Vi koncentrerer os om de danske udgivelser. Tjenesternes samlede udvalg er større, men består
+        i høj grad af udenlandske titler, som ikke er relevante for danske læsere.
+      </p>
+    </div>
+  </section>
+
+  <section style="padding-bottom:64px">
+    <div class="container">
+      <div class="tablewrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Tjeneste</th><th class="num">Pris</th><th class="num">Danske udgivelser</th>
+              <th class="num">Udenlandske</th><th>Prøveperiode</th>
+            </tr>
+          </thead>
+          <tbody>
+            {TJENESTER.map((t) => {
+              const p = priser[t.key];
+              const hoved = prisHoved(p);
+              const intro = prisIntro(p);
+              return (
+                <tr>
+                  <td><a href={`/tjenester/${t.key}/`}><strong>{t.navn}</strong></a></td>
+                  <td class="num">{prisTekst(hoved)}</td>
+                  <td class="num">{udvalgFor(t.navn).danske.length}</td>
+                  <td class="num">{tjenesteInfo[t.key].udenlandske_oplyst ?? <span class="meta">ikke oplyst</span>}</td>
+                  <td>{intro ? prisTekst(intro) : <span class="meta">ikke oplyst</span>}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+
+      <div class="sectiontitle" style="margin-top:64px">
+        <div>
+          <h2>Hvad koster det dig — ud fra hvad du har i forvejen?</h2>
+          <p class="lede">
+            Alle fire annoncerer med 99 kr. Men prisen afhænger af, om du i forvejen abonnerer på et
+            blad på papir. Det er den forskel, ingen af tjenesterne viser samlet.
+          </p>
+        </div>
+      </div>
+
+      <div class="chips" id="scenarier">
+        <button class="chip on" data-s="intet" type="button">Intet abonnement</button>
+        <button class="chip" data-s="egmont" type="button">Egmont-blad</button>
+        <button class="chip" data-s="aller" type="button">Aller-blad</button>
+        <button class="chip" data-s="wype" type="button">Wype-blad</button>
+      </div>
+
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Tjeneste</th><th class="num">Din pris</th><th class="num">Normalpris</th><th>Bemærkning</th></tr></thead>
+          <tbody id="pristabel">
+            <tr>
+              <td><a href="/tjenester/readly/"><strong>Readly</strong></a></td>
+              <td class="num">14,99 € ≈ 112 kr.</td><td class="num">14,99 € ≈ 112 kr.</td>
+              <td class="meta">Opkræves i euro. 40 % rabat i 3 måneder: 8,99 € ≈ 67 kr.</td>
+            </tr>
+            <tr>
+              <td><a href="/tjenester/flipp/"><strong>Flipp</strong></a></td>
+              <td class="num">99 kr.</td><td class="num">99 kr.</td>
+              <td class="meta">3 måneder for 1 (99 kr.) eller 12 for 9 (891 kr.) som opstartsrabat.</td>
+            </tr>
+            <tr>
+              <td><a href="/tjenester/pling/"><strong>Pling</strong></a></td>
+              <td class="num">99 kr.</td><td class="num">99 kr.</td>
+              <td class="meta">Opsig senest 5 dage før næste betaling.</td>
+            </tr>
+            <tr>
+              <td><a href="/tjenester/wype/"><strong>Wype</strong></a></td>
+              <td class="num">99 kr.</td><td class="num">99 kr.</td>
+              <td class="meta">Første måned gratis.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="meta" style="margin-top:12px">
+        Prishistorik fra tjenesternes egne FAQ'er, hentet 26. oktober 2026.
+        <a href="/tjenester/flipp/">Flipp</a> · <a href="/tjenester/pling/">Pling</a> ·
+        <a href="/tjenester/wype/">Wype</a> · <a href="/tjenester/readly/">Readly</a>
+      </p>
+
+      <script type="application/json" id="prisdata" set:html={JSON.stringify({
+        readly: { navn: "Readly", normal: "14,99 € ≈ 112 kr.", note: "Opkræves i euro. 40 % rabat i 3 måneder: 8,99 € ≈ 67 kr." },
+        flipp: { navn: "Flipp", normal: "99 kr.", note: "3 måneder for 1 (99 kr.) eller 12 for 9 (891 kr.) som opstartsrabat." },
+        pling: { navn: "Pling", normal: "99 kr.", note: "Opsig senest 5 dage før næste betaling." },
+        wype: { navn: "Wype", normal: "99 kr.", note: "Første måned gratis." }
+      })} />
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2 style="margin-bottom:8px">Hvor mange danske blade har de?</h2>
+      <p class="lede" style="margin-bottom:24px">
+        Vores registreringer — ikke tjenesternes egne opgørelser. Vi udvider løbende.
+      </p>
+      <div class="comparison-cards">
+        {TJENESTER.map((t) => (
+          <div class="c-card">
+            <TjenesteLogo key={t.key} navn={t.navn} højde="lille" />
+            <h3 class="sr-only">{t.navn}</h3>
+            <strong>{udvalgFor(t.navn).danske.length}</strong>
+            <p class="meta">danske blade registreret</p>
+            <p style="margin:12px 0 0"><a class="btn btn--secondary btn--sm" href={`/tjenester/${t.key}/`}>Se udvalg</a></p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <div class="container"><Annonce slot="billboard" /></div>
+
+  <script is:inline>
+    (function () {
+      var data = JSON.parse(document.getElementById('prisdata').textContent);
+      var scenarier = {
+        intet:  {},
+        egmont: { flipp: { pris: "39 kr.", note: "39 kr. som printabonnent på et Egmont-blad." } },
+        aller:  { pling: { pris: "49 kr.", note: "49 kr. som printabonnent på et Aller-blad (Kombi)." } },
+        wype:   { wype: { pris: "0 kr.", note: "Gratis digital adgang til det blad du abonnerer på. 59 kr./md. for resten." } }
+      };
+      var tbody = document.getElementById('pristabel');
+      function render(s) {
+        var sc = scenarier[s] || {};
+        tbody.innerHTML = Object.keys(data).map(function (k) {
+          var d = data[k], o = sc[k];
+          var pris = o ? o.pris : d.normal;
+          var note = o ? o.note : d.note;
+          var stil = o ? 'color:var(--ok);font-weight:800' : 'font-weight:700';
+          return '<tr><td><a href="/tjenester/' + k + '/"><strong>' + d.navn + '</strong></a></td>' +
+            '<td class="num" style="' + stil + '">' + pris + '</td>' +
+            '<td class="num">' + d.normal + '</td>' +
+            '<td class="meta">' + note + '</td></tr>';
+        }).join('');
+      }
+      document.querySelectorAll('#scenarier button').forEach(function (b) {
+        b.addEventListener('click', function () {
+          document.querySelectorAll('#scenarier button').forEach(function (x) { x.classList.remove('on'); });
+          b.classList.add('on');
+          render(b.dataset.s);
+        });
+      });
+      render('intet');
+    })();
+  </script>
+</Base>

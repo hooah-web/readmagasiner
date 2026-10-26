@@ -1,0 +1,56 @@
+---
+/**
+ * Tjenesternes logoer. Billederne ligger lokalt i public/tjenestelogoer/,
+ * fordi de originale links er ustabile (Wypes lå på det gamle domæne, og
+ * Readlys kommer fra Wikimedia).
+ *
+ * Højderne er justeret optisk, ikke matematisk: Flipps ordmærke er tynde
+ * streger og skal være større, Wypes er tungt og skal være mindre, for at
+ * de fire ser lige store ud ved siden af hinanden.
+ */
+interface Props {
+  key: string;
+  navn: string;
+  klasse?: string;
+  højde?: "lille" | "mellem" | "stor";
+}
+const { key, navn, klasse = "", højde = "mellem" } = Astro.props;
+const fil: Record<string, string> = {
+  readly: "/tjenestelogoer/readly.png",
+  flipp: "/tjenestelogoer/flipp.svg",
+  pling: "/tjenestelogoer/pling.png",
+  wype: "/tjenestelogoer/wype.svg",
+};
+const src = fil[key];
+---
+
+{src && (
+  <img
+    class={`tj-logo tj-logo--${key} tj-logo--${højde} ${klasse}`}
+    src={src}
+    alt={`${navn}-logo`}
+    loading="lazy"
+    decoding="async"
+  />
+)}
+
+<style>
+  .tj-logo {
+    width: auto;
+    display: block;
+    object-fit: contain;
+  }
+  /* optiske højder */
+  .tj-logo--lille { height: 22px; }
+  .tj-logo--mellem { height: 30px; }
+  .tj-logo--stor { height: 40px; }
+  .tj-logo--flipp.tj-logo--lille { height: 26px; }
+  .tj-logo--flipp.tj-logo--mellem { height: 36px; }
+  .tj-logo--flipp.tj-logo--stor { height: 48px; }
+  .tj-logo--readly.tj-logo--lille { height: 18px; }
+  .tj-logo--readly.tj-logo--mellem { height: 25px; }
+  .tj-logo--readly.tj-logo--stor { height: 33px; }
+  .tj-logo--wype.tj-logo--lille { height: 17px; }
+  .tj-logo--wype.tj-logo--mellem { height: 22px; }
+  .tj-logo--wype.tj-logo--stor { height: 29px; }
+</style>

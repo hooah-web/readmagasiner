@@ -1,0 +1,560 @@
+[
+ {
+  "id": "DK-HNU",
+  "navn": "HER&NU",
+  "kategori": "Alle|Mode \\u0026 livsstil",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/HNU__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-ALT",
+  "navn": "ALT for damerne",
+  "kategori": "Alle|Mode \\u0026 livsstil",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/ALT__b600.jpg?d=20261026"
+ },
+ {
+  "id": "DK-HJM",
+  "navn": "Hjemmet",
+  "kategori": "Alle|Mode \\u0026 livsstil|Mad",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/HJM__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-HEV",
+  "navn": "Hendes Verden",
+  "kategori": "Alle|Mode \\u0026 livsstil",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/HEV__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-AND",
+  "navn": "Anders And & Co",
+  "kategori": "Alle|Børn og unge",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/AND__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-BOL",
+  "navn": "BoligLiv",
+  "kategori": "Alle|Bolig",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/BOL__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-BAS",
+  "navn": "Basserne",
+  "kategori": "Alle|Børn og unge",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/BAS__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-FIT",
+  "navn": "fit LIVING",
+  "kategori": "Alle|Mode \\u0026 livsstil|Sport og sundhed|Fritid",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/FIT__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-JUM",
+  "navn": "Jumbobog",
+  "kategori": "Alle|Børn og unge",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/JUM__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-EUW",
+  "navn": "Eurowoman",
+  "kategori": "Alle|Mode \\u0026 livsstil",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/EUW__b600.jpg?d=20261026"
+ },
+ {
+  "id": "DK-ALI",
+  "navn": "ALT Interiør",
+  "kategori": "Alle|Bolig",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/ALI__b600.jpg?d=20261026"
+ },
+ {
+  "id": "DK-TFB",
+  "navn": "Tivoli For Børn",
+  "kategori": "Alle",
+  "cover": "https://edition.pagesuite.com/get_image.aspx?w=600&pbid=9ffeab64-3a01-4af2-b9a8-a8378630af5b"
+ },
+ {
+  "id": "DK-PRN",
+  "navn": "Disney Prinsesser",
+  "kategori": "Alle|Børn og unge|Fritid",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/PRD.jpg?d=20261026"
+ },
+ {
+  "id": "DK-GAS",
+  "navn": "gastro",
+  "kategori": "Alle|Mad",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/GAS__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-EUM",
+  "navn": "Euroman",
+  "kategori": "Alle|Mode \\u0026 livsstil",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/EUM__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-HBM",
+  "navn": "Hjemmets bedste mad",
+  "kategori": "Alle|Mad",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/HBM__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-GSS",
+  "navn": "Gastro Collection",
+  "kategori": "Alle|Mad",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/GSSC__b600.jpg?d=20261026"
+ },
+ {
+  "id": "DK-RUM",
+  "navn": "RUM",
+  "kategori": "Alle|Bolig",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/RUM__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-BYD",
+  "navn": "Beyond",
+  "kategori": "Alle|Fritid",
+  "cover": "https://edition.pagesuite.com/get_image.aspx?w=600&pbid=92c3e767-226b-4d24-9ba9-8e7488578110"
+ },
+ {
+  "id": "DK-VOB",
+  "navn": "Vores Børn",
+  "kategori": "Alle|Sport og sundhed",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/VOB__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-ON",
+  "navn": "Oplev Nordjylland",
+  "kategori": "Alle|Fritid",
+  "cover": "https://edition.pagesuite.com/get_image.aspx?w=600&pbid=18ce4294-8816-47c4-8c90-c7caa5d7de42"
+ },
+ {
+  "id": "DK-SAL",
+  "navn": "Sally's",
+  "kategori": "Alle|Mode \\u0026 livsstil",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/SAL__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-AAC",
+  "navn": "Anders And Classic",
+  "kategori": "Alle|Børn og unge|Særudgaver",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/AAC__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-DN",
+  "navn": "Dit Nordsjælland",
+  "kategori": "Alle|Fritid",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/DK-DN__b600.jpg?d=20261026"
+ },
+ {
+  "id": "DK-AAJ",
+  "navn": "Anders And Junior",
+  "kategori": "Alle|Børn og unge",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/AAJ__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-VOG",
+  "navn": "Gravid",
+  "kategori": "Alle|Sport og sundhed",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/VOG__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-WEN",
+  "navn": "Wendy",
+  "kategori": "Alle|Børn og unge",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/WEN__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-GOA",
+  "navn": "Goal",
+  "kategori": "Alle|Børn og unge|Sport og sundhed",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/GOA__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-ENB",
+  "navn": "Energi & Bolig",
+  "kategori": "Alle|Mode \\u0026 livsstil|Fritid|Særudgaver|Bolig",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/ENB__m600.jpg?d=20261026"
+ },
+ {
+  "id": "DK-BRY",
+  "navn": "ALT om dit bryllup",
+  "kategori": "Alle|Mode \\u0026 livsstil",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/BRY__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-RAK",
+  "navn": "Rasmus Klump",
+  "kategori": "Alle|Børn og unge",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/RAK__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-DSE",
+  "navn": "Danske Skæbner & Eventyr",
+  "kategori": "Alle|Mode \\u0026 livsstil",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/DSE__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-VML",
+  "navn": "VILD MED LØB",
+  "kategori": "Alle|Sport og sundhed|Særudgaver",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/VML__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-VRK",
+  "navn": "Værk",
+  "kategori": "Alle|Mode \\u0026 livsstil|Særudgaver",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/VRK__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-FSP",
+  "navn": "Flipp Special",
+  "kategori": "Alle|Mode \\u0026 livsstil|Særudgaver",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/FSP__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "DK-JUT",
+  "navn": "Jumbobog Tema",
+  "kategori": "Alle|Børn og unge",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/JUT__b600.jpg?d=20261026"
+ },
+ {
+  "id": "SE-NITK",
+  "navn": "91:an Klassiker",
+  "kategori": "",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NITK__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-LOP",
+  "navn": "Loppis & Antikt",
+  "kategori": "Alle|Mode \\u0026 livsstil|Fritid",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/LOP__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-HER",
+  "navn": "Her og Nå",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-HER__b600.jpg?d=20261026"
+ },
+ {
+  "id": "NO-HJE",
+  "navn": "Hjemmet",
+  "kategori": "Alle|Mode \\u0026 livsstil|Mad",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-HJE__b600.jpg?d=20261026"
+ },
+ {
+  "id": "NO-NU",
+  "navn": "Norsk Ukeblad",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-NU__b600.jpg?d=20261026"
+ },
+ {
+  "id": "NO-VIM",
+  "navn": "Vi Menn",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-VIM__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-MIL",
+  "navn": "Kamille",
+  "kategori": "",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-MIL__b600.jpg?d=20261026"
+ },
+ {
+  "id": "NO-BHF",
+  "navn": "Bonytt",
+  "kategori": "Alle|Bolig",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-BHF__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-ROM",
+  "navn": "ROM123",
+  "kategori": "Alle|Bolig",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-ROM__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-DON",
+  "navn": "Donald Duck & Co",
+  "kategori": "Alle|Børn og unge",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-DON__b600.jpg?d=20261026"
+ },
+ {
+  "id": "NO-HYT",
+  "navn": "Hytteliv",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-HYT__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-FAM",
+  "navn": "Familien",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-FAM__b600.jpg?d=20261026"
+ },
+ {
+  "id": "NO-HAG",
+  "navn": "Hageliv & Uterom",
+  "kategori": "Alle|Bolig",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-HAG__b600.jpg?d=20261026"
+ },
+ {
+  "id": "NO-MAI",
+  "navn": "Maison Interiør",
+  "kategori": "Alle|Bolig",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-MAI__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-BOL",
+  "navn": "BoligDrøm",
+  "kategori": "Alle|Bolig",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-BOL__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-LEV",
+  "navn": "Lev Landlig",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-LEV__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-MAT",
+  "navn": "Maison Mat og Vin",
+  "kategori": "Alle|Mad",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-MAT__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-FBB",
+  "navn": "Foreldre & Barn",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-FBB__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-VIL",
+  "navn": "Villmarksliv",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-VIL__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-JHV",
+  "navn": "Jakt",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-JHV__b600.jpg?d=20261026"
+ },
+ {
+  "id": "NO-VMT",
+  "navn": "Vi Menn Tema",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-VMT__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-XBBB",
+  "navn": "Bo Bygg og Bolig",
+  "kategori": "Alle|Bolig",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-XBBB__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-BBBKB",
+  "navn": "Kjøkken og Bad",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-BBBKB__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-AOF",
+  "navn": "Alt om fiske",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-AOF__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-NMV",
+  "navn": "Norsk Motorveteran",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-NMV__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-XDBR",
+  "navn": "Ditt Bryllup",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-XDBR__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-DNY",
+  "navn": "DET NYE",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-DNY__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-NUX",
+  "navn": "Norsk Ukeblad Kryssord",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-NUX__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "NO-XVBI",
+  "navn": "Vi Menn Bil",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NO-XVBI__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-BAM",
+  "navn": "Bamse",
+  "kategori": "Alle|Børn og unge",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/BAM__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-HEM",
+  "navn": "Hemmets Journal",
+  "kategori": "Alle|Mode \\u0026 livsstil|Mad|Fritid",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/HEM__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-AMS",
+  "navn": "Auto Motor & Sport",
+  "kategori": "Alle|Fritid",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/AMS__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-ICA",
+  "navn": "Icakuriren",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/ICA__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-PRB",
+  "navn": "Praktiskt Båtägande",
+  "kategori": "",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/PRB__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-HOH",
+  "navn": "Hus & Hem",
+  "kategori": "Alle|Børn og unge",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/HOH__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-BFY",
+  "navn": "Bamse för de yngsta",
+  "kategori": "Børn og unge",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/BFY__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-HUC",
+  "navn": "Husvagn & Camping",
+  "kategori": "Alle|Fritid|Bolig",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/HUC__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-UTE",
+  "navn": "Utemagasinet",
+  "kategori": "Alle|Sport og sundhed|Fritid",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/UTE__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-CLA",
+  "navn": "Classic Motor",
+  "kategori": "Alle|Fritid",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/CLA__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-HAS",
+  "navn": "Hälsa",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/HAS__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-SAG",
+  "navn": "Bamse Sagoserier",
+  "kategori": "Alle|Børn og unge",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/SAG__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-RET",
+  "navn": "Scandinavian Retro",
+  "kategori": "Alle|Mode \\u0026 livsstil|Fritid",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/RET__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-VAG",
+  "navn": "Vagabond",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/VAG__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-SOD",
+  "navn": "Svenska Öden & Äventyr",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/SOD__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-NAR",
+  "navn": "Nära",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/NAR__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-SKI",
+  "navn": "Åka Skidor",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/SKI__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-CAF",
+  "navn": "Café",
+  "kategori": "",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/CAF__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-HBR",
+  "navn": "Historiska Brott & Mysterier",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/HBR__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-AOB",
+  "navn": "Bagaren och Kocken",
+  "kategori": "Alle|Mad",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/AOB__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-WHE",
+  "navn": "Wheels Magazine",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/WHE__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-KNG",
+  "navn": "King",
+  "kategori": "Alle|Mode \\u0026 livsstil|Fritid",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/KNG__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-POW",
+  "navn": "Power Magazine",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/POW__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-RSE",
+  "navn": "Tidskriften Rum",
+  "kategori": "Alle|Bolig",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/XRSE__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-RUH",
+  "navn": "Rum Hemma",
+  "kategori": "Alle|Bolig",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/RUH__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-ASS",
+  "navn": "Auto Motor Sport Special",
+  "kategori": "",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/ASS__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-BAT",
+  "navn": "Båtnytt",
+  "kategori": "Alle|Fritid",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/BAT__b600m.jpg?d=20261026"
+ },
+ {
+  "id": "SE-PET",
+  "navn": "Pets",
+  "kategori": "Alle",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/PET__b600m.jpg?d=20261026"
+ }
+]

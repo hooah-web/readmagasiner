@@ -1,0 +1,47 @@
+---
+import Base from "../../layouts/Base.astro";
+import { magasiner, priser, TJENESTER, prisTekst, prisHoved } from "../../lib/site";
+import Annonce from "../../components/Annonce.astro";
+import TjenesteLogo from "../../components/TjenesteLogo.astro";
+---
+
+<Base title="Magasintjenester — pris og udvalg side om side"
+      description="Readly, Flipp, Pling og Wype: se pris, antal danske titler, prøveperiode og hvordan du opsiger. Alle priser er tjekket og dateret.">
+  <div class="wrap" style="padding-top:26px">
+    <p class="small"><a href="/">Forside</a> › <span>Tjenester</span></p>
+  </div>
+  <div class="wrap">
+    <div class="layout">
+      <div class="main">
+                <div style="padding:18px 0 6px">
+          <h1 style="font-size:clamp(28px,4vw,42px)">Tjenesterne</h1>
+          <p class="lead" style="color:var(--ink-soft);max-width:62ch;margin-top:12px">
+            Fire tjenester deler det danske marked. De ligner hinanden i pris, men ikke i udvalg.
+          </p>
+        </div>
+        <Annonce slot="mobile" />
+
+        <div class="grid svc" style="padding:14px 0 30px">
+          {TJENESTER.map((t) => {
+            const p = priser[t.key];
+            const hoved = prisHoved(p);
+            const antal = magasiner.filter((m) => m.digitalt.includes(t.navn)).length;
+            return (
+              <div class="card">
+                <TjenesteLogo key={t.key} navn={t.navn} />
+                <h3 class="sr-only">{t.navn}</h3>
+                <p class="small" style="margin:6px 0 12px">{t.note}</p>
+                <div class="price price--lg">{prisTekst(prisHoved(p))}</div>
+                <p class="small" style="margin:8px 0 0">{antal} blade i vores katalog</p>
+                <p class="meta" style="margin:8px 0 14px">{p?.checked_at ? "Pris tjekket " + p.checked_at.slice(0,10) : "Ikke tjekket"}</p>
+                <a class="btn ghost" href={"/tjenester/" + t.key + "/"} style="display:inline-block;padding:9px 16px;font-size:14px">Se tjenesten</a>
+              </div>
+            );
+          })}
+        </div>
+        <Annonce slot="billboard" />
+      </div>
+      <aside class="rail"><div class="sticky-rail"><Annonce slot="rail" /></div></aside>
+    </div>
+  </div>
+</Base>

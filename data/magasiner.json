@@ -1,0 +1,2404 @@
+[
+ {
+  "navn": "Aktiv træning",
+  "slug": "magasin-aktiv-traening",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "mænd",
+  "land": "DK",
+  "digitalt": [
+   "Wype"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "Aktiv træning er magasinet for dig, der allerede har motionen inde under huden – eller for dig, der gerne vil i gang og har brug for et solidt spark i den rigtige retning. Bladet henvender sig lige så bredt, som dets læsere er forskellige: her er plads til den almindelige løber, der jagter personlige rekorder, og til den erfarne crossfit-udøver, der søger nye udfordringer. Fælles for læserne er ønsket om en aktiv og sund hverdag, hvor der ikke blot fokuseres på hurtige resultater, men på en bæredygtig livsstil.\n\nIndholdsmæssigt hviler magasinet på tre bærende søjler: motion, kost og udstyr. Du finder nyheder fra træningsverdenen side om side med de klassiske og evigt aktuelle emner, der hører en aktiv livsstil til. Bladet er især kendt for sine mange og grundige produkttests. Uanset om du overvejer at investere i et nyt løbeur, en cykel eller andet udstyr, hjælper testene dig med at træffe et kvalificeret valg mellem modeller og mærker, så du undgår at købe forkert.\n\nVed siden af de faste temaer fungerer magasinet som en inspirationskilde, der motiverer læseren til at holde sig i bevægelse og prøve kræfter med nye træningsformer. Det gælder både for den garvede motionist og for den, der netop har taget hul på en sundere livsstil og har brug for viden og opbakning til at fortsætte.\n\nAktiv træning udkommer en gang om måneden og kan læses digitalt hos Wype, hvor du har alle udgaverne samlet på telefon, tablet eller computer. Det giver nem adgang til bladets tests og artikler, uanset hvor du er, og uanset om du læser derhjemme eller på farten.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Wype"
+  ],
+  "kilder": {
+   "Wype": "https://wype.dk/online-magasiner/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6215/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/aktiv-traening/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Alt for damerne",
+  "slug": "magasin-alt-for-damerne",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Alt for damerne er det ugeblad, der samler alt det væsentlige fra kvindernes verden. Bladet er skrevet til kvinder i alle aldre, og det favner både den læser, der søger hurtig inspiration til hverdagen, og den, der gerne vil fordybe sig i længere læseoplevelser om mode, sundhed og mennesker, der gør en forskel. Uanset alder og livssituation er der noget at hente i bladets blandede indhold.\n\nIndholdet følger årets gang og de skiftende årstider. I sommermagasinerne er der fokus på rejsemål, ferieplanlægning og motion, der foregår udendørs, mens vinterudgaverne tager fat på vinterens mode, mad og de emner, der hører den mørkere tid til. Det sikrer, at bladet altid er aktuelt og relevant for den tid på året, det udkommer i. Dertil kommer interviews og portrætter af interessante personer, som giver læseren både indsigt og inspiration.\n\nArtiklerne favner bredt: fra mode og alder til sundhed, kropsopfattelse og vægt. Selv om vinklen er skrevet, så den relaterer til kvinderne, er mange af emnerne lige så aktuelle for mænd – det gør bladet til en alsidig læseoplevelse for enhver, der interesserer sig for de store spørgsmål i hverdagen.\n\nAlt for damerne udkommer hver uge, og du kan læse med digitalt hos Flipp, hvor udgaverne ligger side om side med tjenestens øvrige blade. Vil du hellere have bladet i hånden, findes det også som printudgave. Uanset om du læser på telefonen eller ved køkkenbordet, er der adgang til ugens aktuelle stof og de tidligere udgivelser.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/alt-for-damerne"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/alt-for-damerne/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
+  "cover": "/omslag/magasin-alt-for-damerne.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Android-bogen",
+  "slug": "magasin-android-bogen",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Android-bogen er et magasin om Android – styresystemet, der ligger bag langt de fleste telefoner og tablets uden for Apples univers. Bladet henvender sig til brugere, der gerne vil have mere ud af den enhed, de allerede har, frem for kun at bruge den til det mest basale.\n\nHer er der plads til de praktiske spørgsmål: hvordan man sætter sin telefon op, hvilke indstillinger der er værd at kende, og hvordan apps, sikkerhed og daglig brug spiller sammen. Der bliver også plads til de funktioner, man måske har set, men aldrig fået taget i brug – og til at forklare, hvad der egentlig sker, når man trykker på de forskellige valgmuligheder. Stoffet er skrevet til almindelige brugere og kræver ingen særlige forudsætninger.\n\nAndroid-bogen henvender sig både til den, der lige har fået en ny telefon, og til den, der har haft Android i årevis uden at komme hele vejen rundt om systemet. Magasinet kan læses digitalt hos Readly, så du har det ved hånden på telefon, tablet eller computer, når du sidder med enheden ved siden af.",
+  "kilde": "https://readly.com/da-dk/products/magazine/android-bogen",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/android-bogen"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "it-technology",
+  "cover": "/omslag/magasin-android-bogen.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Antik & auktion",
+  "slug": "magasin-antik-auktion",
+  "type": "magasin",
+  "forlag": "Aller Media",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Pling"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Antik & auktion er magasinet for dig, der bruger weekenderne på loppemarkeder og altid er på udkig efter det ene gode fund, der kan løfte indretningen derhjemme. Bladet taler både til den garvede samler, der har styr på stilarter og priser, og til den, der lige er begyndt at interessere sig for antikviteter og har brug for at lære spillereglerne på et marked, hvor ægthed og værdi kan være svære at gennemskue.\n\nEn fast og væsentlig del af indholdet er vurderingerne. Bladet har et ekspertpanel, hvor læseren kan få set nærmere på arvegods eller det seneste fund fra markedet. Her guides der til, hvad man kan tillade sig at give for en given ting, så man ikke betaler overpris – og samtidig får en fornemmelse af, hvad der gør en genstand særlig og værdifuld.\n\nVed siden af de praktiske vurderinger findes de mere fortællende artikler. Her skrives der seriøst og grundigt om kunstnere, stilarter og perioder, og der gives tips til loppemarkeder, retrostil og køb på nettet. Det giver læseren både den historiske og kulturelle baggrund og den praktiske brug af de ting, man slæber med hjem fra markedet. Indholdet spænder fra dybtgående artikler om antikke smykker til guides i indretning og vejledninger til, hvordan man spotter gode fund.\n\nAntik & auktion henvender sig til både mænd og kvinder med en bred interesse for kunst, design og antikviteter. Magasinet udgives af Aller Media og kan læses digitalt hos Pling, hvor du har adgang til alle udgaverne – perfekt til dig, der vil fordybe dig i emnet, uanset om du er på farten eller derhjemme.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/magasin-antik-auktion.webp",
+  "cover_kilde": "Pling",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Apple Watch-bogen",
+  "slug": "magasin-apple-watch-bogen",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Apple Watch-bogen er et magasin om Apples smartwatch og det univers af funktioner, der følger med uret. Bladet henvender sig til ejere, der gerne vil længere end de mest oplagte funktioner, og som har brug for at få overblik over, hvad uret egentlig kan.\n\nIndholdet tager udgangspunkt i den praktiske brug: opsætning, urskiver, apps, notifikationer og de indstillinger, der gør uret til en del af hverdagen frem for et stykke teknik, der bliver liggende i skuffen. Der er også plads til at se nærmere på, hvordan uret fungerer sammen med telefonen, og hvordan man får mest muligt ud af den daglige brug. Det er skrevet til almindelige brugere og forudsætter ikke forkendskab til Apples platform.\n\nApple Watch-bogen kan læses digitalt hos Readly, så du kan slå op i den, mens du har uret på armen. Magasinet er tænkt som noget, man kan vende tilbage til, når en funktion skal genopfriskes, frem for at man skal huske det hele efter første gennemlæsning.",
+  "kilde": "https://readly.com/da-dk/products/magazine/apple-watch-bogen",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/apple-watch-bogen"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "it-technology",
+  "cover": "/omslag/magasin-apple-watch-bogen.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Bike powered by Motorrad Danmark",
+  "slug": "magasin-bike-powered-by-motorrad-danmark",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Bike powered by Motorrad Danmark er et magasin om motorcykler – maskinerne, markedet og livet omkring dem. Bladet henvender sig til den læser, der enten allerede kører motorcykel eller går og overvejer at komme ud på vejen.\n\nHer er der plads til både de nye modeller og det ældre materiel, til udstyr og til de overvejelser, der følger med at køre på to hjul: hvad man skal kigge efter, hvordan maskinen holdes i gang, og hvad der rører sig blandt producenter og entusiaster. Det gælder både den korte tur og den lange, og både den, der kører hele året, og den, der kun tager maskinen frem i den varme del af sæsonen. Bladet skriver til det brede motorcykelpublikum frem for kun til specialister.\n\nBike powered by Motorrad Danmark kan læses digitalt hos Readly. Bladet henvender sig også til den, der læser om motorcykler som optakt til selv at komme i gang.",
+  "kilde": "https://readly.com/da-dk/products/magazine/bike-powered-by-motorrad-danmark",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/bike-powered-by-motorrad-danmark"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "automotive",
+  "cover": "/omslag/magasin-bike-powered-by-motorrad-danmark.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Bil magasinet",
+  "slug": "magasin-bil-magasinet",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "mænd",
+  "land": "DK",
+  "digitalt": [
+   "Wype"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "Bil magasinet er til dig, der har benzin i blodet – eller til dig, der blot godt kan lide at følge med i, hvad der sker i bilens verden. Bladet henvender sig både til den læser, der står foran et konkret bilkøb og har brug for at sammenligne modeller, og til den, der bare nyder at læse om biler, design og teknik for fornøjelsens skyld. Uanset om du er til det nyeste eller det klassiske, er der stof at finde.\n\nIndholdet spænder vidt. Her kan du læse om de nye modeller og deres køreegenskaber, og om hvordan teknikken konstant udvikler sig, så bilerne bliver bedre og mere effektive. Udviklingen går hurtigt, og netop den bevægelse – fra nye teknologier til skarpere design – er en fast og spændende del af bladets stof. Det giver læseren et solidt overblik over, hvad der er kommet til siden sidst, og hvad der er værd at holde øje med.\n\nVed siden af de nye modeller er der også plads til de klassiske biler. Her handler det om design, håndværk og den værdi, som ældre modeller stadig har på markedet. Det gør bladet alsidigt: der er både stof til dig, der drømmer om en klassiker, og til dig, der følger med i, hvordan arven fra tidligere tiders biler forvaltes og værdsættes i dag.\n\nBil magasinet udgives af Story House Egmont og kan læses digitalt hos Wype. Det betyder, at du har udgaverne tilgængelige på telefon, tablet og computer, uanset om du læser derhjemme eller har brug for lidt bilstof på farten. Bladet er med andre ord lige så tilgængeligt, som bilverdenen er alsidig.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Wype"
+  ],
+  "kilder": {
+   "Wype": "https://wype.dk/online-magasiner/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6193/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/bil-magasinet/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Bitcoin – og andre digitale valutaer",
+  "slug": "magasin-bitcoin-og-andre-digitale-valutaer",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Bitcoin – og andre digitale valutaer er et magasin om kryptovaluta og den teknologi, der ligger bag. Bladet henvender sig til læsere, der gerne vil forstå området bedre: hvad bitcoin og de øvrige digitale valutaer er, hvordan de bruges, og hvad der rører sig i markedet.\n\nStoffet er lagt an, så man kan følge med uden at være teknisk ekspert, men stadig få mere end overskrifterne – forklaringer på begreber, baggrund for udviklingen og overblik over, hvad der optager både brugere og aktører. Der er også plads til de spørgsmål, der ofte bliver hængende, når emnet dukker op i nyhederne: hvordan værdien sættes, hvad der sker i netværket, og hvorfor udsvingene er så store. Digital valuta er et område med stor bevågenhed, og bladet skriver om det som netop det – et felt under udvikling.\n\nMagasinet kan læses digitalt hos Readly. Bladet henvender sig både til den nysgerrige og til den, der allerede følger området tæt.",
+  "kilde": "https://readly.com/da-dk/products/magazine/bitcoin-og-andre-digitale-valutaer-1",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/bitcoin-og-andre-digitale-valutaer-1"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "business-finance",
+  "cover": "/omslag/magasin-bitcoin-og-andre-digitale-valutaer.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Bo Bedre",
+  "slug": "magasin-bo-bedre",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Wype"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "Bo Bedre er et af de mest kendte og anerkendte boligmagasiner i Danmark og har i mere end 50 år været et fast holdepunkt for læsere, der går op i, hvordan hjemmet ser ud og fungerer. Bladet henvender sig til folk, der stiller krav til kvaliteten af interiør, materialer og håndværk, og som gerne vil have inspiration til at gøre deres bolig mere personlig og funktionel. Målgruppen er primært voksne mellem 30 og 64 år, og størstedelen af læserne er kvinder – men interessen for god boligstil er naturligvis bredere end som så.\n\nIndholdet er bygget op om inspiration og formidling. Her finder du reportager fra virkelige hjem, guides til indretning og konkrete tips til renovering og vedligeholdelse. Bladet har et skarpt blik for de tendenser, der er på vej inden for bolig, og formår at formidle dem, så læseren både bliver klogere og får lyst til at prøve kræfter med nye ideer. Artiklerne skrives af dygtige journalister og ledsages af professionelle boligfotos, så bladet kan læses både for tekstens og billedernes skyld.\n\nDet gør Bo Bedre lige så anvendeligt til at finde konkrete ideer til et enkelt rum, som til at blive klogere på, hvad der rører sig i dansk boligstil lige nu. Uanset om du står midt i en renovering, leder efter den rette farve til stuen, eller blot nyder at bladre gennem smukke hjem, er der noget at hente. Bladets blanding af reportager, guides og trendanalyser giver både inspiration og praktisk viden.\n\nBo Bedre kan læses digitalt hos Wype. Vil du hellere have bladet i hånden, findes det også som printmagasin. Uanset format er der adgang til det samme høje niveau af indhold, der gennem årtier har gjort Bo Bedre til et af de mest kendte navne inden for dansk boligindretning.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Wype"
+  ],
+  "kilder": {
+   "Wype": "https://wype.dk/online-magasiner/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6199/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/bo-bedre/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Bolig Magasinet",
+  "slug": "magasin-bolig-magasinet",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Wype"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "Bolig Magasinet er et dansk månedsmagasin om boligindretning, udgivet af Story House Egmont. Bladet beskæftiger sig med hjemmet som helhed – indretning, møbler, materialer og de løsninger, der får en bolig til at fungere i hverdagen. Frem for at være et rent produktkatalog lægger det vægt på at vise sammenhænge: hvordan et rum indrettes, hvordan stil og funktion kan gå op i en højere enhed, og hvordan man kommer videre, når boligen trænger til forandring.\n\nEt kendetegn er, at hvert nummer samles om et tema. Det kan eksempelvis være make-over, hvor hjemmet får en ny stil uden at alt skal skiftes ud, eller andre afgrænsede emner, der giver bladet en rød tråd frem for at være en spredt samling artikler. Tilgangen er praktisk orienteret med før- og efter-forløb, ideer til enkelte rum og forslag, der kan gennemføres inden for rimelige rammer.\n\nMålgruppen er læsere, der gerne vil gøre noget ved deres hjem – uanset om det er en lejlighed, et rækkehus eller et hus, og uanset om der er tale om en større renovering eller blot en enkelt væg. Bladet henvender sig både til den erfarne og til den, der mangler det første skub til at komme i gang.\n\nBolig Magasinet kan læses digitalt hos Wype.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Wype"
+  ],
+  "kilder": {
+   "Wype": "https://wype.dk/online-magasiner/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6197/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/bolig-magasinet/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "BoligLiv",
+  "slug": "magasin-boligliv",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "BoligLiv er magasinet, der handler om livet med en bolig – og om alt det, der følger med. Bladet bevæger sig bevidst bredt og blander boligstof med livsstil, sæson og de gøremål, der hører til at holde et hjem. Det gør det til læsning for dig, der interesserer sig for helheden omkring hjemmet frem for kun for møbler og farvevalg. Her er plads til både de store linjer og de små detaljer.\n\nIndholdet følger årets gang. Der er artikler om, hvad sæsonen kræver – eksempelvis ferietiden, sommeren og de ting, der skal ordnes, når vejret skifter. Det kan være alt fra klargøring af boligen til de aktiviteter og indkøb, der hører årstiden til. Side om side med sæsonstoffet finder du indretningstips og forslag til, hvordan boligen kan holde sig pæn og funktionel hele året. Køkkenet fylder en del, og der er også opskrifter og inspiration til mad, så du kan gøre noget ud af de rum, hvor hverdagen foregår.\n\nMålgruppen er læsere, der gerne vil have ideer til både de store og de små ting i en bolig, og som sætter pris på et blad, der kan læses på tværs af emner: indretning, mad, traditioner og sæsonens gøremål. Det er et blad til dig, der ikke bare vil have en smuk bolig, men også en bolig, der fungerer i hverdagen og åbner for gode oplevelser.\n\nBoligLiv udgives af Story House Egmont og findes både i print og digitalt. Du kan læse det digitalt hos Flipp, hvor det er placeret i kategorien Bolig. Uanset om du foretrækker den trykte udgave eller læser på skærmen, får du adgang til den samme blanding af inspiration, opskrifter og praktiske råd.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/boligliv"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/boligliv/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/BOL__b600m.jpg",
+  "cover_kilde": "https://flipp.dk/magasiner/boligliv/",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Costume",
+  "slug": "magasin-costume",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Wype"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "Costume er det månedlige magasin om mode, sundhed og livsstil, der henvender sig til kvindelige læsere med en bred interesse for stil, krop og de valg, der former hverdagen. Bladets styrke er dets bredde: moden er omdrejningspunktet, men den ledsages af stof om træning, skønhed, sundhed og de tendenser, der rører sig i tiden. Det gør bladet til læsning for dig, der gerne vil have både inspiration og noget at tænke over.\n\nHvert nummer rummer portrætter og interviews med kendte ansigter. Her handler det ikke kun om deres arbejde, men også om deres stil, deres valg og de erfaringer, de har gjort sig. Det giver et indblik i mennesker, der er værd at lytte til, og som kan inspirere læseren på flere planer end det rent påklædningsmæssige. Bladets redaktionelle linje følger årstiderne, så modetemaerne skifter med sæsonen, og læseren får stof, der passer til den tid på året, bladet udkommer i.\n\nMålgruppen er primært yngre kvindelige læsere, men bladet appellerer bredere end som så. Tonen er moderne og billedbåret, og indholdet er tilrettelagt, så det både kan bruges som inspiration til påklædning og som almindelig underholdning. Det er et blad, der kan læses i flere tempi – hurtigt igennem til inspiration eller i længere stræk for reportagerne og interviewene.\n\nCostume udgives af Story House Egmont og kan læses digitalt hos Wype. Det giver dig adgang til alle udgaverne på telefon, tablet eller computer, uanset om du læser derhjemme eller har brug for lidt modepåfald på farten. Bladet er med andre ord lige så tilgængeligt, som dets emner er alsidige.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Wype"
+  ],
+  "kilder": {
+   "Wype": "https://wype.dk/online-magasiner/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6195/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/costume/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Det vilde vesten Junior",
+  "slug": "magasin-det-vilde-vesten-junior",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Det vilde vesten Junior er et dansk juniorblad, der som titlen antyder henter sit stof fra western-genren og det univers af prærie, cowboys og pionerer, som mange børn kender fra film, bøger og tegneserier. Bladet er lavet til yngre læsere, og formatet er tilpasset dem, der selv læser, eller som læser sammen med en voksen.\n\nIndholdet er bygget op om det lette og underholdende: korte tekster, illustrationer og et tempo, der passer til børn, der endnu ikke læser lange artikler. Det gør bladet velegnet til den læser, der godt kan lide et tydeligt tema og genkendelige rammer, frem for et magasin med mange forskellige emner side om side.\n\nMålgruppen er børn og unge med interesse for western og eventyrfortællinger – og forældre eller bedsteforældre, der leder efter et blad, der kan læses i fællesskab. Der findes ikke en printaftale for udgivelsen, så bladet læses digitalt.\n\nDet vilde vesten Junior kan læses hos Readly.",
+  "kilde": "https://readly.com/da-dk/products/magazine/det-vilde-vesten-junior",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/det-vilde-vesten-junior"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "history",
+  "cover": "/omslag/magasin-det-vilde-vesten-junior.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Digital Foto",
+  "slug": "magasin-digital-foto",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "mænd",
+  "land": "DK",
+  "digitalt": [
+   "Wype"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "Digital Foto er magasinet for dig, der vil tage bedre billeder og forstå det udstyr, du arbejder med. Bladet henvender sig både til den nybegyndte fotograf, der lige har fået sit første kamera, og til den erfarne udøver, der vil udvikle sig og finpudse sit håndværk. Tilgangen er praktisk: teknik forklares, så den kan bruges, og rådene knyttes til situationer, som læseren selv kan genkende og omsætte til egne billeder.\n\nHvert nummer arbejder med et tema, og indholdet veksler mellem guides, reportager og billedserier, der viser, hvad der er muligt, når lys, komposition og efterbehandling spiller sammen. Bladets egne billeder fungerer i sig selv som inspiration og som eksempler på de teknikker, teksterne beskriver. Det gør det nemt at følge med og lade sig inspirere, uanset om man er til landskaber, portrætter eller noget helt tredje.\n\nEn fast del af stoffet er tests af fotoudstyr – kameraer, objektiver og tilbehør – så læseren kan danne sig et billede af, hvad der er værd at købe på netop sit niveau. Der er også plads til at måle sig med andre: bladet bringer løbende konkurrencer, hvor læserne kan sende billeder ind og se, hvordan de klarer sig. Det giver både motivation og en chance for at lære af andres arbejde.\n\nDigital Foto udgives af Story House Egmont og kan læses digitalt hos Wype. Det giver dig adgang til alle udgaverne, uanset om du læser på telefon, tablet eller computer. Bladet er med andre ord en samlet pakke for dig, der vil udvikle dine evner – hvad enten du drømmer om at gøre fotografi til mere end en hobby, eller blot nyder at lade dig inspirere af gode billeder og grundige artikler.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Wype"
+  ],
+  "kilder": {
+   "Wype": "https://wype.dk/online-magasiner/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6205/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/digital-foto/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Dossier",
+  "slug": "magasin-dossier",
+  "type": "magasin",
+  "forlag": "Aller Media",
+  "maalgruppe": "mænd",
+  "land": "DK",
+  "digitalt": [
+   "Pling"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Dossier er et dansk mandemagasin udgivet af Aller Media. Bladet er bygget op om et maskulint univers og samler stof om business, kultur, livsstil og mode i samme udgivelse. Det giver et magasin, der ikke nøjes med ét emne, men forsøger at ramme den læser, der både interesserer sig for erhvervsliv, for kulturen og for, hvordan han selv fremstår.\n\nIndholdet er tilrettelagt med portrætter og interviews som en bærende del, suppleret af stof om stil, rejser og de ting, der hører til en moderne tilværelse. Ambitionen er et eksklusivt udtryk, hvor oplæg, fotografi og tekst spiller sammen, og hvor læseren får stof, der kan bruges både som orientering og som inspiration i hverdagen.\n\nMålgruppen er mænd med interesse for kvalitet og for at være orienteret om, hvad der rører sig inden for kultur, erhverv og mode. Bladet udkommer ikke med samme hyppighed som de store månedsmagasiner og fremstår derfor mere som en udgivelse, der samles op, når den kommer, frem for noget, man læser fast hver måned.\n\nDossier findes digitalt hos Pling og er i tjenestens egen opdeling placeret som et blad, der kun er tilgængeligt hos Pling.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/magasin-dossier.webp",
+  "cover_kilde": "Pling",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Dyreliv Junior",
+  "slug": "magasin-dyreliv-junior",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Dyreliv Junior er et dansk juniorblad om dyr, henvendt til børn og unge læsere. Bladet tager udgangspunkt i den naturlige nysgerrighed, som de fleste børn har over for dyr – både kæledyr, husdyr og de arter, man møder i naturen – og formidler stoffet i et format, der er tilpasset yngre læsere med kortere tekster, tydelige opslag og mange illustrationer.\n\nGenren er den klassiske børnefagbog i bladform: viden formidlet let og konkret, så læseren kan forstå den uden at skulle have en voksen til at forklare hvert ord. Det gør bladet velegnet til børn, der er begyndt at læse selv, og til fælleslæsning, hvor en voksen og et barn kan gå på opdagelse sammen.\n\nMålgruppen er primært børn i skolealderen med interesse for dyr og natur, samt forældre og bedsteforældre, der leder efter læsning, der både underholder og giver noget med. Der er ikke en printaftale for udgivelsen, så bladet læses digitalt.\n\nDyreliv Junior kan læses hos Readly.",
+  "kilde": "https://readly.com/da-dk/products/magazine/dyreliv-junior",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/dyreliv-junior"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "animals-pets",
+  "cover": "/omslag/magasin-dyreliv-junior.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Euroman",
+  "slug": "magasin-euroman",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "mænd",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Euroman er et dansk livsstilsmagasin for mænd, udgivet af Story House Egmont. Bladet samler tøj, sport, kultur, gadgets og forhold i et redaktionelt udtryk, hvor det visuelle og det journalistiske løfter hinanden. Det henvender sig til den moderne mand, der interesserer sig for livsstil, mode og sport og samtidig gerne vil være orienteret om, hvad der rører sig i samfundet.\n\nIndholdet er båret af reportager, interviews og større featureartikler, og ambitionen er at levere stof, der holder et højt niveau frem for at gentage det, læseren kan finde andre steder. Billedsiden er gennemarbejdet, og opsætningen understøtter det eksklusive udtryk. Det gælder både de store portrætter og de kortere artikler om tendenser, forbrug og kultur.\n\nMålgruppen er bredt den moderne mand, der vil have inspiration til påklædning, indretning og fritid uden at skulle læse specialmagasiner for hvert enkelt emne. Bladet fungerer både som inspiration og som orientering, og det kan læses i sammenhæng eller i de dele, der falder i ens interesse.\n\nTil kvinderne findes søstertitlen Eurowoman, mens Euroman holder fokus på mændenes verden. Det betyder ikke, at stoffet er snævert; tværtimod er bladets styrke, at det forbinder mode og livsstil med kultur og samfundsforhold, så læseren får et samlet billede frem for enkelte løsrevne tips.\n\nDer er plads til både det store interview og den korte reportage, så bladet kan læses i flere tempi. Euroman udkommer én gang om måneden og findes både i print og digitalt. Det kan læses hos Flipp i kategorien Mode & livsstil.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/euroman"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/euroman/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/EUM__b600m.jpg",
+  "cover_kilde": "https://flipp.dk/magasiner/euroman/",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Eurowoman",
+  "slug": "magasin-eurowoman",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Eurowoman er et dansk magasin for kvinder, udgivet af Story House Egmont. Bladet dækker mode, livsstil og kultur og lægger vægt på det journalistiske indhold, ikke mindst interviewene med de personligheder, der pryder forsiden.\n\nIndholdet er bredt: mode og stil er omdrejningspunktet, men bladet rummer også portrætter, reportager og artikler om emner, der rækker ud over tøj og skønhed. Opsætningen er luftig og billedtung, og sidetallet giver plads til, at læseren selv kan vælge, hvad der skal læses først.\n\nEurowoman tager fat i mange af de samme temaer som Euroman, men spundet så artiklerne relaterer til kvinders liv. Det giver et blad, hvor idéerne og koncepterne er genkendelige, mens vinklen og personskildringerne er anderledes. Bladet er underholdende, men uden at gå på kompromis med det journalistiske niveau.\n\nNår man åbner bladet, finder man mode, livsstil og en masse andet læsning, som kan inspirere i dagligdagen, men det er også de spændende artikler, der trækker de fleste. Sammenlignet med nogle konkurrenter har bladet relativt mange sider, hvilket giver plads til mere stof og gør det muligt selv at vælge og vrage.\n\nDet giver et blad, der både kan bladres hurtigt igennem og læses i dybden, afhængigt af hvor meget tid man har. Målgruppen er kvinder med interesse for mode, kultur og livsstil, som gerne vil have et blad, der både inspirerer og giver noget at tale om. Eurowoman udkommer månedligt og findes også i print. Det kan læses digitalt hos Flipp i kategorien Mode & livsstil.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/eurowoman"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/eurowoman/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
+  "cover": "/omslag/magasin-eurowoman.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Fit living",
+  "slug": "magasin-fit-living",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Fit Living er et dansk trænings- og livsstilsmagasin for kvinder, udgivet af Story House Egmont. Bladets omdrejningspunkt er det sunde, aktive liv, og indholdet kredser om træning, kost, opskrifter, sund og slank samt yoga.\n\nGrebet er praktisk frem for principfast: læseren møder konkrete råd, små justeringer i hverdagen og opskrifter, der kan bruges med det samme, uanset hvor meget eller lidt man i forvejen træner. Under hovedemner som Opskrifter, Sund og Slank og Yoga finder man artikler, der kan læses i sammenhæng eller plukkes efter behov.\n\nEn bærende del af bladet er portrætter og fortællinger om kvinder, der har fundet deres egen måde at holde sig i form på. Det giver læseren noget at spejle sig i og viser, at der ikke findes én opskrift på at leve fit. Siderne veksler mellem reportage, kortere tips og opskrifter, så bladet både kan læses som magasin og bruges som opslagsværk ved køkkenbordet.\n\nDet er netop kombinationen af de personlige historier og de konkrete råd, der gør bladet brugbart i hverdagen. Fit Living er en blanding af blog og magasin, og indholdet findes også i et større onlineunivers, hvor læsere deler og hjælper hinanden. Bladet henvender sig især til kvinder, der gerne vil i gang eller holde fast i en sundere livsstil, men som har brug for inspiration, der passer ind i en travl hverdag, uanset om man er nybegynder eller allerede træner fast. Det kan læses digitalt hos Flipp og findes også som trykt magasin.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/fit-living"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/fitliving/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/FIT__b600m.jpg",
+  "cover_kilde": "https://flipp.dk/magasiner/fit-living/",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Fortnite",
+  "slug": "magasin-fortnite",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Fortnite er et dansk magasin, der handler om computerspillet Fortnite. Bladet samler stoffet omkring spillet — nyheder, guides og tips til spillere, der gerne vil blive bedre eller følge med i, hvad der sker i og omkring spilverdenen. Indholdet er målrettet læsere, der allerede kender spillet og bruger tid på det, og som gerne vil have stoffet samlet i et blad frem for at lede efter det på nettet.\n\nMagasinet henvender sig især til yngre læsere og til forældre, der gerne vil forstå, hvad interessen handler om. Formen er letlæst og visuelt orienteret, så den passer til et publikum, der er vant til spillets eget udtryk.\n\nFortnite kan læses digitalt hos Readly.",
+  "kilde": "https://readly.com/da-dk/products/magazine/fortnite-dk-1",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/fortnite-dk-1"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "gaming",
+  "cover": "/omslag/magasin-fortnite.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Gastro",
+  "slug": "magasin-gastro",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Gastro er et dansk mad- og vinmagasin, udgivet af Story House Egmont og tæt knyttet til Euroman. Hvor de fleste livsstilsmagasiner har mad som et enkelt opslag, går Gastro hele vejen: bladet er helliget køkkenet, råvarerne og vinen og tager sig tid til at gå i dybden med hvert emne.\n\nIndholdet veksler mellem opskrifter, reportager og portrætter af folk, der lever af eller med mad. Bladet blander kulturer og traditioner — det danske køkken møder eksempelvis det franske og middelhavske — og resultatet er retter, hvor smag og håndværk vejer tungere end hurtige løsninger. Der er plads til både det sunde og det mere righoldige.\n\nMad er ikke bare et tema blandt mange, men selve omdrejningspunktet. Gastro tør gå i dybden med maden, så man får det bedste resultat, og bladet er ikke bange for at skabe noget nyt i processen. Det er en underafdeling af Euroman og bringer enkelte artikler derfra, men har samtidig sit eget specialiserede fokus på mad og vin.\n\nGastro henvender sig til mænd med interesse for mad og vin, men også til alle, der gerne vil have inspiration til både hverdagens aftensmad og det større projekt i weekenden. Bladet beskriver sig selv som et mad- og vinmagasin, og det er et naturligt sted at starte, hvis man vil have mere end en enkelt opskrift.\n\nDet gælder både den, der vil lave en enkel hverdagsret, og den, der går efter det store middagsselskab. Gastro findes også i trykt form. Det kan læses digitalt hos Flipp.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/gastro"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/gastro/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/GAS__b600m.jpg",
+  "cover_kilde": "https://flipp.dk/magasiner/gastro/",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Gravid",
+  "slug": "magasin-gravid",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Gravid er et dansk magasin om graviditet og fødsel, udgivet af Story House Egmont som et søstermagasin til Vores børn. Hvor Vores børn retter blikket mod børnene og familielivet, flytter Gravid fokus til de ni måneder, hvor et nyt menneske vokser frem, og til den tid der følger lige efter fødslen.\n\nBladet tager de spørgsmål op, som fylder undervejs: hvordan kroppen forandrer sig, hvad man kan gøre for at have det godt i graviditeten, hvordan man forbereder sig på fødslen, og hvad der er myte og hvad der er viden. Artiklerne er skrevet i et tilgængeligt toneleje, og bladet blander den faglige gennemgang med erfaringsbaserede fortællinger fra andre, der har været igennem det samme.\n\nMålgruppen er først og fremmest kommende forældre — især kvinder, der er gravide eller overvejer at blive det — men også partnere og familie kan have udbytte af stoffet. Gravid kan læses digitalt hos Flipp.\n\nBladet forsøger ikke at gøre graviditeten til et projekt, der skal optimeres, men til en periode, der kan passes med den viden og ro, man har brug for. Der er plads til både de store beslutninger og de små praktiske ting, og artiklerne vender tilbage til, hvordan man passer på sig selv, mens kroppen arbejder.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/gravid"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "flipp.dk (Egmonts digitale tjeneste)",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/VOG__b600m.jpg",
+  "cover_kilde": "https://flipp.dk/magasiner/gravid/",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Gør det selv",
+  "slug": "magasin-goer-det-selv",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "mænd",
+  "land": "DK",
+  "digitalt": [
+   "Wype"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "Gør det selv er et dansk specialmagasin om praktisk håndværk i og omkring boligen, udgivet af Story House Egmont. Bladets ærinde er enkelt: at gøre det overskueligt at gå i gang selv, hvad enten det gælder reparation, vedligeholdelse eller et helt nyt projekt i hus og have.\n\nIndholdet er bygget op omkring guides og trin-for-trin-gennemgange, der kan følges fra første til sidste skridt. Sproget er letlæst, og fagudtryk forklares undervejs, så læseren ikke behøver et håndværkerforhåndskendskab for at komme videre. Artiklerne laves i samarbejde med fagfolk, der bidrager med den praktiske viden, så anvisningerne bygger på professionelle retningslinjer frem for kvalificeret gætværk.\n\nVed siden af de store projekter er der plads til mindre opgaver og til værktøj og materialer. Bladet har fokus på, at det skal være sjovt og hyggeligt at gøre tingene selv, og det kan bruges både som inspiration og som opslagsværk, når en opgave skal løses i praksis, uanset om det gælder et snedkerprojekt, en reparation eller en ny løsning i haven.\n\nDer er hjælp at hente, uanset om man er vant til at arbejde med hænderne eller lige er startet. Bladet er relevant, hvis man godt kan lide at rode med gør det selv-ting og spare udgifterne til håndværkeren. Gør det selv henvender sig især til mænd, der godt kan lide at arbejde med hænderne og gerne vil dygtiggøre sig, men også til alle andre, der vil klare opgaven selv og undgå at skulle have håndværker ud. Bladet udkommer 18 gange om året og kan læses digitalt hos Wype.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Wype"
+  ],
+  "kilder": {
+   "Wype": "https://wype.dk/online-magasiner/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6207/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/goer-det-selv/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Hendes Verden",
+  "slug": "magasin-hendes-verden",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Hendes Verden er et dansk livsstilsmagasin for kvinder, udgivet af Story House Egmont. Bladet hører til den hyggelige, huslige ende af bladhylden, hvor håndarbejde, små projekter og fortællinger om almindelige menneskers liv fylder mere end hurtige tendenser.\n\nSiderne byder på idéer til håndarbejde og andre små projekter, der kan gøre et hus til et hjem. Det er fortællinger, der viser, at der findes flere måder at indrette sit liv på, og som kan give læseren mod til at prøve noget nyt. Dertil kommer interviews og fortællinger med folk, der har en anderledes tilgang til tingene, men har fået det til at fungere, og som kan give læseren både inspiration og noget at tænke over.\n\nBladet giver masser af ideer til, hvordan man kan sætte sit personlige præg på hjemmet uden at det behøver at koste en formue. En fast del af bladet er brevkassen, hvor læsere kan få gode råd og hjælp med problemer, der trykker. Modsat mange andre kvindeblade har Hendes Verden også et afsnit henvendt til de større tøjstørrelser med forslag til tøjstile og pasformer, hvilket gør bladet relevant for flere læsere.\n\nHendes Verden henvender sig til kvinder, der godt kan lide at lave ting selv, og som sætter pris på et roligt, personligt toneleje og et blad, der føles som en samtale frem for en præsentation. Bladet hører under Hjemmet og er underholdning for hele familien, men henvender sig helt klart til kvinderne. Det kan læses digitalt hos Flipp og findes også som trykt magasin.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/hendes-verden"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/hendes-verden/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/HEV__b600m.jpg",
+  "cover_kilde": "https://flipp.dk/magasiner/hendes-verden/",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Historie",
+  "slug": "magasin-historie",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "mænd",
+  "land": "DK",
+  "digitalt": [
+   "Readly",
+   "Wype"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "Historie er et dansk historiemagasin, udgivet af Story House Egmont og udsprunget af Illustreret Videnskab. Bladets greb er fortællingen: historien formidles gennem levende reportager og personskildringer, hvor ny forskning og arkivfund er med til at genskabe, hvordan begivenheder og mennesker faktisk tog sig ud.\n\nDet er historieformidling med sans for detaljen og for de mennesker, der var til stede. Indholdet spænder bredt — fra krig og politik til hverdagsliv, opdagelser og skæbner, der er gået i glemmebogen. Artiklerne er skrevet, så de kan læses af enhver med en almindelig nysgerrighed, uanset forhåndsviden, og bladet lægger vægt på at gøre stoffet nærværende frem for tørt. Det betyder ikke, at stoffet er forenklet; tværtimod bygger artiklerne på research og faglig formidling, men de er sat sammen, så læseren kan følge med uden specialviden.\n\nBagerst findes quizzer og opgaver, hvor læseren kan prøve kræfter med det, der netop er gennemgået. Det gør bladet velegnet både til den, der læser fra ende til anden, og til den, der kun har en kort pause. Konceptet er også udbredt i udlandet og findes på flere sprog.\n\nHistorie henvender sig til læsere, der gerne vil have historie fortalt som gode historier, og som samtidig vil have noget at blive klogere af. Det er et blad for den nysgerrige læser, ikke kun for historieentusiasten. Bladet kan læses digitalt hos Readly og Wype.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly",
+   "Wype"
+  ],
+  "kilder": {
+   "Wype": "https://wype.dk/online-magasiner/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "/omslag/magasin-historie.webp",
+  "cover_kilde": "Readly",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "I Form",
+  "slug": "magasin-i-form",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Wype"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "I Form er et dansk livsstilsmagasin om sundhed, kost og motion, udgivet af Story House Egmont og primært henvendt til kvinder. Bladets udgangspunkt er hverdagen: et aktivt liv skal kunne passes ind i en kalender, der i forvejen er fyldt, og rådene er derfor korte, konkrete og anvendelige frem for omfattende programmer.\n\nIndholdet dækker træningsformer, mad og vaner, og artiklerne rummer næsten altid et praktisk lag — hvad man kan gøre i morgen, og hvordan man holder det ved lige. Bag stoffet står et netværk af fagfolk inden for sundhed, kost og træning, som bidrager med viden og vurderinger, så læseren ikke er overladt til tilfældige råd fra internettet. Det gælder ikke mindst de populære træningsmetoder, som bladet tager op og forklarer i en form, der kan følges i praksis.\n\nBladet henvender sig især til travle kvinder, der gerne vil i bedre form og leve sundere, men som har brug for løsninger, der kan holdes i gang på en almindelig tirsdag. Der er plads til både den, der lige er begyndt, og den, der allerede træner fast; artiklerne tager højde for forskellige niveauer og for de perioder, hvor overskuddet er mindre end planlagt.\n\nDet gør bladet til et realistisk følgeskab frem for endnu et program, der ikke holder i længden. Artiklerne er korte nok til at blive læst, men grundige nok til at gøre en forskel i hverdagen. I Form udkommer én gang om måneden og kan læses digitalt hos Wype. Bladets styrke er kombinationen af viden og anvendelighed — stoffet skal kunne føres ud i livet samme dag, det er læst, uanset om målet er mere energi, vægttab eller en stærkere krop.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Wype"
+  ],
+  "kilder": {
+   "Wype": "https://wype.dk/online-magasiner/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover": "/omslag/magasin-i-form.webp",
+  "cover_kilde": "Wype",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Illustreret Videnskab",
+  "slug": "magasin-illustreret-videnskab",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "mænd",
+  "land": "DK",
+  "digitalt": [
+   "Wype"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "Illustreret Videnskab er et videnskabsmagasin fra Story House Egmont, der bygger på et internationalt koncept og udkommer på en lang række sprog. Det gør bladet til et af de største magasiner i verden inden for sit felt, og det brede fundament kan mærkes i indholdet: redaktionen dækker forskning fra astronomi og fysik over biologi og teknologi til arkæologi og menneskets tidlige historie. Næsten uanset hvor ens interesseområde ligger, er der stof at finde.\n\nDet særlige ved bladet er spændvidden i tid. Moderne forskning fylder meget, men den forklares ikke som løse spekulationer om fremtiden. I lige så høj grad dykker artiklerne ned i forskning om fortiden, hvor store temaer som menneskets udvikling belyses fra flere forskellige vinkler. Det giver en form for vidensformidling, hvor man både får den nyeste viden og de lange linjer, der gør den forståelig.\n\nFormidlingen er gennemarbejdet og visuelt stærk. Komplicerede sammenhænge forklares med illustrationer, grafik og grundige gennemgange, så stoffet er tilgængeligt uden at blive overfladisk. Bagerst i hvert nummer finder man quizzer og logiske opgaver, som giver læseren mulighed for at udfordre sig selv efter læsningen. Bladet udkommer en gang om måneden og henvender sig til nysgerrige læsere i alle aldre — både dem med en faglig interesse og dem, der blot gerne vil blive klogere på verden.\n\nHar man lyst til at gå dybere i de historiske emner, findes søstermagasinet Historie som en selvstændig udgivelse. Illustreret Videnskab kan læses digitalt hos Wype, hvor bladet ligger sammen med tjenestens øvrige udvalg.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Wype"
+  ],
+  "kilder": {
+   "Wype": "https://wype.dk/online-magasiner/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6209/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/illustreret-videnskab/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "iPad-bogen",
+  "slug": "magasin-ipad-bogen",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "iPad-bogen er et dansk magasin, der samler sig om Apples tablet og om at bruge den i hverdagen. Bladet henvender sig både til dig, der netop har fået en iPad i hænderne, og til dig, der har haft den et stykke tid og gerne vil længere ind i funktionerne, end du er kommet indtil nu.\n\nIndholdet er bygget op om forklarende stof om enheden: gennemgange af indstillinger og funktioner, vejledninger til apps og praktiske tips til at bruge tabletten til noter, mail, billeder og underholdning. Tonen er trin-for-trin og skrevet, så man kan følge med, uanset hvor teknisk man er anlagt. Man behøver ikke kende systemet på forhånd for at få noget ud af siderne.\n\niPad-bogen udkommer som magasin og kan læses digitalt hos Readly, hvor den ligger sammen med tjenestens øvrige danske blade. Der er ikke en printaftale knyttet til bladet, så den digitale udgave er den vej, man går. Det gør bladet velegnet som opslagsværk såvel som til en stille eftermiddag, hvor man gerne vil prøve noget nyt af på skærmen.",
+  "kilde": "https://readly.com/da-dk/products/magazine/ipad-bogen",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/ipad-bogen"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "it-technology",
+  "cover": "/omslag/magasin-ipad-bogen.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "iPhone-bogen",
+  "slug": "magasin-iphone-bogen",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "iPhone-bogen er et dansk magasin om Apples telefon og om at få mere ud af den i det daglige. Bladet er skrevet til den almindelige bruger frem for til teknikeren, og det gælder både den helt nye iPhone-ejer og den, der har brugt telefonen i årevis uden at have været hele menuen igennem.\n\nSiderne kredser om det praktiske: hvordan telefonen sættes op og indrettes, hvordan de medfølgende funktioner bruges, og hvordan apps og tilbehør kan gøre hverdagen nemmere. Vejledningerne er lagt an som trin for trin, så man kan sidde med telefonen ved siden af og følge med undervejs. Der er plads til både de helt grundlæggende ting og til de indstillinger, man først opdager efter noget tid.\n\niPhone-bogen udkommer som magasin og er tilgængelig digitalt hos Readly, hvor den indgår i tjenestens udvalg af danske blade. Bladet har ingen printaftale, så den digitale udgave er den måde, man læser det på. Bladet er med andre ord tænkt som et sted at slå op, når der er noget, man gerne vil have til at virke — ikke som en gennemlæsning fra første til sidste side.",
+  "kilde": "https://readly.com/da-dk/products/magazine/iphone-bogen",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/iphone-bogen"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "it-technology",
+  "cover": "/omslag/magasin-iphone-bogen.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Isabellas",
+  "slug": "magasin-isabellas",
+  "type": "magasin",
+  "forlag": "Aller Media",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Pling"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Isabellas er et magasin fra Aller Media for dig, der godt kan lide at gå og sysle med kreative ting — både indendørs og udendørs. Bladet blander gør-det-selv-projekter med indretning, mad og have og har en tydelig forkærlighed for det hjemmelavede og for økologi. Det er ikke et blad, man læser for at blive færdig med et emne, men et blad man tager frem, når man mangler en idé og gerne vil i gang.\n\nIndholdet spænder fra kreative projekter inden for hjemmets fire vægge til arbejdet i haven, og fra indretning af boligen til opskrifter på både nem hverdagsmad og søde sager. Der er sans for skønhed og for det hyggelige ved at lave tingene selv, og bladet henvender sig især til kvinder med interesse for netop de områder, men kan naturligvis læses af alle med samme lyster. Sproget og layoutet er roligt og imødekommende, og den hjemlige opsætning gør det nemt at finde et projekt at gå i gang med, uanset om man er nybegynder eller vant til håndværket.\n\nDet praktiske fylder meget, men bladet er også et sted at hente visuel inspiration — til borddækningen, til en hylde, til et hjørne af haven. Emnerne hænger sammen i en letlæst form, hvor mad, blomster og materialer taler til samme æstetiske sans, så man kan bladre fra en opskrift til et indretningsgreb uden at miste tråden. Netop blandingen gør bladet anvendeligt til mere end én slags projekt.\n\nIsabellas kan læses digitalt hos Pling, hvor det ligger sammen med tjenestens øvrige danske blade. Der er ingen printaftale på bladet her, så den digitale udgave er den vej, man går.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/magasin-isabellas.webp",
+  "cover_kilde": "Pling",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Junior: Utrolige køretøjer",
+  "slug": "magasin-junior-utrolige-koeretoejer",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Junior: Utrolige køretøjer er et dansk magasin til børn med en klar interesse for alt, der kan køre, flyve og grave. Bladet hører til Junior-serien og henvender sig til de yngre læsere, som hellere vil se på maskiner end på lang tekst, og som gerne vender tilbage til de samme sider flere gange.\n\nIndholdet er bygget op om køretøjer i bred forstand, formidlet i et sprog og et tempo, der passer til børn. Det er et blad, der kan læses alene af de lidt større børn og i fællesskab med en voksen af de mindre, og som egner sig godt til at blive taget frem igen og igen frem for at blive læst én gang og lagt væk.\n\nJunior: Utrolige køretøjer udkommer som magasin og kan læses digitalt hos Readly, hvor den indgår i tjenestens udvalg. Der er ingen printaftale på bladet her, så det er den digitale udgave, man finder. Forældre og bedsteforældre kan bruge bladet som udgangspunkt for en fælles samtale om det, barnet peger på, og til at følge med i en interesse, der ofte holder ved.",
+  "kilde": "https://readly.com/da-dk/products/magazine/junior-utrolige-koretojer",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/junior-utrolige-koretojer"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "teen-kids",
+  "cover": "/omslag/magasin-junior-utrolige-koeretoejer.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Komputer for alle",
+  "slug": "magasin-komputer-for-alle",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "mænd",
+  "land": "DK",
+  "digitalt": [
+   "Wype"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "Komputer for alle er et dansk magasin fra Story House Egmont, der tager pc'en alvorligt uden at gøre den til en ekspertdisciplin. Bladet er skrevet i et sprog, som alle kan være med på, og det henvender sig bredt: til den, der lige har fået en computer ind i huset, og til den, der allerede bruger den meget og gerne vil have mere styr på den.\n\nEn stor del af bladets indhold er tests og guides. Software og programmer bliver prøvet af og vurderet, så man ikke selv skal gætte sig frem i en jungle af muligheder — det gælder blandt andet sikkerhedsprogrammer, hvor udbuddet er stort og forskellene svære at gennemskue. Der er også vejledninger i at indstille og optimere computeren, så den fungerer bedre til det, man bruger den til, og stof om tilbehør, herunder udstyr til gaming, for dem der gerne vil et spadestik dybere. Nye styresystemer og opdateringer bliver gennemgået, så man ved, hvad der er ændret og hvordan man forholder sig til det.\n\nKomputer for alle udkommer som magasin og kan læses digitalt hos Wype, hvor det indgår i tjenestens udvalg af danske blade. Der er ikke en printaftale på bladet her, så den digitale udgave er vejen frem.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Wype"
+  ],
+  "kilder": {
+   "Wype": "https://wype.dk/online-magasiner/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6211/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/komputer-for-alle/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Kroppen Junior",
+  "slug": "magasin-kroppen-junior",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Kroppen Junior er et dansk magasin til børn, der gerne vil vide, hvordan kroppen hænger sammen. Bladet hører til Junior-serien og henvender sig til de yngre læsere med nysgerrighed på biologi og på sig selv, formidlet så det kan forstås uden at blive tør videnskab.\n\nIndholdet tager udgangspunkt i kroppen og dens funktioner og forklarer sammenhængene i et sprog og et tempo, der passer til børn. Det er et blad, der kan læses alene af de større børn og i fællesskab med en voksen af de mindre, og som indbyder til at stille spørgsmål videre. Siderne er lagt an, så man kan bladre rundt og finde det, der fænger, frem for at læse fra ende til anden.\n\nKroppen Junior udkommer som magasin og kan læses digitalt hos Readly, hvor det ligger sammen med tjenestens øvrige blade. Der er ingen printaftale på bladet her, så det er den digitale udgave, man finder. Bladet lægger op til at vække den slags spørgsmål, børn selv stiller, og til at tage dem alvorligt i et sprog, der ikke taler ned til læseren.",
+  "kilde": "https://readly.com/da-dk/products/magazine/kroppen-junior-dk",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/kroppen-junior-dk"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "teen-kids",
+  "cover": "/omslag/magasin-kroppen-junior.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Mad & bolig",
+  "slug": "magasin-mad-bolig",
+  "type": "magasin",
+  "forlag": "Aller Media",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Pling"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Mad & bolig er et magasin fra Aller Media til dig, der har to interesser, som ofte følges ad: mad og indretning. Bladet udkommer en gang om måneden og vælger ikke side mellem de to, men samler dem, så man kan finde inspiration til både køkken og stue i samme udgivelse. Det er et blad til den læser, der gerne vil forkæle sig selv og sit hjem og sætte pris på, at hverdagen kan løftes med små greb.\n\nIndholdet er en blanding af opskrifter og boligstof. Der er mad til hverdagen og til de lidt større anledninger, og der er retter, der kan få gæsterne til at sukke af velbehag — fra italiensk til dansk og fra hovedret til dessert. Ved siden af maden finder man indretningstips til dig, der skal friske hjemmet op eller mangler idéer til, hvordan et rum kan tages videre. Shopping sider i lange baner, vin, interiør og gourmet ligger rundt om det som fast tilbehør og giver bladet karakter af noget, man bladrer igennem med en kop kaffe og tager med videre som inspiration.\n\nDet visuelle fylder meget. Smukke billeder af moderne indretningsforslag går igen gennem siderne og fungerer både som øjenlyst og som konkret idébank, når et hjem skal fornyes. Bladet henvender sig til den læser, der gerne vil have overblik og idéer frem for dybdegående reportager, og som sætter pris på et magasin, hvor der er noget at tage fat på på næsten hver side. Rejsemål er også en del af indholdet og giver bladet et let escapistisk lag, der passer til en afslappet læsestund.\n\nMad & bolig kan læses digitalt hos Pling, hvor det indgår i tjenestens udvalg af danske blade. Der er ikke en printaftale på bladet her, så den digitale udgave er den vej, man går.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/magasin-mad-bolig.webp",
+  "cover_kilde": "Pling",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Magasinet Liv",
+  "slug": "magasin-magasinet-liv",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Wype"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "Magasinet Liv er et dansk livsstilsmagasin fra Story House Egmont, der dækker bredt frem for at gå i dybden med ét enkelt emne. Bladet henvender sig især til kvinder og rummer stof om kvindeliv, mad, sundhed, mode, skønhed, bolig samt film og tv. Det sidste område er værd at bemærke, fordi det ikke findes i ret mange blade af samme type, og det giver bladet en anden sammensætning end de øvrige livsstilsmagasiner på hylden.\n\nVed siden af de faste emner er der klummer og konkurrencer, og bladet følges ofte af en ekstra sektion, der kredser om en årstid eller et særligt tema. Det giver flere sider at gå i gang med og gør udgivelsen velegnet til dig, der gerne vil have noget at læse om lidt af hvert frem for at fordybe dig i en enkelt sag. Man kan bevæge sig fra en madopskrift over et modeindslag til en samtale om noget, der rører sig i tiden, uden at det føles som skift mellem forskellige blade.\n\nTonen er personlig og vedkommende. Magasinet tager gerne fat i emner, der optager læserne — hvad enten det handler om at bryde med det, man plejer, om at turde tale om det svære, eller om de skift, der følger med alderen. Det er et blad, hvor indholdet ikke kun skal underholde, men også give noget at tænke over og måske noget at spejle sig i.\n\nMagasinet Liv kan læses digitalt hos Wype, hvor det ligger sammen med tjenestens øvrige danske blade. Der er ingen printaftale på bladet her, så det er den digitale udgave, man finder.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Wype"
+  ],
+  "kilder": {
+   "Wype": "https://wype.dk/online-magasiner/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "cover": "https://mediacdn.prenly.com/api/image/wypedk.prenly.com/6201/latest-issue",
+  "cover_kilde": "https://wype.dk/online-magasiner/magasinet-liv/",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Mindful Fitness",
+  "slug": "magasin-mindful-fitness",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Mindful Fitness er et dansk magasin, der forener træning med nærvær. Bladet henvender sig til dig, der gerne vil bevæge dig og passe på kroppen, men som ikke har lyst til at gøre det til et spørgsmål om præstation og resultater alene — hvor ro, restitution og et roligt sind vejer lige så tungt som selve træningen.\n\nIndholdet kredser om træning og krop i en bred forstand, med plads til både det fysiske og det mentale. Det er et blad for den almindelige læser frem for eliten, og formen er tilgængelig: man skal kunne tage det op uden at være trænet i forvejen, og man skal kunne bruge siderne i sin egen hverdag. Interessen for balancen mellem krop og sind er det, der adskiller bladet fra de rendyrkede træningsmagasiner.\n\nMindful Fitness udkommer som magasin og kan læses digitalt hos Readly, hvor det indgår i tjenestens udvalg. Der er ingen printaftale på bladet her, så den digitale udgave er den måde, man læser det på.",
+  "kilde": "https://readly.com/da-dk/products/magazine/mindful-fitness-dk",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/mindful-fitness-dk"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "health-fitness",
+  "cover": "/omslag/magasin-mindful-fitness.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Minecraft",
+  "slug": "magasin-minecraft",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Minecraft er et magasin til børn og unge, der gerne vil have mere af spillet end det, der foregår på skærmen. Bladet tager udgangspunkt i Minecrafts byggeklodser og den kreative tilgang til spillet, hvor læseren kan hente inspiration til egne byggerier og finde stof, der handler om det univers, millioner af spillere kender.\n\nIndholdet er rettet mod den nysgerrige spiller, der ikke bare vil spille, men også læse om spillet, dele idéer og få nye indfaldsvinkler til, hvad der kan bygges, utforskes og skabes. Sproget og tonen er tilpasset et yngre publikum, og bladet fungerer som et pusterum mellem spil-sessionerne — et sted at lade sig inspirere, før man går tilbage til tastaturet.\n\nMinecraft udkommer som magasin i Danmark og kan læses digitalt gennem Readly, hvor det indgår i tjenestens udvalg af blade. Det gør det nemt at få adgang til bladet på telefon, tablet eller computer, uanset hvor læseren befinder sig.",
+  "kilde": "https://readly.com/da-dk/products/magazine/minecraft-dk",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/minecraft-dk"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "gaming",
+  "cover": "/omslag/magasin-minecraft.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Pokémon",
+  "slug": "magasin-pokemon",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Pokémon er et magasin for børn og unge, der er vokset op med eller er på vej ind i Pokémon-universet. Bladet kredser om de figurer, spil og historier, som læserne kender, og henvender sig til den del af publikummet, der gerne vil fordybe sig i universet uden for konsollen og skærmen.\n\nLæseren får et blad, der er bygget op om nysgerrighed og samlerglæde — det handler om at følge med i, hvad der rører sig i Pokémon-verdenen, og om at få noget at tale om med vennerne i skolegården. Tonen er legende og tilgængelig, og indholdet er tilpasset et yngre publikum, der endnu ikke er klar til de voksne spilmagasiner. Bladet kan læses i kortere eller længere bidder og indbyder til at vende tilbage til siderne flere gange.\n\nPokémon udgives af Story House Egmont og findes både som trykt blad og digitalt. Digitalt kan det læses gennem Readly, hvor det er en del af tjenestens store udvalg af magasiner. Printversionen gør det samtidig muligt at bladre i bladet på den måde, mange børn stadig bedst kan lide.",
+  "kilde": "https://readly.com/da-dk/products/magazine/pokemon-dk",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/pokemon-dk"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "gaming",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/pokemon/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
+  "cover": "/omslag/magasin-pokemon.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Psykologi",
+  "slug": "magasin-psykologi",
+  "type": "magasin",
+  "forlag": "Aller Media",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Pling"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Psykologi er et magasin fra Aller Media, der handler om at forstå sig selv og andre lidt bedre. Bladet tager de spørgsmål op, som de fleste af os stiller os selv i hverdagen — hvad sker der, hvorfor gør vi som vi gør, og hvordan kan vi forholde os til det. Artiklerne er skrevet med et ønske om at give indsigt frem for hurtige konklusioner, og de bevæger sig ud i de mere komplekse dilemmaer, hvor der ikke findes et entydigt svar.\n\nEmnerne spænder bredt: kærlighed og parforhold, familie og opvækst, arbejdsliv og de psykologiske aspekter af de relationer, vi indgår i. Også sværere temaer som ondskab og konflikt bliver behandlet, og bladet går dermed ikke uden om det, der kan være ubehageligt at tale om. Det giver en bred vifte af stof, hvor læseren kan finde både genkendelse og nye perspektiver, uanset om man læser for at lære, for at debattere eller for at forstå sig selv bedre.\n\nMagasinet henvender sig til læsere med en humanistisk interesse og til alle, der gerne vil have et mere nuanceret blik på menneskets adfærd og væremåde. Det er et blad for den nysgerrige læser, som ikke bare vil have overfladiske råd, men gerne vil læse noget, der kan give både viden, inspiration og selvindsigt. Tonen er saglig og reflekterende, og bladet rammer både mænd og kvinder, der interesserer sig for det psykologiske perspektiv på tilværelsen.\n\nPsykologi kan læses digitalt gennem Pling, hvor bladet indgår i tjenestens udvalg og kan læses på telefon, tablet eller computer. Der er ingen printaftale på bladet her, så den digitale udgave er den vej, man går.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/magasin-psykologi.webp",
+  "cover_kilde": "Pling",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Sally’s",
+  "slug": "magasin-sallys",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Sally's er et magasin fra Story House Egmont for læsere, der gerne vil have inspiration til boligen og til at skabe noget med hænderne. Bladet udkommer sammen med Hendes Verden og henvender sig til et publikum, der allerede interesserer sig for livsstil, indretning og de små projekter, der gør hjemmet til et bedre sted at være. Hvor søstertitlen favner bredt, samler Sally's interessen om hjemmet og håndværket.\n\nIndholdet kredser om projekter i hjemmet — fra boligindretning og små forandringer til håndarbejde som strik og andre gør-det-selv-aktiviteter. Bladet lægger vægt på inspiration, der passer til årstiden og til de tendenser, der rører sig, og læseren får idéer, der kan sættes i gang med med det samme eller gemmes til den rigtige sæson. Det kræver ikke, at man er erfaren håndværker; tonen er inviterende, og projekterne spænder fra det lille pift til den større opgave.\n\nVed siden af de praktiske guides rummer Sally's også læsestof, der handler om mennesker og deres kreative tilgang til hjem og håndværk. Der er portrætter af kreative kvinder og deres måder at tænke på, og bladet samler det hele under overskriften »Ideer vi elsker« — et udvalg, der skal give mod på selv at gå i gang med et lille eller større projekt derhjemme. Man kan altså både finde en opskrift, en strikkevejledning og en historie at læse, uden at det ene udelukker det andet.\n\nSally's kan læses digitalt gennem Flipp, hvor det indgår i tjenestens udvalg af magasiner. Der er ingen printaftale på bladet her, så den digitale udgave er den vej, man går.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "kilder": {},
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": null,
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/SAL__b600m.jpg",
+  "cover_kilde": "https://flipp.dk/magasiner/sallys/",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Samsung-bogen",
+  "slug": "magasin-samsung-bogen",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Samsung-bogen er et magasin, der samler viden og inspiration om Samsungs produkter og det økosystem, der omgiver dem. Bladet henvender sig til læsere, der gerne vil forstå, hvad deres enheder kan, og som har brug for overblik frem for teknisk jargon.\n\nIndholdet er bygget op om praktisk anvendelse — hvordan produkterne bruges i hverdagen, hvilke funktioner der er værd at kende, og hvordan de forskellige enheder spiller sammen. Det gør bladet relevant både for den nysgerrige forbruger, der lige har anskaffet sig et produkt, og for den mere erfarne bruger, der gerne vil have mere ud af sit udstyr. Bladet fungerer som et opslagsværk, man kan vende tilbage til, når et spørgsmål dukker op.\n\nSamsung-bogen udkommer som magasin i Danmark og kan læses digitalt gennem Readly. Her indgår det i tjenestens udvalg og kan læses på telefon, tablet eller computer, så læseren kan slå op i bladet, når behovet opstår. Det gør bladet nemt at have ved hånden, uanset om man sidder derhjemme eller er på farten.",
+  "kilde": "https://readly.com/da-dk/products/magazine/samsung-bogen",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/samsung-bogen"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "it-technology",
+  "cover": "/omslag/magasin-samsung-bogen.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Spis bedre",
+  "slug": "magasin-spis-bedre",
+  "type": "magasin",
+  "forlag": "Aller Media",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Pling"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "Spis bedre er et magasin fra Aller Media med ny inspiration og nye idéer til mad, der passer til sæsonen og vejret. Bladet tager udgangspunkt i den tid på året, læseren befinder sig i — en guide til at grille næsten alt om sommeren og en række varme retter og desserter, der passer til vinterhalvåret. På den måde er man godt dækket ind på madfronten, uanset om det er højsommer eller mørk vinter.\n\nUd over de mange opskrifter på alle slags retter får man små fif, der gør madlavningen nemmere. Det handler om at holde køkkenet rent uden for meget bøvl, at gøre tingene på et budget og at spare penge ved de næste indkøb. Rådene er enkle og konkrete, og de er tænkt som noget, man kan bruge med det samme i sin egen hverdag frem for teorier, der kræver særligt udstyr eller lang tid.\n\nBladet henvender sig til den almindelige hjemmekok, der gerne vil have hjælp til at planlægge måltiderne og til at gøre madlavningen mere overskuelig, uden at det behøver være kompliceret. En fast del er brevkassen »Spørgsmål og svar«, hvor læseren kan spørge professionelle kokke til råds om tilberedning, forbedringer og kreative indslag — og få deres vurdering af ens egne idéer. Det giver bladet et mere personligt præg end de rene opskriftsamlinger.\n\nSpis bedre kan læses digitalt gennem Pling, hvor det indgår i tjenestens udvalg af danske blade. Der er ingen printaftale på bladet her, så den digitale udgave er den vej, man går.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/magasin-spis-bedre.webp",
+  "cover_kilde": "Pling",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "True Crime",
+  "slug": "magasin-true-crime",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "True Crime er et magasin for læsere, der fascineres af virkelige forbrydelser og de mennesker, der står bag dem. Bladet bevæger sig i grænselandet mellem journalistik og fortælling og henvender sig til et publikum, der gerne vil have mere end de korte nyhedsoverskrifter, når emnet er kriminalitet.\n\nIndholdet kredser om efterforskning, retssager og de historier, der opstår, når en forbrydelse bliver mere end en paragraf i loven. Læseren får et blad, der går bag om sagerne og stiller spørgsmål til både gerningsmænd, ofre og det samfund, der omgiver dem. Det er ikke et blad for den, der søger hurtig spænding, men for den nysgerrige læser, som interesserer sig for de psykologiske og menneskelige sider af kriminalitet.\n\nTrue Crime udkommer som magasin i Danmark og kan læses digitalt gennem Readly. Her er bladet en del af tjenestens udvalg og kan læses på telefon, tablet eller computer, når læseren har lyst til at fordybe sig.",
+  "kilde": "https://readly.com/da-dk/products/magazine/true-crime-dk",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/true-crime-dk"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "history",
+  "cover": "/omslag/magasin-true-crime.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Træning for alle – Løb",
+  "slug": "magasin-traening-for-alle-loeb",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Træning for alle – Løb er et magasin for løbere på alle niveauer — fra den, der lige har snøret løbeskoene for første gang, til den erfarne løber, der gerne vil forbedre sig. Bladet henvender sig til et bredt publikum, hvor fællesskabet og glæden ved at løbe er mindst lige så vigtigt som tider og resultater.\n\nIndholdet handler om løbetræning i praksis: hvordan man kommer i gang, hvordan man holder motivationen, og hvordan man bygger sin træning op uden at gå på kompromis med kroppen. Læseren får inspiration til at strukturere sin træning, til at undgå de typiske faldgruber og til at finde glæden ved at løbe — uanset om målet er en kort tur i nabolaget eller et større løb.\n\nTræning for alle – Løb udkommer som magasin i Danmark og kan læses digitalt gennem Readly. Bladet indgår i tjenestens udvalg og kan læses på telefon, tablet eller computer, så læseren kan finde inspiration, inden turen går ud ad døren.",
+  "kilde": "https://readly.com/da-dk/products/magazine/traening-for-alle-lob",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/traening-for-alle-lob"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "running-cycling-fitness",
+  "cover": "/omslag/magasin-traening-for-alle-loeb.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Vi Unge",
+  "slug": "magasin-vi-unge",
+  "type": "magasin",
+  "forlag": "Aller Media",
+  "maalgruppe": "børn",
+  "land": "DK",
+  "digitalt": [
+   "Pling"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Vi Unge er et af Danmarks største magasiner for teenagere og henvender sig især til piger i teenagealderen, der gerne vil blive klogere på sig selv, deres jævnaldrende og den verden, de er på vej ind i. Bladet har en lang historie: Det udkom første gang i 1958 under navnet Filmjournalen og fik sit nuværende navn i 1963. Siden da er det blevet et af de mest udbredte magasiner i Danmark og udkommer 17 gange om året.\n\nIndholdet spænder bredt. Der er artikler om teenageproblemer og en brevkasse, hvor læserne kan få svar på egne problemstillinger, og der er interviews med skuespillere, musikere og andre kendte — et område bladet er kendt for. Ved siden af det finder man masser af skønheds-, mode- og sundhedstips, der er målrettet piger i teenagealderen. Hvert nummer indeholder desuden en stor fanplakat, som gør bladet til noget, man også kan hænge op.\n\nDet er et blad, der tager teenageårene alvorligt uden at gøre dem større, end de er. Brevkassen giver et sted at spejle sig og få svar på det, man ikke nødvendigvis spørger sine forældre om, mens mode- og skønhedsstoffet giver inspiration til hverdagen. Interviewsiderne åbner et vindue ind til kendte menneskers hverdag og arbejde, og plakaten midt i bladet er blevet en fast del af læseoplevelsen for mange.\n\nVi Unge udgives af Aller Media, som også står bag Femina, Billed Bladet og ELLE. Bladet kan læses digitalt gennem Pling, hvor det indgår i tjenestens udvalg. Der er ingen printaftale på bladet her, så den digitale udgave er den vej, man går.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/magasin-vi-unge.webp",
+  "cover_kilde": "Pling",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Videnskab",
+  "slug": "magasin-videnskab",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Videnskab er et dansk magasin, der formidler forskning og naturvidenskab til et bredt publikum. Bladet tager udgangspunkt i konkrete undersøgelser og resultater og omsætter dem til reportager, interviews og forklarende artikler, hvor læseren får baggrunden med – ikke bare konklusionen. Emnerne bevæger sig typisk mellem astronomi, biologi, sundhed, klima, teknologi og samfundsforhold, og artiklerne er skrevet, så man kan følge med, selv om man ikke har en faglig uddannelse inden for området.\n\nMålgruppen er nysgerrige voksne: læsere, der i forvejen går op i videnskab, og læsere, der mere tilfældigt støder på et emne og gerne vil have det forklaret ordentligt. Bladet fungerer både som løbende formidling af ny viden og som langsommere baggrundsstof, man kan vende tilbage til.\n\nVidenskab kan læses digitalt hos Readly, hvor bladet er en del af tjenestens udvalg af magasiner. Har man abonnement der, kan man læse det på telefon, tablet og computer uden at skulle have bladet i papirform.",
+  "kilde": "https://readly.com/da-dk/products/magazine/videnskab",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/videnskab"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "science-nature",
+  "cover": "/omslag/magasin-videnskab.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Videnskab Junior",
+  "slug": "magasin-videnskab-junior",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Videnskab Junior er juniorudgaven af magasinet Videnskab og henvender sig til børn og unge, der er nysgerrige på naturvidenskab, dyr, rummet og teknik. Hvor moderbladet skriver til voksne, formidler juniorudgaven stoffet i et enklere sprog og i et tempo, der passer til yngre læsere – gerne med forklaringer og billeder, der gør det lettere at forstå, hvad der egentlig sker.\n\nIndholdet kredser om de spørgsmål, børn selv stiller om kroppen, dyrene, rummet og teknologien, og bladet kan bruges både til egen læsning og som udgangspunkt for samtaler mellem børn og voksne.\n\nBladet er tænkt som en indgang til naturfagene for børn, der endnu ikke er klar til moderbladets længere artikler, og kan også bruges af voksne, der mangler et let forklaret svar, når spørgsmålene kommer ved spisebordet.\n\nVidenskab Junior kan læses digitalt hos Readly sammen med moderbladet og tjenestens øvrige udvalg af magasiner.",
+  "kilde": "https://readly.com/da-dk/products/magazine/videnskab-junior-dk",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/videnskab-junior-dk"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "science-nature/teen-kids",
+  "cover": "/omslag/magasin-videnskab-junior.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Vores børn",
+  "slug": "magasin-vores-boern",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Vores børn er et magasin fra Story House Egmont om livet med børn, og tyngdepunktet ligger på de første år, hvor en ny familie skal finde sin form. Bladet udkommer månedligt og kredser om det, der optager forældre i den periode: søvn, rutiner, parforhold, søskende og den svære balance mellem barnets behov og ens egne.\n\nEn stor del af stoffet er henvendt til mødre, både kommende og nuværende. Her fortæller forældre og børn deres historier, og erfarne mødre deler ud af de tips og ideer, de selv er kommet frem til, så nye forældre kan genkende sig selv og se, at de ikke står alene med de ting, der føles svære i starten. Det er den slags råd, der kommer fra hverdagen frem for fra en lærebog, og de rammer derfor ofte tættere på det, man selv står i.\n\nBladet lægger vægt på, at det også handler om forældrene. Der er ideer til at holde fast i de ting, man selv holder af, efter barnet er kommet til, og til at give barnet plads til at klare mere selv – som i artiklen »Du kan godt« om at lære sit barn at gøre tingene selv. Det giver bladet et dobbelt ærinde: barnets opvækst og forældrenes trivsel i samme nummer.\n\nVores børn hører sammen med søstermagasinet Gravid, der dækker tiden før barnet kommer, mens Vores børn tager over fra de første år. De to titler udgør tilsammen et forløb, men kan læses hver for sig. Bladet henvender sig til nye og kommende forældre, der vil have både genkendelse og konkrete råd, og det kan læses digitalt hos Flipp.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "kilder": {},
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": null,
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/VOB__b600m.jpg",
+  "cover_kilde": "https://flipp.dk/magasiner/vores-born/",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Wendy",
+  "slug": "magasin-wendy",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "børn",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Wendy er et magasin fra Story House Egmont til piger, der elsker heste og ridning – uanset om de selv har en hest i stalden eller kun drømmer om at få en. Bladet har været udgivet siden 1995 og udkommer en gang om måneden.\n\nBladet er bygget op om tegneserien om pigen Wendy og hendes eventyr med hestene, og den fortælling binder nummeret sammen. Ved siden af serien er der kortere historier om heste forskellige steder, om hvordan det er at være professionel rytter, og om mennesker og miljøer, hvor hesten er omdrejningspunktet. Det giver læseren både en fast fortælling at følge og noget nyt at blive klogere på i hvert nummer.\n\nEn stor del af indholdet er praktisk rettet. Man kan finde inspiration til træning og leg med hesten og til pleje og pasning, så man kan give sin hest ordentlige forhold, også hvis man kun har haft den i kort tid. Tonen er let at gå til, og stoffet kræver ikke, at læseren i forvejen ved en masse om heste – det er netop skrevet til piger, der er på vej ind i interessen eller lige har fået deres første hest.\n\nHvert nummer byder desuden på plakater og konkurrencer, som kan tages med videre fra bladet og hænges op på værelset. Wendy kan læses digitalt hos Flipp, og bladet findes også i trykt form, så man kan vælge den udgave, der passer bedst til den måde, man læser på.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/wendy"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/wendy/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/WEN__b600m.jpg",
+  "cover_kilde": "https://flipp.dk/magasiner/wendy/",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Windows Phone-bogen",
+  "slug": "magasin-windows-phone-bogen",
+  "type": "magasin",
+  "forlag": null,
+  "maalgruppe": null,
+  "land": "DK",
+  "digitalt": [
+   "Readly"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Windows Phone-bogen er et dansk magasin om Windows Phone – styresystemet og de telefoner, der kørte på det. Bladet er bygget op som en blanding af guide og opslagsværk og gennemgår funktioner, indstillinger og apps med skridt-for-skridt-forklaringer og billeder, så læseren kan følge med uden at være teknisk kyndig.\n\nMålgruppen er brugere af Windows Phone, der gerne vil have mere ud af deres telefon: få styr på opsætning, sikkerhed og backup, forstå hvordan systemet fungerer, og finde de apps og løsninger, der passer til ens behov. Bladet henvender sig både til private brugere og til dem, der bruger telefonen i arbejdsøjemed.\n\nBladet er ikke nyhedsstof om nye modeller, men en samlet gennemgang af systemet, som man kan slå op i, når en indstilling driller. Platformen bag bladet udvikles ikke længere, så indholdet skal læses som et opslagsværk for de telefoner, der stadig er i brug, snarere end som nyhedsstof. Windows Phone-bogen kan læses digitalt hos Readly.",
+  "kilde": "https://readly.com/da-dk/products/magazine/windows-phone-bogen",
+  "sidst_tjekket": "2026-10-26",
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Readly"
+  ],
+  "kilder": {
+   "Readly": "https://readly.com/da-dk/products/magazine/windows-phone-bogen"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "kategori": "it-technology",
+  "cover": "/omslag/magasin-windows-phone-bogen.webp",
+  "cover_kilde": "Readly",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Woman",
+  "slug": "magasin-woman",
+  "type": "magasin",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Wype"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "Woman er et magasin fra Story House Egmont til kvinder og er på mange måder kvindernes pendant til M!. Bladet udkommer månedligt og dækker livsstil, mode, træning, krop og forhold – og det gør det med en direkte tone, hvor emnerne ikke pakkes ind.\n\nEn fast del af bladet er »Mandetanker«, hvor mænd kommer til orde og reagerer på alt fra hverdagens små ting til parforholdets store spørgsmål. Sektionen »Det handler om dig« har kvindekroppen i centrum med inspiration, tips og tricks til at forme den krop og den hverdag, man selv ønsker sig, og her kommer mændenes syn på sagen også ind. Det giver et blad, hvor begge parter i et parforhold kan spejle sig.\n\nDet, der adskiller Woman fra de mange andre livsstilsmagasiner, er, at bladet tager tingene fra munden. Der er frække oplevelser og guides til at lære sin egen krop bedre at kende, og sex og lyst behandles som noget, man kan tale åbent om. Samtidig er bladet smagfuldt og har afdelinger om den »normale« kvindekrop, hvor flere modemagasiner kritiseres for at give et forskruet billede af, hvordan en krop ser ud. Bladet stiller sig dermed på læserens side frem for på forsidens idealer.\n\nMålgruppen er voksne kvinder, der gerne vil have et blad, som både rummer mode og træning og taler ligeud om krop, lyst og parforhold. Woman kan læses digitalt hos Wype, så numrene er tilgængelige på skærmen uden at skulle købes i papir.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Wype"
+  ],
+  "kilder": {
+   "Wype": "https://wype.dk/online-magasiner/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "wype.dk (Egmonts bladkiosk)",
+  "cover": "/omslag/magasin-woman.webp",
+  "cover_kilde": "Wype",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "7 tv dage",
+  "slug": "ugeblad-7-tv-dage",
+  "type": "ugeblad",
+  "forlag": "Aller Media",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Pling"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "7 tv dage er et ugeblad fra Aller Media til læsere, der gerne vil være på forkant med, hvad der sker på skærmen. Bladet samler ugens film og programmer ét sted, så man kan se, hvornår tingene sendes, og på hvilken kanal – og undgå at opdage, at favoritprogrammet er halvt slut, fordi man havde fået byttet rundt på dagene.\n\nNetop overblikket er bladets ærinde. Tv-et kan være en uoverskuelig jungle af kanaler og sendetider, og 7 tv dage skærer det ned til en plan, man kan holde ved hånden, når familien skal finde tid til en god film sammen, eller når man bare gerne vil vide, hvornår en bestemt serie eller kamp vises igen. Bladet er dermed lige så meget et opslagsværk som et blad, man læser fra ende til anden.\n\nVed siden af sendetiderne rummer bladet ugens historier om kendte og kongelige, så man også er opdateret på underholdningsverdenen og har noget at tale med veninderne om. Det gør bladet til to ting på én gang: et praktisk overblik over sendefladen og et traditionelt ugeblad med det sladder og de portrætter, der hører genren til.\n\nMålgruppen er bred og tæller både manden, der vil se, hvornår de bedste kampe vises, og kvinden, der gerne vil vide, hvornår og hvor en bestemt film eller serie går igen. 7 tv dage kan læses digitalt hos Pling.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/ugeblad-7-tv-dage.webp",
+  "cover_kilde": "Pling",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Anders And & Co.",
+  "slug": "ugeblad-anders-and",
+  "type": "ugeblad",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "børn",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Anders And & Co. er det danske tegneserieugeblad fra Story House Egmont, og bladet har været en del af danske barndomme siden 1949. Det udkommer hver torsdag med nye historier om den hidsige and, nevøerne Rip, Rap og Rup og de øvrige figurer fra Andeby.\n\nHistorierne spænder fra korte gags til længere eventyr i klassisk Disney-stil. Sproget og fortællingen gør det let at følge med, og for mange læsere er bladet det første møde med tegneserier som form. Bladet henvender sig især til børn i skolealderen, men har ingen egentlig aldersgrænse – voksne læser det også for at genopleve noget af det, de selv er vokset op med, eller fordi historierne stadig fungerer som afkobling.\n\nAt bladet udkommer hver torsdag betyder, at der hele tiden kommer nyt, og det gør det nemt at holde en fast læserutine for børn, der ellers hurtigt mister interessen for et blad, de har læst færdigt. Formatet passer til både den, der læser et par sider ad gangen, og den, der lægger hele bladet for sig i ét stræk.\n\nVed siden af serierne byder bladet jævnligt på konkurrencer og små udfordringer, der kan give børnene inspiration til leg og til at gå videre med historierne selv. Anders And & Co. kan læses digitalt hos Flipp. Skal læseren have en lettere udgave, findes søstertitlen Anders And Junior, der er rettet mod de yngste og til højtlæsning.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "kilder": {},
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": null,
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/AND__b600m.jpg",
+  "cover_kilde": "https://flipp.dk/magasiner/anders-and--co/",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Anders And Junior",
+  "slug": "blad-anders-and-junior",
+  "type": "ugeblad",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "børn",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Anders And Junior er en udgave af Anders And-universet fra Story House Egmont, rettet mod de yngste læsere. Bladet udkommer en gang om måneden og er tænkt som en blød start på tegneserielæsning, hvor historierne er gjort lettere at forstå, så børn, der er ved at lære at læse, kan følge med.\n\nTegneserierne holder sig til det kendte fra Andeby – Anders, nevøerne Rip, Rap og Rup og de øvrige figurer – men i et tempo og et sprog, der passer til børn, som endnu ikke læser de længere historier. En del af indholdet er også beregnet til højtlæsning, hvor en voksen læser op, så bladet kan bruges både som selvstændig læsning og som fælles stund.\n\nVed siden af serierne er der opgaver og andet indhold, der udfordrer børnene og giver dem noget at arbejde videre med efter historierne. Der kan også følge samleplakater med bladet, som børnene kan hænge op på værelset.\n\nAnders And Junior kan læses digitalt hos Flipp. Erfaringen fra moderbladet Anders And & Co., der udkommer hver uge, går igen her i en mildere form: korte historier, tydelige billeder og overskuelig tekst gør det muligt at komme igennem et helt blad selv, også når læsningen endnu ikke sidder på rygraden.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/anders-and-junior"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": "flipp.dk (Egmonts digitale tjeneste)",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/AAJ__b600m.jpg",
+  "cover_kilde": "https://flipp.dk/magasiner/anders-and-junior/",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Basserne",
+  "slug": "magasin-basserne",
+  "type": "ugeblad",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "mænd",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Basserne er et klassisk dansk humorblad, der hører til blandt de tegneserier, som generationer af læsere er vokset op med. Bladet kredser om den amerikanske tegneserie Beetle Bailey, skabt af Mort Walker, og universet er bygget op omkring et militært miljø med kaserneliv, magtkamp og dagligdagens små opgør som ramme. Humoren er sort og til tider skarp, men aldrig så indforstået, at man skal kende seriens historie for at følge med — det er netop dens bredde, der gør den nem at gå til.\n\nVed siden af hovedserien rummer bladet en række andre humorstriber, så et nummer byder på flere forskellige tegneserier og ikke kun én gennemgående historie. Her finder man blandt andet Zits, Hagar, Den lille Splint og den danske serie På dybt vand, der foregår under havets overflade. Det giver en varieret læseoplevelse, hvor man kan springe frem og tilbage mellem forskellige stilarter og typer af punchlines.\n\nMålgruppen er bred, men tyngdepunktet ligger hos læsere fra teenagealderen og opefter, og ikke mindst hos dem, der holder af tør, situationsbestemt humor frem for lange, sammenhængende fortællinger. Basserne udkommer som ugeblad og findes også i trykt form i kiosker og butikker. Ønsker man at læse bladet digitalt, er det tilgængeligt hos Flipp, hvor man kan følge med i de enkelte numre på skærmen i stedet for på papir.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/basserne"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/basserne/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/BAS__b600m.jpg",
+  "cover_kilde": "https://flipp.dk/magasiner/basserne/",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Billed Bladet",
+  "slug": "ugeblad-billed-bladet",
+  "type": "ugeblad",
+  "forlag": "Aller Media",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Pling"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "Billed Bladet er et af de mest kendte danske ugeblade og har i årtier været stedet, hvor mange læsere først og fremmest søger hen, når der skal fortælles om kongehuset. Bladets kerne er den royale dagsorden: officielle begivenheder, åbninger, rejser, familiebegivenheder og de mere uformelle øjeblikke, der bliver fanget i reportager og store billedserier. Ved siden af kongehuset dækker bladet også kendte danskere og internationale profiler, så der er stof om både slotsliv og den bredere underholdningsverden.\n\nFormatet er billedtungt. Bladet er kendt for at bringe flotte fotoserier fra royale begivenheder og for interviews med de personer, der er i centrum, og det er netop kombinationen af reportage, portræt og billedmateriale, der bærer numrene. Mange læsere sætter også pris på det TV-magasin, der følger med bladet — typisk bagerst i bladet eller som bilag — hvor man kan finde programoversigt og stof om ugens udsendelser.\n\nMålgruppen er især kvinder fra omkring 30 år og opefter med en klar interesse for kongehuset og for, hvad der rører sig blandt kendte. Bladet udkommer hver uge og findes både i trykt form og digitalt: Det kan læses hos Pling, hvor man får adgang til de enkelte numre på skærmen. Skal man følge den royale kalender tæt, er et ugeblad som dette det mest nærliggende sted at gøre det.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Aller",
+   "url": "https://www.allerservice.dk/brands/billed-bladet",
+   "pris_fra": "79,95",
+   "udgivelser": 52,
+   "tjekket": "2026-10-26",
+   "kilde": "allerservice.dk (server-rendered)"
+  },
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/ugeblad-billed-bladet.webp",
+  "cover_kilde": "Pling",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Familie Journal",
+  "slug": "ugeblad-familie-journal",
+  "type": "ugeblad",
+  "forlag": "Aller Media",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Pling"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "Familie Journal er et dansk ugeblad med hverdagen som omdrejningspunkt. Bladet henvender sig til læsere, der godt kan lide at læse om almindelige menneskers liv — de gode historier såvel som de svære — og som sætter pris på et blad, hvor indholdet skifter mellem reportage, fortælling og praktisk inspiration. Tonen er rolig og nærværende, og bladet lægger vægt på genkendelse frem for opsigtsvækkende nyheder.\n\nIndholdsmæssigt spænder det bredt: opskrifter til både hverdag og fest, noveller, brevkasser hvor læserne kan få svar på personlige spørgsmål, håndarbejde, kryds og tværs samt tips til alt fra strik til praktiske gøremål i hjemmet. Det er netop den blanding, der gør bladet alsidigt — man kan læse det i små bidder og finde noget forskelligt, alt efter om man har lyst til at blive underholdt, inspireret eller bare have noget at sysle med.\n\nMålgruppen er først og fremmest kvinder fra omkring 40 år og opefter, men bladet er ikke lukket om en snæver læserskare; alle med lyst til hverdagsfortællinger og hyggeligt læsestof kan være med. Familie Journal udkommer hver uge og findes både på papir og digitalt. Det kan læses hos Pling, så man kan følge de enkelte numre på skærmen, uanset om man foretrækker at læse hjemme eller undervejs.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Aller",
+   "url": "https://www.allerservice.dk/brands/familie-journal",
+   "pris_fra": "79,95",
+   "udgivelser": 52,
+   "tjekket": "2026-10-26",
+   "kilde": "allerservice.dk (server-rendered)"
+  },
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/ugeblad-familie-journal.webp",
+  "cover_kilde": "Pling",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Femina",
+  "slug": "ugeblad-femina",
+  "type": "ugeblad",
+  "forlag": "Aller Media",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Pling"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Femina er et dansk ugeblad for kvinder, der gerne vil have inspiration og stof til eftertanke i en travl hverdag. Bladet henvender sig til moderne kvinder fra midten af 20'erne og opefter og forsøger at ramme flere sider af læserens liv i samme nummer.\n\nIndholdet spænder bredt: mode, skønhed, bolig, mad, motion, sundhed, kærlighed og karriere. Der er lækre opskrifter til alle anledninger, reportager og interviews, og guides til velvære og til en krop og psyke, der holder. Bladet forholder sig også til den verden, kvinder færdes i, hvor der hele tiden stilles krav om at tage stilling til sig selv og andre – og hvor det kan være svært at finde ud af, hvad man egentlig selv vil.\n\nEn stor del af stoffet er praktisk anlagt. Der er trin-for-trin-guides til aktuelle makeuptrends og styling, tips til parforholdet og til at håndtere job og karriere, og artikler der går tættere på emnerne end de korte nyheder. Det gør Femina både til underholdning og til hjælp, når der skal træffes valg om alt fra tøj til træning, og bladet kan læses i sammenhæng eller slås op i efter behov.\n\nFemina findes både i trykt form og digitalt og kan læses hos Pling, hvor de enkelte numre er tilgængelige på skærmen. Bladet har desuden arrangementer som Femina kvindeløbet, der samler kvinder om en dag med løb, ruter og shopping – et eksempel på, hvordan titlen rækker ud over siderne og bliver et fællesskab, man kan deltage i.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Aller",
+   "url": "https://www.allerservice.dk/brands/femina",
+   "pris_fra": "39,95",
+   "udgivelser": 12,
+   "tjekket": "2026-10-26",
+   "kilde": "allerservice.dk (server-rendered)"
+  },
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/ugeblad-femina.webp",
+  "cover_kilde": "Pling",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Goal",
+  "slug": "ugeblad-goal",
+  "type": "ugeblad",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "mænd",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Goal er et fodboldmagasin, der først og fremmest lever af det internationale spil. Bladet dækker de store ligaer og de profiler, der fylder mest i den globale fodboltsdebat, og læseren får interviews, reportager og baggrundsstof om klubber, spillere og landshold fra flere lande. Udgangspunktet er den brede, underholdende fortælling om sporten frem for den dybe taktiske analyse.\n\nEt gennemgående træk er det visuelle. Bladet bringer store billeder og plakater, som kan tages ud og hænges op, og forsiden er typisk bygget op omkring en aktuel profil, der også får plads inde i bladet i form af interview og fotoserie. Den slags gør bladet velegnet til læsere, der gerne vil have et blad, de kan bladre igennem og bruge som opslagsværk om ugen, der gik, snarere end at læse det fra ende til andet.\n\nIndholdet er internationalt orienteret, og dansk klubfodbold fylder ikke meget; til gengæld kan man følge danske spillere, der gør sig i udlandet. Målgruppen er fodboldinteresserede i bred forstand, med et tyngdepunkt hos børn og unge samt andre, der følger de store ligaer tæt. Goal udkommer som ugeblad og findes også i trykt form. Digitalt kan bladet læses hos Flipp.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/goal"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/goal/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/GOA__b600m.jpg",
+  "cover_kilde": "https://flipp.dk/magasiner/goal/",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Her & Nu",
+  "slug": "ugeblad-her-nu",
+  "type": "ugeblad",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Her & Nu er et dansk ugeblad, der beskæftiger sig med de kendte — kongelige, musikere, skuespillere og realitypersonligheder. Bladets ærinde er at komme tæt på dem, læseren ellers kun ser på afstand: interviews, portrætter og historier om, hvad der rører sig i kendisverdenen, herunder de konflikter og opgør, der opstår, når mennesker lever deres liv offentligt.\n\nBladet udkommer hver uge, hvilket betyder, at stoffet følger begivenhederne tæt og ikke når at blive forældet, før næste nummer ligger klar. Formatet er lettilgængeligt med korte artikler og mange billeder, og det gør bladet nemt at læse i mindre bidder — på sofaen, i toget eller hvor man nu lige har et kvarter. Ud over det trykte blad har udgiveren også haft lette, underholdende indslag som sjove billeder og videoer på sin hjemmeside.\n\nMålgruppen er læsere med en aktiv interesse for kendte og for den sladder og de historier, der hører med til at følge dem. Her & Nu udkommer som ugeblad i trykt form og kan desuden læses digitalt hos Flipp, hvor de enkelte numre er tilgængelige på skærmen. Til sammenligning med de store månedsmagasiner får man her et blad, der kommer langt oftere og derfor følger nyhedsstrømmen tættere.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "kilder": {},
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/her-og-nu/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/HNU__b600m.jpg",
+  "cover_kilde": "https://flipp.dk/magasiner/hernu/",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Hjemmet",
+  "slug": "ugeblad-hjemmet",
+  "type": "ugeblad",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Hjemmet er et dansk ugeblad med familien og hjemmet som omdrejningspunkt. Bladet hed oprindeligt Damernes Blad og skiftede navn i 1904, og det beskriver sig selv som Danmarks hyggeligste ugeblad – et udsagn, der dækker over et indhold, der er bygget til at blive taget frem igen og igen uden den store forberedelse.\n\nEt nummer rummer en bred vifte af stof. Der er opskrifter til hverdag og fest, krydsord og konkurrencer, håndarbejde og praktiske gør-det-selv-tips, og interviews med mennesker, der fortæller om virkelige hændelser i deres liv. Siderne henvender sig både til den, der vil have noget at lave med hænderne, og til den, der bare gerne vil læse – og det er netop kombinationen, der gør bladet svært at erstatte med en enkelt nichettitel.\n\nSom noget særligt byder bladet hver uge på romaner og noveller, og af og til følger der en hel bog med bladet. Det længere læsestof har gennem årene været med til at gøre ugebladet populært blandt læsere, der gerne vil have mere end de korte artikler. Romanerne og novellerne er kendt for at være spændende og betagende, og de adskiller Hjemmet fra de fleste andre danske ugeblade, hvor stoffet typisk er kortere og mere opsplittet.\n\nMålgruppen er bred og spænder fra børnefamilier til pensionister. Det er især kvinder, der læser bladet fast, mens opskrifterne også trækker mænd til. Hjemmet udkommer hver uge i kiosker og butikker og findes desuden digitalt, hvor det kan læses hos Flipp, så man kan følge med uanset om man foretrækker papir eller skærm.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/hjemmet"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/hjemmet/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/HJM__b600m.jpg",
+  "cover_kilde": "https://flipp.dk/magasiner/hjemmet/",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Hjemmets bedste mad",
+  "slug": "ugeblad-hjemmets-bedste-mad",
+  "type": "ugeblad",
+  "forlag": "Story House Egmont",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "Hjemmets bedste mad er et madblad til dig, der selv står ved gryderne og gerne vil have ny inspiration til både den daglige madlavning og til bagning. Bladet udkommer hver måned og tager afsæt i sæsonen, så råvarerne følger årets gang. Det giver en naturlig rytme i indholdet, hvor du kan lade dig inspirere af, hvad der er tilgængeligt og billigt netop nu, uden at du skal planlægge maden efter tilfældige opskrifter fundet løsrevet fra årstiden.\n\nOpskrifterne er samlet med stor variation som et bevidst princip. Der er retter til det moderne køkken, hvor hverdagen ikke altid byder på masser af tid, og der er mere solide, gammeldags måltider til de dage, hvor maden gerne må tage lidt længere tid. Bagning og kager har sin egen plads, og der er også en sektion om spare-mad, så bladet kan bruges af studerende og andre med et stramt budget uden at gå på kompromis med smagen.\n\nMålgruppen er bred: både den rutinerede hjemmekok, der mangler nye ideer, og den, der lige er begyndt at lave mad og har brug for opskrifter, der er til at gå til. Fordi udvalget er så bredt, fungerer bladet også som opslagsværk i køkkenet, når man skal finde en ret, der passer til både anledning og tid.\n\nHjemmets bedste mad findes i trykt form og kan desuden læses digitalt gennem tjenesten Flipp, hvor numrene er tilgængelige på skærmen. Det gør det nemt at have bladet ved hånden, uanset om du foretrækker papir ved komfuret eller en skærm i sofaen.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "kilder": {
+   "Flipp": "https://flipp.dk/magasiner/hjemmets-bedste-mad"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Egmont",
+   "url": "https://mitblad.dk/hjemmets-bedste-mad/",
+   "pris_fra": null,
+   "udgivelser": null,
+   "tjekket": "2026-10-26",
+   "kilde": "mitblad.dk (link, pris ikke læst)"
+  },
+  "forlag_kilde": "mitblad.dk (Egmonts abonnementssite)",
+  "cover": "https://cdn.egmontservice.com/Publication/Cover/HBM__b600m.jpg",
+  "cover_kilde": "https://flipp.dk/magasiner/hjemmets-bedste-mad/",
+  "cover_verificeret": true,
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Royal",
+  "slug": "ugeblad-royal",
+  "type": "ugeblad",
+  "forlag": "Aller Media",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Pling"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "Royal er et dansk magasin om de kongelige, udgivet af Aller Media. Hvor de royale ugeblade lever af at følge begivenhederne fra uge til uge, går Royal tættere på stoffet: portrætter, baggrund og længere interviews om de personer, der lever deres liv inden for eller tæt på et kongehus. Bladet beskriver sit eget indhold som de kongeliges glamour, stil og kærlighed, og det er en god ramme om, hvad læseren kan forvente.\n\nIndholdet kredser om den danske kongefamilie, men rækker også ud over landets grænser og dækker andre europæiske og historiske konge- og fyrstehuse. Der er stof om tøj, traditioner, residenser og de mere personlige sider af livet som kongelig — hvordan hverdagen ser ud, når man er født ind i en rolle med pligter og offentlig bevågenhed. Formatet er mere magasin end ugeblad, med vægt på store billeder og gennemarbejdede opslag.\n\nRoyal giver plads til at gå i dybden frem for at følge dagsordenen time for time; ved større royale begivenheder kan der komme ekstra stof. Målgruppen er læsere med en særlig interesse for kongehuset og for royal livsstil og historie — uanset om man er overbevist royalist eller bare nysgerrig. Royal findes digitalt og kan læses hos Pling, hvor de enkelte numre er tilgængelige på skærmen.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {},
+  "udvalg_tjekket": "2026-10-26",
+  "forlag_kilde": null,
+  "cover": "/omslag/ugeblad-royal.webp",
+  "cover_kilde": "Pling",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "SE og HØR",
+  "slug": "ugeblad-se-og-hoer",
+  "type": "ugeblad",
+  "forlag": "Aller Media",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Pling"
+  ],
+  "ikke_digitalt": false,
+  "lukket": false,
+  "beskrivelse": "SE og HØR er et dansk ugeblad fra Aller Media, der lever af at dække de mennesker, offentligheden allerede følger: kongehuset, film- og tv-personligheder og deltagere fra realityprogrammer. Bladet er bygget op om nyheder, interviews og reportager fra ind- og udland, og det er ikke her, man læser lange analyser. Det er her, man får ugens historier om kendte mennesker, formidlet ligefremt og med blik for det, der får en almindelig gråvejrsdag til at virke lidt mindre grå.\n\nTonen er uhøjtidelig, og historierne kræver ingen forhåndsviden. Man kan tage bladet op, læse et par sider og lægge det fra sig igen uden at miste tråden. Det gør SE og HØR velegnet som afslappet læsning — til sofaen, til kaffen og til de ledige stunder, hvor man ikke har brug for at koncentrere sig længe ad gangen.\n\nUd over det redaktionelle stof rummer hvert nummer ugens tv-programmer. Det er praktisk service, der giver bladet en funktion ud over selve læsestoffet, og som er med til at forklare, hvorfor mange husstande stadig har det liggende fremme hele ugen. Man får med andre ord både underholdning og et overblik over, hvad der sendes.\n\nMålgruppen er bred og går på tværs af køn og alder. Det afgørende er ikke, om man er særligt interesseret i kendte i forvejen, men om man har appetit på personstof og godt kan lide at følge med i, hvad der rører sig blandt de mennesker, medierne skriver om.\n\nSE og HØR udkommer på print og kan derudover læses digitalt gennem tjenesten Pling, hvor bladet indgår i tjenestens udvalg af danske ugeblade.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {},
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Aller",
+   "url": "https://www.allerservice.dk/brands/se-og-hor",
+   "pris_fra": "79,95",
+   "udgivelser": 52,
+   "tjekket": "2026-10-26",
+   "kilde": "allerservice.dk (server-rendered)"
+  },
+  "forlag_kilde": null,
+  "cover": "/omslag/ugeblad-se-og-hoer.webp",
+  "cover_kilde": "Pling",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Søndag",
+  "slug": "ugeblad-soendag",
+  "type": "ugeblad",
+  "forlag": "Aller Media",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Pling"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "Søndag er et dansk ugeblad fra Aller Media med en tydelig profil. Det henvender sig især til kvinder, der interesserer sig for mode, skønhed og boligindretning, og som gerne vil have et blad, der blander livsstil med kultur. Tøj og tendenser, hudpleje og velvære samt indretning og boligdrømme får plads side om side med stof, der rækker ud over det umiddelbart personlige.\n\nDet kulturelle islæt er større end hos de fleste andre ugeblade. Søndag bringer omtaler af bøger, film og teater og peger på rejsemål, der er værd at overveje. Det gør bladet relevant for den læser, der gerne vil holde sig orienteret om, hvad der er værd at se, læse og rejse til, uden at skulle gennem flere forskellige medier for at få overblikket. Er man mere til sport end til teater, er det næppe her, man skal lede.\n\nVed siden af kulturen og livsstilen har Søndag en stærk hverdagsdel med opskrifter, horoskop, have- og gør-det-selv-tips samt konkurrencer, herunder krydsord. Det gør bladet anvendeligt på to måder: som læsestof i længere stræk og som opslagsværk, når man står i køkkenet, skal finde på noget i weekenden eller mangler et krydsord til kaffebordet.\n\nSøndag udkommer på print og findes digitalt. Det kan læses hos streamingtjenesten Pling, som samler en række danske ugeblade og magasiner i ét abonnement, så man har adgang til flere titler samlet og kan læse Søndag på skærm, når det passer ind i hverdagen.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {},
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Aller",
+   "url": "https://www.allerservice.dk/brands/sondag",
+   "pris_fra": "79,95",
+   "udgivelser": 52,
+   "tjekket": "2026-10-26",
+   "kilde": "allerservice.dk (server-rendered)"
+  },
+  "forlag_kilde": null,
+  "cover": "/omslag/ugeblad-soendag.webp",
+  "cover_kilde": "Pling",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Ude og Hjemme",
+  "slug": "ugeblad-ude-og-hjemme",
+  "type": "ugeblad",
+  "forlag": "Aller Media",
+  "maalgruppe": "kvinder",
+  "land": "DK",
+  "digitalt": [
+   "Pling"
+  ],
+  "ikke_digitalt": true,
+  "lukket": false,
+  "beskrivelse": "Ude og Hjemme er et dansk ugeblad fra Aller Media, der tager udgangspunkt i almindelige menneskers hverdag. Bladets stof kredser om familieliv, parforhold, bolig og de små historier fra hverdagen — portrætter af mennesker, læserhistorier og reportager, hvor det genkendelige er omdrejningspunktet snarere end det spektakulære. Det er et blad, der handler om dig og mig, og som henter sit stof der, hvor læseren selv lever.\n\nMålgruppen er primært voksne læsere med familieliv og hjem som interesse. Bladet henvender sig bredt, og tonen er varm og uhøjtidelig. Man behøver ikke være modeinteresseret eller have en særlig hobby for at få noget ud af det; det er et blad, man læser, fordi det handler om noget, man kan spejle sig i, og fordi historierne kan løfte humøret midt i en travl uge.\n\nIndholdsmæssigt rummer Ude og Hjemme også mode, mad og et større krydsordsafsnit med opgaver i forskellige sværhedsgrader, så der er både noget til den, der vil læse, og til den, der vil løse opgaver — også når børnene skal underholdes. Brevkassen er en fast del af bladet, hvor læsere kan skrive ind og få svar på spørgsmål om alt fra samliv til praktiske problemer i hverdagen. Det giver bladet en direkte forbindelse til sin læserskare, som man ikke ser hos alle ugeblade.\n\nUde og Hjemme udkommer på print og kan derudover læses digitalt gennem tjenesten Pling, der samler danske ugeblade og magasiner under ét abonnement. Det gør det enkelt at have bladet tilgængeligt, uanset om man foretrækker papir eller skærm.",
+  "kilde": null,
+  "sidst_tjekket": null,
+  "ai_tekst": true,
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
+  "udvalg_tjekket": "2026-10-26",
+  "print": {
+   "forlag": "Aller",
+   "url": "https://www.allerservice.dk/brands/ude-og-hjemme",
+   "pris_fra": "79,95",
+   "udgivelser": 52,
+   "tjekket": "2026-10-26",
+   "kilde": "allerservice.dk (server-rendered)"
+  },
+  "forlag_kilde": "pling.dk (Allers digitale tjeneste)",
+  "cover": "/omslag/ugeblad-ude-og-hjemme.webp",
+  "cover_kilde": "Pling",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "INDRET by femina DK",
+  "slug": "magasin-indret-by-femina-dk",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Pling"
+  ],
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "INDRET by femina DK er et dansk boligmagasin med fokus på indretning, og navnet peger direkte på slægtskabet med femina-redaktionens univers. Bladet beskæftiger sig med, hvordan man indretter og bruger sin bolig — fra de enkelte rum til de valg, der binder hjemmet sammen i en bestemt stil.\n\nBladet henvender sig til læsere, der interesserer sig aktivt for indretning og gerne vil have inspiration frem for instruktion. Det er til dem, der kigger på billeder af andres hjem og leder efter idéer, der kan oversættes til deres egen bolig, uanset om det drejer sig om møbler, farver, materialer eller planløsning.\n\nIndholdet ligger i kategorien bolig og have og dækker både det æstetiske og det praktiske: hvordan et hjem bliver indrettet, hvilke tendenser der præger tiden, og hvordan man får en bolig til at fungere i hverdagen. Det gør bladet relevant for både den, der er ved at flytte eller renovere, og den, der bare løbende justerer sit hjem.\n\nINDRET by femina DK findes digitalt og kan læses i streamingtjenesten Pling, som samler danske magasiner og ugeblade i ét abonnement. Der er ikke en printaftale knyttet til bladet her.",
+  "cover": "/omslag/magasin-indret-by-femina-dk.webp",
+  "cover_kilde": "Pling",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Magasinet Lækkerier",
+  "slug": "magasin-magasinet-laekkerier",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Pling"
+  ],
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "Magasinet Lækkerier er et dansk madmagasin, der som navnet antyder har det søde og det glædestunge i centrum. Bladet hører under kategorien mad og opskrifter og arbejder med bagværk, desserter, kager og andet, hvor smag og præsentation går hånd i hånd.\n\nMålgruppen er læsere, der kan lide at bage og lave mad med fokus på det, der skal nydes — både til hverdag og til de anledninger, hvor maden er det, gæsterne husker. Bladet henvender sig til både den øvede, der kender teknikkerne, og den, der har lyst til at prøve noget nyt og har brug for opskrifter, der er til at gå til.\n\nIndholdet er bygget op om opskrifter, der kan følges trin for trin, suppleret med det håndværksmæssige: redskaber, metoder og de små detaljer, der afgør resultatet. Det er et blad, der egner sig til at ligge fremme i køkkenet og blive brugt, frem for at blive læst igennem én gang.\n\nMagasinet Lækkerier findes digitalt og kan læses gennem tjenesten Pling, der samler danske magasiner og blade i ét abonnement.",
+  "cover": "/omslag/magasin-magasinet-laekkerier.webp",
+  "cover_kilde": "Pling",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Ekstra Bladet",
+  "slug": "magasin-ekstra-bladet",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Pling"
+  ],
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "Ekstra Bladet er et dansk nyhedsmedie med en lang historie som avis, og det er i kategorien kultur og nyheder, at det hører til i dette overblik. Indholdet er nyhedsjournalistik: aktuelle sager, politik, sport, krimi og debat, formidlet i et direkte sprog og med en tydelig redaktionel holdning i leder- og kommentarstof.\n\nBladet henvender sig til læsere, der vil følge med i, hvad der sker her og nu, og som foretrækker en kort og kontant form frem for lange analyser. Nyhederne prioriteres efter aktualitet, og stoffet spænder fra dagsordensættende historier til det mere kuriositetprægede, som kendetegner mediets profil.\n\nLæseren får primært nyhedsformidling, reportage og kommentar, og bladet er derfor relevant for den, der vil have et bredt overblik over dagens og ugens vigtigste sager inden for både indland, udland, økonomi og kultur. Det er ikke et baggrundsblad, men et blad for den, der vil opdateres løbende.\n\nEkstra Bladet findes digitalt og kan læses gennem tjenesten Pling, som giver adgang til et større udvalg af danske blade og magasiner under ét abonnement.",
+  "cover": "/omslag/magasin-ekstra-bladet.webp",
+  "cover_kilde": "Pling",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Jumbobog",
+  "slug": "magasin-jumbobog",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "Jumbobog er en dansk tegneserieudgivelse, der hører til blandt de mest kendte i sin genre. Formatet er tegneserier i længere historier, og bladet udkommer som nummererede bind, så læseren kan følge med over tid og samle op, hvor man sidst slap — eller begynde et helt tilfældigt sted, da historierne typisk står hver for sig.\n\nMålgruppen er børn og unge, og det er også der, udgivelsen er placeret i dette overblik. Sproget er enkelt, fortællingen er drevet af handling og billeder, og historierne er bygget til at kunne læses af børn, der er ved at få læseerfaring, såvel som af dem, der allerede læser meget. Det gør Jumbobog til et sted at begynde for nye læsere og til genlæsning for dem, der kender universet.\n\nIndholdet er underholdning i serieform med en fast tone og faste figurer, og bladet fungerer godt som læsning, der kan tages frem i bidder — i sofaen, på rejsen eller inden sengetid. Det er ikke et blad med redaktionelt stof ved siden af tegneserierne, men netop det, der gør det let at gå til.\n\nJumbobog findes digitalt og kan læses i tjenesten Flipp, hvor den er placeret under kategorien Børn og unge.",
+  "cover": "/omslag/magasin-jumbobog.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "ALT Interiør",
+  "slug": "magasin-alt-interioer",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "ALT Interiør er et dansk magasin om indretning og bolig, og det er i kategorien bolig, at det hører til her. Bladet beskæftiger sig med hjemmet som helhed — hvordan rummene indrettes, hvilke materialer og farver der bruges, og hvordan man får en bolig til at hænge sammen i en bestemt stil.\n\nMagasinet henvender sig til læsere, der interesserer sig for indretning og gerne vil have idéer og overblik frem for lange tekster. Det er henvendt til både den, der er i gang med at renovere eller flytte, og den, der løbende justerer sit hjem og søger inspiration til næste skridt.\n\nIndholdet er visuelt bærende: reportager fra hjem, temaer om indretning og gennemgange af de tendenser, der præger boligområdet. Bladet kan bruges som inspiration ved siden af en planlægning og som udgangspunkt for at finde ud af, hvilken retning man vil gå med sin bolig.\n\nALT Interiør findes digitalt og kan læses gennem tjenesten Flipp, der samler danske magasiner og blade i ét abonnement.",
+  "cover": "/omslag/magasin-alt-interioer.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Tivoli For Børn",
+  "slug": "magasin-tivoli-for-boern",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "Tivoli For Børn er et dansk magasin rettet mod børn, og udgivelsen knytter sig til Tivoli som ramme. Det er et blad, hvor omdrejningspunktet er oplevelser og underholdning for de yngste læsere — stof, der kan læses af børn selv, og som samtidig kan bruges som fælles læsning i familien.\n\nMålgruppen er børn og deres forældre, og bladet er derfor bygget op med kortere tekster, billeder og et indhold, der ikke kræver forhåndskendskab. Det henvender sig til den del af familien, der planlægger turen til Tivoli, og til børn, der gerne vil genopleve eller drømme videre om oplevelserne bagefter.\n\nIndholdet er i kategorien Alle og spænder bredt inden for børnestof: oplevelser, aktiviteter og stof, der kan holde interessen fanget uden at være tungt at læse. Bladet fungerer både som læsning i sig selv og som noget, man kan tage med sig ind i en samtale om, hvad man skal lave.\n\nTivoli For Børn findes digitalt og kan læses hos tjenesten Flipp, som samler danske magasiner og blade under ét abonnement.",
+  "cover": "/omslag/magasin-tivoli-for-boern.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Disney Prinsesser",
+  "slug": "magasin-disney-prinsesser",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "Disney Prinsesser er et magasin, der tager udgangspunkt i Disneys prinsessefigurer og det fortælleunivers, de hører til. Bladet henvender sig først og fremmest til børn i indskolingsalderen, som kender figurerne fra film og serier, og til de voksne, der læser med eller køber bladet til dem. Sproget og opsætningen er lagt an på, at barnet selv kan bladre igennem, mens en voksen kan læse med de steder, hvor der er mere tekst.\n\nIndholdet er billedbåret og bygget op om korte tekster og genkendelige figurer. Det gør bladet velegnet til læsere, der endnu ikke er rutinerede, og som har brug for tydelige rammer at hænge læsningen op på. Bladet er registreret i kategorierne Børn og unge og Fritid, og det siger også noget om placeringen: underholdning til de yngste i fritiden frem for undervisningsstof.\n\nDigitalt kan Disney Prinsesser læses hos Flipp, hvor bladet står sammen med andre børne- og ungdomsmagasiner. Der er ikke registreret nogen printaftale for udgivelsen her på siden, så den digitale udgave er den vej, du kan følge med. Skal bladet bruges til højtlæsning eller som selvstændig læsning, er den digitale form praktisk, fordi siden kan skaleres op på tablet og telefon.",
+  "cover": "/omslag/magasin-disney-prinsesser.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Gastro Collection",
+  "slug": "magasin-gastro-collection",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "Gastro Collection er et madmagasin i kategorien Mad. Bladet henvender sig til læsere, der går op i madlavning og gerne vil have stoffet samlet i et roligt, gennemarbejdet format frem for opskrifter spredt over mange kilder. Målgruppen er både den øvede hjemmekok og den, der er ved at bygge et repertoire op og gerne vil have forklaringer, der hænger sammen med opskrifterne.\n\nVægten ligger på det håndværksmæssige: råvarer, tilberedning og den slags grundteknikker, der gør, at et måltid lykkes, uanset hvor erfaren læseren er. Formatet er et magasin og ikke et ugeblad, hvilket typisk betyder længere tekster og færre, men grundigere opslag, som man kan vende tilbage til. Det passer til læsere, der planlægger måltider frem i tid og gerne vil bruge bladet som opslagsværk i køkkenet.\n\nGastro Collection kan læses digitalt hos Flipp under kategorien Mad. Der er ikke registreret en printaftale for bladet, så det er den digitale udgave, du kan finde her. Den digitale form er især praktisk til opskrifter, fordi siden kan zoomes ind, mens man står ved køkkenbordet, og fordi ældre numre bliver liggende i tjenesten i stedet for at fylde i reolen.",
+  "cover": "/omslag/magasin-gastro-collection.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "RUM",
+  "slug": "magasin-rum",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "RUM er et boligmagasin, der beskæftiger sig med indretning, arkitektur og de valg, der ligger bag et hjem. Bladet henvender sig til læsere, der ikke kun vil se pæne billeder, men også forstå hvorfor et rum fungerer: materialer, lys, proportioner og samspillet mellem bygning og møbler. Både den, der står midt i en renovering, og den, der bare samler inspiration til senere, er i målgruppen.\n\nBoligbladets styrke er det langsomme blik. Et magasin har plads til at vise et hjem over flere sider og til at forklare de beslutninger, der er truffet undervejs, frem for at klippe alt ned til enkelteffekter. Det giver et stof, man kan bruge til at kvalificere sine egne valg, uanset om det handler om en enkelt væg eller en hel bolig. Bladet er registreret i kategorien Bolig.\n\nRUM kan læses digitalt hos Flipp sammen med tjenestens øvrige bolig- og livsstilsblade. Der er ikke registreret nogen printaftale for udgivelsen her på siden, så den digitale udgave er den vej, der er åben. Fordelen ved at læse et boligmagasin digitalt er, at billederne kan forstørres, og at man kan gemme de numre, man senere skal bruge, når projektet går i gang.",
+  "cover": "/omslag/magasin-rum.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Beyond",
+  "slug": "magasin-beyond",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "Beyond er et magasin i kategorien Fritid. Bladet henvender sig til læsere, der søger inspiration til, hvad fritiden kan bruges på, og som foretrækker et magasinformat med plads til længere tekster og sammenhængende temaer frem for korte nyheder. Det er et blad for den nysgerrige læser, der ikke har en snæver interesse, men gerne vil præsenteres for emner og miljøer, man ikke selv var kommet forbi.\n\nSom magasin og ikke ugeblad har Beyond typisk en langsommere kadence og et mere gennemarbejdet udtryk, hvor hvert nummer kan læses fra ende til anden. Det passer til læsere, der bruger bladet som afbræk og inspiration, snarere end som opslagsværk, man slår op i med et bestemt formål. Kategoriseringen Fritid dækker bredt, og bladets relevans afhænger derfor af, hvor bredt man selv læser om fritidsliv.\n\nBeyond kan læses digitalt hos Flipp, hvor det er placeret under Fritid sammen med tjenestens øvrige magasiner. Der er ikke registreret en printaftale for udgivelsen her på siden, så det er den digitale udgave, du kan finde frem til. Læses bladet på tablet, kommer opslagene tæt på det trykte format, og man kan holde styr på numrene uden at skulle opbevare dem fysisk.",
+  "cover": "/omslag/magasin-beyond.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Oplev Nordjylland",
+  "slug": "magasin-oplev-nordjylland",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "Oplev Nordjylland er et regionalt magasin, der samler stof om oplevelser i den nordjyske del af landet. Bladet henvender sig til læsere, der enten bor i landsdelen eller planlægger at besøge den, og som vil have idéer til, hvad der er værd at tage til, frem for en traditionel turistbrochure. Både den lokale, der gerne vil se kendte omgivelser med nye øjne, og gæsten, der skal bruge et par dage godt, er i målgruppen.\n\nEt regionalt magasin har den fordel, at det kan gå i dybden med et afgrænset område og dække det over flere sider ad gangen. Det gør bladet anvendeligt til at planlægge en udflugt, en weekend eller en længere ferie, fordi stoffet hænger sammen geografisk. Bladet er registreret i kategorien Fritid, og det er også den rette indgang, hvis man leder efter oplevelser snarere end efter nyheder fra landsdelen.\n\nOplev Nordjylland kan læses digitalt hos Flipp. Der er ikke registreret nogen printaftale for udgivelsen her på siden, så den digitale udgave er den vej, der er åben. Det er en praktisk form for et blad, man ofte har med på farten: Siderne kan læses på telefonen, når man står på stedet, og numrene bliver liggende, så de kan bruges igen ved næste besøg.",
+  "cover": "/omslag/magasin-oplev-nordjylland.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Anders And Classic",
+  "slug": "magasin-anders-and-classic",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "Anders And Classic er et tegneseriemagasin i Disneys univers, udgivet som særudgave. Bladet henvender sig til læsere, der er vokset op med Anders And og hans omgangskreds, og som gerne vil læse tegneserier i et samlet format med plads til længere historier. Det er også et blad, man kan give videre til børn eller børnebørn, hvis man vil dele den læseoplevelse, man selv har haft.\n\nSærudgave-kategorien betyder, at bladet ikke følger den almindelige ugebladsrytme, men kommer som afgrænsede udgivelser. Det gør det lettere at samle og at gå tilbage til, hvis man foretrækker at læse i sit eget tempo frem for at følge med uge for uge. Som tegneserieblad læses det typisk i bidder, og det passer godt til både den læser, der tager et par sider ad gangen, og den, der lægger et helt nummer på én aften.\n\nAnders And Classic kan læses digitalt hos Flipp, hvor det er placeret under Børn og unge og Særudgaver. Der er ikke registreret en printaftale for udgivelsen her på siden, så den digitale udgave er den, du kan finde. Digital læsning har den fordel, at ældre numre ikke forsvinder, og at siden kan zoomes, så taler og detaljer i ruderne er til at se på en mindre skærm.",
+  "cover": "/omslag/magasin-anders-and-classic.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Dit Nordsjælland",
+  "slug": "magasin-dit-nordsjaelland",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "Dit Nordsjælland er et regionalt magasin med stof fra Nordsjælland og de omgivelser, der hører til. Bladet henvender sig til læsere, der bor i området eller har en tilknytning til det, og som gerne vil have et samlet blik på, hvad der rører sig lokalt, frem for at samle det op i spredte nyhedsstrømme. Det er også relevant for den, der planlægger et besøg og vil have mere baggrund end en kort omtale.\n\nEt regionalt magasin har plads til det nære stof, som de landsdækkende medier ikke har plads til. Det kan være oplevelser, steder og emner, der kun giver mening, hvis man kender området, og som derfor rammer læseren præcist. Bladet er registreret i kategorien Fritid, og det er også den rette indgang, hvis man leder efter inspiration til, hvad man kan tage til i fritiden.\n\nDit Nordsjælland kan læses digitalt hos Flipp. Der er ikke registreret nogen printaftale for udgivelsen her på siden, så den digitale udgave er den vej, der er åben. Formatet passer til læsning på tablet og telefon, hvor man kan tage bladet med ud, og til at gemme de numre, der handler om steder, man gerne vil besøge senere hen.",
+  "cover": "/omslag/magasin-dit-nordsjaelland.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Energi & Bolig",
+  "slug": "magasin-energi-og-bolig",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "Energi & Bolig beskæftiger sig med de emner, der ligger i krydsfeltet mellem boligen og dens drift: energi, varme, forbrug og de valg, der følger med at eje eller bo i et hus. Bladet henvender sig til husejere og andre boligejere, der gerne vil sætte sig ind i tingene, før der bliver truffet beslutninger, og som har brug for forklaringer frem for korte råd.\n\nStoffet er af den slags, man vender tilbage til, når et projekt bliver aktualiseret. Et magasinformat giver plads til at gå i dybden med et emne over flere sider, så læseren kan følge en sammenhæng frem for at samle viden op i bidder. Bladet er registreret i kategorierne Mode og livsstil, Fritid, Særudgaver og Bolig, med bolig som den mest retvisende indgang, hvis man leder efter stof om boligens drift og indretning.\n\nEnergi & Bolig kan læses digitalt hos Flipp. Der er ikke registreret nogen printaftale for udgivelsen her på siden, så den digitale udgave er den, du kan finde. Det er en praktisk form for et blad, man ofte slår op i med et bestemt emne for øje: Ældre numre bliver liggende i tjenesten, og teksten kan zoomes, når man sidder med den ved siden af andet materiale.",
+  "cover": "/omslag/magasin-energi-og-bolig.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "ALT om dit bryllup",
+  "slug": "magasin-alt-om-dit-bryllup",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "ALT om dit bryllup er et magasin for læsere, der planlægger bryllup eller hjælper med at gøre det. Bladet henvender sig til både brudeparret og de nærmeste omkring dem, og samler det stof, man typisk har brug for i løbet af planlægningen, ét sted frem for i mange små kilder. Det gælder både den, der er tidligt i processen og har brug for overblik, og den, der er langt fremme og mangler de sidste detaljer.\n\nPlanlægning handler i høj grad om at kunne sammenligne og vælge til og fra, og et magasinformat giver plads til at vise mulighederne side om side. Bladet er registreret i kategorien Mode og livsstil, hvilket peger på den stilistiske og personlige side af brylluppet: udtryk, tøj og rammerne omkring dagen. Det er et blad, man læser i god tid og vender tilbage til, efterhånden som beslutningerne falder.\n\nALT om dit bryllup kan læses digitalt hos Flipp. Der er ikke registreret nogen printaftale for udgivelsen her på siden, så den digitale udgave er den vej, der er åben. Under planlægningen er det en fordel, at bladet kan ligge på telefonen og slås op, når man står i en butik eller taler med en leverandør, og at de numre, man har brugt, ikke forsvinder.",
+  "cover": "/omslag/magasin-alt-om-dit-bryllup.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Rasmus Klump",
+  "slug": "magasin-rasmus-klump",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "Rasmus Klump er et dansk tegneseriemagasin for de yngste læsere. Bladet tager udgangspunkt i den klassiske bjørnefigur, som generationer af danske børn har mødt i tegneserier og billedbøger, og det henvender sig især til børnehave- og indskolingsalderen, hvor læsningen ofte foregår i fællesskab med en voksen.\n\nIndholdet er typisk bygget op om korte, sammenhængende fortællinger, hvor billederne bærer en stor del af historien. Det gør bladet let at gå til for børn, der endnu ikke læser selv, og samtidig overskueligt for dem, der er begyndt at læse. For forældre og bedsteforældre fungerer det som en rolig læsestund, hvor man kan tale om billederne undervejs og stoppe op, når barnet vil se nærmere.\n\nRasmus Klump kan læses digitalt hos Flipp, hvor bladet er placeret i kategorien Børn og unge. Det betyder, at man kan åbne bladet på skærm uden at skulle have det i papirform — praktisk på rejsen, i sofaen eller når læselysten melder sig uden forudgående planlægning. Bladet er ikke tænkt som læsning for voksne alene, men som en fælles oplevelse mellem et barn og en voksen.",
+  "cover": "/omslag/magasin-rasmus-klump.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Danske Skæbner & Eventyr",
+  "slug": "magasin-danske-skaebner-og-eventyr",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "Danske Skæbner & Eventyr er et dansk magasin, der samler fortællinger om mennesker og de begivenheder, der former deres liv. Bladet er placeret i kategorien Mode & livsstil og henvender sig til læsere, der foretrækker levende portrætter og fortællende journalistik frem for korte nyhedsopslag.\n\nGenren er den personbårne historie: Mennesker, der har prøvet noget usædvanligt, stået i en svær situation eller taget et valg, som har vendt op og ned på tilværelsen. Det appellerer bredt — til læsere, der selv genkender noget af det svære, og til dem, der bare vil have en god historie at forsvinde ind i. Sproget er typisk tilgængeligt, og historierne læses ofte hen over en formiddag eller fordelt over flere aftener.\n\nDanske Skæbner & Eventyr kan læses digitalt hos Flipp, hvor bladet ligger under Mode & livsstil. Man kan altså læse det på skærm uden at være afhængig af et fysisk eksemplar, hvilket passer godt til den slags læsning, der ofte foregår i mindre bidder — i toget, i pausen eller inden sengetid.",
+  "cover": "/omslag/magasin-danske-skaebner-og-eventyr.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "VILD MED LØB",
+  "slug": "magasin-vild-med-loeb",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "VILD MED LØB er et dansk magasin om løb. Bladet henvender sig til både den garvede løber, der vil have noget at tænke over i træningen, og til den, der lige er begyndt og har brug for at få overblik over det, der sker, når man begynder at løbe fast.\n\nIndholdet kredser typisk om træning, motivation, udstyr og løbskultur — det vil sige de emner, der fylder for de fleste, når løb bliver en fast del af hverdagen. Bladet er placeret i kategorien Sport og sundhed og udkommer som særudgave, hvilket giver plads til at gå i dybden med et afgrænset emne frem for at dække alt på én gang. Det gør det velegnet til at læse fra ende til anden, når man vil samle viden om noget bestemt, frem for at bladre hurtigt igennem.\n\nVILD MED LØB kan læses digitalt hos Flipp. Bladet findes altså på skærm og kan åbnes, når man selv har tid — efter en tur, i et hul i programmet eller i ugerne op mod et løb, hvor behovet for at justere træningen melder sig.",
+  "cover": "/omslag/magasin-vild-med-loeb.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Værk",
+  "slug": "magasin-vaerk",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "Værk er et dansk magasin i kategorien Mode & livsstil, der udkommer som særudgave. Bladet henvender sig til læsere, der går efter et roligere og mere gennemarbejdet læseudtryk end det, man får i de hurtige udgivelser — typisk læsere, der interesserer sig for visuel form, stof, håndværk og de valg, der ligger bag et produkt, en opsætning eller en stil.\n\nFormatet som særudgave betyder, at indholdet er samlet om ét overordnet emne frem for at være delt op i mange små løse indslag. Det giver en anden læserhastighed: Man tager sig tid, bladrer frem og tilbage og vender tilbage til sider, der fungerer som inspiration snarere end som nyhedsstof. Den type blad egner sig godt til at ligge fremme og blive læst i flere omgange.\n\nVærk kan læses digitalt hos Flipp, hvor det ligger under Mode & livsstil og Særudgaver. Det betyder, at man kan åbne udgaven på skærm uden at skulle skaffe et fysisk eksemplar, og at man kan gemme den og vende tilbage, når man har brug for den.",
+  "cover": "/omslag/magasin-vaerk.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Flipp Special",
+  "slug": "magasin-flipp-special",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "Flipp Special er et dansk magasin i kategorien Mode & livsstil, der udkommer som særudgave. Hvor de løbende blade typisk samler mange forskellige emner i samme udgivelse, er et specialmagasin bygget op omkring ét tema, som bliver behandlet grundigt — med længere tekster, flere billeder og bedre plads til det enkelte indslag.\n\nDet henvender sig til læsere, der gerne vil have noget at fordybe sig i frem for at skimte. Formatet passer godt til den, der læser i sofaen eller på rejsen, og som sætter pris på at kunne tage en udgivelse frem igen senere. Særudgaver har den fordel, at de ikke bliver forældede i samme tempo som nyhedsstof, og derfor kan de læses over længere tid uden at føles som noget, man er kommet bagud med.\n\nFlipp Special kan læses digitalt hos Flipp, hvor det er placeret under Mode & livsstil og Særudgaver. Man kan altså åbne bladet direkte på skærm og undgå at skulle finde et fysisk eksemplar — praktisk, hvis man falder over temaet med kort varsel og gerne vil læse med det samme.",
+  "cover": "/omslag/magasin-flipp-special.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ },
+ {
+  "navn": "Jumbobog Tema",
+  "slug": "magasin-jumbobog-tema",
+  "forlag": null,
+  "type": "magasin",
+  "land": "DK",
+  "digitalt": [
+   "Flipp"
+  ],
+  "digitalt_bekraeftet": [
+   "Flipp"
+  ],
+  "ikke_digitalt": false,
+  "beskrivelse": "Jumbobog Tema er et dansk tegneseriehæfte i pocketformat, udgivet som et tema-bind. Formatet er det lille, tykke hæfte, som er nemt at have med og nemt at læse i — også i situationer, hvor man kun har et par minutter ad gangen. Bladet henvender sig til børn og unge og til voksne, der stadig læser tegneserier med samme iver som i barndommen.\n\nDet, der adskiller et tema-bind fra den almindelige udgivelsesrække, er, at historierne er samlet omkring et fælles emne. Det giver en sammenhængende læseoplevelse, hvor man kan gå i dybden med ét motiv i stedet for at springe mellem løsrevne historier. For læsere, der allerede kender figurerne, er det en måde at få flere historier af samme slags samlet; for nye læsere er det en overskuelig indgang, fordi temaet giver en rød tråd gennem hæftet.\n\nJumbobog Tema kan læses digitalt hos Flipp, hvor bladet ligger i kategorien Børn og unge. Hæftet kan dermed åbnes på skærm uden at man skal have det i papirform, og det er samtidig let at have liggende til de situationer, hvor man har brug for underholdning uden at skulle slæbe et fysisk blad med.",
+  "cover": "/omslag/magasin-jumbobog-tema.webp",
+  "cover_kilde": "Flipp",
+  "beskrivelse_opdateret": "2026-10-26"
+ }
+]

@@ -1,0 +1,30 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base
+  title="Siden findes ikke — readmagasiner.dk"
+  description="Siden findes ikke. Søg i de 87 danske blade, eller gå til kataloget og se hvilke tjenester der har dem."
+>
+  <section class="section">
+    <div class="container" style="max-width:720px">
+      <p class="kicker">Fejl 404</p>
+      <h1 style="margin-top:8px">Den side findes ikke</h1>
+      <p class="lede" style="margin-top:16px">
+        Måske er linket gammelt, eller bladet er ikke længere i kataloget. Vi har kun sider for de
+        blade, der findes hos mindst én af de fire tjenester.
+      </p>
+
+      <form class="searchbox" action="/soeg/" method="get" role="search" style="margin:32px 0 0">
+        <span class="icon" aria-hidden="true">⌕</span>
+        <input type="search" name="q" placeholder="Søg efter et blad" aria-label="Søg på et blad" />
+        <button class="btn" type="submit">Søg</button>
+      </form>
+
+      <p style="margin-top:32px">
+        <a class="btn btn--secondary" href="/magasiner/">Se alle magasiner</a>
+        <a class="link" href="/" style="margin-left:16px">Til forsiden →</a>
+      </p>
+    </div>
+  </section>
+</Base>

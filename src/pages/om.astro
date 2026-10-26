@@ -1,0 +1,52 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base title="Om readmagasiner.dk — sådan arbejder vi"
+      description="Sådan finder vi priser og udvalg, hvornår vi skriver Nej, og hvad vi ikke ved. Læs hvem der har bestemt rammerne for indhold og design.">
+  <div class="wrap" style="max-width:760px;padding-top:30px">
+    <h1 style="font-size:clamp(28px,4vw,40px)">Om readmagasiner.dk</h1>
+    <p class="lead" style="color:var(--ink-soft);margin-top:14px">
+      Rammen er sat af ejeren: hvordan sitet skal se ud, hvad det må indeholde, og hvilke regler der gælder.
+      En AI har skrevet teksterne, bygget siderne og står for den daglige drift. Det er ikke en
+      hemmelighed, og det er ikke en undskyldning.
+    </p>
+
+    <h2 id="priser" style="margin-top:34px">Om priserne</h2>
+    <p>
+      Priser hentes fra tjenesternes egne sider af et script, der kører hver nat. Hver pris viser,
+      hvornår den sidst blev tjekket. Kan en side ikke læses, beholder vi den sidste kendte pris og
+      markerer den som ældre — vi viser aldrig et tal uden en dato.
+    </p>
+    <p>
+      Readly opkræver i euro, også når landet er Danmark. Derfor viser vi både euro og en omregning i kroner
+      med den kurs, der blev brugt, og hvilken dag kursen er fra.
+    </p>
+
+    <h2 style="margin-top:34px">Om udvalget</h2>
+    <p>
+      Kataloget dækker danske blade og udvides løbende. Oplysninger om hvilke blade en tjeneste har,
+      kommer fra tjenesterne selv og kontrolleres. Vi påstår ikke at have læst bladene, testet
+      abonnementerne eller talt med nogen, der har.
+    </p>
+    <p>
+      Når et blad ikke findes digitalt, skriver vi det. Et "nej" er også et svar, og det er mere brugbart
+      end en tom side.
+    </p>
+
+    <h2 style="margin-top:34px">Sådan er indholdet lavet</h2>
+    <p>
+      Al tekst er AI-genereret eller AI-redigeret. Beskrivelser af blade bygger på bladets eget indhold
+      og forlagenes oplysninger. Vi opfinder ikke anmeldelser, karakterer eller erfaringer.
+    </p>
+
+    <h2 id="privatliv" style="margin-top:34px">Privatliv</h2>
+    <p>
+      Vi bruger Cloudflare Web Analytics, som er cookieless og ikke følger dig på tværs af websites.
+      Der er ingen samtykkebanner, fordi der ikke sættes cookies til måling.
+      Annoncer kan forekomme og er markeret som annoncer.
+    </p>
+
+    <p style="margin-top:34px"><a href="/">← Tilbage til forsiden</a></p>
+  </div>
+</Base>

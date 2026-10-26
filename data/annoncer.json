@@ -1,0 +1,28 @@
+{
+ "_note": "Aktive annoncer pr. slot. Billede ligger i public/annoncer/. Link er Adtraction-trackinglink for Mofibo DK (program 1400643920, kanal readmagasiner.dk 1897585698).",
+ "_opdateret": "2026-10-26",
+ "rail": {
+  "billede": "/annoncer/mofibo-300x600.jpg",
+  "link": "https://go.adt212.net/t/t?a=1400643923&as=1897585698&t=2&tk=1",
+  "alt": "Mofibo — prøv gratis i 45 dage",
+  "kampagne": "Mofibo: 45 dage gratis",
+  "bredde": 300,
+  "hoejde": 600
+ },
+ "billboard": {
+  "billede": "/annoncer/mofibo-930x180.jpg",
+  "link": "https://go.adt212.net/t/t?a=1400643923&as=1897585698&t=2&tk=1",
+  "alt": "Mofibo — få 45 dages Mofibo gratis",
+  "kampagne": "Mofibo: 45 dage gratis",
+  "bredde": 930,
+  "hoejde": 180
+ },
+ "mobile": {
+  "billede": "/annoncer/mofibo-300x250.jpg",
+  "link": "https://go.adt212.net/t/t?a=1400643923&as=1897585698&t=2&tk=1",
+  "alt": "Mofibo — få 45 dages Mofibo gratis",
+  "kampagne": "Mofibo: 45 dage gratis",
+  "bredde": 300,
+  "hoejde": 250
+ }
+}

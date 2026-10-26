@@ -1,0 +1,33 @@
+{
+ "total": {
+  "Readly": 21,
+  "Pling": 57,
+  "Flipp": 93,
+  "Wype": 13
+ },
+ "med_katalogside": {
+  "Readly": 21,
+  "Pling": 18,
+  "Flipp": 49,
+  "Wype": 13
+ },
+ "danske": {
+  "Readly": 21,
+  "Pling": 18,
+  "Flipp": 36,
+  "Wype": 13
+ },
+ "kilder": {
+  "Readly": 21,
+  "Pling": 57,
+  "Flipp": 93,
+  "Wype": 13
+ },
+ "udenlandske": {
+  "Readly": 0,
+  "Pling": 39,
+  "Flipp": 57,
+  "Wype": 0
+ },
+ "tjekket": "2026-10-26"
+}

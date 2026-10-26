@@ -1,0 +1,88 @@
+---
+import Base from "../layouts/Base.astro";
+import { magasiner, TJENESTER } from "../lib/site";
+import Annonce from "../components/Annonce.astro";
+
+const data = magasiner.map((m) => ({
+  n: m.navn,
+  s: m.slug,
+  t: m.type,
+  f: m.forlag,
+  d: m.digitalt,
+  c: m.cover ?? null,
+}));
+const antal = magasiner.length;
+---
+
+<Base
+  title="Søg i 87 magasiner og blade | readmagasiner.dk"
+  description="Søg på et blad i de 87 danske titler og se med det samme, hvilke af de fire tjenester der har det, og hvad abonnementet koster om måneden."
+>
+  <div class="wrap hero">
+    <h1 style="font-size:clamp(26px,3.6vw,40px)">Har de mit blad?</h1>
+    <p class="lead">
+      Skriv navnet på et blad. Vi søger i alle {antal} blade og viser, hvilke tjenester der har det.
+    </p>
+    <form class="search" action="/soeg/" method="get" role="search" id="f">
+      <input type="search" id="q" name="q" data-autosuggest placeholder="Fx Euroman" aria-label="Søg på et blad" autocomplete="off" />
+      <button class="btn" type="submit">Søg</button>
+    </form>
+    <p class="small" style="margin-top:10px">
+      {TJENESTER.map((t) => <span class="pill" style="margin-right:6px">{t.navn}</span>)}
+    </p>
+  </div>
+
+  <div class="wrap">
+    <div class="layout">
+      <div class="main">
+                <Annonce slot="mobile" />
+        <div id="status" class="small" style="padding:14px 0"></div>
+        <div id="results" class="grid mag"></div>
+        <noscript>
+          <p class="small">Søgningen kræver JavaScript. Du kan i stedet bruge <a href="/magasiner/">hele kataloget</a>.</p>
+        </noscript>
+      </div>
+      <aside class="rail"><div class="sticky-rail"><Annonce slot="rail" /></div></aside>
+    </div>
+  </div>
+
+  <script type="application/json" id="data" set:html={JSON.stringify(data)} />
+  <script is:inline>
+    const DATA = JSON.parse(document.getElementById('data').textContent);
+    const q = document.getElementById('q');
+    const res = document.getElementById('results');
+    const status = document.getElementById('status');
+
+    function render(term) {
+      const t = (term || '').trim().toLowerCase();
+      if (!t) {
+        status.textContent = 'Skriv mindst ét tegn.';
+        res.innerHTML = '';
+        return;
+      }
+      const hits = DATA.filter((x) => x.n.toLowerCase().includes(t)).slice(0, 30);
+      if (!hits.length) {
+        status.textContent = 'Ingen blade matcher "' + term + '". Kataloget udvides løbende.';
+        res.innerHTML = '';
+        return;
+      }
+      status.textContent = hits.length + (hits.length === 1 ? ' blad' : ' blade') + ' matcher.';
+      res.innerHTML = hits.map((x) => `
+        <a class="card" href="/${x.s}/" style="text-decoration:none;color:inherit;display:flex;gap:12px;align-items:flex-start">
+          ${x.c ? `<span class="thumb"><img src="${x.c}" alt="" loading="lazy" width="56" height="74"></span>`
+                 : `<span class="thumb ph">${x.n.slice(0,2).toUpperCase()}</span>`}
+          <span style="min-width:0">
+          <h3 style="font-size:16px;margin:0">${x.n}</h3>
+          <p class="small" style="margin:6px 0 0">${x.t === 'ugeblad' ? 'Ugeblad' : 'Magasin'}${x.f ? ' · ' + x.f : ''}</p>
+          <p style="margin:10px 0 0">${x.d.length
+            ? x.d.map((t) => `<span class="tag" style="margin-right:5px">${t}</span>`).join('')
+            : '<span class="tag no">Ikke digitalt</span>'}</p>
+          </span>
+        </a>`).join('');
+    }
+
+    const initial = new URLSearchParams(location.search).get('q') || '';
+    if (initial) { q.value = initial; render(initial); }
+    q.addEventListener('input', (e) => render(e.target.value));
+  </script>
+</Base>
