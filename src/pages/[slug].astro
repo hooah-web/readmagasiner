@@ -96,9 +96,13 @@ const farve = farver[h % farver.length];
                   {prisTekst(hoved)}
                   {intro && <span class="price__note">{intro.etikett ?? "tilbud"}: {prisTekst(intro)}</span>}
                 </div>
-                <a class="btn btn--secondary" href={t.url} rel="nofollow sponsored noopener" target="_blank">
-                  Se hos {t.navn} →
-                </a>
+                {st === "bekraeftet" ? (
+                  <a class="btn btn--secondary" href={t.url} rel="nofollow sponsored noopener" target="_blank">
+                    Se bladet hos {t.navn} →
+                  </a>
+                ) : (
+                  <a class="small" href={`/tjenester/${t.key}/`}>Om {t.navn} →</a>
+                )}
               </div>
             );
           })}
