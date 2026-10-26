@@ -34,7 +34,7 @@ const farve = farver[h % farver.length];
 
       <div class="detailgrid">
         <div>
-          <div class="cover largecover" style={`background:${farve}`}>
+          <div class={`cover largecover ${m.cover ? "cover--billede" : ""}`} style={`background:${farve}`}>
             {m.cover && <img src={m.cover} alt={`Forside af ${m.navn}`} width="320" height="440" loading="eager" />}
             <small>{m.type === "ugeblad" ? "Ugeblad" : "Magasin"}</small>
             <strong>{m.navn}</strong>
@@ -169,7 +169,7 @@ const farve = farver[h % farver.length];
         <div class="maggrid">
           {relevante.map((r) => (
             <a class="magcard" href={`/${r.slug}/`}>
-              <div class="cover" style={`background:${farver[(r.slug.length * 7) % farver.length]}`}>
+              <div class={`cover ${r.cover ? "cover--billede" : ""}`} style={`background:${farver[(r.slug.length * 7) % farver.length]}`}>
                 {r.cover && <img src={r.cover} alt={`Forside af ${r.navn}`} loading="lazy" width="300" height="420" />}
                 <strong style="font-size:18px">{r.navn}</strong>
               </div>

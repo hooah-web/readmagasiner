@@ -73,7 +73,7 @@ const seks = populære.slice(0, 6);
       <div class="maggrid">
         {seks.map((m) => (
           <a class="magcard" href={`/${m.slug}/`}>
-            <div class="cover" style={`background:${faldeFarve(m.slug)}`}>
+            <div class={`cover ${m.cover ? "cover--billede" : ""}`} style={`background:${faldeFarve(m.slug)}`}>
               {m.cover && <img src={m.cover} alt={`Forside af ${m.navn}`} loading="lazy" width="300" height="420" />}
               <small>{m.type === "ugeblad" ? "Ugeblad" : "Magasin"}</small>
               <strong>{m.navn}</strong>
@@ -137,7 +137,7 @@ const seks = populære.slice(0, 6);
         <div class="selection">
           <div>
             {seks.slice(0, 3).map((m) => (
-              <div class="cover mini" style={`background:${faldeFarve(m.slug)}`}>
+              <div class={`cover mini ${m.cover ? "cover--billede" : ""}`} style={`background:${faldeFarve(m.slug)}`}>
                 {m.cover && <img src={m.cover} alt={`Forside af ${m.navn}`} loading="lazy" width="88" height="120" />}
                 <strong style="font-size:13px">{m.navn}</strong>
               </div>

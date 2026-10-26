@@ -157,6 +157,9 @@ p:last-child { margin-bottom: 0; }
 .cover em { font-size: 8px; letter-spacing: 1.2px; text-transform: uppercase; font-style: normal; z-index: 1; }
 .cover::after { content: ""; position: absolute; bottom: 18%; height: 22%; width: 110%; background: rgba(255,255,255,.125); transform: rotate(-15deg); }
 .cover--plain::after { display: none; }
+/* rigtigt omslagsbillede: skjul påskriften, da titlen allerede står på bladet */
+.cover--billede > small, .cover--billede > strong, .cover--billede > em { display: none; }
+.cover--billede::after { display: none; }
 .cover.mini { width: 88px; height: 120px; aspect-ratio: auto; }
 .cover.largecover { height: 440px; border-radius: 14px; }
 .cover.largecover strong { font-size: 34px; }

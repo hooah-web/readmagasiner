@@ -69,7 +69,7 @@ const farveFor = (s: string) => {
           <div class="catalog">
             {g.liste.map((m) => (
               <a class="magcard" href={`/${m.slug}/`}>
-                <div class="cover" style={`background:${farveFor(m.slug)}`}>
+                <div class={`cover ${m.cover ? "cover--billede" : ""}`} style={`background:${farveFor(m.slug)}`}>
                   {m.cover && (
                     <img src={m.cover} alt={`Forside af ${m.navn}`} loading="lazy" width="300" height="400" />
                   )}
