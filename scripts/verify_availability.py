@@ -22,8 +22,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
-import os as _os
-BASE = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+BASE = "/opt/data/build/readmagasiner"
 CATALOG = os.path.join(BASE, "data", "magasiner.json")
 OUT = os.path.join(BASE, "data", "availability.json")
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -64,6 +63,25 @@ def check_flipp(m):
     return False
 
 
+def pling_list():
+    """Pling viser danske og internationale brands på deres partner-sider."""
+    slugs = set()
+    for cat in ("danske-brands", "internationale-brands"):
+        try:
+            _, doc = fetch("https://pling.dk/partner-forside/" + cat + "/")
+        except Exception:
+            continue
+        slugs |= set(re.findall(r'href="/partner-forside/' + cat + r'/([a-z0-9\-]+)/"', doc))
+    return slugs
+
+
+def _pling_key(slug):
+    """Pling bruger '--' for '&' og udelader 'og'. Normaliser begge veje."""
+    x = slug.replace("--", "-")
+    x = re.sub(r"(^|-)og(-|$)", "-", x)
+    return x.strip("-")
+
+
 def wype_list():
     try:
         _, doc = fetch("https://wype.dk/online-magasiner/")
@@ -77,11 +95,15 @@ def main():
     wype = wype_list()
     print("Wype: %d titler offentliggjort" % len(wype))
 
+    pling = pling_list()
+    print("Pling: %d brands offentliggjort" % len(pling))
+
     with ThreadPoolExecutor(max_workers=8) as pool:
         results = list(pool.map(check_flipp, catalog))
     hits = {m["slug"]: r for m, r in zip(catalog, results) if r}
     print("Flipp: %d blade bekræftet via /magasiner/<slug>" % len(hits))
 
+    pling_keys = {_pling_key(x) for x in pling}
     tjekket = datetime.now(timezone.utc).date().isoformat()
     avail = {}
     for m in catalog:
@@ -90,6 +112,9 @@ def main():
         if m["slug"] in hits:
             bekr.append("Flipp")
             kilder["Flipp"] = hits[m["slug"]]
+        if _pling_key(slugify(m["navn"])) in pling_keys:
+            bekr.append("Pling")
+            kilder["Pling"] = "https://pling.dk/partner-forside/danske-brands/"
         if slugify(m["navn"]) in wype:
             bekr.append("Wype")
             kilder["Wype"] = "https://wype.dk/online-magasiner/"
@@ -99,7 +124,7 @@ def main():
         avail[m["slug"]] = {
             "Flipp": "bekraeftet" if "Flipp" in bekr else "ukendt",
             "Wype": "bekraeftet" if "Wype" in bekr else "ukendt",
-            "Pling": "ukendt",
+            "Pling": "bekraeftet" if "Pling" in bekr else "ukendt",
             "Readly": "ukendt",
             "kilder": kilder,
             "tjekket": tjekket,

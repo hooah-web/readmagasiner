@@ -174,9 +174,11 @@
  "magasin-antik-auktion": {
   "Flipp": "ukendt",
   "Wype": "ukendt",
-  "Pling": "ukendt",
+  "Pling": "bekraeftet",
   "Readly": "ukendt",
-  "kilder": {},
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-arkitektur": {
@@ -386,17 +388,21 @@
  "magasin-dossier": {
   "Flipp": "ukendt",
   "Wype": "ukendt",
-  "Pling": "ukendt",
+  "Pling": "bekraeftet",
   "Readly": "ukendt",
-  "kilder": {},
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-elle": {
   "Flipp": "ukendt",
   "Wype": "ukendt",
-  "Pling": "ukendt",
+  "Pling": "bekraeftet",
   "Readly": "ukendt",
-  "kilder": {},
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-entreprenor": {
@@ -702,9 +708,11 @@
  "magasin-isabellas": {
   "Flipp": "ukendt",
   "Wype": "ukendt",
-  "Pling": "ukendt",
+  "Pling": "bekraeftet",
   "Readly": "ukendt",
-  "kilder": {},
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-jagt-vildt-vaaben": {
@@ -776,9 +784,11 @@
  "magasin-mad-bolig": {
   "Flipp": "ukendt",
   "Wype": "ukendt",
-  "Pling": "ukendt",
+  "Pling": "bekraeftet",
   "Readly": "ukendt",
-  "kilder": {},
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-mad-venner": {
@@ -884,9 +894,11 @@
  "magasin-psykologi": {
   "Flipp": "ukendt",
   "Wype": "ukendt",
-  "Pling": "ukendt",
+  "Pling": "bekraeftet",
   "Readly": "ukendt",
-  "kilder": {},
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-rum-interioer-design": {
@@ -940,9 +952,11 @@
  "magasin-spis-bedre": {
   "Flipp": "ukendt",
   "Wype": "ukendt",
-  "Pling": "ukendt",
+  "Pling": "bekraeftet",
   "Readly": "ukendt",
-  "kilder": {},
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-story": {
@@ -1028,9 +1042,11 @@
  "magasin-vi-unge": {
   "Flipp": "ukendt",
   "Wype": "ukendt",
-  "Pling": "ukendt",
+  "Pling": "bekraeftet",
   "Readly": "ukendt",
-  "kilder": {},
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "tjekket": "2026-10-26"
  },
  "magasin-villmarksliv": {
@@ -1088,9 +1104,11 @@
  "ugeblad-7-tv-dage": {
   "Flipp": "ukendt",
   "Wype": "ukendt",
-  "Pling": "ukendt",
+  "Pling": "bekraeftet",
   "Readly": "ukendt",
-  "kilder": {},
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "tjekket": "2026-10-26"
  },
  "ugeblad-anders-and": {
@@ -1124,25 +1142,31 @@
  "ugeblad-billed-bladet": {
   "Flipp": "ukendt",
   "Wype": "ukendt",
-  "Pling": "ukendt",
+  "Pling": "bekraeftet",
   "Readly": "ukendt",
-  "kilder": {},
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "tjekket": "2026-10-26"
  },
  "ugeblad-familie-journal": {
   "Flipp": "ukendt",
   "Wype": "ukendt",
-  "Pling": "ukendt",
+  "Pling": "bekraeftet",
   "Readly": "ukendt",
-  "kilder": {},
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "tjekket": "2026-10-26"
  },
  "ugeblad-femina": {
   "Flipp": "ukendt",
   "Wype": "ukendt",
-  "Pling": "ukendt",
+  "Pling": "bekraeftet",
   "Readly": "ukendt",
-  "kilder": {},
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "tjekket": "2026-10-26"
  },
  "ugeblad-goal": {
@@ -1226,9 +1250,11 @@
  "ugeblad-ude-og-hjemme": {
   "Flipp": "ukendt",
   "Wype": "ukendt",
-  "Pling": "ukendt",
+  "Pling": "bekraeftet",
   "Readly": "ukendt",
-  "kilder": {},
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "tjekket": "2026-10-26"
  }
 }

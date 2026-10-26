@@ -437,8 +437,12 @@
   "kilde": "https://readmagasiner.dk/magasin-antik-auktion/",
   "sidst_tjekket": null,
   "ai_tekst": true,
-  "digitalt_bekraeftet": [],
-  "kilder": {},
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "udvalg_tjekket": "2026-10-26"
  },
  {
@@ -955,8 +959,12 @@
   "kilde": "https://readmagasiner.dk/magasin-dossier/",
   "sidst_tjekket": null,
   "ai_tekst": true,
-  "digitalt_bekraeftet": [],
-  "kilder": {},
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "udvalg_tjekket": "2026-10-26"
  },
  {
@@ -975,8 +983,12 @@
   "kilde": "https://readmagasiner.dk/magasin-elle/",
   "sidst_tjekket": null,
   "ai_tekst": true,
-  "digitalt_bekraeftet": [],
-  "kilder": {},
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "udvalg_tjekket": "2026-10-26"
  },
  {
@@ -1731,8 +1743,12 @@
   "kilde": "https://readmagasiner.dk/magasin-isabellas/",
   "sidst_tjekket": null,
   "ai_tekst": true,
-  "digitalt_bekraeftet": [],
-  "kilder": {},
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "udvalg_tjekket": "2026-10-26"
  },
  {
@@ -1915,8 +1931,12 @@
   "kilde": "https://readmagasiner.dk/magasin-mad-bolig/",
   "sidst_tjekket": null,
   "ai_tekst": true,
-  "digitalt_bekraeftet": [],
-  "kilder": {},
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "udvalg_tjekket": "2026-10-26"
  },
  {
@@ -2179,8 +2199,12 @@
   "kilde": "https://readmagasiner.dk/magasin-psykologi/",
   "sidst_tjekket": null,
   "ai_tekst": true,
-  "digitalt_bekraeftet": [],
-  "kilder": {},
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "udvalg_tjekket": "2026-10-26"
  },
  {
@@ -2313,8 +2337,12 @@
   "kilde": "https://readmagasiner.dk/magasin-spis-bedre/",
   "sidst_tjekket": null,
   "ai_tekst": true,
-  "digitalt_bekraeftet": [],
-  "kilder": {},
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "udvalg_tjekket": "2026-10-26"
  },
  {
@@ -2527,8 +2555,12 @@
   "kilde": "https://readmagasiner.dk/magasin-vi-unge/",
   "sidst_tjekket": null,
   "ai_tekst": true,
-  "digitalt_bekraeftet": [],
-  "kilder": {},
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "udvalg_tjekket": "2026-10-26"
  },
  {
@@ -2675,8 +2707,12 @@
   "kilde": "https://readmagasiner.dk/ugeblad-7-tv-dage/",
   "sidst_tjekket": null,
   "ai_tekst": true,
-  "digitalt_bekraeftet": [],
-  "kilder": {},
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "udvalg_tjekket": "2026-10-26"
  },
  {
@@ -2763,8 +2799,12 @@
   "kilde": "https://readmagasiner.dk/ugeblad-billed-bladet/",
   "sidst_tjekket": null,
   "ai_tekst": true,
-  "digitalt_bekraeftet": [],
-  "kilder": {},
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "udvalg_tjekket": "2026-10-26"
  },
  {
@@ -2783,8 +2823,12 @@
   "kilde": "https://readmagasiner.dk/ugeblad-familie-journal/",
   "sidst_tjekket": null,
   "ai_tekst": true,
-  "digitalt_bekraeftet": [],
-  "kilder": {},
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "udvalg_tjekket": "2026-10-26"
  },
  {
@@ -2803,8 +2847,12 @@
   "kilde": "https://readmagasiner.dk/ugeblad-femina/",
   "sidst_tjekket": null,
   "ai_tekst": true,
-  "digitalt_bekraeftet": [],
-  "kilder": {},
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "udvalg_tjekket": "2026-10-26"
  },
  {
@@ -3011,8 +3059,12 @@
   "kilde": "https://readmagasiner.dk/ugeblad-ude-og-hjemme/",
   "sidst_tjekket": null,
   "ai_tekst": true,
-  "digitalt_bekraeftet": [],
-  "kilder": {},
+  "digitalt_bekraeftet": [
+   "Pling"
+  ],
+  "kilder": {
+   "Pling": "https://pling.dk/partner-forside/danske-brands/"
+  },
   "udvalg_tjekket": "2026-10-26"
  }
 ]
