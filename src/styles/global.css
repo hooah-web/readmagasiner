@@ -91,3 +91,5 @@ h1+p,h2+p{margin-top:10px}
 .suggest .nm{font-weight:600;flex:1}
 .suggest .tp{font-size:11.5px;color:#8695a6;text-transform:uppercase;letter-spacing:.08em}
 .suggest .empty{padding:12px 14px;font-size:13.5px;color:#8695a6}
+
+@media(max-width:700px){ #tjenestegrid{grid-template-columns:1fr !important} }

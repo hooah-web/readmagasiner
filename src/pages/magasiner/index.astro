@@ -33,6 +33,10 @@ const grupper = [
             kan læses digitalt hos mindst én tjeneste. Vi har også {udenlandske.length} udenlandske titler registreret —
             dem viser vi separat nedenfor.
           </p>
+          <form class="search" action="/soeg/" method="get" role="search" style="margin-top:18px;max-width:520px">
+            <input type="search" name="q" data-autosuggest placeholder="Søg i de 150 blade…" aria-label="Søg på et blad" autocomplete="off" />
+            <button class="btn" type="submit">Søg</button>
+          </form>
           <p style="margin-top:16px">
             {TJENESTER.map((t) => {
               const n = magasiner.filter((m) => m.digitalt.includes(t.navn)).length;
