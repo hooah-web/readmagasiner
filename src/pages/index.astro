@@ -25,8 +25,27 @@ const seks = populære.slice(0, 6);
 ---
 
 <Base
-  title="readmagasiner.dk — find dit blad digitalt eller i postkassen"
-  description="Sammenlign Readly, Flipp, Pling og Wype. Se hvilke danske blade de har, hvad de koster, og hvornår prisen sidst er tjekket."
+  title="Magasiner digitalt — find dit blad | readmagasiner.dk"
+  jsonld={[
+    {
+      "@type": "WebSite",
+      name: "readmagasiner.dk",
+      url: "https://readmagasiner.dk",
+      inLanguage: "da-DK",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: "https://readmagasiner.dk/soeg/?q={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@type": "Organization",
+      name: "readmagasiner.dk",
+      url: "https://readmagasiner.dk",
+      description: "Uafhængig oversigt over danske magasiner og de tjenester, der udgiver dem digitalt.",
+    },
+  ]}
+  description="Sammenlign 87 danske blade med Readly, Flipp, Pling og Wype. Se hvem der har dit blad, hvad det koster, og hvornår prisen sidst er tjekket."
 >
   <section class="hero">
     <div class="container">

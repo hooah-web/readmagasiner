@@ -1,6 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
-import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgsStatus, afsnit, bladTekst, danskDato } from "../lib/site";
+import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgsStatus, afsnit, bladTekst, danskDato, seoTitel, seoBeskrivelse } from "../lib/site";
 import Annonce from "../components/Annonce.astro";
 
 export function getStaticPaths() {
@@ -23,8 +23,16 @@ const farve = farver[h % farver.length];
 ---
 
 <Base
-  title={`${m.navn} — digitalt eller i postkassen | readmagasiner.dk`}
-  description={`${m.navn}${m.forlag ? ` fra ${m.forlag}` : ""}: se hvilke tjenester der har bladet digitalt, og hvad abonnementet koster. Priser tjekket af os.`}
+  title={seoTitel(m)}
+  description={seoBeskrivelse(m)}
+  jsonld={{
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Forside", item: "https://readmagasiner.dk/" },
+      { "@type": "ListItem", position: 2, name: "Magasiner", item: "https://readmagasiner.dk/magasiner/" },
+      { "@type": "ListItem", position: 3, name: m.navn },
+    ],
+  }}
 >
   <section class="detail">
     <div class="container">

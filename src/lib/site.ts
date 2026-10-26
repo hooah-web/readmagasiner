@@ -177,3 +177,95 @@ export function tjenesteFor(navn: string) {
 export function harTjeneste(m: Magasin, navn: string) {
   return m.digitalt.some((t) => t.toLowerCase() === navn.toLowerCase());
 }
+
+/* ---------------------------------------------------------------------------
+   SEO — titler og meta-beskrivelser
+
+   Regler: titel maks 60 tegn (Google klipper omkring 580 px), beskrivelse
+   140-158 tegn. Alle skal være unikke, og titlen skal sige hvad siden giver,
+   ikke bare gentage bladets navn. Derfor bygges de af data, ikke af skabeloner
+   med fast ordlyd.
+   --------------------------------------------------------------------------- */
+
+const SET_NAVN = "readmagasiner.dk";
+
+function klip(tekst: string, maks: number): string {
+  if (tekst.length <= maks) return tekst;
+  const klippet = tekst.slice(0, maks);
+  const sidsteMellemrum = klippet.lastIndexOf(" ");
+  return (sidsteMellemrum > maks * 0.6 ? klippet.slice(0, sidsteMellemrum) : klippet).replace(/[,;:–-]$/, "");
+}
+
+/** Første hele sætning af bladets egen beskrivelse — bruges til at gøre meta unik. */
+const HÆNG = new Set(["der","som","og","med","til","for","i","på","af","at","den","det","en","et","om","fra","ved","men","eller","hvor","når","fordi"]);
+
+function renSætning(tekst: string, maks: number): string {
+  const ren = (tekst || "").replace(/\s+/g, " ").trim();
+  const m = /^(.{30,}?[.!?])(\s|$)/.exec(ren);
+  let ud = (m ? m[1] : ren).replace(/[.!?]$/, "");
+  if (ud.length > maks) {
+    const kandidat = ud.slice(0, maks);
+    const komma = kandidat.lastIndexOf(", ");
+    // helst et komma, så sætningen ikke ender midt i en ledsætning
+    ud = komma > maks * 0.55 ? kandidat.slice(0, komma) : kandidat;
+    if (ud === kandidat) {
+      const mellemrum = ud.lastIndexOf(" ");
+      if (mellemrum > maks * 0.55) ud = ud.slice(0, mellemrum);
+    }
+    // fjern hængende bindeord, så sætningen ikke ender med "der" eller "og"
+    let ord = ud.split(" ");
+    while (ord.length > 3 && HÆNG.has(ord[ord.length - 1].toLowerCase().replace(/[,;:]$/, ""))) ord.pop();
+    ud = ord.join(" ").replace(/[,;:–-]$/, "");
+  }
+  return ud;
+}
+
+/** Vælger den kombination der kommer tættest på 130-158 tegn. */
+function bedsteUtfald(dele: string[], maks = 158, min = 130): string {
+  for (let antal = dele.length; antal >= 1; antal--) {
+    const tekst = dele.slice(0, antal).join(" ").replace(/\s+/g, " ").trim();
+    if (tekst.length <= maks && tekst.length >= min) return tekst;
+  }
+  const kort = dele.filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
+  return klip(kort, maks);
+}
+
+export function seoTitel(m: Magasin): string {
+  const tjenester = m.digitalt;
+  const base =
+    tjenester.length >= 2
+      ? `${m.navn}: læs hos ${tjenester[0]} og ${tjenester[1]}`
+      : tjenester.length === 1
+        ? `${m.navn}: læs digitalt hos ${tjenester[0]}`
+        : `${m.navn}: digital tilgængelighed og pris`;
+  const medMærke = `${base} | ${SET_NAVN}`;
+  return medMærke.length <= 60 ? medMærke : klip(base, 58);
+}
+
+export function seoBeskrivelse(m: Magasin): string {
+  const tjenester = m.digitalt;
+  const hos = tjenester.length >= 2 ? `${tjenester[0]} og ${tjenester[1]}` : tjenester[0] ?? "";
+  const start = renSætning(m.beskrivelse ?? "", 86);
+  return bedsteUtfald([
+    start ? start + "." : "",
+    tjenester.length ? `Kan læses digitalt hos ${hos}.` : "Ingen af de fire tjenester har bladet.",
+    "Se pris og udvalg.",
+    "Vi viser hvornår prisen sidst er tjekket.",
+    "Sammenlign de fire tjenester, før du vælger.",
+  ]);
+}
+
+export function seoTjenesteTitel(navn: string): string {
+  const base = `${navn}: pris, udvalg og vilkår`;
+  const medMærke = `${base} | ${SET_NAVN}`;
+  return medMærke.length <= 60 ? medMærke : klip(base, 58);
+}
+
+export function seoTjenesteBeskrivelse(navn: string, antalDanske: number, pris: string, ekstra: string, tjekket?: string): string {
+  return bedsteUtfald([
+    `${navn}: ${antalDanske} danske blade i vores registrering.`,
+    `Pris ${pris} om måneden.`,
+    ekstra,
+    tjekket ? `Prisen er tjekket ${tjekket}.` : "",
+  ]);
+}

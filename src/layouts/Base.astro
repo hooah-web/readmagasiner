@@ -5,8 +5,11 @@ interface Props {
   title: string;
   description: string;
   adsEnabled?: boolean;
+  /** Strukturerede data (schema.org) som objekt eller liste af objekter. */
+  jsonld?: object | object[];
 }
-const { title, description, adsEnabled = true } = Astro.props;
+const { title, description, adsEnabled = true, jsonld } = Astro.props;
+const ldBlokke = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
 const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://readmagasiner.dk");
 ---
 
@@ -30,6 +33,9 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://readmagasin
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="da_DK" />
+    {ldBlokke.map((blok) => (
+      <script type="application/ld+json" set:html={JSON.stringify({ "@context": "https://schema.org", ...blok })} />
+    ))}
   </head>
   <body>
     <header class="site-header">

@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgFor, tjenesteInfo, danskDato } from "../../lib/site";
+import { magasiner, priser, TJENESTER, prisTekst, prisHoved, prisIntro, udvalgFor, tjenesteInfo, danskDato, seoTjenesteTitel, seoTjenesteBeskrivelse } from "../../lib/site";
 import Annonce from "../../components/Annonce.astro";
 import TjenesteLogo from "../../components/TjenesteLogo.astro";
 
@@ -24,8 +24,16 @@ const farveFor = (s: string) => {
 ---
 
 <Base
-  title={t.navn + " — pris, udvalg og hvad den koster | readmagasiner.dk"}
-  description={t.navn + ": se priser, prøveperiode og hvilke blade tjenesten har. Prisen tjekkes løbende af os."}
+  title={seoTjenesteTitel(t.navn)}
+  jsonld={{
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Forside", item: "https://readmagasiner.dk/" },
+      { "@type": "ListItem", position: 2, name: "Tjenester", item: "https://readmagasiner.dk/tjenester/" },
+      { "@type": "ListItem", position: 3, name: t.navn },
+    ],
+  }}
+  description={seoTjenesteBeskrivelse(t.navn, danske.length, prisTekst(prisHoved(p)), "Se udvalg, prøveperiode og opsigelse.", danskDato(p?.checked_at))}
 >
   <section class="servicehero">
     <div class="container">
