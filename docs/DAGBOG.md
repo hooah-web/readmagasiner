@@ -6,6 +6,26 @@ Tal skal være talt op, ikke husket.
 
 ---
 
+## 26. oktober 2026 — i produktion
+
+**Hvad der skete**
+- `feat/astro-skelet` er merget til `main`. Sitet kører nu i produktion på
+  readmagasiner.pages.dev med automatisk deploy ved push til main.
+- 99 sider, sitemap med 98 URL'er, 404-side, robots.txt.
+- 194 redirects for de gamle WordPress-URL'er plus 85 korte aliaser
+  (/hjemmet/ → /ugeblad-hjemmet/), så gamle links ikke giver 404.
+- Smoke-test i produktion: alle kernesider 200, ukendt sti 404, gammel URL 301.
+
+**Beslutninger**
+- Domænet er ikke flyttet. Cloudflare-kontoen har ingen zone for readmagasiner.dk,
+  så det kræver at DNS flyttes først. Sitet kører derfor på pages.dev indtil da.
+
+**Mangler stadig**
+- DNS-cutover: nameservere skal flyttes fra Simply til Cloudflare. Derefter kan
+  domænet tilknyttes Pages og Search Console peges på det nye sitemap.
+- Gammel WordPress-side er stadig live på domænet.
+
+---
 ## 26. oktober 2026 — SEO-gennemgang
 
 **Hvad der skete**

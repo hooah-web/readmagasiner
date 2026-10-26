@@ -17,10 +17,11 @@ om udvalg og priser end de eksisterende oversigter.
 
 ```
 Repo        hooah-web/readmagasiner
-Branch      feat/astro-skelet   (ikke merget til main endnu)
+Branch      main er produktion (merget 26. oktober); feat/astro-skelet er historik
 Stack       Astro 5, statisk, ingen klientframework
 Hosting     Cloudflare Pages, projekt "readmagasiner"
-Deploy      push til feat/astro-skelet → automatisk preview
+Deploy      push til main → produktion · andre branches → preview
+Produktion  https://readmagasiner.pages.dev (domænet er ikke flyttet endnu)
 Byg         python3 scripts/seo_audit.py       # titler og meta på alle sider
 npx astro build   (~2 s, 199 URL'er)
 Git-ident   Hooah AI <346939773+hooah-ai@users.noreply.github.com>
