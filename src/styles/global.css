@@ -7,7 +7,7 @@
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);
   font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-size:16.5px;line-height:1.55}
+  font-size:16.5px;line-height:1.62}
 a{color:var(--accent-text);text-decoration:none}
 a:hover{text-decoration:underline}
 .wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
@@ -44,8 +44,8 @@ aside.rail{display:none}
 .ad-mobile{height:250px;max-width:300px;margin:24px auto}
 @media(min-width:1180px){ .ad-mobile{display:none} }
 
-.hero{padding:44px 0 30px}
-.hero p.lead{color:var(--ink-soft);max-width:60ch;margin:14px 0 22px;font-size:17.5px}
+.hero{padding:48px 0 40px}
+.hero p.lead{color:var(--ink-soft);max-width:60ch;margin:16px 0 26px;font-size:17.5px;line-height:1.6}
 .search{display:flex;gap:8px;max-width:600px}
 .search input{flex:1;border:1px solid var(--line);background:#fff;border-radius:10px;
   padding:13px 16px;font-size:16px;font-family:inherit;color:var(--ink);min-width:0}
@@ -56,8 +56,8 @@ aside.rail{display:none}
 .btn.ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}
 .btn.ghost:hover{background:#f3f7fc}
 
-.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px}
-.grid{display:grid;gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.grid{display:grid;gap:16px}
 .grid.svc{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
 .grid.mag{grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
 .pill{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;padding:4px 10px;
@@ -106,3 +106,21 @@ h1+p,h2+p{margin-top:10px}
 .rowitem{display:flex;gap:12px;align-items:center}
 
 .tablewrap{margin-top:14px;overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
+
+/* luft på mobil */
+@media(max-width:700px){
+  .hero{padding:34px 0 30px}
+  h1{font-size:clamp(28px,8vw,34px);line-height:1.12}
+  .hero p.lead{font-size:16.5px;margin:18px 0 26px}
+  .search{flex-direction:column;gap:10px;padding:10px}
+  .search input{width:100%;padding:13px 12px}
+  .search .btn{width:100%;padding:14px}
+  h2{font-size:22px;line-height:1.2}
+  section{padding-bottom:48px}
+  .card{padding:18px}
+  .ad-mobile{margin:26px auto 8px}
+  .lead{margin-bottom:24px !important}
+}
+@media(max-width:700px){
+  .wrap{padding-left:18px;padding-right:18px}
+}
