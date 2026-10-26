@@ -73,6 +73,8 @@ export function udvalgsStatus(slug: string, navn: string, ikkeDigitalt: boolean)
   "bekraeftet" | "arv" | "nej" | "ukendt" {
   const a = tilgaengelighed[slug] || {};
   if (a[navn] === "bekraeftet") return "bekraeftet";
+  // Tjenestens egen liste er sandheden: står bladet ikke på den, er svaret nej.
+  if (a[navn] === "nej") return "nej";
   const m = magasiner.find((x) => x.slug === slug);
   if (m && m.digitalt.some((t) => t.toLowerCase() === navn.toLowerCase())) return "arv";
   // Kilden modsiger sig selv på nogle blade (både "har tjenester" og "ikke digital").

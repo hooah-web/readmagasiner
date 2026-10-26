@@ -176,6 +176,15 @@ def main() -> None:
     }
     (ROOT / "data/udvalg_taelling.json").write_text(json.dumps(taelling, ensure_ascii=False, indent=1), encoding="utf-8")
 
+    # hold tjenesteinfo i takt med listerne
+    tj_path = ROOT / "data/tjenester.json"
+    tj = json.loads(tj_path.read_text(encoding="utf-8"))
+    for navn in ("Readly", "Pling", "Flipp"):
+        key = navn.lower()
+        tj[key]["udvalg_i_alt"] = taelling["total"][navn]
+        tj[key]["udenlandske_oplyst"] = taelling["udenlandske"][navn]
+    tj_path.write_text(json.dumps(tj, ensure_ascii=False, indent=1), encoding="utf-8")
+
     print("nye katalogsider:", nye, "| katalog i alt:", len(mags))
     for t in ("Readly", "Pling", "Flipp"):
         print(f"  {t:8} kilde={len(kilder[t.lower()]):>3}  danske={taelling['danske'][t]:>3}  "

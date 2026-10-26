@@ -39,7 +39,7 @@
   "navn": "Flipp",
   "url": "https://flipp.dk/",
   "note": "Dansk tjeneste, stærk på ugeblade",
-  "udenlandske_oplyst": 51,
+  "udenlandske_oplyst": 57,
   "udenlandske_kilde": "https://flipp.dk/magasiner/",
   "danske_kilde": "flipp.dk/magasiner/<blad>",
   "bemaerkning": "Flipp er dansk og oplyser ikke et antal udenlandske titler.",
@@ -69,7 +69,7 @@
     "hentet": "2026-10-26"
    }
   ],
-  "udvalg_i_alt": 87
+  "udvalg_i_alt": 93
  },
  "pling": {
   "navn": "Pling",
