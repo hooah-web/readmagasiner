@@ -141,9 +141,10 @@ export function afsnit(tekst: string, perAfsnit = 3): string[] {
   forkortelser.forEach((f, i) => { beskyttet = beskyttet.split(f).join(`\u0000${i}\u0000`); });
   const saetninger = (beskyttet.match(/[^.!?]+[.!?]+["»]?/g) ?? [beskyttet]).map((x) =>
     x.replace(/\u0000(\d+)\u0000/g, (_m, i) => forkortelser[+i]));
+  const rene = saetninger.map((x) => x.trim()).filter(Boolean);
   const ud: string[] = [];
-  for (let i = 0; i < saetninger.length; i += perAfsnit) {
-    ud.push(saetninger.slice(i, i + perAfsnit).join(" ").trim());
+  for (let i = 0; i < rene.length; i += perAfsnit) {
+    ud.push(rene.slice(i, i + perAfsnit).join(" "));
   }
   return ud;
 }
