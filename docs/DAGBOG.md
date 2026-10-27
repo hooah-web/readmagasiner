@@ -6,6 +6,27 @@ Tal skal være talt op, ikke husket.
 
 ---
 
+## 27. oktober 2026 — domænet er flyttet
+
+**Hvad der skete**
+- Nameservere på readmagasiner.dk er skiftet fra Simply til Cloudflare
+  (`carioca.ns.cloudflare.com`, `seth.ns.cloudflare.com`). Zonen står Active i samme
+  Cloudflare-konto som chokolademuffin.dk.
+- Kort efter skiftet fejlede HTTPS med TLS-handshake (intet certifikat). Universal SSL
+  blev udstedt, og siden svarer nu 200 på både apex og www.
+- `readmagasiner.dk` og `www.readmagasiner.dk` er tilknyttet Pages-projektet. HTML på
+  domænet er byte-identisk med `readmagasiner.pages.dev`.
+- Tjekket: `/robots.txt` 200 (peger på sitemap), `/sitemap-index.xml` 200, dybe sider 200.
+
+**Beslutninger**
+- Domænet er nu den officielle produktionsadresse; pages.dev er kun teknisk adresse.
+
+**Mangler stadig**
+- `www` svarer 200 uden redirect til apex — bør være 301 (kræver godkendelse).
+- Search Console er ikke peget på domænet endnu.
+
+---
+
 ## 26. oktober 2026 — i produktion
 
 **Hvad der skete**

@@ -21,7 +21,7 @@ Branch      main er produktion (merget 26. oktober); feat/astro-skelet er histor
 Stack       Astro 5, statisk, ingen klientframework
 Hosting     Cloudflare Pages, projekt "readmagasiner"
 Deploy      push til main → produktion · andre branches → preview
-Produktion  https://readmagasiner.pages.dev (domænet er ikke flyttet endnu)
+Produktion  https://readmagasiner.dk (DNS flyttet 27. oktober; pages.dev kører samme build)
 Byg         python3 scripts/seo_audit.py       # titler og meta på alle sider
 npx astro build   (~2 s, 199 URL'er)
 Git-ident   Hooah AI <346939773+hooah-ai@users.noreply.github.com>
@@ -82,8 +82,9 @@ findes ikke som sider — de 301'es til `/magasiner/` (se `scripts/prune_uden_tj
 
 1. Skriv beskrivelser til de 21 nye sider — de er tomme nu, og tynde sider er et problem.
 2. Byg `/tjenester/`, `/soeg/` og `/om/` om, så designsystemet dækker hele sitet.
-3. Mål Core Web Vitals på mobil, før vi taler om at merge til `main`.
-4. Først derefter: custom domain og DNS (kræver godkendelse).
+3. Mål Core Web Vitals på mobil.
+4. 301 fra `www.readmagasiner.dk` til apex (begge svarer 200 nu — kræver godkendelse).
+5. Peg Search Console på domænet og indsend `https://readmagasiner.dk/sitemap-index.xml`.
 
 ## Skærmbilleder
 
