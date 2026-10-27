@@ -83,7 +83,7 @@ findes ikke som sider — de 301'es til `/magasiner/` (se `scripts/prune_uden_tj
 1. Skriv beskrivelser til de 21 nye sider — de er tomme nu, og tynde sider er et problem.
 2. Byg `/tjenester/`, `/soeg/` og `/om/` om, så designsystemet dækker hele sitet.
 3. Mål Core Web Vitals på mobil.
-4. 301 fra `www.readmagasiner.dk` til apex (begge svarer 200 nu — kræver godkendelse).
+4. ~~301 fra `www.readmagasiner.dk` til apex~~ (på plads 27. oktober — sti og query bevares).
 5. Peg Search Console på domænet og indsend `https://readmagasiner.dk/sitemap-index.xml`.
 
 ## Skærmbilleder

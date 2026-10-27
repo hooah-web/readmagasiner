@@ -22,7 +22,8 @@ Tal skal være talt op, ikke husket.
 - Domænet er nu den officielle produktionsadresse; pages.dev er kun teknisk adresse.
 
 **Mangler stadig**
-- `www` svarer 200 uden redirect til apex — bør være 301 (kræver godkendelse).
+- `www` → apex er nu 301 (redirect-regel oprettet af Anders 27. oktober; sti og query
+  bevares). Verificeret på `/`, `/magasiner/`, `/soeg/` og med query-streng.
 - Search Console er ikke peget på domænet endnu.
 
 ---
